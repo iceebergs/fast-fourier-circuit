@@ -1,0 +1,2123 @@
+timestamp 1765757066
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t24i
+scale 1000 1 9
+resistclasses 6900 7800 946000 946000 1 8000 8000 80 80 80 80 80 40
+use new_mux4 new_mux4_0 1 0 657 0 1 -16
+use new_mux4 new_mux4_1 1 0 787 0 1 -16
+use scratch scratch_0 1 0 -122 0 1 -30
+node "m2_786_n1#" 16 649.433 786 -1 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 50 40 3090 1552 0 0 0 0
+node "m2_785_50#" 10 536.101 785 50 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 50 40 3015 1216 0 0 0 0
+node "m2_785_156#" 8 410.609 785 156 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 50 40 2185 884 0 0 0 0
+node "m2_785_207#" 5 284.117 785 207 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 50 40 1355 552 0 0 0 0
+node "m2_785_258#" 16 649.633 785 258 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 50 40 3086 1550 0 0 0 0
+node "m2_785_309#" 13 379.123 785 309 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 50 40 2422 1218 0 0 0 0
+node "m2_785_415#" 9 315.877 785 415 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 50 40 1758 886 0 0 0 0
+node "m2_785_466#" 5 284.117 785 466 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 50 40 1355 552 0 0 0 0
+node "m2_785_517#" 16 649.633 785 517 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 50 40 3086 1550 0 0 0 0
+node "m2_785_568#" 10 411.983 785 568 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 50 40 3015 1216 0 0 0 0
+node "m2_785_674#" 8 410.609 785 674 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 50 40 2185 884 0 0 0 0
+node "m2_785_725#" 5 284.117 785 725 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 50 40 1355 552 0 0 0 0
+node "m2_785_776#" 16 649.633 785 776 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 50 40 3086 1550 0 0 0 0
+node "m2_785_827#" 10 537.101 785 827 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 50 40 3015 1216 0 0 0 0
+node "m2_785_933#" 8 410.609 785 933 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 50 40 2185 884 0 0 0 0
+node "m2_785_984#" 5 284.117 785 984 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 50 40 1355 552 0 0 0 0
+node "m2_785_1035#" 16 649.633 785 1035 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 50 40 3086 1550 0 0 0 0
+node "m2_785_1086#" 10 537.101 785 1086 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 50 40 3015 1216 0 0 0 0
+node "m2_785_1192#" 8 410.609 785 1192 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 50 40 2185 884 0 0 0 0
+node "m2_785_1243#" 5 284.117 785 1243 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 50 40 1355 552 0 0 0 0
+node "m2_785_1294#" 16 649.633 785 1294 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 50 40 3086 1550 0 0 0 0
+node "m2_786_1345#" 13 378.923 786 1345 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 50 40 2426 1220 0 0 0 0
+node "m2_785_1451#" 8 410.359 785 1451 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 50 40 2185 884 0 0 0 0
+node "m2_786_1502#" 5 304.928 786 1502 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 105 52 50 40 1360 554 0 0 0 0
+node "m1_648_n1#" 11 491.085 648 -1 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 70 38 2201 1108 0 0 0 0 0 0
+node "m1_648_50#" 6 390.575 648 50 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 80 42 1915 776 0 0 0 0 0 0
+node "m1_648_156#" 4 240.027 648 156 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 60 34 1085 444 0 0 0 0 0 0
+node "m1_648_207#" 1 95.275 648 207 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 60 34 255 112 0 0 0 0 0 0
+node "m1_648_258#" 11 488.187 648 258 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 60 34 2201 1108 0 0 0 0 0 0
+node "m1_648_309#" 6 384.779 648 309 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 60 34 1915 776 0 0 0 0 0 0
+node "m1_648_415#" 4 240.027 648 415 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 60 34 1085 444 0 0 0 0 0 0
+node "m1_648_466#" 1 95.275 648 466 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 60 34 255 112 0 0 0 0 0 0
+node "m1_648_517#" 11 488.187 648 517 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 60 34 2201 1108 0 0 0 0 0 0
+node "m1_648_568#" 6 385.271 648 568 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 60 34 1915 778 0 0 0 0 0 0
+node "m1_648_674#" 4 240.027 648 674 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 60 34 1085 444 0 0 0 0 0 0
+node "m1_648_725#" 1 95.275 648 725 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 60 34 255 112 0 0 0 0 0 0
+node "m1_648_776#" 11 488.187 648 776 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 60 34 2201 1108 0 0 0 0 0 0
+node "m1_648_827#" 6 384.779 648 827 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 60 34 1915 776 0 0 0 0 0 0
+node "m1_648_933#" 4 240.027 648 933 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 60 34 1085 444 0 0 0 0 0 0
+node "m1_648_984#" 1 95.275 648 984 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 60 34 255 112 0 0 0 0 0 0
+node "m1_648_1035#" 11 488.187 648 1035 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 60 34 2201 1108 0 0 0 0 0 0
+node "m1_648_1086#" 6 384.779 648 1086 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 60 34 1915 776 0 0 0 0 0 0
+node "m1_648_1192#" 4 240.027 648 1192 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 60 34 1085 444 0 0 0 0 0 0
+node "m1_648_1243#" 1 95.275 648 1243 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 60 34 255 112 0 0 0 0 0 0
+node "m1_648_1294#" 11 488.187 648 1294 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 60 34 2201 1108 0 0 0 0 0 0
+node "m1_648_1345#" 6 387.677 648 1345 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 70 38 1915 776 0 0 0 0 0 0
+node "m1_648_1451#" 4 241.476 648 1451 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 65 36 1085 444 0 0 0 0 0 0
+node "m1_648_1502#" 1 96.724 648 1502 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 65 36 255 112 0 0 0 0 0 0
+cap "m1_648_258#" "m2_785_258#" 1010
+cap "m2_785_1035#" "m1_648_1035#" 1010
+cap "m1_648_466#" "m2_785_466#" 144.79
+cap "m1_648_517#" "m2_785_517#" 1010
+cap "m1_648_984#" "m2_785_984#" 144.79
+cap "m2_786_1345#" "m1_648_1345#" 1622.08
+cap "m2_785_776#" "m1_648_776#" 1010
+cap "m1_648_827#" "m2_785_827#" 875.19
+cap "m2_785_1451#" "m1_648_1451#" 510.65
+cap "m1_648_1086#" "m2_785_1086#" 875.19
+cap "m2_785_725#" "m1_648_725#" 144.79
+cap "m2_785_933#" "m1_648_933#" 509.99
+cap "m2_785_1192#" "m1_648_1192#" 509.99
+cap "m1_648_1294#" "m2_785_1294#" 1010
+cap "m2_785_50#" "m1_648_50#" 877.83
+cap "m2_786_n1#" "m1_648_n1#" 1012.71
+cap "m2_785_156#" "m1_648_156#" 509.99
+cap "m2_785_309#" "m1_648_309#" 1619.37
+cap "m1_648_415#" "m2_785_415#" 931.305
+cap "m1_648_1243#" "m2_785_1243#" 144.79
+cap "m2_785_207#" "m1_648_207#" 144.79
+cap "m2_785_674#" "m1_648_674#" 509.99
+cap "m2_785_568#" "m1_648_568#" 2513.25
+cap "m2_786_1502#" "m1_648_1502#" 145.45
+cap "scratch_0/reg_six3_0/reg_one3_0[0]/reg_one_0/tg_5/GND!" "scratch_0/reg_six3_1/reg_one3_0[0]/m3_25_n2#" 3.194
+cap "scratch_0/reg_six3_0/reg_one3_0[0]/reg_one_0/W" "scratch_0/reg_six3_1/reg_one3_0[0]/m3_25_n2#" 10.45
+cap "scratch_0/reg_six3_1/reg_one3_0[0]/reg_one_0/tg_5/GND!" "scratch_0/reg_six3_1/reg_one3_0[0]/m3_25_n2#" 0.381
+cap "scratch_0/reg_six3_1/reg_one3_0[0]/reg_one_0/R0" "scratch_0/reg_six3_1/reg_one3_0[0]/m3_25_n2#" 10.45
+cap "scratch_0/reg_six3_1/reg_one3_0[0]/reg_one_0/new_inv_state_0/a_90_10#" "scratch_0/reg_six3_1/reg_one3_0[0]/m3_25_n2#" 26.205
+cap "scratch_0/reg_six3_1/reg_one3_0[0]/reg_one_0/tg_5/Vdd!" "scratch_0/reg_six3_1/reg_one3_0[0]/m3_25_n2#" 24.152
+cap "scratch_0/reg_six3_0/reg_one3_0[0]/reg_one_0/new_inv_state_0/a_90_10#" "scratch_0/reg_six3_0/reg_one3_0[0]/m3_25_n2#" 23.354
+cap "scratch_0/reg_six2_1/reg_one2_0[0]/reg_one_0/W" "scratch_0/reg_six3_0/reg_one3_0[0]/m3_25_n2#" 10.2
+cap "scratch_0/reg_six3_0/reg_one3_0[0]/reg_one_0/tg_5/Vdd!" "scratch_0/reg_six3_0/reg_one3_0[0]/m3_25_n2#" 21.156
+cap "scratch_0/reg_six3_0/reg_one3_0[0]/reg_one_0/new_inv_state_0/a_90_10#" "m2_786_n1#" 22.856
+cap "scratch_0/in0" "scratch_0/reg_six3_0/reg_one3_0[0]/m3_25_n2#" 1005.94
+cap "scratch_0/reg_six2_1/reg_one2_0[0]/reg_one_0/W" "m2_786_n1#" 4.95
+cap "scratch_0/reg_six3_0/reg_one3_0[0]/reg_one_0/tg_5/Vdd!" "m2_786_n1#" 16.836
+cap "scratch_0/reg_six2_1/reg_one2_0[0]/reg_one_0/new_inv_state_0/a_90_10#" "scratch_0/reg_six3_0/reg_one3_0[0]/m3_25_n2#" 9.264
+cap "scratch_0/reg_six2_1/reg_one2_0[0]/reg_one_0/new_inv_state_0/a_90_10#" "m2_786_n1#" 3.96
+cap "scratch_0/reg_six2_1/reg_one2_0[0]/reg_one_0/tg_5/GND!" "scratch_0/reg_six3_0/reg_one3_0[0]/m3_25_n2#" 19.68
+cap "scratch_0/reg_six3_0/reg_one3_0[0]/reg_one_0/R0" "scratch_0/reg_six3_0/reg_one3_0[0]/m3_25_n2#" 10.2
+cap "scratch_0/reg_six3_0/reg_one3_0[0]/m3_25_n2#" "m2_786_n1#" 11.925
+cap "scratch_0/reg_six2_1/reg_one2_0[0]/reg_one_0/tg_5/GND!" "m2_786_n1#" 14.55
+cap "scratch_0/reg_six3_0/reg_one3_0[0]/reg_one_0/R0" "m2_786_n1#" 4.95
+cap "scratch_0/reg_six3_0/reg_one3_0[0]/reg_one_0/tg_5/GND!" "m2_786_n1#" 4.011
+cap "scratch_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_5/GND!" "scratch_0/reg_six2_1/reg_one2_0[0]/m3_25_48#" 27.124
+cap "scratch_0/reg_six2_1/reg_one2_0[0]/reg_one_0/R0" "scratch_0/reg_six2_1/reg_one2_0[0]/m3_25_48#" 11.825
+cap "scratch_0/reg_six2_1/reg_one2_0[0]/m3_25_48#" "scratch_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_5/Vdd!" 5.715
+cap "scratch_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_5/out" "scratch_0/reg_six2_0/reg_one2_0[0]/m3_25_48#" 1.638
+cap "scratch_0/reg_six2_1/reg_one2_0[0]/m3_25_48#" "scratch_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_5/a_100_74#" 9.075
+cap "scratch_0/reg_six2_0/reg_one2_0[0]/reg_one_0/W" "m2_786_n1#" 4.95
+cap "scratch_0/reg_six2_1/reg_one2_0[0]/reg_one_0/new_inv_state_0/a_90_10#" "m2_786_n1#" 7.09
+cap "scratch_0/in0" "m1_648_n1#" 1341.25
+cap "m2_786_n1#" "scratch_0/reg_six2_1/reg_one2_0[0]/reg_one_0/tg_5/Vdd!" 16.836
+cap "scratch_0/reg_six2_0/reg_one2_0[0]/reg_one_0/W" "m1_648_n1#" 10.2
+cap "scratch_0/reg_six2_1/reg_one2_0[0]/reg_one_0/new_inv_state_0/a_90_10#" "m1_648_n1#" 41.795
+cap "m1_648_n1#" "scratch_0/reg_six2_1/reg_one2_0[0]/reg_one_0/tg_5/Vdd!" 21.156
+cap "m2_786_n1#" "scratch_0/reg_six2_1/reg_one2_0[0]/reg_one_0/tg_5/GND!" -2.286
+cap "scratch_0/reg_six2_0/reg_one2_0[0]/m3_25_48#" "scratch_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_5/Vdd!" 3.69
+cap "m1_648_n1#" "scratch_0/reg_six2_1/reg_one2_0[0]/reg_one_0/tg_5/GND!" -1.476
+cap "scratch_0/reg_six2_0/reg_one2_0[0]/reg_one_0/W" "scratch_0/reg_six2_1/reg_one2_0[0]/m3_25_48#" 11.825
+cap "scratch_0/reg_six2_1/reg_one2_0[0]/m3_25_48#" "scratch_0/reg_six2_1/reg_one2_0[0]/reg_one_0/tg_5/out" 14.92
+cap "scratch_0/reg_six2_1/reg_one2_0[0]/m3_25_48#" "scratch_0/reg_six2_1/reg_one2_0[0]/reg_one_0/tg_5/Vdd!" 29.029
+cap "scratch_0/reg_six2_0/reg_one2_0[0]/reg_one_0/new_inv_state_0/a_90_10#" "m2_786_n1#" 13.03
+cap "scratch_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_5/GND!" "m2_786_n1#" 15.693
+cap "scratch_0/reg_six2_0/reg_one2_0[0]/reg_one_0/new_inv_state_0/a_90_10#" "m1_648_n1#" 47.363
+cap "scratch_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_5/out" "scratch_0/reg_six2_1/reg_one2_0[0]/m3_25_48#" 6.293
+cap "scratch_0/reg_six2_1/reg_one2_0[0]/reg_one_0/R0" "m2_786_n1#" 4.95
+cap "m2_786_n1#" "scratch_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_5/Vdd!" 2.667
+cap "scratch_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_5/GND!" "m1_648_n1#" 20.418
+cap "scratch_0/reg_six2_1/reg_one2_0[0]/m3_25_48#" "scratch_0/reg_six2_0/reg_one2_0[0]/m3_25_48#" 11.925
+cap "scratch_0/reg_six2_1/reg_one2_0[0]/reg_one_0/R0" "m1_648_n1#" 10.2
+cap "m1_648_n1#" "scratch_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_5/Vdd!" 1.722
+cap "m1_648_50#" "scratch_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_5/Vdd!" 19.44
+cap "m1_648_50#" "scratch_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_5/out" 2.448
+cap "m1_648_50#" "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/W" 11.7
+cap "scratch_0/m1_478_21#" "m2_786_n1#" 189.29
+cap "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_5/Vdd!" "m2_786_n1#" 14.55
+cap "m1_648_n1#" "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_5/GND!" 19.622
+cap "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_5/a_100_74#" "m2_785_50#" 2.97
+cap "m1_648_50#" "scratch_0/reg_six2_0/reg_one2_0[0]/reg_one_0/R0" 11.7
+cap "scratch_0/in0" "m1_648_n1#" 1341.25
+cap "m2_785_50#" "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_5/Vdd!" 17.598
+cap "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_5/GND!" "m2_786_n1#" 14.931
+cap "m2_785_50#" "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_5/GND!" 17.979
+cap "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/new_inv_state_0/a_90_10#" "m1_648_n1#" 58.619
+cap "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_5/a_100_74#" "m1_648_50#" 8.7
+cap "m1_648_n1#" "scratch_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_5/Vdd!" 17.22
+cap "m1_648_n1#" "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/W" 10.2
+cap "m1_648_50#" "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_5/Vdd!" 22.728
+cap "m1_648_n1#" "scratch_0/reg_six2_0/reg_one2_0[0]/reg_one_0/R0" 10.2
+cap "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/new_inv_state_0/a_90_10#" "m2_786_n1#" 19.96
+cap "m2_785_50#" "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_5/out" 7.2
+cap "scratch_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_5/Vdd!" "m2_786_n1#" 10.74
+cap "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/W" "m2_786_n1#" 4.95
+cap "m1_648_50#" "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_5/GND!" 24.114
+cap "scratch_0/reg_six2_0/reg_one2_0[0]/reg_one_0/R0" "m2_786_n1#" 4.95
+cap "m1_648_n1#" "scratch_0/reg_six2_0/reg_one2_0[0]/reg_one_0/new_inv_state_0/a_90_10#" 2.322
+cap "m2_785_50#" "scratch_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_5/Vdd!" 10.74
+cap "m2_785_50#" "scratch_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_5/out" -5.217
+cap "m2_785_50#" "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/W" 4.95
+cap "m2_785_50#" "scratch_0/reg_six2_0/reg_one2_0[0]/reg_one_0/R0" 4.95
+cap "scratch_0/reg_six2_0/reg_one2_0[0]/reg_one_0/new_inv_state_0/a_90_10#" "m2_786_n1#" -4.419
+cap "m1_648_50#" "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_5/out" 30.27
+cap "m1_648_n1#" "scratch_0/m1_478_21#" 98.7065
+cap "m1_648_n1#" "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_5/Vdd!" 18.768
+cap "m1_648_n1#" "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_5/Vdd!" -7.386
+cap "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/R0" "m1_648_n1#" 10.2
+cap "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/R0" "m1_648_n1#" 10.2
+cap "m1_648_n1#" "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/tg_5/Vdd!" 21.156
+cap "m2_786_n1#" "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/tg_5/GND!" 14.931
+cap "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/W" "m1_648_n1#" 10.2
+cap "m2_786_n1#" "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/W" 0.495
+cap "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/tg_5/out" "m1_648_50#" 30.27
+cap "m2_785_50#" "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/tg_5/out" 7.2
+cap "m2_786_n1#" "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_5/Vdd!" -10.053
+cap "m1_648_50#" "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/tg_5/GND!" 24.114
+cap "m2_786_n1#" "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/R0" 4.95
+cap "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/new_inv_state_0/a_90_10#" "m1_648_n1#" 58.619
+cap "m2_786_n1#" "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/R0" 4.95
+cap "m2_785_50#" "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/tg_5/GND!" 17.979
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/W" "m1_648_50#" 3.84
+cap "m2_786_n1#" "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/tg_5/Vdd!" 16.836
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/W" "m2_785_50#" 0.495
+cap "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/W" "m2_786_n1#" 4.95
+cap "m1_648_50#" "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_5/Vdd!" -7.158
+cap "m2_785_50#" "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_5/Vdd!" -10.053
+cap "scratch_0/m1_561_21#" "m1_648_n1#" 98.7065
+cap "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/R0" "m1_648_50#" 11.7
+cap "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/R0" "m1_648_50#" 11.7
+cap "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/R0" "m2_785_50#" 4.95
+cap "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/R0" "m2_785_50#" 4.95
+cap "m1_648_50#" "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/tg_5/Vdd!" 25.344
+cap "m2_786_n1#" "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/new_inv_state_0/a_90_10#" 19.96
+cap "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/W" "m1_648_50#" 11.7
+cap "m2_785_50#" "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/tg_5/Vdd!" 19.884
+cap "m1_648_50#" "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/tg_5/a_100_74#" 8.7
+cap "m1_648_n1#" "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/tg_5/GND!" 19.622
+cap "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/W" "m2_785_50#" 4.95
+cap "m2_785_50#" "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/tg_5/a_100_74#" 2.97
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/W" "m1_648_n1#" 3.156
+cap "scratch_0/in0" "m1_648_n1#" 1341.25
+cap "m2_786_n1#" "scratch_0/m1_561_21#" 189.29
+cap "m2_785_50#" "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_5/GND!" 17.979
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_5/GND!" "m1_648_n1#" 5.696
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_5/out" "m1_648_50#" 30.27
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/W" "m1_648_50#" 1.98
+cap "m2_786_n1#" "scratch_0/m1_644_21#" 189.29
+cap "m2_785_50#" "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/R0" 4.95
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_5/Vdd!" "m1_648_n1#" 21.156
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/new_inv_state_0/a_90_10#" "m2_786_n1#" 19.96
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_5/a_100_74#" "m2_785_50#" 2.97
+cap "m2_785_50#" "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/W" 4.95
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_5/GND!" "m1_648_50#" 24.114
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/W" "m2_786_n1#" -2.475
+cap "scratch_0/m1_644_21#" "m1_648_n1#" 98.7065
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/R0" "m1_648_50#" 11.7
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/new_inv_state_0/a_90_10#" "m1_648_n1#" 58.619
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_5/a_100_74#" "m1_648_50#" 8.7
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_5/GND!" "m2_785_50#" 3.276
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/W" "m1_648_50#" 11.7
+cap "m2_786_n1#" "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_5/GND!" 14.931
+cap "m2_785_50#" "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_5/Vdd!" 19.884
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/W" "m1_648_n1#" 1.164
+cap "scratch_0/in0" "m1_648_n1#" 1341.25
+cap "m2_786_n1#" "scratch_0/m1_727_21#" 189.29
+cap "m2_785_50#" "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/a_0_88#" 2.97
+cap "m2_786_n1#" "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/R0" 4.95
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_5/GND!" "m1_648_50#" 7.536
+cap "m2_786_n1#" "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/W" 4.95
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_5/GND!" "m1_648_n1#" 19.622
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_5/Vdd!" "m1_648_50#" 25.344
+cap "scratch_0/m1_727_21#" "m1_648_n1#" 98.7065
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/a_0_88#" "m1_648_50#" 8.7
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/R0" "m1_648_n1#" 10.2
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_5/GND!" "m2_786_n1#" 2.514
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_5/out" "m2_785_50#" 7.2
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/W" "m1_648_n1#" 10.2
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/W" "m2_785_50#" -2.475
+cap "m2_786_n1#" "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_5/Vdd!" 16.836
+subcap "m1_648_n1#" -438.313
+subcap "m1_648_50#" -336.287
+cap "new_mux4_0/new_mux4_one_0[0]/in3" "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_5/Vdd!" 21.156
+cap "m2_785_50#" "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_5/out" 7.2
+cap "m2_786_n1#" "new_mux4_0/new_mux4_one_0[0]/mux2_one_1/tg_0/GND!" 9.983
+cap "scratch_0/r0" "m2_786_n1#" 4.95
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_5/Vdd!" "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_5/out" -5.68434e-14
+cap "m2_786_n1#" "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_5/GND!" -3.387
+cap "m2_785_50#" "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_5/Vdd!" 19.884
+cap "new_mux4_0/new_mux4_one_0[0]/in2" "new_mux4_0/new_mux4_one_0[0]/s0" 103.86
+cap "new_mux4_0/new_mux4_one_0[0]/in2" "m2_785_50#" 26.914
+cap "new_mux4_0/new_mux4_one_0[0]/in2" "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_5/out" 30.27
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/new_inv_state_0/a_90_10#" "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_5/Vdd!" 5.68434e-14
+cap "new_mux4_0/new_mux4_one_0[0]/in3" "m2_786_n1#" 42.377
+cap "new_mux4_0/new_mux4_one_0[0]/in2" "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_5/Vdd!" 25.344
+cap "new_mux4_0/new_mux4_one_0[0]/s0" "m2_786_n1#" 2.109
+cap "new_mux4_0/new_mux4_one_0[0]/in3" "scratch_0/r0" 87.1567
+cap "m2_785_50#" "new_mux4_0/new_mux4_one_0[0]/mux2_one_1/tg_0/EN" 1.248
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/new_inv_state_0/a_90_10#" "m2_786_n1#" 19.96
+cap "new_mux4_0/new_mux4_one_0[0]/in3" "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_5/GND!" 1.212
+cap "m2_785_50#" "new_mux4_0/new_mux4_one_0[0]/mux2_one_1/tg_0/GND!" 16.877
+cap "scratch_0/r0" "m2_785_50#" 4.95
+cap "m2_786_n1#" "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_5/Vdd!" 16.836
+cap "m2_785_50#" "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_5/GND!" -1.101
+cap "new_mux4_0/new_mux4_one_0[0]/in2" "scratch_0/r0" 88.6567
+cap "new_mux4_0/new_mux4_one_0[0]/s0" "new_mux4_0/new_mux4_one_0[0]/in3" 103.86
+cap "new_mux4_0/new_mux4_one_0[0]/in3" "scratch_0/in0" 388.962
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/new_inv_state_0/a_90_10#" "new_mux4_0/new_mux4_one_0[0]/in3" 58.619
+cap "new_mux4_0/new_mux4_one_0[0]/in2" "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_5/GND!" 3.864
+cap "new_mux4_0/new_mux4_one_0[0]/s0" "m2_785_50#" 2.97
+subcap "m2_786_n1#" -636.058
+subcap "m2_785_50#" -518.471
+cap "new_mux4_1/new_mux4_one_0[0]/in3" "new_mux4_0/new_mux4_one_0[0]/mux2_one_1/tg_1/a_100_74#" 0.624
+cap "new_mux4_1/new_mux4_one_0[0]/in3" "new_mux4_0/new_mux4_one_0[0]/mux2_one_1/out" 32.768
+cap "new_mux4_1/new_mux4_one_0[0]/in3" "new_mux4_0/new_mux4_one_0[0]/mux2_one_1/tg_1/a_100_57#" 10.251
+cap "new_mux4_1/new_mux4_one_0[0]/in3" "new_mux4_0/new_mux4_one_0[0]/mux2_one_1/tg_0/GND!" -3.048
+cap "new_mux4_1/new_mux4_one_0[0]/in2" "new_mux4_0/new_mux4_one_0[0]/mux2_one_1/tg_0/Vdd!" 25.6
+cap "new_mux4_1/new_mux4_one_0[0]/in3" "new_mux4_0/new_mux4_one_0[0]/mux2_one_0/tg_1/Vdd!" 32.286
+cap "new_mux4_0/new_mux4_one_0[0]/mux2_one_0/tg_1/a_100_74#" "new_mux4_1/new_mux4_one_0[0]/s0" -2.332
+cap "new_mux4_1/new_mux4_one_0[0]/in2" "new_mux4_0/new_mux4_one_0[0]/mux2_one_1/tg_0/a_100_57#" 7.282
+cap "new_mux4_1/new_mux4_one_0[0]/in2" "new_mux4_0/new_mux4_one_0[0]/mux2_one_0/tg_1/GND!" 31.779
+cap "new_mux4_1/new_mux4_one_0[0]/in2" "new_mux4_0/new_mux4_one_0[0]/mux2_one_1/tg_1/a_100_74#" 17.472
+cap "new_mux4_0/new_mux4_one_0[0]/mux2_one_0/tg_1/Vdd!" "new_mux4_1/new_mux4_one_0[0]/s0" 769.567
+cap "new_mux4_1/new_mux4_one_0[0]/in3" "new_mux4_0/new_mux4_one_0[0]/mux2_one_1/tg_0/Vdd!" 22.047
+cap "new_mux4_1/new_mux4_one_0[0]/in2" "new_mux4_0/new_mux4_one_0[0]/mux2_one_1/out" 19.78
+cap "new_mux4_0/new_mux4_one_0[0]/out" "new_mux4_1/new_mux4_one_0[0]/s0" -2.536
+cap "new_mux4_1/new_mux4_one_0[0]/in2" "new_mux4_0/new_mux4_one_0[0]/mux2_one_1/tg_0/GND!" -2.667
+cap "new_mux4_1/new_mux4_one_0[0]/in2" "new_mux4_0/new_mux4_one_0[0]/mux2_one_0/tg_1/Vdd!" 34.815
+cap "new_mux4_1/new_mux4_one_0[0]/in3" "new_mux4_0/new_mux4_one_0[0]/mux2_one_0/tg_1/GND!" 29.4
+cap "new_mux4_1/new_mux4_one_0[0]/in2" "new_mux4_0/new_mux4_one_0[0]/mux2_one_1/tg_0/a_100_74#" 0.624
+subcap "m2_786_n1#" -616.407
+subcap "m2_785_50#" -504.329
+cap "new_mux4_1/new_mux4_one_0[0]/in3" "new_mux4_0/new_mux4_one_0[0]/mux2_one_0/tg_1/Vdd!" 2.141
+cap "new_mux4_1/new_mux4_one_0[0]/s0" "new_mux4_0/new_mux4_one_0[0]/mux2_one_0/tg_1/a_100_74#" 4.664
+cap "new_mux4_1/new_mux4_one_0[0]/s0" "new_mux4_1/new_mux4_one_0[0]/in2" 32.393
+cap "new_mux4_1/new_mux4_one_0[0]/s0" "new_mux4_0/new_mux4_one_0[0]/mux2_one_0/tg_1/Vdd!" 895.023
+cap "new_mux4_1/new_mux4_one_0[0]/s0" "new_mux4_0/new_mux4_one_0[0]/out" 10.144
+cap "new_mux4_1/new_mux4_one_0[0]/s0" "new_mux4_1/new_mux4_one_0[0]/in3" 28.033
+cap "new_mux4_0/new_mux4_one_0[0]/mux2_one_0/tg_1/Vdd!" "new_mux4_1/new_mux4_one_0[0]/in2" 3.551
+cap "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" "scratch_0/reg_six1_1/reg_one1_0[0]/m3_25_154#" 42.443
+cap "scratch_0/reg_six1_1/reg_one1_0[0]/m3_25_154#" "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/new_inv_3/GND!" 1.905
+cap "scratch_0/reg_six1_1/reg_one1_0[0]/m3_25_154#" "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/new_inv_3/Vdd!" 28.992
+cap "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" "m2_785_156#" 23.19
+cap "scratch_0/reg_six1_0/reg_one1_0[0]/m3_25_154#" "m2_785_156#" 11.925
+cap "m2_785_156#" "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/R0" 4.95
+cap "m2_785_156#" "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/new_inv_3/GND!" 37.515
+cap "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/W" "m2_785_156#" 11.825
+cap "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/R0" "m2_785_156#" 11.825
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/W" "scratch_0/reg_six1_0/reg_one1_0[0]/m3_25_154#" 3.84
+cap "scratch_0/reg_six1_1/reg_one1_0[0]/reg_one_0/new_inv_3/Vdd!" "m2_785_156#" -9.303
+cap "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/new_inv_3/Vdd!" "scratch_0/reg_six1_0/reg_one1_0[0]/m3_25_154#" 31.132
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/W" "m2_785_156#" 0.495
+cap "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" "scratch_0/reg_six1_0/reg_one1_0[0]/m3_25_154#" 65.541
+cap "scratch_0/reg_six1_0/reg_one1_0[0]/m3_25_154#" "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/R0" 11.7
+cap "scratch_0/reg_six1_0/reg_one1_0[0]/reg_one_0/new_inv_3/Vdd!" "m2_785_156#" 17.481
+cap "m2_785_156#" "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/new_inv_3/GND!" 20.796
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/new_inv_3/Vdd!" "m1_648_156#" 32.116
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" "m2_785_156#" 22.251
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/W" "m1_648_156#" 1.98
+cap "m2_785_156#" "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/new_inv_3/Vdd!" 17.481
+cap "m2_785_156#" "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/W" -2.475
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/W" "m1_648_156#" 11.7
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/R0" "m1_648_156#" 11.7
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/W" "m2_785_156#" 4.95
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/R0" "m2_785_156#" 4.95
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/new_inv_3/GND!" "m1_648_156#" 9.216
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/new_inv_3/GND!" "m1_648_156#" 36.068
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" "m1_648_156#" 93.353
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/new_inv_3/GND!" "m2_785_156#" 5.256
+subcap "m1_648_156#" -188.069
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/R0" "m2_785_156#" 4.95
+cap "new_mux4_0/new_mux4_one_0[0]/in1" "new_mux4_0/new_mux4_one_0[0]/mux2_one_2/sel" 103.86
+cap "new_mux4_0/new_mux4_one_0[0]/in1" "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/new_inv_3/Vdd!" 32.116
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" "m2_785_156#" 22.251
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/R0" "new_mux4_0/new_mux4_one_0[0]/in1" 88.6567
+cap "m2_785_156#" "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/new_inv_3/GND!" 1.716
+cap "new_mux4_0/new_mux4_one_0[0]/in1" "m2_785_156#" 29.554
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" "new_mux4_0/new_mux4_one_0[0]/in1" 93.353
+cap "new_mux4_0/new_mux4_one_0[0]/mux2_one_1/tg_0/GND!" "m2_785_156#" 16.877
+cap "new_mux4_0/new_mux4_one_0[0]/in1" "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/new_inv_3/GND!" 15.818
+cap "new_mux4_0/new_mux4_one_0[0]/mux2_one_2/sel" "m2_785_156#" 4.218
+cap "m2_785_156#" "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/new_inv_3/Vdd!" 17.481
+subcap "m2_785_156#" -393.517
+cap "new_mux4_1/new_mux4_one_0[0]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[0]/s1" -2.332
+cap "new_mux4_1/new_mux4_one_0[0]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[0]/mux2_one_0/tg_0/Vdd!" 769.567
+cap "new_mux4_1/new_mux4_one_0[0]/in1" "new_mux4_0/new_mux4_one_0[0]/mux2_one_0/tg_0/GND!" 37.515
+cap "new_mux4_1/new_mux4_one_0[0]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[0]/mux2_one_0/tg_0/a_100_74#" -2.332
+cap "new_mux4_1/new_mux4_one_0[0]/in1" "new_mux4_0/new_mux4_one_0[0]/mux2_one_2/tg_1/a_100_74#" 1.248
+cap "new_mux4_0/new_mux4_one_0[0]/mux2_one_1/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[0]/in1" 25.35
+cap "new_mux4_0/new_mux4_one_0[0]/mux2_one_0/tg_0/EN" "new_mux4_1/new_mux4_one_0[0]/mux2_one_2/tg_1/EN" 1.81629
+cap "new_mux4_1/new_mux4_one_0[0]/in1" "new_mux4_0/new_mux4_one_0[0]/mux2_one_0/tg_0/EN" 29.796
+cap "new_mux4_1/new_mux4_one_0[0]/in1" "new_mux4_0/new_mux4_one_0[0]/s1" 9.075
+cap "new_mux4_1/new_mux4_one_0[0]/in1" "new_mux4_0/new_mux4_one_0[0]/mux2_one_0/tg_0/Vdd!" 38.739
+cap "new_mux4_1/new_mux4_one_0[0]/in1" "new_mux4_0/new_mux4_one_0[0]/mux2_one_2/tg_1/a_100_57#" 4.43
+cap "new_mux4_1/new_mux4_one_0[0]/in1" "new_mux4_0/new_mux4_one_0[0]/mux2_one_2/out" 17.472
+cap "new_mux4_0/new_mux4_one_0[0]/mux2_one_1/tg_0/GND!" "new_mux4_1/new_mux4_one_0[0]/in1" -2.667
+cap "new_mux4_1/new_mux4_one_0[0]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[0]/mux2_one_0/tg_0/EN" -4.664
+subcap "m2_785_156#" -378.837
+cap "new_mux4_1/new_mux4_one_0[0]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[0]/mux2_one_0/tg_0/a_100_74#" 4.664
+cap "new_mux4_1/new_mux4_one_0[0]/in1" "new_mux4_0/new_mux4_one_0[0]/mux2_one_0/tg_0/Vdd!" 3.551
+cap "new_mux4_1/new_mux4_one_0[0]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[0]/mux2_one_0/tg_1/EN" 4.664
+cap "new_mux4_1/new_mux4_one_0[0]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[0]/mux2_one_0/tg_0/Vdd!" 890.375
+cap "new_mux4_1/new_mux4_one_0[0]/mux2_one_2/sel" "new_mux4_1/new_mux4_one_0[0]/in1" 32.393
+cap "new_mux4_1/new_mux4_one_0[0]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[0]/mux2_one_0/tg_0/EN" 9.7496
+cap "scratch_0/reg_six3_1/reg_one3_0[1]/m3_25_n2#" "scratch_0/reg_six3_1/reg_one3_0[1]/reg_one_0/R0" 10.45
+cap "scratch_0/reg_six3_1/reg_one3_0[1]/m3_25_n2#" "scratch_0/reg_six3_1/reg_one3_0[1]/reg_one_0/tg_5/GND!" 0.381
+cap "scratch_0/reg_six3_1/reg_one3_0[1]/m3_25_n2#" "scratch_0/reg_six3_1/reg_one3_0[1]/reg_one_0/new_inv_state_0/a_90_10#" 26.205
+cap "scratch_0/reg_six3_1/reg_one3_0[1]/m3_25_n2#" "scratch_0/reg_six3_0/reg_one3_0[1]/reg_one_0/tg_5/GND!" 3.194
+cap "scratch_0/reg_six3_1/reg_one3_0[1]/m3_25_n2#" "scratch_0/reg_six3_0/reg_one3_0[1]/reg_one_0/W" 10.45
+cap "scratch_0/reg_six3_1/reg_one3_0[1]/m3_25_n2#" "scratch_0/reg_six3_1/reg_one3_0[1]/reg_one_0/tg_5/Vdd!" 24.152
+cap "scratch_0/reg_six3_0/reg_one3_0[1]/m3_25_n2#" "m2_785_258#" 11.925
+cap "scratch_0/reg_six3_0/reg_one3_0[1]/m3_25_n2#" "scratch_0/reg_six3_0/reg_one3_0[1]/reg_one_0/R0" 10.2
+cap "scratch_0/reg_six3_0/reg_one3_0[1]/m3_25_n2#" "scratch_0/reg_six2_1/reg_one2_0[1]/reg_one_0/W" 10.2
+cap "scratch_0/reg_six2_1/reg_one2_0[1]/reg_one_0/new_inv_state_0/a_90_10#" "m2_785_258#" 3.96
+cap "scratch_0/reg_six2_1/reg_one2_0[1]/reg_one_0/tg_5/GND!" "m2_785_258#" 14.55
+cap "m2_785_258#" "scratch_0/reg_six3_0/reg_one3_0[1]/reg_one_0/tg_5/Vdd!" 16.836
+cap "m2_785_258#" "scratch_0/reg_six3_0/reg_one3_0[1]/reg_one_0/R0" 4.95
+cap "scratch_0/reg_six2_1/reg_one2_0[1]/reg_one_0/W" "m2_785_258#" 4.95
+cap "scratch_0/reg_six3_0/reg_one3_0[1]/reg_one_0/new_inv_state_0/a_90_10#" "scratch_0/reg_six3_0/reg_one3_0[1]/m3_25_n2#" 23.354
+cap "scratch_0/reg_six3_0/reg_one3_0[1]/reg_one_0/tg_5/GND!" "m2_785_258#" 4.011
+cap "scratch_0/reg_six3_0/reg_one3_0[1]/reg_one_0/new_inv_state_0/a_90_10#" "m2_785_258#" 22.856
+cap "scratch_0/reg_six2_1/reg_one2_0[1]/reg_one_0/new_inv_state_0/a_90_10#" "scratch_0/reg_six3_0/reg_one3_0[1]/m3_25_n2#" 9.264
+cap "scratch_0/reg_six3_0/reg_one3_0[1]/m3_25_n2#" "scratch_0/reg_six2_1/reg_one2_0[1]/reg_one_0/tg_5/GND!" 19.68
+cap "scratch_0/reg_six3_0/reg_one3_0[1]/m3_25_n2#" "scratch_0/in1" 1005.94
+cap "scratch_0/reg_six3_0/reg_one3_0[1]/m3_25_n2#" "scratch_0/reg_six3_0/reg_one3_0[1]/reg_one_0/tg_5/Vdd!" 21.156
+cap "scratch_0/reg_six2_1/reg_one2_0[1]/reg_one_0/tg_5/Vdd!" "m1_648_258#" 21.156
+cap "m1_648_258#" "scratch_0/reg_six2_1/reg_one2_0[1]/reg_one_0/R0" 10.2
+cap "scratch_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_5/Vdd!" "m1_648_258#" 1.722
+cap "scratch_0/reg_six2_1/reg_one2_0[1]/reg_one_0/tg_5/GND!" "m1_648_258#" -1.476
+cap "m2_785_258#" "scratch_0/reg_six2_0/reg_one2_0[1]/reg_one_0/new_inv_state_0/a_90_10#" 13.03
+cap "scratch_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_5/GND!" "m2_785_258#" 15.693
+cap "m2_785_258#" "scratch_0/reg_six2_0/reg_one2_0[1]/reg_one_0/W" 4.95
+cap "scratch_0/in1" "m1_648_258#" 1341.25
+cap "m2_785_258#" "scratch_0/reg_six2_1/reg_one2_0[1]/reg_one_0/new_inv_state_0/a_90_10#" 7.09
+cap "m1_648_258#" "scratch_0/reg_six2_0/reg_one2_0[1]/reg_one_0/new_inv_state_0/a_90_10#" 47.363
+cap "scratch_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_5/GND!" "m1_648_258#" 20.418
+cap "m2_785_258#" "scratch_0/reg_six2_1/reg_one2_0[1]/reg_one_0/tg_5/Vdd!" 16.836
+cap "m2_785_258#" "scratch_0/reg_six2_1/reg_one2_0[1]/reg_one_0/R0" 4.95
+cap "scratch_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_5/Vdd!" "m2_785_258#" 2.667
+cap "m2_785_258#" "scratch_0/reg_six2_1/reg_one2_0[1]/reg_one_0/tg_5/GND!" -2.286
+cap "m1_648_258#" "scratch_0/reg_six2_0/reg_one2_0[1]/reg_one_0/W" 10.2
+cap "m1_648_258#" "scratch_0/reg_six2_1/reg_one2_0[1]/reg_one_0/new_inv_state_0/a_90_10#" 41.795
+cap "scratch_0/m1_478_280#" "m1_648_258#" 98.7065
+cap "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/tg_5/Vdd!" "m1_648_258#" 18.768
+cap "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/W" "m1_648_258#" 10.2
+cap "m2_785_258#" "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/new_inv_state_0/a_90_10#" 19.96
+cap "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/tg_5/GND!" "m2_785_258#" 14.931
+cap "m1_648_258#" "scratch_0/reg_six2_0/reg_one2_0[1]/reg_one_0/R0" 10.2
+cap "scratch_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_5/Vdd!" "m1_648_258#" 17.22
+cap "scratch_0/reg_six2_0/reg_one2_0[1]/reg_one_0/new_inv_state_0/a_90_10#" "m2_785_258#" -4.419
+cap "scratch_0/m1_478_280#" "m2_785_258#" 189.29
+cap "scratch_0/in1" "m1_648_258#" 1341.25
+cap "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/tg_5/Vdd!" "m2_785_258#" 14.55
+cap "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/W" "m2_785_258#" 4.95
+cap "m1_648_258#" "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/new_inv_state_0/a_90_10#" 58.619
+cap "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/tg_5/GND!" "m1_648_258#" 19.622
+cap "m2_785_258#" "scratch_0/reg_six2_0/reg_one2_0[1]/reg_one_0/R0" 4.95
+cap "scratch_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_5/Vdd!" "m2_785_258#" 10.74
+cap "m1_648_258#" "scratch_0/reg_six2_0/reg_one2_0[1]/reg_one_0/new_inv_state_0/a_90_10#" 2.322
+cap "m1_648_258#" "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/R0" 10.2
+cap "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/tg_5/Vdd!" "m2_785_258#" -10.053
+cap "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/W" "m2_785_258#" 4.95
+cap "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/new_inv_state_0/a_90_10#" "m2_785_258#" 19.96
+cap "scratch_0/m1_561_280#" "m1_648_258#" 98.7065
+cap "m2_785_258#" "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/R0" 4.95
+cap "scratch_0/m1_561_280#" "m2_785_258#" 189.29
+cap "m1_648_258#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/W" 3.156
+cap "m1_648_258#" "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/tg_5/Vdd!" 21.156
+cap "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/R0" "m1_648_258#" 10.2
+cap "m2_785_258#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/W" 0.495
+cap "m1_648_258#" "scratch_0/in1" 1341.25
+cap "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/R0" "m2_785_258#" 4.95
+cap "m2_785_258#" "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/tg_5/Vdd!" 16.836
+cap "m1_648_258#" "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/tg_5/GND!" 19.622
+cap "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/tg_5/Vdd!" "m1_648_258#" -7.386
+cap "m2_785_258#" "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/tg_5/GND!" 14.931
+cap "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/new_inv_state_0/a_90_10#" "m1_648_258#" 58.619
+cap "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/W" "m1_648_258#" 10.2
+cap "m1_648_258#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/new_inv_state_0/a_90_10#" 58.619
+cap "scratch_0/m1_727_280#" "m1_648_258#" 98.7065
+cap "scratch_0/m1_644_280#" "m2_785_258#" 189.29
+cap "m1_648_258#" "scratch_0/in1" 1341.25
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/R0" "m2_785_258#" 4.95
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_1/a_100_74#" "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/P0" 16.405
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/R0" "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/P0" 17.033
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_1/GND!" "m2_785_258#" 14.931
+cap "scratch_0/m1_727_280#" "m2_785_258#" 189.29
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_1/GND!" "m1_648_258#" 5.696
+cap "m2_785_258#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/new_inv_state_0/a_90_10#" 19.96
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/W" "m1_648_258#" 1.164
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_1/GND!" "m2_785_258#" 2.514
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_1/GND!" "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/P0" 7.656
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/W" "m1_648_258#" 10.2
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_1/Vdd!" "m1_648_258#" 21.156
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_1/a_100_57#" "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/P0" 8.24
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/W" "m2_785_258#" -2.475
+cap "scratch_0/m1_644_280#" "m1_648_258#" 98.7065
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/W" "m2_785_258#" 4.95
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_1/Vdd!" "m2_785_258#" 16.836
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/W" "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/P0" 11.825
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/R0" "m1_648_258#" 10.2
+cap "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_1/Vdd!" "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/P0" 27.886
+cap "m1_648_258#" "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_1/GND!" 19.622
+subcap "m1_648_207#" -15.788
+subcap "m1_648_258#" -435.415
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/new_inv_3/a_90_10#" "m2_785_207#" 8.24
+cap "new_mux4_0/new_mux4_one_0[1]/in3" "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/R0" 87.1567
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_1/GND!" "m2_785_207#" 2.14
+cap "new_mux4_0/new_mux4_one_0[0]/mux2_one_2/sel" "m2_785_207#" 2.97
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/R0" "m2_785_258#" 4.95
+cap "new_mux4_0/new_mux4_one_0[0]/mux2_one_2/tg_0/EN" "m2_785_207#" 1.248
+cap "new_mux4_0/new_mux4_one_0[0]/in0" "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_1/a_100_74#" 14.28
+cap "new_mux4_0/new_mux4_one_0[0]/mux2_one_2/tg_0/GND!" "m2_785_207#" 16.877
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_1/Vdd!" "new_mux4_0/new_mux4_one_0[1]/in3" 21.156
+cap "new_mux4_0/new_mux4_one_0[0]/in0" "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/R0" 93.0007
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/new_inv_state_0/a_90_10#" "new_mux4_0/new_mux4_one_0[1]/in3" 58.619
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_1/a_100_74#" "m2_785_207#" 13.91
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_1/Vdd!" "m2_785_258#" 16.836
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_1/GND!" "new_mux4_0/new_mux4_one_0[1]/in3" 1.212
+cap "new_mux4_0/new_mux4_one_0[1]/in3" "scratch_0/in1" 348.725
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/new_inv_state_0/a_90_10#" "m2_785_258#" 19.96
+cap "new_mux4_0/new_mux4_one_0[0]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[1]/in3" 103.86
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/R0" "m2_785_207#" 8.178
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_1/GND!" "m2_785_258#" -3.387
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_1/Vdd!" "new_mux4_0/new_mux4_one_0[0]/in0" 24.606
+cap "new_mux4_0/new_mux4_one_0[0]/mux2_one_2/sel" "m2_785_258#" 2.109
+cap "new_mux4_0/new_mux4_one_0[0]/in0" "m2_785_207#" 41.479
+cap "new_mux4_0/new_mux4_one_0[0]/in0" "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/new_inv_3/a_90_10#" 6.34
+cap "new_mux4_0/new_mux4_one_0[0]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[0]/in0" 103.86
+cap "new_mux4_0/new_mux4_one_0[0]/mux2_one_2/tg_0/GND!" "m2_785_258#" 9.983
+cap "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_1/Vdd!" "m2_785_207#" 18.741
+cap "new_mux4_0/new_mux4_one_0[1]/in3" "m2_785_258#" 45.081
+subcap "m2_785_207#" -264.463
+subcap "m2_785_258#" -634.358
+cap "new_mux4_0/new_mux4_one_0[0]/w_161_76#" "new_mux4_1/new_mux4_one_0[1]/in3" 16.354
+cap "new_mux4_0/new_mux4_one_0[0]/s1" "new_mux4_1/new_mux4_one_0[0]/in0" 9.075
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_1/tg_1/a_100_74#" "new_mux4_1/new_mux4_one_0[1]/in3" 0.624
+cap "new_mux4_0/new_mux4_one_0[0]/mux2_one_2/tg_0/GND!" "new_mux4_1/new_mux4_one_0[1]/in3" -3.048
+cap "new_mux4_0/new_mux4_one_0[0]/mux2_one_2/tg_0/a_100_74#" "new_mux4_1/new_mux4_one_0[0]/in0" 0.624
+cap "new_mux4_0/new_mux4_one_0[0]/m1_209_76#" "new_mux4_1/new_mux4_one_0[1]/in3" 13.046
+cap "new_mux4_0/new_mux4_one_0[0]/mux2_one_2/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[0]/in0" 25.6
+cap "new_mux4_0/new_mux4_one_0[0]/w_190_76#" "new_mux4_1/new_mux4_one_0[0]/in0" 20.24
+cap "new_mux4_0/new_mux4_one_0[0]/mux2_one_2/tg_1/a_100_74#" "new_mux4_1/new_mux4_one_0[0]/in0" 17.472
+cap "new_mux4_0/new_mux4_one_0[0]/m1_164_76#" "new_mux4_1/new_mux4_one_0[0]/in0" 14.575
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_1/tg_1/a_100_57#" "new_mux4_1/new_mux4_one_0[1]/in3" 10.251
+cap "new_mux4_1/new_mux4_one_0[0]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[0]/m1_209_76#" 769.567
+cap "new_mux4_0/new_mux4_one_0[0]/mux2_one_2/tg_0/a_100_57#" "new_mux4_1/new_mux4_one_0[0]/in0" 7.282
+cap "new_mux4_0/new_mux4_one_0[0]/mux2_one_2/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[1]/in3" 22.047
+cap "new_mux4_0/new_mux4_one_0[0]/w_161_76#" "new_mux4_1/new_mux4_one_0[0]/in0" 17.204
+cap "new_mux4_0/new_mux4_one_0[0]/w_190_76#" "new_mux4_1/new_mux4_one_0[1]/in3" 19.24
+cap "new_mux4_0/new_mux4_one_0[0]/mux2_one_2/tg_0/GND!" "new_mux4_1/new_mux4_one_0[0]/in0" -2.667
+cap "new_mux4_0/new_mux4_one_0[0]/m1_164_76#" "new_mux4_1/new_mux4_one_0[1]/in3" 13.046
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_1/out" "new_mux4_1/new_mux4_one_0[1]/in3" 32.768
+cap "new_mux4_0/new_mux4_one_0[0]/m1_209_76#" "new_mux4_1/new_mux4_one_0[0]/in0" 14.575
+subcap "m2_785_207#" -252.345
+subcap "m2_785_258#" -617.861
+cap "new_mux4_1/new_mux4_one_0[1]/in3" "new_mux4_0/new_mux4_one_0[0]/w_190_76#" 3.882
+cap "new_mux4_1/new_mux4_one_0[0]/mux2_one_2/sel" "new_mux4_1/new_mux4_one_0[1]/in3" 32.393
+cap "new_mux4_1/new_mux4_one_0[0]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[0]/w_190_76#" 127.78
+cap "new_mux4_1/new_mux4_one_0[0]/in0" "new_mux4_0/new_mux4_one_0[0]/w_190_76#" 3.551
+cap "new_mux4_1/new_mux4_one_0[0]/mux2_one_2/sel" "new_mux4_1/new_mux4_one_0[0]/in0" 32.393
+cap "new_mux4_1/new_mux4_one_0[0]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[0]/m1_209_76#" 769.567
+cap "scratch_0/reg_six2_1/reg_one2_0[1]/m3_25_48#" "scratch_0/reg_six2_1/reg_one2_0[1]/reg_one_0/R0" 10.45
+cap "scratch_0/reg_six2_1/reg_one2_0[1]/m3_25_48#" "scratch_0/reg_six2_1/reg_one2_0[1]/reg_one_0/tg_5/Vdd!" 21.104
+cap "scratch_0/reg_six2_1/reg_one2_0[1]/m3_25_48#" "scratch_0/reg_six2_1/reg_one2_0[1]/reg_one_0/tg_5/out" 21.608
+cap "scratch_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_5/Vdd!" "scratch_0/reg_six2_0/reg_one2_0[1]/m3_25_48#" 3.69
+cap "scratch_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_5/out" "scratch_0/reg_six2_0/reg_one2_0[1]/m3_25_48#" 1.638
+cap "scratch_0/reg_six2_1/reg_one2_0[1]/m3_25_48#" "scratch_0/reg_six2_0/reg_one2_0[1]/reg_one_0/W" 10.45
+cap "scratch_0/reg_six2_1/reg_one2_0[1]/m3_25_48#" "scratch_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_5/GND!" 21.104
+cap "scratch_0/reg_six2_1/reg_one2_0[1]/m3_25_48#" "scratch_0/reg_six2_0/reg_one2_0[1]/reg_one_0/a_0_88#" 7.854
+cap "scratch_0/reg_six2_1/reg_one2_0[1]/m3_25_48#" "scratch_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_5/Vdd!" 2.286
+cap "scratch_0/reg_six2_1/reg_one2_0[1]/m3_25_48#" "scratch_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_5/out" 10.396
+cap "m1_648_309#" "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/tg_5/out" 30.27
+cap "m2_785_309#" "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/a_0_88#" 1.485
+cap "m1_648_309#" "scratch_0/reg_six2_0/reg_one2_0[1]/reg_one_0/R0" 11.7
+cap "m2_785_309#" "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/W" 2.475
+cap "m2_785_309#" "scratch_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_5/Vdd!" 2.322
+cap "m1_648_309#" "scratch_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_5/out" 2.448
+cap "m1_648_309#" "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/tg_5/GND!" 24.114
+cap "m2_785_309#" "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/tg_5/out" 5.715
+cap "m1_648_309#" "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/tg_5/Vdd!" 22.728
+cap "scratch_0/reg_six2_0/reg_one2_0[1]/reg_one_0/R0" "m2_785_309#" 2.475
+cap "m2_785_309#" "scratch_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_5/out" -5.217
+cap "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/tg_5/GND!" "m2_785_309#" 8.037
+cap "m1_648_309#" "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/a_0_88#" 8.7
+cap "m1_648_309#" "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/W" 11.7
+cap "m1_648_309#" "scratch_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_5/Vdd!" 19.44
+cap "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/tg_5/Vdd!" "m2_785_309#" 6.894
+cap "m2_785_309#" "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/tg_5/Vdd!" 8.037
+cap "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/R0" "m2_785_309#" 2.475
+cap "m1_648_309#" "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/R0" 11.7
+cap "m2_785_309#" "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/tg_5/GND!" 8.037
+cap "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/tg_5/out" "m2_785_309#" 5.715
+cap "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/W" "m2_785_309#" 2.475
+cap "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/W" "m2_785_309#" -0.495
+cap "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/tg_5/Vdd!" "m2_785_309#" -11.196
+cap "m1_648_309#" "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/a_0_88#" 8.7
+cap "m1_648_309#" "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/tg_5/Vdd!" 25.344
+cap "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/R0" "m1_648_309#" 11.7
+cap "m1_648_309#" "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/tg_5/GND!" 24.114
+cap "m2_785_309#" "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/R0" 2.475
+cap "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/tg_5/out" "m1_648_309#" 30.27
+cap "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/W" "m1_648_309#" 11.7
+cap "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/W" "m1_648_309#" 3.84
+cap "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/tg_5/Vdd!" "m1_648_309#" -7.158
+cap "m2_785_309#" "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/a_0_88#" 1.485
+cap "m1_648_309#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_5/out" 30.27
+cap "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_5/GND!" "m2_785_309#" 8.037
+cap "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/a_0_88#" "m2_785_309#" 1.485
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/a_0_88#" "m2_785_309#" 1.485
+cap "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/a_0_88#" "m1_648_309#" 8.7
+cap "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_5/GND!" "m1_648_309#" 24.114
+cap "m2_785_309#" "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_5/GND!" 0.648
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/a_0_88#" "m1_648_309#" 8.7
+cap "m2_785_309#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/R0" 2.475
+cap "m1_648_309#" "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_5/GND!" 7.536
+cap "m2_785_309#" "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/W" 2.475
+cap "m1_648_309#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/R0" 11.7
+cap "m2_785_309#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_5/Vdd!" 8.037
+cap "m1_648_309#" "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/W" 11.7
+cap "m1_648_309#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_5/Vdd!" 25.344
+cap "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/W" "m2_785_309#" -3.96
+cap "m2_785_309#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_5/out" 5.715
+cap "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/W" "m1_648_309#" 1.98
+subcap "m1_648_309#" -330.491
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_1/sel" "m2_785_309#" 1.485
+cap "new_mux4_0/new_mux4_one_0[1]/in2" "m2_785_309#" 19.527
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_5/Vdd!" "m2_785_309#" 8.037
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_5/out" "new_mux4_0/new_mux4_one_0[1]/in2" 30.27
+cap "new_mux4_0/new_mux4_one_0[1]/in2" "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/R0" 88.6567
+cap "new_mux4_0/new_mux4_one_0[1]/in2" "new_mux4_0/new_mux4_one_0[1]/mux2_one_1/sel" 103.86
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_1/tg_0/EN" "m2_785_309#" 0.624
+cap "new_mux4_0/new_mux4_one_0[1]/in2" "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_5/Vdd!" 25.344
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74#" "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_5/out" 7.10543e-15
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_1/tg_0/GND!" "m2_785_309#" 11.502
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_5/GND!" "m2_785_309#" -8.415
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_5/out" "m2_785_309#" 5.715
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/R0" "m2_785_309#" 2.475
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_5/GND!" "new_mux4_0/new_mux4_one_0[1]/in2" 3.864
+subcap "m2_785_309#" -363.598
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_1/tg_0/GND!" "new_mux4_1/new_mux4_one_0[1]/in2" -3.048
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_0/tg_1/a_100_74#" "new_mux4_1/new_mux4_one_0[1]/mux2_one_1/sel" -2.332
+cap "new_mux4_0/new_mux4_one_0[1]/out" "new_mux4_1/new_mux4_one_0[1]/mux2_one_1/sel" -2.536
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_1/tg_0/a_100_74#" "new_mux4_1/new_mux4_one_0[1]/in2" 0.312
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_1/tg_1/a_100_74#" "new_mux4_1/new_mux4_one_0[1]/in2" 15.296
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[1]/in2" 32.286
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_1/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[1]/in2" 19.58
+cap "new_mux4_0/new_mux4_one_0[1]/s1" "new_mux4_1/new_mux4_one_0[1]/mux2_one_1/sel" -2.332
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_1/tg_0/a_100_57#" "new_mux4_1/new_mux4_one_0[1]/in2" 14.033
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_0/b" "new_mux4_1/new_mux4_one_0[1]/in2" 17.472
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_0/tg_0/GND!" "new_mux4_1/new_mux4_one_0[1]/in2" 29.4
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[1]/mux2_one_1/sel" 769.567
+subcap "m2_785_309#" -347.351
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_0/tg_1/EN" "new_mux4_1/new_mux4_one_0[1]/mux2_one_1/sel" 4.664
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[1]/mux2_one_1/sel" 881.119
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[1]/in2" 3.882
+cap "new_mux4_1/new_mux4_one_0[1]/mux2_one_1/sel" "new_mux4_0/new_mux4_one_0[1]/out" 10.144
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_0/tg_1/a_100_74#" "new_mux4_1/new_mux4_one_0[1]/mux2_one_1/sel" 4.664
+cap "new_mux4_1/new_mux4_one_0[1]/in2" "new_mux4_1/new_mux4_one_0[1]/mux2_one_1/sel" 32.393
+cap "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/new_inv_3/Vdd!" "scratch_0/reg_six1_1/reg_one1_0[1]/m3_25_154#" 25.283
+cap "scratch_0/reg_six1_1/reg_one1_0[1]/m3_25_154#" "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/new_inv_3/GND!" 1.905
+cap "scratch_0/reg_six1_1/reg_one1_0[1]/m3_25_154#" "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" 40.463
+cap "scratch_0/reg_six1_0/reg_one1_0[1]/m3_25_154#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/W" 3.84
+cap "m2_785_415#" "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/new_inv_3/GND!" 31.176
+cap "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/W" "m2_785_415#" -0.495
+cap "scratch_0/reg_six1_0/reg_one1_0[1]/m3_25_154#" "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" 65.541
+cap "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/new_inv_3/Vdd!" "m2_785_415#" -9.453
+cap "scratch_0/reg_six1_0/reg_one1_0[1]/m3_25_154#" "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/R0" 11.7
+cap "m2_785_415#" "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" 9.511
+cap "scratch_0/reg_six1_0/reg_one1_0[1]/m3_25_154#" "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/new_inv_3/Vdd!" 31.132
+cap "m2_785_415#" "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/R0" 2.475
+cap "scratch_0/reg_six1_1/reg_one1_0[1]/reg_one_0/R0" "m2_785_415#" 10.45
+cap "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/new_inv_3/Vdd!" "m2_785_415#" 11.349
+cap "scratch_0/reg_six1_0/reg_one1_0[1]/reg_one_0/W" "m2_785_415#" 10.45
+cap "scratch_0/reg_six0_1/reg_one0_0[1]/m3_37_223#" "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/GND!" 7.656
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/W" "m1_648_415#" 11.7
+cap "m1_648_415#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_1/GND!" 36.068
+cap "scratch_0/reg_six0_1/reg_one0_0[1]/m3_37_223#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/R0" 17.033
+cap "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_1/Vdd!" "m2_785_415#" 11.349
+cap "m2_785_415#" "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/GND!" 2.628
+cap "m1_648_415#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_1/Vdd!" 32.116
+cap "m2_785_415#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/R0" 2.475
+cap "scratch_0/reg_six0_1/reg_one0_0[1]/m3_37_223#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/new_inv_3/a_90_10#" 8.24
+cap "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/W" "m2_785_415#" -3.96
+cap "m1_648_415#" "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/GND!" 9.216
+cap "m1_648_415#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/R0" 11.7
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/W" "scratch_0/reg_six0_1/reg_one0_0[1]/m3_37_223#" 11.825
+cap "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/W" "m1_648_415#" 1.98
+cap "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" "m2_785_415#" 5.771
+cap "m1_648_415#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" 93.353
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/W" "m2_785_415#" 2.475
+cap "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_1/a_100_74#" "scratch_0/reg_six0_1/reg_one0_0[1]/m3_37_223#" 16.405
+cap "scratch_0/reg_six0_1/reg_one0_0[1]/m3_37_223#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_1/Vdd!" 27.886
+cap "m2_785_415#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_1/GND!" 10.854
+subcap "m1_648_415#" -188.069
+subcap "m1_648_466#" -52.093
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/new_inv_3/a_90_10#" "m2_785_466#" 8.24
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/R0" "m2_785_415#" 2.475
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" "new_mux4_0/new_mux4_one_0[1]/in1" 93.353
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/new_inv_3/a_90_10#" "new_mux4_0/new_mux4_one_0[1]/in0" 6.34
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/GND!" "new_mux4_0/new_mux4_one_0[1]/in1" 15.818
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_2/tg_0/EN" "m2_785_466#" 1.248
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_2/sel" "m2_785_466#" 2.97
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" "m2_785_415#" 5.771
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/GND!" "m2_785_415#" -5.598
+cap "new_mux4_0/new_mux4_one_0[1]/in0" "new_mux4_0/new_mux4_one_0[1]/mux2_one_2/sel" 103.86
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_2/tg_0/GND!" "m2_785_415#" 11.502
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/a_100_74#" "m2_785_466#" 13.91
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[1]/in1" 103.86
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/Vdd!" "m2_785_466#" 18.741
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/a_100_74#" "new_mux4_0/new_mux4_one_0[1]/in0" 14.28
+cap "new_mux4_0/new_mux4_one_0[1]/in1" "m2_785_415#" 19.527
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/Vdd!" "new_mux4_0/new_mux4_one_0[1]/in0" 24.606
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/R0" "m2_785_466#" 8.178
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/R0" "new_mux4_0/new_mux4_one_0[1]/in0" 93.0007
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_2/sel" "m2_785_415#" 2.109
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/Vdd!" "new_mux4_0/new_mux4_one_0[1]/in1" 32.116
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/R0" "new_mux4_0/new_mux4_one_0[1]/in1" 88.6567
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/GND!" "m2_785_466#" 2.14
+cap "new_mux4_0/new_mux4_one_0[1]/in0" "m2_785_466#" 41.479
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_2/tg_0/GND!" "m2_785_466#" 16.877
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/Vdd!" "m2_785_415#" 11.349
+subcap "m2_785_415#" -300.49
+subcap "m2_785_466#" -264.463
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_2/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[1]/in0" 25.6
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[1]/in1" 29.775
+cap "new_mux4_0/new_mux4_one_0[1]/s1" "new_mux4_1/new_mux4_one_0[1]/in0" 9.075
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_2/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[1]/in1" 19.38
+cap "new_mux4_1/new_mux4_one_0[1]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[1]/mux2_one_0/tg_0/a_100_74#" -2.332
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_2/tg_1/a_100_57#" "new_mux4_1/new_mux4_one_0[1]/in1" 12.094
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_0/tg_0/GND!" "new_mux4_1/new_mux4_one_0[1]/in0" 31.779
+cap "new_mux4_1/new_mux4_one_0[1]/in0" "new_mux4_0/new_mux4_one_0[1]/mux2_one_2/tg_0/a_100_74#" 0.624
+cap "new_mux4_1/new_mux4_one_0[1]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[1]/mux2_one_0/tg_0/EN" -4.664
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_2/tg_0/GND!" "new_mux4_1/new_mux4_one_0[1]/in0" -2.667
+cap "new_mux4_1/new_mux4_one_0[1]/in0" "new_mux4_0/new_mux4_one_0[1]/mux2_one_2/tg_1/a_100_74#" 17.472
+cap "new_mux4_0/new_mux4_one_0[1]/s1" "new_mux4_1/new_mux4_one_0[1]/in1" 7.854
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_2/out" "new_mux4_1/new_mux4_one_0[1]/in1" 15.296
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_2/tg_0/Vdd!" "new_mux4_0/new_mux4_one_0[1]/mux2_one_2/out" -1.13687e-13
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_0/tg_0/Vdd!" "new_mux4_0/new_mux4_one_0[1]/mux2_one_0/tg_0/EN" -5.68434e-14
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_0/tg_0/GND!" "new_mux4_1/new_mux4_one_0[1]/in1" 31.176
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_0/tg_0/EN" "new_mux4_1/new_mux4_one_0[1]/mux2_one_2/tg_1/EN" 1.81629
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[1]/mux2_one_2/sel" 769.567
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_0/tg_0/EN" "new_mux4_1/new_mux4_one_0[1]/in1" 29.796
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_2/tg_0/GND!" "new_mux4_1/new_mux4_one_0[1]/in1" -3.048
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_2/tg_1/a_100_74#" "new_mux4_1/new_mux4_one_0[1]/in1" 0.624
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[1]/in0" 34.815
+cap "new_mux4_1/new_mux4_one_0[1]/in0" "new_mux4_0/new_mux4_one_0[1]/mux2_one_2/tg_0/a_100_57#" 7.282
+subcap "m2_785_415#" -284.105
+subcap "m2_785_466#" -252.345
+cap "new_mux4_1/new_mux4_one_0[1]/in1" "new_mux4_1/new_mux4_one_0[1]/mux2_one_2/sel" 32.393
+cap "new_mux4_1/new_mux4_one_0[1]/in0" "new_mux4_1/new_mux4_one_0[1]/mux2_one_2/sel" 32.393
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_0/tg_0/EN" "new_mux4_1/new_mux4_one_0[1]/mux2_one_2/sel" 9.7496
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[1]/mux2_one_2/sel" 892.699
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[1]/in1" 3.882
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_0/tg_0/a_100_74#" "new_mux4_1/new_mux4_one_0[1]/mux2_one_2/sel" 4.664
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[1]/in0" 3.551
+cap "scratch_0/reg_six3_1/reg_one3_0[2]/reg_one_0/tg_5/Vdd!" "scratch_0/reg_six3_1/reg_one3_0[2]/m3_25_n2#" 24.152
+cap "scratch_0/reg_six3_1/reg_one3_0[2]/m3_25_n2#" "scratch_0/reg_six3_1/reg_one3_0[2]/reg_one_0/R0" 10.45
+cap "scratch_0/reg_six3_0/reg_one3_0[2]/reg_one_0/W" "scratch_0/reg_six3_1/reg_one3_0[2]/m3_25_n2#" 10.45
+cap "scratch_0/reg_six3_0/reg_one3_0[2]/reg_one_0/tg_5/GND!" "scratch_0/reg_six3_1/reg_one3_0[2]/m3_25_n2#" 3.194
+cap "scratch_0/reg_six3_1/reg_one3_0[2]/m3_25_n2#" "scratch_0/reg_six3_1/reg_one3_0[2]/reg_one_0/new_inv_state_0/a_90_10#" 26.205
+cap "scratch_0/reg_six3_1/reg_one3_0[2]/reg_one_0/tg_5/GND!" "scratch_0/reg_six3_1/reg_one3_0[2]/m3_25_n2#" 0.381
+cap "scratch_0/reg_six2_1/reg_one2_0[2]/reg_one_0/tg_5/GND!" "scratch_0/reg_six3_0/reg_one3_0[2]/m3_25_n2#" 19.68
+cap "scratch_0/reg_six3_0/reg_one3_0[2]/reg_one_0/R0" "scratch_0/reg_six3_0/reg_one3_0[2]/m3_25_n2#" 10.2
+cap "scratch_0/reg_six3_0/reg_one3_0[2]/reg_one_0/tg_5/Vdd!" "m2_785_517#" 16.836
+cap "scratch_0/reg_six2_1/reg_one2_0[2]/reg_one_0/W" "m2_785_517#" 4.95
+cap "scratch_0/reg_six3_0/reg_one3_0[2]/reg_one_0/tg_5/Vdd!" "scratch_0/reg_six3_0/reg_one3_0[2]/m3_25_n2#" 21.156
+cap "scratch_0/in2" "scratch_0/reg_six3_0/reg_one3_0[2]/m3_25_n2#" 1005.94
+cap "m2_785_517#" "scratch_0/reg_six3_0/reg_one3_0[2]/reg_one_0/new_inv_state_0/a_90_10#" 22.856
+cap "scratch_0/reg_six2_1/reg_one2_0[2]/reg_one_0/W" "scratch_0/reg_six3_0/reg_one3_0[2]/m3_25_n2#" 10.2
+cap "scratch_0/reg_six3_0/reg_one3_0[2]/m3_25_n2#" "m2_785_517#" 11.925
+cap "scratch_0/reg_six3_0/reg_one3_0[2]/m3_25_n2#" "scratch_0/reg_six3_0/reg_one3_0[2]/reg_one_0/new_inv_state_0/a_90_10#" 23.354
+cap "scratch_0/reg_six3_0/reg_one3_0[2]/reg_one_0/tg_5/GND!" "m2_785_517#" 4.011
+cap "scratch_0/reg_six2_1/reg_one2_0[2]/reg_one_0/new_inv_state_0/a_90_10#" "m2_785_517#" 3.96
+cap "scratch_0/reg_six2_1/reg_one2_0[2]/reg_one_0/new_inv_state_0/a_90_10#" "scratch_0/reg_six3_0/reg_one3_0[2]/m3_25_n2#" 9.264
+cap "scratch_0/reg_six2_1/reg_one2_0[2]/reg_one_0/tg_5/GND!" "m2_785_517#" 14.55
+cap "scratch_0/reg_six3_0/reg_one3_0[2]/reg_one_0/R0" "m2_785_517#" 4.95
+cap "m1_648_517#" "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/W" 10.2
+cap "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/out" "scratch_0/reg_six2_1/reg_one2_0[2]/m3_25_48#" 5.843
+cap "scratch_0/reg_six2_1/reg_one2_0[2]/reg_one_0/tg_5/Vdd!" "m1_648_517#" 21.156
+cap "scratch_0/in2" "m1_648_517#" 1341.25
+cap "scratch_0/reg_six2_1/reg_one2_0[2]/m3_25_48#" "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/a_100_74#" 9.075
+cap "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/Vdd!" "scratch_0/reg_six2_1/reg_one2_0[2]/m3_25_48#" 3.429
+cap "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/GND!" "scratch_0/reg_six2_0/reg_one2_0[2]/m3_25_48#" 0.246
+cap "scratch_0/reg_six2_1/reg_one2_0[2]/reg_one_0/tg_5/GND!" "m1_648_517#" -1.476
+cap "m2_785_517#" "scratch_0/reg_six2_1/reg_one2_0[2]/reg_one_0/new_inv_state_0/a_90_10#" 7.09
+cap "scratch_0/reg_six2_1/reg_one2_0[2]/m3_25_48#" "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/W" 11.825
+cap "scratch_0/reg_six2_1/reg_one2_0[2]/reg_one_0/tg_5/Vdd!" "scratch_0/reg_six2_1/reg_one2_0[2]/m3_25_48#" 29.029
+cap "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/Vdd!" "m2_785_517#" 2.667
+cap "m1_648_517#" "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/new_inv_state_0/a_90_10#" 47.363
+cap "m2_785_517#" "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/W" 4.95
+cap "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/out" "scratch_0/reg_six2_0/reg_one2_0[2]/m3_25_48#" 10.107
+cap "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/GND!" "m1_648_517#" 20.418
+cap "scratch_0/reg_six2_1/reg_one2_0[2]/reg_one_0/tg_5/Vdd!" "m2_785_517#" 16.836
+cap "scratch_0/reg_six2_1/reg_one2_0[2]/reg_one_0/R0" "m1_648_517#" 10.2
+cap "scratch_0/reg_six2_0/reg_one2_0[2]/m3_25_48#" "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/a_100_74#" 3.444
+cap "scratch_0/reg_six2_1/reg_one2_0[2]/m3_25_48#" "scratch_0/reg_six2_0/reg_one2_0[2]/m3_25_48#" 6.97
+cap "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/Vdd!" "scratch_0/reg_six2_0/reg_one2_0[2]/m3_25_48#" 0.948
+cap "scratch_0/reg_six2_1/reg_one2_0[2]/reg_one_0/tg_5/out" "scratch_0/reg_six2_1/reg_one2_0[2]/m3_25_48#" 14.92
+cap "scratch_0/reg_six2_1/reg_one2_0[2]/reg_one_0/tg_5/GND!" "m2_785_517#" -2.286
+cap "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/GND!" "scratch_0/reg_six2_1/reg_one2_0[2]/m3_25_48#" 27.124
+cap "scratch_0/reg_six2_1/reg_one2_0[2]/reg_one_0/R0" "scratch_0/reg_six2_1/reg_one2_0[2]/m3_25_48#" 11.825
+cap "m1_648_517#" "scratch_0/reg_six2_1/reg_one2_0[2]/reg_one_0/new_inv_state_0/a_90_10#" 41.795
+cap "m2_785_517#" "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/new_inv_state_0/a_90_10#" 13.03
+cap "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/GND!" "m2_785_517#" 15.693
+cap "scratch_0/reg_six2_1/reg_one2_0[2]/reg_one_0/R0" "m2_785_517#" 4.95
+cap "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/Vdd!" "m1_648_517#" 1.722
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/W" "m2_785_517#" 4.95
+cap "m2_785_517#" "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/new_inv_state_0/a_90_10#" -4.419
+cap "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/Vdd!" "m2_785_517#" 10.74
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/Vdd!" "m2_785_517#" 14.55
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/W" "m1_648_517#" 10.2
+cap "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/R0" "m2_785_517#" 4.95
+cap "m1_648_517#" "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/new_inv_state_0/a_90_10#" 2.322
+cap "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/Vdd!" "m1_648_517#" 17.22
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/Vdd!" "m1_648_517#" 18.768
+cap "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/R0" "m1_648_517#" 10.2
+cap "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/a_100_74#" "m1_648_568#" 6.396
+cap "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/out" "m2_785_568#" -6.85
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/GND!" "m2_785_517#" 14.931
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/GND!" "m1_648_517#" 19.622
+cap "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/out" "m1_648_568#" 3.783
+cap "m2_785_517#" "scratch_0/m1_478_539#" 189.29
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/W" "m2_785_568#" 3.85
+cap "scratch_0/m1_478_539#" "m1_648_517#" 98.7065
+cap "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/Vdd!" "m2_785_568#" 6.818
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/Vdd!" "m2_785_568#" 12.383
+cap "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/R0" "m2_785_568#" 3.85
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/W" "m1_648_568#" 19.08
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/out" "m2_785_568#" 4.939
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/a_100_74#" "m2_785_568#" 2.706
+cap "m2_785_517#" "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/new_inv_state_0/a_90_10#" 19.96
+cap "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/Vdd!" "m1_648_568#" 16.242
+cap "scratch_0/in2" "m1_648_517#" 1341.25
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/Vdd!" "m1_648_568#" 17.526
+cap "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/R0" "m1_648_568#" 11.7
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/new_inv_state_0/a_90_10#" "m1_648_517#" 58.619
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/out" "m1_648_568#" 48.711
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/GND!" "m2_785_568#" 11.771
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/a_100_74#" "m1_648_568#" 17.064
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/GND!" "m1_648_568#" 19.404
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/Vdd!" "m2_785_517#" -10.053
+cap "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/W" "m2_785_517#" 0.495
+cap "m2_785_517#" "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/R0" 4.95
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/W" "m2_785_568#" 3.85
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_5/GND!" "m2_785_517#" 14.931
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_5/Vdd!" "m1_648_568#" 19.404
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/R0" "m2_785_517#" 4.95
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/new_inv_state_0/a_90_10#" "m1_648_517#" 58.619
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_5/a_100_74#" "m1_648_568#" 18.54
+cap "m1_648_517#" "scratch_0/in2" 1341.25
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/W" "m1_648_517#" 10.2
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_5/Vdd!" "m2_785_568#" 13.676
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/new_inv_state_0/a_90_10#" "m2_785_517#" 19.96
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_5/a_100_74#" "m2_785_568#" 2.706
+cap "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/W" "m1_648_568#" 3.84
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/Vdd!" "m1_648_568#" -7.896
+cap "m1_648_517#" "scratch_0/m1_561_539#" 98.7065
+cap "m1_648_568#" "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/R0" 11.7
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/a_100_74#" "m1_648_568#" 1.476
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_5/GND!" "m1_648_568#" 19.404
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/W" "m2_785_517#" 4.95
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/R0" "m1_648_568#" 11.7
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_5/Vdd!" "m1_648_517#" 21.156
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_5/out" "m1_648_568#" 48.711
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/Vdd!" "m2_785_568#" -11.046
+cap "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/W" "m2_785_568#" 0.154
+cap "m2_785_517#" "scratch_0/m1_561_539#" 189.29
+cap "m2_785_568#" "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/R0" 3.85
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_5/GND!" "m2_785_568#" 11.771
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/R0" "m2_785_568#" 3.85
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_5/Vdd!" "m2_785_517#" 16.836
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_5/out" "m2_785_568#" 4.939
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/Vdd!" "m1_648_517#" -7.386
+cap "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/W" "m1_648_517#" 3.156
+cap "m1_648_517#" "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/R0" 10.2
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/W" "m1_648_568#" 19.08
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_5/GND!" "m1_648_517#" 19.622
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/R0" "m1_648_517#" 10.2
+cap "m1_648_517#" "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/new_inv_state_0/a_90_10#" 58.619
+cap "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_1/GND!" "m1_648_517#" 19.622
+cap "m1_648_568#" "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_5/a_100_74#" 18.54
+cap "m2_785_568#" "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/W" 3.85
+cap "scratch_0/m1_727_539#" "m1_648_517#" 98.7065
+cap "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/a_0_88#" "m2_785_568#" 2.706
+cap "m2_785_568#" "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/GND!" 1.524
+cap "m2_785_517#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_1/Vdd!" 16.836
+cap "m1_648_568#" "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/W" 9.36
+cap "m2_785_517#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/R0" 4.95
+cap "m1_648_517#" "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/W" 10.2
+cap "m1_648_517#" "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/GND!" 5.696
+cap "m1_648_568#" "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_5/out" 48.711
+cap "m2_785_517#" "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/new_inv_state_0/a_90_10#" 19.96
+cap "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_1/GND!" "m2_785_517#" 14.931
+cap "m2_785_568#" "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_5/a_100_74#" 2.706
+cap "scratch_0/m1_727_539#" "m2_785_517#" 189.29
+cap "m1_648_568#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_1/Vdd!" 19.404
+cap "m1_648_517#" "scratch_0/m1_644_539#" 98.7065
+cap "m1_648_568#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/R0" 11.7
+cap "m2_785_568#" "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/W" -3.234
+cap "m1_648_568#" "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_5/EN" 1.476
+cap "m2_785_517#" "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/W" 4.95
+cap "m2_785_517#" "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/GND!" 2.514
+cap "m1_648_517#" "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/W" 1.164
+cap "m2_785_568#" "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_5/out" 4.939
+cap "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_1/GND!" "m1_648_568#" 19.404
+cap "m2_785_568#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_1/Vdd!" 13.676
+cap "m2_785_517#" "scratch_0/m1_644_539#" 189.29
+cap "m2_785_568#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/R0" 3.85
+cap "m1_648_568#" "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/W" 11.7
+cap "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/a_0_88#" "m1_648_568#" 8.7
+cap "m1_648_517#" "scratch_0/in2" 1341.25
+cap "m1_648_568#" "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/GND!" 5.118
+cap "m1_648_517#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_1/Vdd!" 21.156
+cap "m1_648_517#" "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/R0" 10.2
+cap "m2_785_517#" "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/W" -2.475
+cap "scratch_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_1/GND!" "m2_785_568#" 11.771
+subcap "m1_648_517#" -435.415
+subcap "m1_648_568#" -329.995
+cap "new_mux4_0/new_mux4_one_0[2]/in3" "scratch_0/in2" 348.725
+cap "new_mux4_0/new_mux4_one_0[2]/in3" "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/new_inv_state_0/a_90_10#" 58.619
+cap "m2_785_568#" "new_mux4_0/new_mux4_one_0[2]/s0" 2.97
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/GND!" "new_mux4_0/new_mux4_one_0[2]/in2" -0.108
+cap "new_mux4_0/new_mux4_one_0[2]/in3" "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/GND!" 1.212
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/R0" "m2_785_517#" 4.95
+cap "m2_785_568#" "new_mux4_0/new_mux4_one_0[1]/mux2_one_2/tg_0/GND!" 16.877
+cap "m2_785_517#" "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/Vdd!" 16.836
+cap "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_5/out" "new_mux4_0/new_mux4_one_0[2]/in2" 48.711
+cap "m2_785_568#" "new_mux4_0/new_mux4_one_0[2]/in2" 29.554
+cap "m2_785_568#" "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/GND!" -5.557
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/Vdd!" "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/new_inv_state_0/a_90_10#" 5.68434e-14
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/R0" "new_mux4_0/new_mux4_one_0[2]/in2" 88.6567
+cap "new_mux4_0/new_mux4_one_0[2]/in2" "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/W" 5.904
+cap "m2_785_568#" "new_mux4_0/new_mux4_one_0[2]/mux2_one_1/tg_0/EN" 1.248
+cap "new_mux4_0/new_mux4_one_0[2]/in3" "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/R0" 87.1567
+cap "m2_785_517#" "new_mux4_0/new_mux4_one_0[2]/s0" 2.109
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/Vdd!" "new_mux4_0/new_mux4_one_0[2]/in2" 19.404
+cap "new_mux4_0/new_mux4_one_0[2]/in3" "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/Vdd!" 21.156
+cap "m2_785_568#" "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_5/out" 4.939
+cap "m2_785_517#" "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/new_inv_state_0/a_90_10#" 19.96
+cap "m2_785_517#" "new_mux4_0/new_mux4_one_0[1]/mux2_one_2/tg_0/GND!" 9.983
+cap "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/R0" "m2_785_568#" 3.85
+cap "new_mux4_0/new_mux4_one_0[2]/in2" "new_mux4_0/new_mux4_one_0[2]/s0" 103.86
+cap "new_mux4_0/new_mux4_one_0[2]/in3" "m2_785_517#" 45.081
+cap "m2_785_517#" "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/GND!" -3.387
+cap "m2_785_568#" "scratch_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/Vdd!" 13.676
+cap "new_mux4_0/new_mux4_one_0[2]/in3" "new_mux4_0/new_mux4_one_0[2]/s0" 103.86
+cap "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/a_0_88#" "new_mux4_0/new_mux4_one_0[2]/in2" 9.84
+subcap "m2_785_517#" -634.358
+subcap "m2_785_568#" -394.353
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_1/tg_0/a_100_74#" "new_mux4_1/new_mux4_one_0[2]/in2" 0.624
+cap "new_mux4_0/new_mux4_one_0[2]/out" "new_mux4_1/new_mux4_one_0[2]/s0" -2.536
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_1/tg_1/a_100_57#" "new_mux4_1/new_mux4_one_0[2]/in3" 10.251
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_1/tg_1/a_100_74#" "new_mux4_1/new_mux4_one_0[2]/in2" 17.472
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_1/Vdd!" "new_mux4_1/new_mux4_one_0[2]/in2" 34.815
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_1/GND!" "new_mux4_1/new_mux4_one_0[2]/in3" 29.4
+cap "new_mux4_1/new_mux4_one_0[2]/s0" "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_1/Vdd!" 769.567
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_2/tg_0/GND!" "new_mux4_1/new_mux4_one_0[2]/in2" -2.667
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_2/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[2]/in2" 25.6
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_1/out" "new_mux4_1/new_mux4_one_0[2]/in2" 19.78
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_1/Vdd!" "new_mux4_1/new_mux4_one_0[2]/in3" 32.286
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_1/tg_1/a_100_74#" "new_mux4_1/new_mux4_one_0[2]/in3" 0.624
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_1/tg_0/a_100_57#" "new_mux4_1/new_mux4_one_0[2]/in2" 7.282
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_1/GND!" "new_mux4_1/new_mux4_one_0[2]/in2" 31.779
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_2/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[2]/in3" 22.047
+cap "new_mux4_0/new_mux4_one_0[1]/mux2_one_2/tg_0/GND!" "new_mux4_1/new_mux4_one_0[2]/in3" -3.048
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_1/out" "new_mux4_1/new_mux4_one_0[2]/in3" 32.768
+subcap "m2_785_517#" -617.861
+subcap "m2_785_568#" -380.211
+cap "new_mux4_1/new_mux4_one_0[2]/s0" "new_mux4_0/new_mux4_one_0[2]/out" 2.536
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_1/Vdd!" "new_mux4_1/new_mux4_one_0[2]/in2" 3.551
+cap "new_mux4_1/new_mux4_one_0[2]/s0" "new_mux4_1/new_mux4_one_0[2]/in3" 32.393
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_1/Vdd!" "new_mux4_1/new_mux4_one_0[2]/s0" 897.347
+cap "new_mux4_1/new_mux4_one_0[2]/in2" "new_mux4_1/new_mux4_one_0[2]/s0" 32.393
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_1/Vdd!" "new_mux4_1/new_mux4_one_0[2]/in3" 3.882
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/GND!" "scratch_0/reg_six1_1/reg_one1_0[2]/m3_25_154#" 1.905
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/m3_25_154#" "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/Vdd!" 28.992
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/out" "scratch_0/reg_six1_1/reg_one1_0[2]/m3_25_154#" 42.443
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_5/out" "scratch_0/reg_six1_0/reg_one1_0[2]/m3_25_154#" 65.541
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/R0" "scratch_0/reg_six1_0/reg_one1_0[2]/m3_25_154#" 11.7
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/W" "m2_785_674#" 11.825
+cap "m2_785_674#" "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_5/Vdd!" 17.481
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/m3_25_154#" "m2_785_674#" 11.925
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/Vdd!" "m2_785_674#" -9.303
+cap "m2_785_674#" "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/R0" 11.825
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_5/out" "m2_785_674#" 23.19
+cap "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/W" "scratch_0/reg_six1_0/reg_one1_0[2]/m3_25_154#" 3.84
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/R0" "m2_785_674#" 4.95
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/m3_25_154#" "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_5/Vdd!" 31.132
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_5/GND!" "m2_785_674#" 37.515
+cap "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/W" "m2_785_674#" 0.495
+cap "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/W" "m1_648_674#" 1.98
+cap "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_5/GND!" "m2_785_674#" 5.256
+cap "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_5/out" "m1_648_674#" 93.353
+cap "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_5/Vdd!" "m1_648_674#" 32.116
+cap "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/W" "m2_785_674#" 4.95
+cap "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_5/GND!" "m1_648_674#" 36.068
+cap "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/R0" "m1_648_674#" 11.7
+cap "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/W" "m2_785_674#" -2.475
+cap "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_5/out" "m2_785_674#" 22.251
+cap "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_5/GND!" "m1_648_674#" 9.216
+cap "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_5/Vdd!" "m2_785_674#" 17.481
+cap "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_5/GND!" "m2_785_674#" 20.796
+cap "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/W" "m1_648_674#" 11.7
+cap "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/R0" "m2_785_674#" 4.95
+subcap "m1_648_674#" -188.069
+cap "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_5/Vdd!" "m2_785_674#" 17.481
+cap "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_5/GND!" "new_mux4_0/new_mux4_one_0[2]/in1" 15.818
+cap "new_mux4_0/new_mux4_one_0[2]/in1" "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_5/out" 93.353
+cap "m2_785_674#" "new_mux4_0/new_mux4_one_0[2]/s0" 2.97
+cap "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/R0" "new_mux4_0/new_mux4_one_0[2]/in1" 88.6567
+cap "m2_785_674#" "new_mux4_0/new_mux4_one_0[2]/mux2_one_2/tg_1/EN" 1.248
+cap "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_5/Vdd!" "new_mux4_0/new_mux4_one_0[2]/in1" 32.116
+cap "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74#" "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_5/out" 7.10543e-15
+cap "new_mux4_0/new_mux4_one_0[2]/s0" "new_mux4_0/new_mux4_one_0[2]/in1" 103.86
+cap "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_5/GND!" "m2_785_674#" 1.716
+cap "m2_785_674#" "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_5/out" 22.251
+cap "m2_785_674#" "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/R0" 4.95
+cap "m2_785_674#" "new_mux4_0/new_mux4_one_0[2]/in1" 29.554
+cap "m2_785_674#" "new_mux4_0/new_mux4_one_0[2]/mux2_one_1/tg_0/GND!" 16.877
+subcap "m2_785_674#" -393.517
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_0/GND!" "new_mux4_1/new_mux4_one_0[2]/in1" 37.515
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_0/EN" "new_mux4_1/new_mux4_one_0[2]/s0" -6.996
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_1/tg_0/GND!" "new_mux4_1/new_mux4_one_0[2]/in1" -2.667
+cap "new_mux4_0/new_mux4_one_0[2]/s1" "new_mux4_1/new_mux4_one_0[2]/s0" -2.332
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_2/tg_1/a_100_74#" "new_mux4_1/new_mux4_one_0[2]/in1" 1.248
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_0/EN" "new_mux4_1/new_mux4_one_0[2]/mux2_one_2/tg_1/EN" 1.81629
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[2]/in1" 38.739
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_0/a_100_74#" "new_mux4_1/new_mux4_one_0[2]/s0" -2.332
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_0/EN" "new_mux4_1/new_mux4_one_0[2]/in1" 29.796
+cap "new_mux4_0/new_mux4_one_0[2]/s1" "new_mux4_1/new_mux4_one_0[2]/in1" 9.075
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_1/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[2]/in1" 25.35
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_2/tg_1/a_100_57#" "new_mux4_1/new_mux4_one_0[2]/in1" 4.43
+cap "new_mux4_0/new_mux4_one_0[2]/out" "new_mux4_1/new_mux4_one_0[2]/s0" -2.536
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[2]/s0" 769.567
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_2/out" "new_mux4_1/new_mux4_one_0[2]/in1" 17.472
+subcap "m2_785_674#" -378.837
+cap "new_mux4_0/new_mux4_one_0[2]/out" "new_mux4_1/new_mux4_one_0[2]/s0" 7.608
+cap "new_mux4_1/new_mux4_one_0[2]/s0" "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_0/a_100_74#" 4.664
+cap "new_mux4_1/new_mux4_one_0[2]/s0" "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_0/EN" 4.664
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_1/a_100_74#" "new_mux4_1/new_mux4_one_0[2]/s0" 4.664
+cap "new_mux4_1/new_mux4_one_0[2]/s0" "new_mux4_1/new_mux4_one_0[2]/in1" 32.393
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_1/EN" "new_mux4_1/new_mux4_one_0[2]/s0" 4.664
+cap "new_mux4_1/new_mux4_one_0[2]/mux2_one_2/tg_1/EN" "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_0/EN" 5.0856
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[2]/in1" 3.551
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[2]/s0" 876.471
+cap "scratch_0/reg_six3_0/reg_one3_0[3]/reg_one_0/W" "scratch_0/reg_six3_1/reg_one3_0[3]/m3_25_n2#" 10.45
+cap "scratch_0/reg_six3_1/reg_one3_0[3]/reg_one_0/R0" "scratch_0/reg_six3_1/reg_one3_0[3]/m3_25_n2#" 10.45
+cap "scratch_0/reg_six3_1/reg_one3_0[3]/reg_one_0/tg_5/GND!" "scratch_0/reg_six3_1/reg_one3_0[3]/m3_25_n2#" 0.381
+cap "scratch_0/reg_six3_1/reg_one3_0[3]/reg_one_0/tg_5/Vdd!" "scratch_0/reg_six3_1/reg_one3_0[3]/m3_25_n2#" 24.152
+cap "scratch_0/reg_six3_1/reg_one3_0[3]/reg_one_0/new_inv_state_0/a_90_10#" "scratch_0/reg_six3_1/reg_one3_0[3]/m3_25_n2#" 26.205
+cap "scratch_0/reg_six3_0/reg_one3_0[3]/reg_one_0/tg_5/GND!" "scratch_0/reg_six3_1/reg_one3_0[3]/m3_25_n2#" 3.194
+cap "scratch_0/reg_six3_0/reg_one3_0[3]/m3_25_n2#" "m2_785_776#" 11.925
+cap "scratch_0/reg_six3_0/reg_one3_0[3]/reg_one_0/R0" "m2_785_776#" 4.95
+cap "scratch_0/reg_six3_0/reg_one3_0[3]/m3_25_n2#" "scratch_0/in3" 1005.94
+cap "scratch_0/reg_six3_0/reg_one3_0[3]/m3_25_n2#" "scratch_0/reg_six2_1/reg_one2_0[3]/reg_one_0/new_inv_state_0/a_90_10#" 9.264
+cap "scratch_0/reg_six3_0/reg_one3_0[3]/reg_one_0/tg_5/Vdd!" "m2_785_776#" 16.836
+cap "scratch_0/reg_six3_0/reg_one3_0[3]/m3_25_n2#" "scratch_0/reg_six3_0/reg_one3_0[3]/reg_one_0/new_inv_state_0/a_90_10#" 23.354
+cap "m2_785_776#" "scratch_0/reg_six3_0/reg_one3_0[3]/reg_one_0/tg_5/GND!" 4.011
+cap "scratch_0/reg_six3_0/reg_one3_0[3]/m3_25_n2#" "scratch_0/reg_six2_1/reg_one2_0[3]/reg_one_0/tg_5/GND!" 19.68
+cap "scratch_0/reg_six3_0/reg_one3_0[3]/m3_25_n2#" "scratch_0/reg_six2_1/reg_one2_0[3]/reg_one_0/W" 10.2
+cap "scratch_0/reg_six3_0/reg_one3_0[3]/m3_25_n2#" "scratch_0/reg_six3_0/reg_one3_0[3]/reg_one_0/R0" 10.2
+cap "m2_785_776#" "scratch_0/reg_six2_1/reg_one2_0[3]/reg_one_0/new_inv_state_0/a_90_10#" 3.96
+cap "m2_785_776#" "scratch_0/reg_six3_0/reg_one3_0[3]/reg_one_0/new_inv_state_0/a_90_10#" 22.856
+cap "scratch_0/reg_six3_0/reg_one3_0[3]/m3_25_n2#" "scratch_0/reg_six3_0/reg_one3_0[3]/reg_one_0/tg_5/Vdd!" 21.156
+cap "m2_785_776#" "scratch_0/reg_six2_1/reg_one2_0[3]/reg_one_0/tg_5/GND!" 14.55
+cap "scratch_0/reg_six2_1/reg_one2_0[3]/reg_one_0/W" "m2_785_776#" 4.95
+cap "m2_785_776#" "scratch_0/reg_six2_1/reg_one2_0[3]/reg_one_0/tg_5/GND!" -2.286
+cap "scratch_0/reg_six2_0/reg_one2_0[3]/reg_one_0/tg_5/Vdd!" "m1_648_776#" 1.722
+cap "scratch_0/reg_six2_1/reg_one2_0[3]/reg_one_0/tg_5/Vdd!" "m1_648_776#" 21.156
+cap "scratch_0/reg_six2_1/reg_one2_0[3]/reg_one_0/new_inv_state_0/a_90_10#" "m1_648_776#" 41.795
+cap "m2_785_776#" "scratch_0/reg_six2_0/reg_one2_0[3]/reg_one_0/W" 4.95
+cap "m1_648_776#" "scratch_0/reg_six2_1/reg_one2_0[3]/reg_one_0/tg_5/GND!" -1.476
+cap "scratch_0/in3" "m1_648_776#" 1341.25
+cap "scratch_0/reg_six2_0/reg_one2_0[3]/reg_one_0/W" "m1_648_776#" 10.2
+cap "m2_785_776#" "scratch_0/reg_six2_1/reg_one2_0[3]/reg_one_0/R0" 4.95
+cap "scratch_0/reg_six2_0/reg_one2_0[3]/reg_one_0/new_inv_state_0/a_90_10#" "m2_785_776#" 13.03
+cap "scratch_0/reg_six2_0/reg_one2_0[3]/reg_one_0/tg_5/GND!" "m2_785_776#" 15.693
+cap "m1_648_776#" "scratch_0/reg_six2_1/reg_one2_0[3]/reg_one_0/R0" 10.2
+cap "scratch_0/reg_six2_0/reg_one2_0[3]/reg_one_0/new_inv_state_0/a_90_10#" "m1_648_776#" 47.363
+cap "scratch_0/reg_six2_0/reg_one2_0[3]/reg_one_0/tg_5/GND!" "m1_648_776#" 20.418
+cap "scratch_0/reg_six2_0/reg_one2_0[3]/reg_one_0/tg_5/Vdd!" "m2_785_776#" 2.667
+cap "scratch_0/reg_six2_1/reg_one2_0[3]/reg_one_0/tg_5/Vdd!" "m2_785_776#" 16.836
+cap "scratch_0/reg_six2_1/reg_one2_0[3]/reg_one_0/new_inv_state_0/a_90_10#" "m2_785_776#" 7.09
+cap "m1_648_776#" "scratch_0/in3" 1341.25
+cap "m2_785_776#" "scratch_0/reg_six2_0/reg_one2_0[3]/reg_one_0/new_inv_state_0/a_90_10#" -4.419
+cap "m2_785_776#" "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_1/Vdd!" 10.74
+cap "scratch_0/m1_478_798#" "m2_785_776#" 98.765
+cap "m1_648_776#" "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_1/Vdd!" 18.768
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_1/GND!" "m1_648_776#" 19.622
+cap "m2_785_776#" "scratch_0/reg_six1_1/reg_one1_0[3]/reg_one_0/new_inv_state_0/a_90_10#" 19.96
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/W" "m1_648_776#" 10.2
+cap "m1_648_776#" "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/R0" 10.2
+cap "m2_785_776#" "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_1/Vdd!" 14.55
+cap "m1_648_776#" "scratch_0/reg_six2_0/reg_one2_0[3]/reg_one_0/new_inv_state_0/a_90_10#" 2.322
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_1/GND!" "m2_785_776#" 14.931
+cap "m1_648_776#" "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_1/Vdd!" 17.22
+cap "scratch_0/m1_478_798#" "m1_648_776#" 65.1753
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/W" "m2_785_776#" 4.95
+cap "m2_785_776#" "scratch_0/reg_six2_0/reg_one2_0[2]/reg_one_0/R0" 4.95
+cap "m1_648_776#" "scratch_0/reg_six1_1/reg_one1_0[3]/reg_one_0/new_inv_state_0/a_90_10#" 58.619
+cap "m1_648_776#" "scratch_0/in3" 1341.25
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_1/GND!" "m2_785_776#" 14.931
+cap "scratch_0/m1_561_798#" "m2_785_776#" 98.765
+cap "m1_648_776#" "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_1/GND!" 19.622
+cap "scratch_0/m1_561_798#" "m1_648_776#" 65.1753
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/R0" "m2_785_776#" 4.95
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_1/Vdd!" "m2_785_776#" -10.053
+cap "m1_648_776#" "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/R0" 10.2
+cap "m1_648_776#" "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_1/Vdd!" -7.386
+cap "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/R0" "m2_785_776#" 4.95
+cap "m1_648_776#" "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/R0" 10.2
+cap "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/W" "m2_785_776#" 0.495
+cap "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/W" "m1_648_776#" 3.156
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_1/Vdd!" "m2_785_776#" 16.836
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_1/Vdd!" "m1_648_776#" 21.156
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/W" "m2_785_776#" 4.95
+cap "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/W" "m1_648_776#" 10.2
+cap "scratch_0/reg_six1_0/reg_one1_0[3]/reg_one_0/new_inv_state_0/a_90_10#" "m2_785_776#" 19.96
+cap "scratch_0/reg_six1_0/reg_one1_0[3]/reg_one_0/new_inv_state_0/a_90_10#" "m1_648_776#" 58.619
+cap "scratch_0/in3" "m1_648_776#" 1341.25
+cap "m2_785_776#" "scratch_0/m1_727_798#" 98.765
+cap "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_1/Vdd!" "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/P0" 27.886
+cap "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/P0" "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_1/a_100_74#" 16.405
+cap "m2_785_776#" "scratch_0/m1_644_798#" 98.765
+cap "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_1/GND!" "m2_785_776#" 2.514
+cap "m2_785_776#" "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/R0" 4.95
+cap "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_1/GND!" "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/P0" 7.656
+cap "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_1/GND!" "m1_648_776#" 19.622
+cap "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/P0" "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/R0" 17.033
+cap "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/W" "m1_648_776#" 10.2
+cap "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/new_inv_state_0/a_90_10#" "m1_648_776#" 58.619
+cap "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/W" "m1_648_776#" 1.164
+cap "m2_785_776#" "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_1/GND!" 14.931
+cap "m2_785_776#" "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/W" 4.95
+cap "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/new_inv_state_0/a_90_10#" "m2_785_776#" 19.96
+cap "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/P0" "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/W" 11.825
+cap "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/P0" "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/new_inv_3/a_90_10#" 8.24
+cap "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_1/Vdd!" "m1_648_776#" 21.156
+cap "scratch_0/m1_727_798#" "m1_648_776#" 65.1753
+cap "m2_785_776#" "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/W" -2.475
+cap "scratch_0/m1_644_798#" "m1_648_776#" 65.1753
+cap "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_1/GND!" "m1_648_776#" 5.696
+cap "m1_648_776#" "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/R0" 10.2
+cap "m2_785_776#" "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_1/Vdd!" 16.836
+subcap "m1_648_725#" -15.788
+subcap "m1_648_776#" -435.415
+cap "new_mux4_0/new_mux4_one_0[2]/in0" "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/new_inv_3/a_90_10#" 6.34
+cap "m2_785_725#" "new_mux4_0/new_mux4_one_0[2]/mux2_one_2/tg_0/GND!" 16.877
+cap "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/new_inv_3/a_90_10#" "m2_785_725#" 8.24
+cap "new_mux4_0/new_mux4_one_0[2]/in0" "new_mux4_0/new_mux4_one_0[2]/mux2_one_2/sel" 103.86
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[3]/in3" 103.86
+cap "m2_785_776#" "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_1/Vdd!" 16.836
+cap "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/R0" "m2_785_776#" 4.95
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_2/tg_0/EN" "m2_785_725#" 1.248
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/new_inv_state_0/a_90_10#" "new_mux4_0/new_mux4_one_0[3]/in3" 58.619
+cap "m2_785_776#" "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_1/GND!" -3.387
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_2/sel" "m2_785_725#" 2.97
+cap "m2_785_776#" "new_mux4_0/new_mux4_one_0[3]/in3" 45.081
+cap "new_mux4_0/new_mux4_one_0[2]/in0" "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_1/a_100_74#" 14.28
+cap "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_1/Vdd!" "new_mux4_0/new_mux4_one_0[3]/in3" 21.156
+cap "new_mux4_0/new_mux4_one_0[2]/in0" "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_1/Vdd!" 24.606
+cap "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_1/a_100_74#" "m2_785_725#" 13.91
+cap "new_mux4_0/new_mux4_one_0[2]/in0" "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/R0" 93.0007
+cap "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/R0" "new_mux4_0/new_mux4_one_0[3]/in3" 87.1567
+cap "new_mux4_0/new_mux4_one_0[3]/in3" "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_1/GND!" 1.212
+cap "m2_785_776#" "new_mux4_0/new_mux4_one_0[2]/mux2_one_2/tg_0/GND!" 9.983
+cap "m2_785_725#" "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_1/Vdd!" 18.741
+cap "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/R0" "m2_785_725#" 8.178
+cap "m2_785_725#" "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_1/GND!" 2.14
+cap "new_mux4_0/new_mux4_one_0[2]/in0" "m2_785_725#" 41.479
+cap "m2_785_776#" "new_mux4_0/new_mux4_one_0[3]/mux2_one_1/tg_1/EN" 0.624
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_2/sel" "m2_785_776#" 1.485
+cap "scratch_0/in3" "new_mux4_0/new_mux4_one_0[3]/in3" 388.962
+cap "m2_785_776#" "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/new_inv_state_0/a_90_10#" 19.96
+subcap "m2_785_725#" -264.463
+subcap "m2_785_776#" -634.358
+cap "new_mux4_1/new_mux4_one_0[2]/in0" "new_mux4_0/new_mux4_one_0[2]/mux2_one_2/tg_0/a_100_57#" 7.282
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_2/tg_0/GND!" "new_mux4_1/new_mux4_one_0[2]/in0" -2.667
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_1/tg_1/a_100_57#" "new_mux4_1/new_mux4_one_0[3]/in3" 10.251
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_2/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[3]/in3" 22.047
+cap "new_mux4_0/new_mux4_one_0[2]/s1" "new_mux4_1/new_mux4_one_0[2]/in0" 9.075
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[2]/in0" 34.815
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_0/GND!" "new_mux4_1/new_mux4_one_0[3]/in3" 29.4
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_2/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[2]/in0" 25.6
+cap "new_mux4_1/new_mux4_one_0[2]/in0" "new_mux4_0/new_mux4_one_0[2]/mux2_one_2/tg_0/a_100_74#" 0.624
+cap "new_mux4_1/new_mux4_one_0[2]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_0/Vdd!" 769.567
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_2/tg_0/GND!" "new_mux4_1/new_mux4_one_0[3]/in3" -3.048
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_1/tg_1/a_100_74#" "new_mux4_1/new_mux4_one_0[3]/in3" 0.624
+cap "new_mux4_1/new_mux4_one_0[2]/in0" "new_mux4_0/new_mux4_one_0[2]/mux2_one_2/tg_1/a_100_74#" 17.472
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_1/out" "new_mux4_1/new_mux4_one_0[3]/in3" 32.768
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[3]/in3" 32.286
+cap "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_0/GND!" "new_mux4_1/new_mux4_one_0[2]/in0" 31.779
+subcap "m2_785_725#" -252.345
+subcap "m2_785_776#" -617.861
+cap "new_mux4_1/new_mux4_one_0[2]/in0" "new_mux4_1/new_mux4_one_0[2]/mux2_one_2/sel" 32.393
+cap "new_mux4_1/new_mux4_one_0[3]/in3" "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_0/Vdd!" 3.882
+cap "new_mux4_1/new_mux4_one_0[2]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_0/Vdd!" 897.347
+cap "new_mux4_1/new_mux4_one_0[2]/in0" "new_mux4_0/new_mux4_one_0[2]/mux2_one_0/tg_0/Vdd!" 3.551
+cap "new_mux4_1/new_mux4_one_0[2]/mux2_one_2/sel" "new_mux4_1/new_mux4_one_0[3]/in3" 32.393
+cap "scratch_0/reg_six2_0/reg_one2_0[3]/reg_one_0/tg_5/out" "scratch_0/reg_six2_1/reg_one2_0[3]/m3_25_48#" 6.293
+cap "scratch_0/reg_six2_0/reg_one2_0[3]/reg_one_0/tg_5/Vdd!" "scratch_0/reg_six2_1/reg_one2_0[3]/m3_25_48#" 5.715
+cap "scratch_0/reg_six2_1/reg_one2_0[3]/m3_25_48#" "scratch_0/reg_six2_0/reg_one2_0[3]/m3_25_48#" 11.925
+cap "scratch_0/reg_six2_1/reg_one2_0[3]/reg_one_0/R0" "scratch_0/reg_six2_1/reg_one2_0[3]/m3_25_48#" 11.825
+cap "scratch_0/reg_six2_0/reg_one2_0[3]/reg_one_0/W" "scratch_0/reg_six2_1/reg_one2_0[3]/m3_25_48#" 11.825
+cap "scratch_0/reg_six2_0/reg_one2_0[3]/reg_one_0/tg_5/out" "scratch_0/reg_six2_0/reg_one2_0[3]/m3_25_48#" 1.638
+cap "scratch_0/reg_six2_1/reg_one2_0[3]/m3_25_48#" "scratch_0/reg_six2_0/reg_one2_0[3]/reg_one_0/tg_5/a_100_74#" 9.075
+cap "scratch_0/reg_six2_0/reg_one2_0[3]/reg_one_0/tg_5/Vdd!" "scratch_0/reg_six2_0/reg_one2_0[3]/m3_25_48#" 3.69
+cap "scratch_0/reg_six2_1/reg_one2_0[3]/reg_one_0/tg_5/out" "scratch_0/reg_six2_1/reg_one2_0[3]/m3_25_48#" 14.92
+cap "scratch_0/reg_six2_1/reg_one2_0[3]/reg_one_0/tg_5/Vdd!" "scratch_0/reg_six2_1/reg_one2_0[3]/m3_25_48#" 29.029
+cap "scratch_0/reg_six2_0/reg_one2_0[3]/reg_one_0/tg_5/GND!" "scratch_0/reg_six2_1/reg_one2_0[3]/m3_25_48#" 27.124
+cap "m1_648_827#" "scratch_0/reg_six2_0/reg_one2_0[3]/reg_one_0/R0" 11.7
+cap "scratch_0/reg_six1_1/reg_one1_0[3]/reg_one_0/tg_5/GND!" "m2_785_827#" 17.979
+cap "m1_648_827#" "scratch_0/reg_six1_1/reg_one1_0[3]/reg_one_0/tg_5/out" 30.27
+cap "scratch_0/reg_six1_1/reg_one1_0[3]/reg_one_0/tg_5/Vdd!" "m2_785_827#" 17.598
+cap "m1_648_827#" "scratch_0/reg_six2_0/reg_one2_0[3]/reg_one_0/tg_5/out" 2.448
+cap "m1_648_827#" "scratch_0/reg_six2_0/reg_one2_0[3]/reg_one_0/tg_5/Vdd!" 19.44
+cap "m1_648_827#" "scratch_0/reg_six1_1/reg_one1_0[3]/reg_one_0/W" 11.7
+cap "m1_648_827#" "scratch_0/reg_six1_1/reg_one1_0[3]/reg_one_0/tg_5/GND!" 24.114
+cap "m2_785_827#" "scratch_0/reg_six1_1/reg_one1_0[3]/reg_one_0/tg_5/a_100_74#" 2.97
+cap "m1_648_827#" "scratch_0/reg_six1_1/reg_one1_0[3]/reg_one_0/tg_5/Vdd!" 22.728
+cap "scratch_0/m1_478_798#" "m2_785_776#" 90.525
+cap "m2_785_827#" "scratch_0/reg_six2_0/reg_one2_0[3]/reg_one_0/R0" 4.95
+cap "scratch_0/m1_478_798#" "m1_648_776#" 33.5312
+cap "scratch_0/reg_six1_1/reg_one1_0[3]/reg_one_0/tg_5/out" "m2_785_827#" 7.2
+cap "scratch_0/reg_six2_0/reg_one2_0[3]/reg_one_0/tg_5/out" "m2_785_827#" -5.217
+cap "m1_648_827#" "scratch_0/reg_six1_1/reg_one1_0[3]/reg_one_0/tg_5/a_100_74#" 8.7
+cap "scratch_0/reg_six2_0/reg_one2_0[3]/reg_one_0/tg_5/Vdd!" "m2_785_827#" 10.74
+cap "m2_785_827#" "scratch_0/reg_six1_1/reg_one1_0[3]/reg_one_0/W" 4.95
+cap "m1_648_827#" "scratch_0/reg_six1_0/reg_one1_0[3]/reg_one_0/tg_5/out" 30.27
+cap "scratch_0/reg_six1_0/reg_one1_0[3]/reg_one_0/tg_5/out" "m2_785_827#" 7.2
+cap "m1_648_827#" "scratch_0/reg_six1_1/reg_one1_0[3]/reg_one_0/R0" 11.7
+cap "scratch_0/reg_six1_1/reg_one1_0[3]/reg_one_0/R0" "m2_785_827#" 4.95
+cap "m1_648_827#" "scratch_0/reg_six1_0/reg_one1_0[3]/reg_one_0/W" 11.7
+cap "m1_648_827#" "scratch_0/reg_six1_0/reg_one1_0[3]/reg_one_0/tg_5/GND!" 24.114
+cap "m1_648_827#" "scratch_0/reg_six1_0/reg_one1_0[3]/reg_one_0/tg_5/Vdd!" 25.344
+cap "scratch_0/reg_six1_0/reg_one1_0[3]/reg_one_0/W" "m2_785_827#" 4.95
+cap "scratch_0/reg_six1_0/reg_one1_0[3]/reg_one_0/tg_5/GND!" "m2_785_827#" 17.979
+cap "scratch_0/reg_six1_0/reg_one1_0[3]/reg_one_0/tg_5/Vdd!" "m2_785_827#" 19.884
+cap "m1_648_827#" "scratch_0/reg_six1_0/reg_one1_0[3]/reg_one_0/R0" 11.7
+cap "scratch_0/m1_561_798#" "m2_785_776#" 90.525
+cap "m1_648_827#" "scratch_0/reg_six1_1/reg_one1_0[3]/reg_one_0/tg_5/Vdd!" -7.158
+cap "scratch_0/reg_six1_0/reg_one1_0[3]/reg_one_0/R0" "m2_785_827#" 4.95
+cap "scratch_0/reg_six1_1/reg_one1_0[3]/reg_one_0/tg_5/Vdd!" "m2_785_827#" -10.053
+cap "scratch_0/m1_561_798#" "m1_648_776#" 33.5312
+cap "m1_648_827#" "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/W" 3.84
+cap "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/W" "m2_785_827#" 0.495
+cap "m1_648_827#" "scratch_0/reg_six1_0/reg_one1_0[3]/reg_one_0/tg_5/a_100_74#" 8.7
+cap "scratch_0/reg_six1_0/reg_one1_0[3]/reg_one_0/tg_5/a_100_74#" "m2_785_827#" 2.97
+cap "m1_648_827#" "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_5/Vdd!" 25.344
+cap "m2_785_827#" "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/W" -2.475
+cap "scratch_0/m1_644_798#" "m1_648_776#" 33.5312
+cap "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_5/a_100_74#" "m2_785_827#" 2.97
+cap "m2_785_827#" "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_5/out" 7.2
+cap "m1_648_827#" "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/W" 1.98
+cap "m2_785_827#" "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_5/GND!" 17.979
+cap "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_5/a_100_74#" "m1_648_827#" 8.7
+cap "m2_785_827#" "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_5/GND!" 3.276
+cap "m1_648_827#" "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_5/out" 30.27
+cap "m1_648_827#" "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_5/GND!" 24.114
+cap "scratch_0/m1_727_798#" "m1_648_776#" 33.5312
+cap "m1_648_827#" "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_5/GND!" 7.536
+cap "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/R0" "m2_785_827#" 4.95
+cap "m2_785_827#" "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/W" 4.95
+cap "scratch_0/m1_644_798#" "m2_785_776#" 90.525
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/a_0_88#" "m2_785_827#" 2.97
+cap "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/R0" "m1_648_827#" 11.7
+cap "m1_648_827#" "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/W" 11.7
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/a_0_88#" "m1_648_827#" 8.7
+cap "m2_785_827#" "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_5/Vdd!" 19.884
+cap "scratch_0/m1_727_798#" "m2_785_776#" 90.525
+subcap "m1_648_776#" -537.703
+subcap "m1_648_827#" -330.491
+cap "m2_785_827#" "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_5/GND!" -1.101
+cap "new_mux4_0/new_mux4_one_0[3]/in2" "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_5/GND!" 3.864
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_1/tg_0/GND!" "m2_785_827#" 16.877
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74#" "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_5/out" 7.10543e-15
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_5/out" "m2_785_827#" 7.2
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_1/sel" "m2_785_827#" 2.97
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_5/out" "new_mux4_0/new_mux4_one_0[3]/in2" 30.27
+cap "new_mux4_0/new_mux4_one_0[3]/in2" "new_mux4_0/new_mux4_one_0[3]/mux2_one_1/sel" 103.86
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_5/Vdd!" "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_5/out" -5.68434e-14
+cap "new_mux4_0/new_mux4_one_0[3]/in2" "m2_785_827#" 29.554
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/R0" "m2_785_827#" 4.95
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_5/Vdd!" "m2_785_827#" 19.884
+cap "new_mux4_0/new_mux4_one_0[3]/in2" "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/R0" 88.6567
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_5/Vdd!" "new_mux4_0/new_mux4_one_0[3]/in2" 25.344
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_1/tg_0/EN" "m2_785_827#" 1.248
+subcap "m2_785_776#" -661.588
+subcap "m2_785_827#" -519.471
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[3]/mux2_one_1/sel" 769.567
+cap "new_mux4_0/new_mux4_one_0[3]/out" "new_mux4_1/new_mux4_one_0[3]/mux2_one_1/sel" -2.536
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_0/b" "new_mux4_1/new_mux4_one_0[3]/in2" 19.78
+cap "new_mux4_1/new_mux4_one_0[3]/in2" "new_mux4_0/new_mux4_one_0[3]/mux2_one_0/tg_0/GND!" 31.779
+cap "new_mux4_1/new_mux4_one_0[3]/in2" "new_mux4_0/new_mux4_one_0[3]/mux2_one_1/tg_0/GND!" -2.667
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_0/tg_1/a_100_74#" "new_mux4_1/new_mux4_one_0[3]/mux2_one_1/sel" -2.332
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_1/tg_0/a_100_57#" "new_mux4_1/new_mux4_one_0[3]/in2" 7.282
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[3]/in2" 34.815
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_1/tg_1/a_100_74#" "new_mux4_1/new_mux4_one_0[3]/in2" 17.472
+cap "new_mux4_1/new_mux4_one_0[3]/in2" "new_mux4_0/new_mux4_one_0[3]/mux2_one_1/tg_0/Vdd!" 25.6
+cap "new_mux4_0/new_mux4_one_0[3]/s1" "new_mux4_1/new_mux4_one_0[3]/mux2_one_1/sel" -2.332
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_1/tg_0/a_100_74#" "new_mux4_1/new_mux4_one_0[3]/in2" 0.624
+subcap "m2_785_776#" -707.407
+subcap "m2_785_827#" -505.329
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_0/tg_1/a_100_74#" "new_mux4_1/new_mux4_one_0[3]/mux2_one_1/sel" 4.664
+cap "new_mux4_1/new_mux4_one_0[3]/in2" "new_mux4_1/new_mux4_one_0[3]/mux2_one_1/sel" 32.393
+cap "new_mux4_1/new_mux4_one_0[3]/mux2_one_1/sel" "new_mux4_0/new_mux4_one_0[3]/out" 10.144
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[3]/mux2_one_1/sel" 892.699
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[3]/in2" 3.551
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_0/tg_1/EN" "new_mux4_1/new_mux4_one_0[3]/mux2_one_1/sel" 4.664
+cap "scratch_0/reg_six1_1/reg_one1_0[3]/reg_one_0/new_inv_3/Vdd!" "scratch_0/reg_six1_1/reg_one1_0[3]/m3_25_154#" 28.992
+cap "scratch_0/reg_six1_1/reg_one1_0[3]/reg_one_0/new_inv_3/GND!" "scratch_0/reg_six1_1/reg_one1_0[3]/m3_25_154#" 1.905
+cap "scratch_0/reg_six1_1/reg_one1_0[3]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" "scratch_0/reg_six1_1/reg_one1_0[3]/m3_25_154#" 42.443
+cap "m2_785_933#" "scratch_0/reg_six1_0/reg_one1_0[3]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" 23.19
+cap "scratch_0/reg_six1_0/reg_one1_0[3]/m3_25_154#" "scratch_0/reg_six1_0/reg_one1_0[3]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" 65.541
+cap "m2_785_933#" "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/W" 0.495
+cap "scratch_0/reg_six1_0/reg_one1_0[3]/m3_25_154#" "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/W" 3.84
+cap "scratch_0/reg_six1_0/reg_one1_0[3]/m3_25_154#" "m2_785_933#" 11.925
+cap "m2_785_933#" "scratch_0/reg_six1_0/reg_one1_0[3]/reg_one_0/new_inv_3/GND!" 37.515
+cap "m2_785_933#" "scratch_0/reg_six1_0/reg_one1_0[3]/reg_one_0/R0" 4.95
+cap "scratch_0/reg_six1_0/reg_one1_0[3]/m3_25_154#" "scratch_0/reg_six1_0/reg_one1_0[3]/reg_one_0/R0" 11.7
+cap "scratch_0/reg_six1_0/reg_one1_0[3]/reg_one_0/W" "m2_785_933#" 11.825
+cap "scratch_0/reg_six1_1/reg_one1_0[3]/reg_one_0/R0" "m2_785_933#" 11.825
+cap "m2_785_933#" "scratch_0/reg_six1_0/reg_one1_0[3]/reg_one_0/new_inv_3/Vdd!" 17.481
+cap "scratch_0/reg_six1_0/reg_one1_0[3]/m3_25_154#" "scratch_0/reg_six1_0/reg_one1_0[3]/reg_one_0/new_inv_3/Vdd!" 31.132
+cap "scratch_0/reg_six1_1/reg_one1_0[3]/reg_one_0/new_inv_3/Vdd!" "m2_785_933#" -9.303
+cap "m2_785_933#" "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" 22.251
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/W" "m1_648_933#" 11.7
+cap "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/R0" "m1_648_933#" 11.7
+cap "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/W" "m2_785_933#" -2.475
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_1/GND!" "m1_648_933#" 9.216
+cap "m1_648_933#" "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_1/Vdd!" 32.116
+cap "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_1/GND!" "m1_648_933#" 36.068
+cap "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/R0" "scratch_0/reg_six0_1/reg_one0_0[3]/m3_37_223#" 3.228
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/W" "m2_785_933#" 4.95
+cap "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/R0" "m2_785_933#" 4.95
+cap "m1_648_933#" "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" 93.353
+cap "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/W" "m1_648_933#" 1.98
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_1/GND!" "m2_785_933#" 5.256
+cap "m2_785_933#" "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_1/Vdd!" 17.481
+cap "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_1/GND!" "m2_785_933#" 20.796
+subcap "m1_648_933#" -188.069
+subcap "m1_648_984#" -58.135
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/R0" "new_mux4_0/new_mux4_one_0[3]/in0" 2.664
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" "new_mux4_0/new_mux4_one_0[3]/in1" 93.353
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" "m2_785_933#" 22.251
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_2/tg_0/GND!" "m2_785_933#" 16.877
+cap "new_mux4_0/new_mux4_one_0[3]/in1" "m2_785_933#" 29.554
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/R0" "new_mux4_0/new_mux4_one_0[3]/in1" 88.6567
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/R0" "m2_785_933#" 4.95
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[3]/in1" 103.86
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_2/sel" "m2_785_933#" 4.218
+cap "new_mux4_0/new_mux4_one_0[3]/in1" "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_1/GND!" 15.818
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_1/Vdd!" "new_mux4_0/new_mux4_one_0[3]/in1" 32.116
+cap "m2_785_933#" "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_1/GND!" 1.716
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_1/Vdd!" "m2_785_933#" 17.481
+subcap "m2_785_933#" -393.517
+subcap "m2_785_984#" -246.017
+cap "new_mux4_1/new_mux4_one_0[3]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[3]/mux2_one_0/tg_0/a_100_74#" -2.332
+cap "new_mux4_1/new_mux4_one_0[3]/in1" "new_mux4_0/new_mux4_one_0[3]/mux2_one_0/tg_0/GND!" 37.515
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_0/tg_0/EN" "new_mux4_1/new_mux4_one_0[3]/in1" 29.796
+cap "new_mux4_1/new_mux4_one_0[3]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[3]/mux2_one_0/tg_0/EN" -4.664
+cap "new_mux4_1/new_mux4_one_0[3]/in1" "new_mux4_0/new_mux4_one_0[3]/mux2_one_2/tg_0/GND!" -2.667
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_2/tg_1/a_100_74#" "new_mux4_1/new_mux4_one_0[3]/in1" 1.248
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_0/tg_0/Vdd!" "new_mux4_0/new_mux4_one_0[3]/mux2_one_0/tg_0/EN" -5.68434e-14
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_2/out" "new_mux4_0/new_mux4_one_0[3]/mux2_one_2/tg_0/Vdd!" -1.13687e-13
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_2/out" "new_mux4_1/new_mux4_one_0[3]/in1" 17.472
+cap "new_mux4_1/new_mux4_one_0[3]/in1" "new_mux4_0/new_mux4_one_0[3]/mux2_one_2/tg_0/Vdd!" 25.35
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_2/tg_1/a_100_57#" "new_mux4_1/new_mux4_one_0[3]/in1" 4.43
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[3]/in1" 38.739
+cap "new_mux4_0/new_mux4_one_0[3]/s1" "new_mux4_1/new_mux4_one_0[3]/in1" 9.075
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[3]/mux2_one_2/sel" 769.567
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_0/tg_0/EN" "new_mux4_1/new_mux4_one_0[3]/mux2_one_2/tg_1/EN" 1.81629
+subcap "m2_785_933#" -378.837
+subcap "m2_785_984#" -231.611
+cap "new_mux4_1/new_mux4_one_0[3]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[3]/mux2_one_0/tg_0/EN" 9.7496
+cap "new_mux4_1/new_mux4_one_0[3]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[3]/mux2_one_0/tg_0/a_100_74#" 4.664
+cap "new_mux4_1/new_mux4_one_0[3]/mux2_one_2/sel" "new_mux4_1/new_mux4_one_0[3]/in1" 32.393
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[3]/in1" 3.551
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[3]/mux2_one_2/sel" 892.699
+cap "scratch_0/reg_six3_1/reg_one3_0[4]/m3_25_n2#" "scratch_0/reg_six3_1/reg_one3_0[4]/reg_one_0/new_inv_state_0/a_90_10#" 26.205
+cap "scratch_0/reg_six3_1/reg_one3_0[4]/reg_one_0/tg_5/Vdd!" "scratch_0/reg_six3_1/reg_one3_0[4]/m3_25_n2#" 24.152
+cap "scratch_0/reg_six3_0/reg_one3_0[4]/reg_one_0/tg_5/GND!" "scratch_0/reg_six3_1/reg_one3_0[4]/m3_25_n2#" 3.194
+cap "scratch_0/reg_six3_1/reg_one3_0[4]/m3_25_n2#" "scratch_0/reg_six3_1/reg_one3_0[4]/reg_one_0/tg_5/GND!" 0.381
+cap "scratch_0/reg_six3_1/reg_one3_0[4]/reg_one_0/R0" "scratch_0/reg_six3_1/reg_one3_0[4]/m3_25_n2#" 10.45
+cap "scratch_0/reg_six3_1/reg_one3_0[4]/m3_25_n2#" "scratch_0/reg_six3_0/reg_one3_0[4]/reg_one_0/W" 10.45
+cap "scratch_0/reg_six3_0/reg_one3_0[4]/reg_one_0/R0" "scratch_0/reg_six3_0/reg_one3_0[4]/m3_25_n2#" 10.2
+cap "m2_785_1035#" "scratch_0/reg_six2_1/reg_one2_0[4]/reg_one_0/tg_5/GND!" 14.55
+cap "scratch_0/reg_six2_1/reg_one2_0[4]/reg_one_0/new_inv_state_0/a_90_10#" "scratch_0/reg_six3_0/reg_one3_0[4]/m3_25_n2#" 9.264
+cap "m2_785_1035#" "scratch_0/reg_six3_0/reg_one3_0[4]/reg_one_0/tg_5/Vdd!" 16.836
+cap "m2_785_1035#" "scratch_0/reg_six3_0/reg_one3_0[4]/reg_one_0/tg_5/GND!" 4.011
+cap "scratch_0/reg_six2_1/reg_one2_0[4]/reg_one_0/W" "m2_785_1035#" 4.95
+cap "scratch_0/reg_six3_0/reg_one3_0[4]/reg_one_0/new_inv_state_0/a_90_10#" "scratch_0/reg_six3_0/reg_one3_0[4]/m3_25_n2#" 23.354
+cap "m2_785_1035#" "scratch_0/reg_six3_0/reg_one3_0[4]/reg_one_0/R0" 4.95
+cap "scratch_0/in4" "scratch_0/reg_six3_0/reg_one3_0[4]/m3_25_n2#" 1005.94
+cap "scratch_0/reg_six2_1/reg_one2_0[4]/reg_one_0/tg_5/GND!" "scratch_0/reg_six3_0/reg_one3_0[4]/m3_25_n2#" 19.68
+cap "scratch_0/reg_six2_1/reg_one2_0[4]/reg_one_0/new_inv_state_0/a_90_10#" "m2_785_1035#" 3.96
+cap "scratch_0/reg_six3_0/reg_one3_0[4]/reg_one_0/tg_5/Vdd!" "scratch_0/reg_six3_0/reg_one3_0[4]/m3_25_n2#" 21.156
+cap "scratch_0/reg_six2_1/reg_one2_0[4]/reg_one_0/W" "scratch_0/reg_six3_0/reg_one3_0[4]/m3_25_n2#" 10.2
+cap "m2_785_1035#" "scratch_0/reg_six3_0/reg_one3_0[4]/reg_one_0/new_inv_state_0/a_90_10#" 22.856
+cap "m2_785_1035#" "scratch_0/reg_six3_0/reg_one3_0[4]/m3_25_n2#" 11.925
+cap "m1_648_1035#" "scratch_0/reg_six2_1/reg_one2_0[4]/reg_one_0/tg_5/GND!" -1.476
+cap "m2_785_1035#" "scratch_0/reg_six2_0/reg_one2_0[4]/reg_one_0/new_inv_state_0/a_90_10#" 13.03
+cap "scratch_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_5/GND!" "m2_785_1035#" 15.693
+cap "scratch_0/in4" "m1_648_1035#" 1341.25
+cap "m1_648_1035#" "scratch_0/reg_six2_0/reg_one2_0[4]/reg_one_0/W" 10.2
+cap "m1_648_1035#" "scratch_0/reg_six2_1/reg_one2_0[4]/reg_one_0/tg_5/Vdd!" 21.156
+cap "scratch_0/reg_six2_1/reg_one2_0[4]/reg_one_0/new_inv_state_0/a_90_10#" "m1_648_1035#" 41.795
+cap "m2_785_1035#" "scratch_0/reg_six2_1/reg_one2_0[4]/reg_one_0/tg_5/GND!" -2.286
+cap "m1_648_1035#" "scratch_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_5/Vdd!" 1.722
+cap "scratch_0/reg_six2_1/reg_one2_0[4]/reg_one_0/R0" "m1_648_1035#" 10.2
+cap "m1_648_1035#" "scratch_0/reg_six2_0/reg_one2_0[4]/reg_one_0/new_inv_state_0/a_90_10#" 47.363
+cap "m2_785_1035#" "scratch_0/reg_six2_0/reg_one2_0[4]/reg_one_0/W" 4.95
+cap "m2_785_1035#" "scratch_0/reg_six2_1/reg_one2_0[4]/reg_one_0/tg_5/Vdd!" 16.836
+cap "scratch_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_5/GND!" "m1_648_1035#" 20.418
+cap "scratch_0/reg_six2_1/reg_one2_0[4]/reg_one_0/new_inv_state_0/a_90_10#" "m2_785_1035#" 7.09
+cap "m2_785_1035#" "scratch_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_5/Vdd!" 2.667
+cap "scratch_0/reg_six2_1/reg_one2_0[4]/reg_one_0/R0" "m2_785_1035#" 4.95
+cap "m2_785_1035#" "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/new_inv_state_0/a_90_10#" 19.96
+cap "m2_785_1035#" "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/W" 4.95
+cap "m1_648_1035#" "scratch_0/m1_478_1057#" 98.7065
+cap "m1_648_1035#" "scratch_0/reg_six2_0/reg_one2_0[4]/reg_one_0/new_inv_state_0/a_90_10#" 2.322
+cap "m2_785_1035#" "scratch_0/reg_six2_0/reg_one2_0[4]/reg_one_0/R0" 4.95
+cap "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_5/Vdd!" "m1_648_1035#" 18.768
+cap "scratch_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_5/Vdd!" "m2_785_1035#" 10.74
+cap "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_5/GND!" "m2_785_1035#" 14.931
+cap "m1_648_1035#" "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/new_inv_state_0/a_90_10#" 58.619
+cap "m1_648_1035#" "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/W" 10.2
+cap "m2_785_1035#" "scratch_0/m1_478_1057#" 189.29
+cap "m1_648_1035#" "scratch_0/reg_six2_0/reg_one2_0[4]/reg_one_0/R0" 10.2
+cap "m2_785_1035#" "scratch_0/reg_six2_0/reg_one2_0[4]/reg_one_0/new_inv_state_0/a_90_10#" -4.419
+cap "scratch_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_5/Vdd!" "m1_648_1035#" 17.22
+cap "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_5/GND!" "m1_648_1035#" 19.622
+cap "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_5/Vdd!" "m2_785_1035#" 14.55
+cap "m1_648_1035#" "scratch_0/in4" 1341.25
+cap "m1_648_1035#" "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/W" 10.2
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/W" "m2_785_1035#" 0.495
+cap "m2_785_1035#" "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/R0" 4.95
+cap "m2_785_1035#" "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/R0" 4.95
+cap "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_5/Vdd!" "m2_785_1035#" -10.053
+cap "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/tg_5/GND!" "m2_785_1035#" 14.931
+cap "scratch_0/m1_561_1057#" "m2_785_1035#" 189.29
+cap "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/tg_5/Vdd!" "m1_648_1035#" 21.156
+cap "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/new_inv_state_0/a_90_10#" "m1_648_1035#" 58.619
+cap "m2_785_1035#" "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/W" 4.95
+cap "scratch_0/in4" "m1_648_1035#" 1341.25
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/W" "m1_648_1035#" 3.156
+cap "m1_648_1035#" "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/R0" 10.2
+cap "m1_648_1035#" "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/R0" 10.2
+cap "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/tg_5/Vdd!" "m2_785_1035#" 16.836
+cap "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_5/Vdd!" "m1_648_1035#" -7.386
+cap "m2_785_1035#" "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/new_inv_state_0/a_90_10#" 19.96
+cap "scratch_0/m1_561_1057#" "m1_648_1035#" 98.7065
+cap "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/tg_5/GND!" "m1_648_1035#" 19.622
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_1/GND!" "m2_785_1035#" 2.514
+cap "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/P0" "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_1/a_100_74#" 16.405
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/W" "m1_648_1035#" 1.164
+cap "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/P0" "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/R0" 13.805
+cap "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/R0" "m1_648_1035#" 10.2
+cap "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_1/GND!" "m2_785_1035#" 14.931
+cap "scratch_0/m1_727_1057#" "m2_785_1035#" 189.29
+cap "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_1/Vdd!" "m1_648_1035#" 21.156
+cap "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_1/Vdd!" "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/P0" 27.886
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/W" "m2_785_1035#" -2.475
+cap "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/R0" "m2_785_1035#" 4.95
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/new_inv_state_0/a_90_10#" "m1_648_1035#" 58.619
+cap "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/P0" "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_1/a_100_57#" 8.24
+cap "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_1/Vdd!" "m2_785_1035#" 16.836
+cap "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/W" "m1_648_1035#" 10.2
+cap "scratch_0/m1_644_1057#" "m1_648_1035#" 98.7065
+cap "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/W" "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/P0" 11.825
+cap "m1_648_1035#" "scratch_0/in4" 1341.25
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_1/GND!" "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/P0" 7.656
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_1/GND!" "m1_648_1035#" 5.696
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/new_inv_state_0/a_90_10#" "m2_785_1035#" 19.96
+cap "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_1/GND!" "m1_648_1035#" 19.622
+cap "scratch_0/m1_727_1057#" "m1_648_1035#" 98.7065
+cap "scratch_0/m1_644_1057#" "m2_785_1035#" 189.29
+cap "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/W" "m2_785_1035#" 4.95
+subcap "m1_648_984#" -15.788
+subcap "m1_648_1035#" -435.415
+subcap "m1_648_1086#" -420.753
+cap "new_mux4_0/new_mux4_one_0[4]/s0" "new_mux4_0/new_mux4_one_0[3]/in0" 103.86
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_1/GND!" "m2_785_984#" 2.14
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_1/Vdd!" "m2_785_1035#" 16.836
+cap "new_mux4_0/new_mux4_one_0[3]/in0" "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/R0" 90.3367
+cap "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/new_inv_state_0/a_90_10#" "m2_785_1035#" 19.96
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_1/Vdd!" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/new_inv_state_0/a_90_10#" 5.68434e-14
+cap "new_mux4_0/new_mux4_one_0[4]/in3" "m2_785_1035#" 45.081
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_1/a_100_57#" "m2_785_984#" 8.24
+cap "new_mux4_0/new_mux4_one_0[4]/in3" "scratch_0/in4" 415.787
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_1/Vdd!" "new_mux4_0/new_mux4_one_0[4]/in3" 21.156
+cap "new_mux4_0/new_mux4_one_0[4]/s0" "m2_785_1035#" 2.109
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/R0" "m2_785_1035#" 4.95
+cap "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/new_inv_state_0/a_90_10#" "new_mux4_0/new_mux4_one_0[4]/in3" 58.619
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_2/tg_0/EN" "m2_785_984#" 1.248
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_2/tg_0/GND!" "m2_785_1035#" 9.983
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_1/Vdd!" "m2_785_984#" 18.741
+cap "new_mux4_0/new_mux4_one_0[3]/in0" "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_1/a_100_57#" 6.34
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_1/GND!" "m2_785_1035#" -3.387
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_1/Vdd!" "new_mux4_0/new_mux4_one_0[3]/in0" 24.606
+cap "new_mux4_0/new_mux4_one_0[4]/s0" "new_mux4_0/new_mux4_one_0[4]/in3" 103.86
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_1/a_100_74#" "m2_785_984#" 13.91
+cap "new_mux4_0/new_mux4_one_0[4]/in3" "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/R0" 87.1567
+cap "new_mux4_0/new_mux4_one_0[4]/s0" "m2_785_984#" 2.97
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/R0" "m2_785_984#" 8.178
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_2/tg_0/GND!" "m2_785_984#" 16.877
+cap "new_mux4_0/new_mux4_one_0[3]/in0" "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_1/a_100_74#" 14.28
+cap "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_1/GND!" "new_mux4_0/new_mux4_one_0[4]/in3" 1.212
+cap "new_mux4_0/new_mux4_one_0[3]/in0" "m2_785_984#" 41.479
+subcap "m2_785_984#" -264.463
+subcap "m2_785_1035#" -634.358
+subcap "m2_785_1086#" -545.071
+cap "new_mux4_0/new_mux4_one_0[3]/w_190_76#" "new_mux4_1/new_mux4_one_0[3]/in0" 20.24
+cap "new_mux4_1/new_mux4_one_0[4]/in3" "new_mux4_0/new_mux4_one_0[4]/mux2_one_1/out" 32.768
+cap "new_mux4_0/new_mux4_one_0[3]/m1_209_76#" "new_mux4_1/new_mux4_one_0[3]/in0" 14.575
+cap "new_mux4_0/new_mux4_one_0[3]/w_161_76#" "new_mux4_1/new_mux4_one_0[4]/in3" 16.354
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_2/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[3]/in0" 25.6
+cap "new_mux4_0/new_mux4_one_0[3]/m1_164_76#" "new_mux4_1/new_mux4_one_0[4]/in3" 13.046
+cap "new_mux4_0/new_mux4_one_0[3]/s1" "new_mux4_1/new_mux4_one_0[3]/in0" 9.075
+cap "new_mux4_0/new_mux4_one_0[3]/m1_209_76#" "new_mux4_1/new_mux4_one_0[4]/s0" 769.567
+cap "new_mux4_1/new_mux4_one_0[4]/in3" "new_mux4_0/new_mux4_one_0[4]/mux2_one_1/tg_1/a_100_74#" 0.624
+cap "new_mux4_1/new_mux4_one_0[4]/in3" "new_mux4_0/new_mux4_one_0[3]/mux2_one_2/tg_0/GND!" -3.048
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_2/tg_0/a_100_74#" "new_mux4_1/new_mux4_one_0[3]/in0" 0.624
+cap "new_mux4_0/new_mux4_one_0[3]/w_161_76#" "new_mux4_1/new_mux4_one_0[3]/in0" 17.204
+cap "new_mux4_0/new_mux4_one_0[3]/w_190_76#" "new_mux4_1/new_mux4_one_0[4]/in3" 19.24
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_2/tg_0/EN" "new_mux4_1/new_mux4_one_0[3]/in0" 17.472
+cap "new_mux4_0/new_mux4_one_0[3]/m1_209_76#" "new_mux4_1/new_mux4_one_0[4]/in3" 13.046
+cap "new_mux4_0/new_mux4_one_0[3]/m1_164_76#" "new_mux4_1/new_mux4_one_0[3]/in0" 14.575
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_2/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[4]/in3" 22.047
+cap "new_mux4_1/new_mux4_one_0[4]/in3" "new_mux4_0/new_mux4_one_0[4]/mux2_one_1/tg_1/a_100_57#" 10.251
+cap "new_mux4_1/new_mux4_one_0[3]/in0" "new_mux4_0/new_mux4_one_0[3]/mux2_one_2/tg_0/GND!" -2.667
+cap "new_mux4_0/new_mux4_one_0[3]/mux2_one_2/tg_0/a_100_57#" "new_mux4_1/new_mux4_one_0[3]/in0" 7.282
+subcap "m2_785_984#" -252.345
+subcap "m2_785_1035#" -617.861
+subcap "m2_785_1086#" -575.617
+cap "new_mux4_0/new_mux4_one_0[3]/w_190_76#" "new_mux4_1/new_mux4_one_0[3]/in0" 3.551
+cap "new_mux4_0/new_mux4_one_0[3]/w_190_76#" "new_mux4_1/new_mux4_one_0[4]/in3" 3.882
+cap "new_mux4_0/new_mux4_one_0[3]/w_190_76#" "new_mux4_1/new_mux4_one_0[4]/s0" 127.78
+cap "new_mux4_0/new_mux4_one_0[3]/m1_209_76#" "new_mux4_1/new_mux4_one_0[4]/s0" 769.567
+cap "new_mux4_1/new_mux4_one_0[3]/in0" "new_mux4_1/new_mux4_one_0[4]/s0" 32.393
+cap "new_mux4_1/new_mux4_one_0[4]/s0" "new_mux4_1/new_mux4_one_0[4]/in3" 32.393
+cap "scratch_0/reg_six2_0/reg_one2_0[4]/m3_25_48#" "scratch_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_5/out" 1.638
+cap "scratch_0/reg_six2_0/reg_one2_0[4]/m3_25_48#" "scratch_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_5/Vdd!" 3.69
+cap "scratch_0/reg_six2_1/reg_one2_0[4]/reg_one_0/R0" "scratch_0/reg_six2_1/reg_one2_0[4]/m3_25_48#" 11.825
+cap "scratch_0/reg_six2_0/reg_one2_0[4]/reg_one_0/W" "scratch_0/reg_six2_1/reg_one2_0[4]/m3_25_48#" 11.825
+cap "scratch_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_5/out" "scratch_0/reg_six2_1/reg_one2_0[4]/m3_25_48#" 6.293
+cap "scratch_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_5/Vdd!" "scratch_0/reg_six2_1/reg_one2_0[4]/m3_25_48#" 5.715
+cap "scratch_0/reg_six2_1/reg_one2_0[4]/reg_one_0/tg_5/Vdd!" "scratch_0/reg_six2_1/reg_one2_0[4]/m3_25_48#" 29.029
+cap "scratch_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_5/GND!" "scratch_0/reg_six2_1/reg_one2_0[4]/m3_25_48#" 27.124
+cap "scratch_0/reg_six2_0/reg_one2_0[4]/m3_25_48#" "scratch_0/reg_six2_1/reg_one2_0[4]/m3_25_48#" 11.925
+cap "scratch_0/reg_six2_0/reg_one2_0[4]/reg_one_0/a_0_88#" "scratch_0/reg_six2_1/reg_one2_0[4]/m3_25_48#" 9.075
+cap "scratch_0/reg_six2_1/reg_one2_0[4]/reg_one_0/tg_5/out" "scratch_0/reg_six2_1/reg_one2_0[4]/m3_25_48#" 14.92
+cap "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_5/out" "m2_785_1086#" 7.2
+cap "scratch_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_5/out" "m1_648_1086#" 2.448
+cap "m2_785_1086#" "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_5/Vdd!" 17.598
+cap "m2_785_1086#" "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/stat_reg_1/tg_0/EN" 2.97
+cap "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/W" "m1_648_1086#" 11.7
+cap "scratch_0/reg_six2_0/reg_one2_0[4]/reg_one_0/R0" "m2_785_1086#" 4.95
+cap "m1_648_1086#" "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_5/GND!" 24.114
+cap "m2_785_1086#" "scratch_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_5/Vdd!" 10.74
+cap "scratch_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_5/out" "m2_785_1086#" -5.217
+cap "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/W" "m2_785_1086#" 4.95
+cap "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_5/out" "m1_648_1086#" 30.27
+cap "m1_648_1086#" "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/stat_reg_1/tg_0/EN" 8.7
+cap "m1_648_1086#" "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_5/Vdd!" 22.728
+cap "m2_785_1086#" "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_5/GND!" 17.979
+cap "scratch_0/reg_six2_0/reg_one2_0[4]/reg_one_0/R0" "m1_648_1086#" 11.7
+cap "m1_648_1086#" "scratch_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_5/Vdd!" 19.44
+cap "m2_785_1086#" "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/tg_5/Vdd!" 19.884
+cap "m2_785_1086#" "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/W" 4.95
+cap "m1_648_1086#" "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/tg_5/out" 30.27
+cap "m2_785_1086#" "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_5/Vdd!" -10.053
+cap "m1_648_1086#" "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/tg_5/Vdd!" 25.344
+cap "m1_648_1086#" "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/W" 11.7
+cap "m1_648_1086#" "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_5/Vdd!" -7.158
+cap "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/R0" "m2_785_1086#" 4.95
+cap "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/R0" "m1_648_1086#" 11.7
+cap "m2_785_1086#" "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/tg_5/GND!" 17.979
+cap "m2_785_1086#" "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/R0" 4.95
+cap "m2_785_1086#" "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/stat_reg_1/tg_0/EN" 2.97
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/W" "m2_785_1086#" 0.495
+cap "m1_648_1086#" "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/tg_5/GND!" 24.114
+cap "m1_648_1086#" "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/R0" 11.7
+cap "m1_648_1086#" "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/stat_reg_1/tg_0/EN" 8.7
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/W" "m1_648_1086#" 3.84
+cap "m2_785_1086#" "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/tg_5/out" 7.2
+cap "m2_785_1086#" "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/tg_5/Vdd!" 19.884
+cap "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/W" "m2_785_1086#" 4.95
+cap "m2_785_1086#" "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/W" -2.475
+cap "m1_648_1086#" "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/tg_5/Vdd!" 25.344
+cap "m2_785_1086#" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/a_0_88#" 2.97
+cap "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/W" "m1_648_1086#" 11.7
+cap "m1_648_1086#" "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/W" 1.98
+cap "m1_648_1086#" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/a_0_88#" 8.7
+cap "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_5/GND!" "m2_785_1086#" 3.276
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/stat_reg_1/tg_0/EN" "m2_785_1086#" 2.97
+cap "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_5/GND!" "m1_648_1086#" 7.536
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/stat_reg_1/tg_0/EN" "m1_648_1086#" 8.7
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/tg_5/out" "m2_785_1086#" 7.2
+cap "m2_785_1086#" "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/tg_5/GND!" 17.979
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/R0" "m2_785_1086#" 4.95
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/tg_5/out" "m1_648_1086#" 30.27
+cap "m1_648_1086#" "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/tg_5/GND!" 24.114
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/R0" "m1_648_1086#" 11.7
+subcap "m1_648_1086#" -330.491
+subcap "m1_648_1192#" -350.395
+cap "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_5/GND!" "m2_785_1086#" -1.101
+cap "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/R0" "m2_785_1086#" 4.95
+cap "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_5/out" "m2_785_1086#" 7.2
+cap "new_mux4_0/new_mux4_one_0[4]/in2" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_5/GND!" 3.864
+cap "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_5/Vdd!" "m2_785_1086#" 19.884
+cap "new_mux4_0/new_mux4_one_0[4]/in2" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/R0" 88.6567
+cap "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74#" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_5/out" 7.10543e-15
+cap "new_mux4_0/new_mux4_one_0[4]/s0" "m2_785_1086#" 2.97
+cap "new_mux4_0/new_mux4_one_0[4]/in2" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_5/out" 30.27
+cap "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_5/Vdd!" "new_mux4_0/new_mux4_one_0[4]/in2" 25.344
+cap "new_mux4_0/new_mux4_one_0[4]/mux2_one_1/tg_0/EN" "m2_785_1086#" 1.248
+cap "new_mux4_0/new_mux4_one_0[4]/mux2_one_1/tg_0/GND!" "m2_785_1086#" 16.877
+cap "new_mux4_0/new_mux4_one_0[4]/in2" "new_mux4_0/new_mux4_one_0[4]/s0" 103.86
+cap "new_mux4_0/new_mux4_one_0[4]/in2" "m2_785_1086#" 29.554
+subcap "m2_785_1086#" -519.471
+subcap "m2_785_1192#" -442.489
+cap "new_mux4_0/new_mux4_one_0[4]/mux2_one_0/tg_0/GND!" "new_mux4_1/new_mux4_one_0[4]/in2" 31.779
+cap "new_mux4_0/new_mux4_one_0[4]/mux2_one_0/tg_0/EN" "new_mux4_1/new_mux4_one_0[4]/s0" -2.332
+cap "new_mux4_0/new_mux4_one_0[4]/mux2_one_0/b" "new_mux4_1/new_mux4_one_0[4]/in2" 19.78
+cap "new_mux4_0/new_mux4_one_0[4]/mux2_one_1/tg_0/GND!" "new_mux4_1/new_mux4_one_0[4]/in2" -2.667
+cap "new_mux4_0/new_mux4_one_0[4]/s1" "new_mux4_1/new_mux4_one_0[4]/s0" -2.332
+cap "new_mux4_0/new_mux4_one_0[4]/mux2_one_0/tg_0/a_100_74#" "new_mux4_1/new_mux4_one_0[4]/s0" -2.332
+cap "new_mux4_0/new_mux4_one_0[4]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[4]/in2" 34.815
+cap "new_mux4_0/new_mux4_one_0[4]/mux2_one_1/tg_0/a_100_74#" "new_mux4_1/new_mux4_one_0[4]/in2" 0.624
+cap "new_mux4_0/new_mux4_one_0[4]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[4]/s0" 769.567
+cap "new_mux4_0/new_mux4_one_0[4]/mux2_one_1/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[4]/in2" 25.6
+cap "new_mux4_0/new_mux4_one_0[4]/mux2_one_1/tg_0/EN" "new_mux4_1/new_mux4_one_0[4]/in2" 17.472
+cap "new_mux4_0/new_mux4_one_0[4]/out" "new_mux4_1/new_mux4_one_0[4]/s0" -2.536
+cap "new_mux4_0/new_mux4_one_0[4]/mux2_one_1/tg_0/a_100_57#" "new_mux4_1/new_mux4_one_0[4]/in2" 7.282
+subcap "m2_785_1086#" -505.329
+subcap "m2_785_1192#" -552.481
+cap "new_mux4_1/new_mux4_one_0[4]/in2" "new_mux4_0/new_mux4_one_0[4]/mux2_one_0/tg_0/Vdd!" 3.551
+cap "new_mux4_1/new_mux4_one_0[4]/s0" "new_mux4_0/new_mux4_one_0[4]/mux2_one_0/tg_1/a_100_74#" 4.664
+cap "new_mux4_1/new_mux4_one_0[4]/s0" "new_mux4_0/new_mux4_one_0[4]/out" 10.144
+cap "new_mux4_1/new_mux4_one_0[4]/s0" "new_mux4_0/new_mux4_one_0[4]/mux2_one_0/tg_1/EN" 4.664
+cap "new_mux4_1/new_mux4_one_0[4]/s0" "new_mux4_1/new_mux4_one_0[4]/in2" 32.393
+cap "new_mux4_1/new_mux4_one_0[4]/s0" "new_mux4_0/new_mux4_one_0[4]/mux2_one_0/tg_0/Vdd!" 878.795
+cap "new_mux4_1/new_mux4_one_0[4]/s0" "new_mux4_0/new_mux4_one_0[4]/mux2_one_0/tg_0/a_100_74#" 4.664
+cap "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/P0" 42.443
+cap "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_1/Vdd!" "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/P0" 28.992
+cap "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_1/GND!" "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/P0" 1.905
+cap "m2_785_1192#" "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/R0" 4.95
+cap "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/P0" 65.541
+cap "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/tg_1/GND!" "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/P0" -2.84217e-14
+cap "m2_785_1192#" "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/R0" 11.825
+cap "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/tg_1/Vdd!" "m2_785_1192#" 17.481
+cap "m2_785_1192#" "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/P0" 11.925
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/W" "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/P0" 3.84
+cap "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/R0" "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/P0" 11.7
+cap "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/tg_1/Vdd!" "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/P0" 31.132
+cap "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" "m2_785_1192#" 23.19
+cap "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/tg_1/GND!" "m2_785_1192#" 37.515
+cap "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_1/Vdd!" "m2_785_1192#" -9.303
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/W" "m2_785_1192#" 0.495
+cap "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/W" "m2_785_1192#" 11.825
+cap "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/W" "m2_785_1192#" 4.95
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" "m1_648_1192#" 93.353
+cap "m2_785_1192#" "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/tg_1/Vdd!" 17.481
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/W" "m2_785_1192#" -2.475
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/R0" "m1_648_1192#" 11.7
+cap "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_1/GND!" "m1_648_1192#" 9.216
+cap "m1_648_1192#" "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/tg_1/GND!" 36.068
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/P0" "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/tg_1/a_100_74#" 16.405
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/P0" "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/R0" 17.033
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/P0" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_1/GND!" 7.656
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" "m2_785_1192#" 22.251
+cap "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/W" "m1_648_1192#" 11.7
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/R0" "m2_785_1192#" 4.95
+cap "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_1/GND!" "m2_785_1192#" 5.256
+cap "m1_648_1192#" "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/tg_1/Vdd!" 32.116
+cap "m2_785_1192#" "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/tg_1/GND!" 20.796
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/P0" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/W" 11.825
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/P0" "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/new_inv_3/a_90_10#" 8.24
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/W" "m1_648_1192#" 1.98
+cap "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/P0" "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/tg_1/Vdd!" 27.886
+subcap "m1_648_1192#" -188.069
+subcap "m1_648_1243#" -15.788
+cap "new_mux4_0/new_mux4_one_0[4]/in1" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_1/Vdd!" 32.116
+cap "new_mux4_0/new_mux4_one_0[4]/mux2_one_2/sel" "m2_785_1192#" 4.218
+cap "m2_785_1243#" "new_mux4_0/new_mux4_one_0[4]/in0" 41.479
+cap "m2_785_1192#" "new_mux4_0/new_mux4_one_0[4]/mux2_one_2/tg_0/GND!" 16.877
+cap "m2_785_1192#" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_1/GND!" 1.716
+cap "m2_785_1243#" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_1/Vdd!" 18.741
+cap "new_mux4_0/new_mux4_one_0[4]/in0" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_1/a_100_74#" 14.28
+cap "m2_785_1243#" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/new_inv_3/a_90_10#" 8.24
+cap "m2_785_1192#" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/R0" 4.95
+cap "new_mux4_0/new_mux4_one_0[4]/in0" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/R0" 93.0007
+cap "new_mux4_0/new_mux4_one_0[4]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[4]/in1" 103.86
+cap "m2_785_1243#" "new_mux4_0/new_mux4_one_0[4]/mux2_one_2/tg_0/EN" 1.248
+cap "m2_785_1192#" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" 22.251
+cap "new_mux4_0/new_mux4_one_0[4]/mux2_one_2/sel" "m2_785_1243#" 2.97
+cap "new_mux4_0/new_mux4_one_0[4]/in1" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_1/GND!" 15.818
+cap "m2_785_1243#" "new_mux4_0/new_mux4_one_0[4]/mux2_one_2/tg_0/GND!" 16.877
+cap "m2_785_1192#" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_1/Vdd!" 17.481
+cap "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_1/Vdd!" "new_mux4_0/new_mux4_one_0[4]/in0" 24.606
+cap "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_1/Vdd!" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" -5.68434e-14
+cap "new_mux4_0/new_mux4_one_0[4]/in1" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/R0" 88.6567
+cap "m2_785_1243#" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_1/GND!" 2.14
+cap "m2_785_1243#" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_1/a_100_74#" 13.91
+cap "new_mux4_0/new_mux4_one_0[4]/in0" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/new_inv_3/a_90_10#" 6.34
+cap "new_mux4_0/new_mux4_one_0[4]/in1" "m2_785_1192#" 29.554
+cap "new_mux4_0/new_mux4_one_0[4]/in1" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" 93.353
+cap "m2_785_1243#" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/R0" 8.178
+cap "new_mux4_0/new_mux4_one_0[4]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[4]/in0" 103.86
+subcap "m2_785_1192#" -393.517
+subcap "m2_785_1243#" -264.463
+cap "new_mux4_0/new_mux4_one_0[4]/mux2_one_2/tg_1/a_100_57#" "new_mux4_1/new_mux4_one_0[4]/in1" 4.43
+cap "new_mux4_1/new_mux4_one_0[4]/in1" "new_mux4_0/new_mux4_one_0[4]/mux2_one_2/tg_1/a_100_74#" 1.248
+cap "new_mux4_1/new_mux4_one_0[4]/in1" "new_mux4_0/new_mux4_one_0[4]/mux2_one_2/tg_0/Vdd!" 25.35
+cap "new_mux4_1/new_mux4_one_0[4]/in0" "new_mux4_0/new_mux4_one_0[4]/mux2_one_2/tg_0/GND!" -2.667
+cap "new_mux4_1/new_mux4_one_0[4]/in1" "new_mux4_0/new_mux4_one_0[4]/mux2_one_2/out" 17.472
+cap "new_mux4_0/new_mux4_one_0[4]/s1" "new_mux4_1/new_mux4_one_0[4]/in0" 9.075
+cap "new_mux4_1/new_mux4_one_0[4]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[4]/mux2_one_0/tg_0/EN" -4.664
+cap "new_mux4_1/new_mux4_one_0[4]/in0" "new_mux4_0/new_mux4_one_0[4]/mux2_one_0/tg_0/Vdd!" 34.815
+cap "new_mux4_1/new_mux4_one_0[4]/in1" "new_mux4_0/new_mux4_one_0[4]/mux2_one_0/tg_0/GND!" 37.515
+cap "new_mux4_0/new_mux4_one_0[4]/mux2_one_0/tg_0/EN" "new_mux4_1/new_mux4_one_0[4]/in1" 29.796
+cap "new_mux4_1/new_mux4_one_0[4]/in0" "new_mux4_0/new_mux4_one_0[4]/mux2_one_2/tg_0/a_100_74#" 0.624
+cap "new_mux4_1/new_mux4_one_0[4]/in0" "new_mux4_0/new_mux4_one_0[4]/mux2_one_2/tg_1/a_100_74#" 17.472
+cap "new_mux4_1/new_mux4_one_0[4]/in1" "new_mux4_0/new_mux4_one_0[4]/mux2_one_2/tg_0/GND!" -2.667
+cap "new_mux4_1/new_mux4_one_0[4]/in0" "new_mux4_0/new_mux4_one_0[4]/mux2_one_2/tg_0/Vdd!" 25.6
+cap "new_mux4_0/new_mux4_one_0[4]/mux2_one_2/out" "new_mux4_0/new_mux4_one_0[4]/mux2_one_2/tg_0/Vdd!" -1.13687e-13
+cap "new_mux4_0/new_mux4_one_0[4]/mux2_one_0/tg_0/EN" "new_mux4_0/new_mux4_one_0[4]/mux2_one_0/tg_0/Vdd!" -5.68434e-14
+cap "new_mux4_0/new_mux4_one_0[4]/mux2_one_0/tg_0/EN" "new_mux4_1/new_mux4_one_0[4]/mux2_one_2/tg_1/EN" 1.81629
+cap "new_mux4_0/new_mux4_one_0[4]/s1" "new_mux4_1/new_mux4_one_0[4]/in1" 9.075
+cap "new_mux4_1/new_mux4_one_0[4]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[4]/mux2_one_0/tg_0/Vdd!" 769.567
+cap "new_mux4_1/new_mux4_one_0[4]/in1" "new_mux4_0/new_mux4_one_0[4]/mux2_one_0/tg_0/Vdd!" 38.739
+cap "new_mux4_1/new_mux4_one_0[4]/in0" "new_mux4_0/new_mux4_one_0[4]/mux2_one_2/tg_0/a_100_57#" 7.282
+cap "new_mux4_1/new_mux4_one_0[4]/in0" "new_mux4_0/new_mux4_one_0[4]/mux2_one_0/tg_0/GND!" 31.779
+subcap "m2_785_1192#" -378.837
+subcap "m2_785_1243#" -252.345
+cap "new_mux4_1/new_mux4_one_0[4]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[4]/mux2_one_0/tg_0/EN" 9.7496
+cap "new_mux4_0/new_mux4_one_0[4]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[4]/mux2_one_2/sel" 895.023
+cap "new_mux4_0/new_mux4_one_0[4]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[4]/in0" 3.551
+cap "new_mux4_1/new_mux4_one_0[4]/in0" "new_mux4_1/new_mux4_one_0[4]/mux2_one_2/sel" 32.393
+cap "new_mux4_0/new_mux4_one_0[4]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[4]/in1" 3.551
+cap "new_mux4_1/new_mux4_one_0[4]/mux2_one_2/sel" "new_mux4_1/new_mux4_one_0[4]/in1" 32.393
+cap "scratch_0/reg_six3_1/reg_one3_0[5]/m3_25_n2#" "scratch_0/reg_six3_1/reg_one3_0[5]/reg_one_0/new_inv_state_0/a_90_10#" 26.205
+cap "scratch_0/reg_six3_1/reg_one3_0[5]/m3_25_n2#" "scratch_0/reg_six3_0/reg_one3_0[5]/reg_one_0/W" 10.45
+cap "scratch_0/reg_six3_1/reg_one3_0[5]/m3_25_n2#" "scratch_0/reg_six3_1/reg_one3_0[5]/reg_one_0/tg_5/GND!" 0.381
+cap "scratch_0/reg_six3_1/reg_one3_0[5]/m3_25_n2#" "scratch_0/reg_six3_0/reg_one3_0[5]/reg_one_0/tg_5/GND!" 3.194
+cap "scratch_0/reg_six3_1/reg_one3_0[5]/m3_25_n2#" "scratch_0/reg_six3_1/reg_one3_0[5]/reg_one_0/R0" 10.45
+cap "scratch_0/reg_six3_1/reg_one3_0[5]/m3_25_n2#" "scratch_0/reg_six3_1/reg_one3_0[5]/reg_one_0/tg_5/Vdd!" 24.152
+cap "scratch_0/reg_six2_1/reg_one2_0[5]/reg_one_0/new_inv_state_0/a_90_10#" "m2_785_1294#" 3.96
+cap "scratch_0/reg_six2_1/reg_one2_0[5]/reg_one_0/new_inv_state_0/a_90_10#" "scratch_0/reg_six3_0/reg_one3_0[5]/m3_25_n2#" 9.264
+cap "scratch_0/in5" "scratch_0/reg_six3_0/reg_one3_0[5]/m3_25_n2#" 1005.94
+cap "scratch_0/reg_six3_0/reg_one3_0[5]/m3_25_n2#" "m2_785_1294#" 11.925
+cap "scratch_0/reg_six3_0/reg_one3_0[5]/reg_one_0/R0" "m2_785_1294#" 4.95
+cap "scratch_0/reg_six3_0/reg_one3_0[5]/reg_one_0/tg_5/Vdd!" "m2_785_1294#" 16.836
+cap "scratch_0/reg_six2_1/reg_one2_0[5]/reg_one_0/W" "m2_785_1294#" 4.95
+cap "m2_785_1294#" "scratch_0/reg_six2_1/reg_one2_0[5]/reg_one_0/tg_5/GND!" 14.55
+cap "scratch_0/reg_six3_0/reg_one3_0[5]/reg_one_0/R0" "scratch_0/reg_six3_0/reg_one3_0[5]/m3_25_n2#" 10.2
+cap "scratch_0/reg_six3_0/reg_one3_0[5]/reg_one_0/new_inv_state_0/a_90_10#" "m2_785_1294#" 22.856
+cap "scratch_0/reg_six3_0/reg_one3_0[5]/reg_one_0/tg_5/Vdd!" "scratch_0/reg_six3_0/reg_one3_0[5]/m3_25_n2#" 21.156
+cap "scratch_0/reg_six2_1/reg_one2_0[5]/reg_one_0/W" "scratch_0/reg_six3_0/reg_one3_0[5]/m3_25_n2#" 10.2
+cap "scratch_0/reg_six3_0/reg_one3_0[5]/m3_25_n2#" "scratch_0/reg_six2_1/reg_one2_0[5]/reg_one_0/tg_5/GND!" 19.68
+cap "scratch_0/reg_six3_0/reg_one3_0[5]/reg_one_0/new_inv_state_0/a_90_10#" "scratch_0/reg_six3_0/reg_one3_0[5]/m3_25_n2#" 23.354
+cap "scratch_0/reg_six3_0/reg_one3_0[5]/reg_one_0/tg_5/GND!" "m2_785_1294#" 4.011
+cap "m1_648_1294#" "scratch_0/reg_six2_0/reg_one2_0[5]/reg_one_0/new_inv_state_0/a_90_10#" 47.363
+cap "m1_648_1294#" "scratch_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_5/GND!" 20.418
+cap "m2_785_1294#" "scratch_0/reg_six2_0/reg_one2_0[5]/reg_one_0/W" 4.95
+cap "m2_785_1294#" "scratch_0/reg_six2_1/reg_one2_0[5]/reg_one_0/new_inv_state_0/a_90_10#" 7.09
+cap "scratch_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_5/out" "scratch_0/reg_six2_1/reg_one2_0[5]/m3_25_48#" 10.396
+cap "scratch_0/reg_six2_1/reg_one2_0[5]/m3_25_48#" "scratch_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_5/GND!" 21.104
+cap "scratch_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_5/Vdd!" "m1_648_1294#" 1.722
+cap "scratch_0/reg_six2_1/reg_one2_0[5]/reg_one_0/R0" "m1_648_1294#" 10.2
+cap "m2_785_1294#" "scratch_0/reg_six2_1/reg_one2_0[5]/reg_one_0/tg_5/GND!" -2.286
+cap "scratch_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_5/Vdd!" "scratch_0/reg_six2_1/reg_one2_0[5]/m3_25_48#" 2.286
+cap "m1_648_1294#" "scratch_0/reg_six2_1/reg_one2_0[5]/reg_one_0/tg_5/Vdd!" 21.156
+cap "scratch_0/reg_six2_1/reg_one2_0[5]/reg_one_0/R0" "scratch_0/reg_six2_1/reg_one2_0[5]/m3_25_48#" 10.45
+cap "m2_785_1294#" "scratch_0/reg_six2_0/reg_one2_0[5]/reg_one_0/new_inv_state_0/a_90_10#" 13.03
+cap "m2_785_1294#" "scratch_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_5/GND!" 15.693
+cap "scratch_0/reg_six2_1/reg_one2_0[5]/m3_25_48#" "scratch_0/reg_six2_1/reg_one2_0[5]/reg_one_0/tg_5/Vdd!" 21.104
+cap "m1_648_1294#" "scratch_0/reg_six2_0/reg_one2_0[5]/reg_one_0/W" 10.2
+cap "scratch_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_5/out" "scratch_0/reg_six2_0/reg_one2_0[5]/m3_25_48#" 1.638
+cap "scratch_0/reg_six2_1/reg_one2_0[5]/m3_25_48#" "scratch_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_5/a_100_74#" 7.854
+cap "scratch_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_5/Vdd!" "m2_785_1294#" 2.667
+cap "m1_648_1294#" "scratch_0/reg_six2_1/reg_one2_0[5]/reg_one_0/new_inv_state_0/a_90_10#" 41.795
+cap "scratch_0/reg_six2_1/reg_one2_0[5]/m3_25_48#" "scratch_0/reg_six2_0/reg_one2_0[5]/reg_one_0/W" 10.45
+cap "scratch_0/reg_six2_1/reg_one2_0[5]/reg_one_0/R0" "m2_785_1294#" 4.95
+cap "scratch_0/reg_six2_1/reg_one2_0[5]/reg_one_0/tg_5/out" "scratch_0/reg_six2_1/reg_one2_0[5]/m3_25_48#" 21.608
+cap "scratch_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_5/Vdd!" "scratch_0/reg_six2_0/reg_one2_0[5]/m3_25_48#" 3.69
+cap "m2_785_1294#" "scratch_0/reg_six2_1/reg_one2_0[5]/reg_one_0/tg_5/Vdd!" 16.836
+cap "scratch_0/in5" "m1_648_1294#" 1341.25
+cap "m1_648_1294#" "scratch_0/reg_six2_1/reg_one2_0[5]/reg_one_0/tg_5/GND!" -1.476
+cap "m1_648_1345#" "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_5/out" 30.27
+cap "m2_786_1345#" "scratch_0/reg_six2_0/reg_one2_0[5]/reg_one_0/R0" 2.475
+cap "m1_648_1345#" "scratch_0/reg_six2_0/reg_one2_0[5]/reg_one_0/R0" 11.7
+cap "m1_648_1294#" "scratch_0/in5" 1341.25
+cap "scratch_0/m1_478_1316#" "m2_785_1294#" 189.29
+cap "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_5/GND!" "m2_785_1294#" 14.931
+cap "m2_785_1294#" "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/W" 4.95
+cap "m2_786_1345#" "scratch_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_5/Vdd!" 2.322
+cap "scratch_0/m1_478_1316#" "m1_648_1294#" 98.7065
+cap "m2_785_1294#" "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_5/Vdd!" 14.55
+cap "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_5/GND!" "m1_648_1294#" 19.622
+cap "m1_648_1345#" "scratch_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_5/Vdd!" 19.44
+cap "m1_648_1294#" "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/W" 10.2
+cap "m1_648_1294#" "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_5/Vdd!" 18.768
+cap "m2_785_1294#" "scratch_0/reg_six2_0/reg_one2_0[5]/reg_one_0/R0" 4.95
+cap "m2_786_1345#" "scratch_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_5/out" -5.217
+cap "m1_648_1345#" "scratch_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_5/out" 2.448
+cap "m2_785_1294#" "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/new_inv_state_0/a_90_10#" 19.96
+cap "m2_786_1345#" "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_5/a_100_74#" 1.485
+cap "m1_648_1294#" "scratch_0/reg_six2_0/reg_one2_0[5]/reg_one_0/R0" 10.2
+cap "m1_648_1345#" "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_5/a_100_74#" 8.7
+cap "m2_785_1294#" "scratch_0/reg_six2_0/reg_one2_0[5]/reg_one_0/new_inv_state_0/a_90_10#" -4.419
+cap "m2_785_1294#" "scratch_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_5/Vdd!" 10.74
+cap "m1_648_1294#" "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/new_inv_state_0/a_90_10#" 58.619
+cap "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_5/GND!" "m2_786_1345#" 8.037
+cap "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_5/GND!" "m1_648_1345#" 24.114
+cap "m2_786_1345#" "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/W" 2.475
+cap "m1_648_1294#" "scratch_0/reg_six2_0/reg_one2_0[5]/reg_one_0/new_inv_state_0/a_90_10#" 2.322
+cap "m1_648_1345#" "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/W" 11.7
+cap "m1_648_1294#" "scratch_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_5/Vdd!" 17.22
+cap "m2_786_1345#" "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_5/Vdd!" 6.894
+cap "m1_648_1345#" "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_5/Vdd!" 22.728
+cap "m2_786_1345#" "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_5/out" 5.715
+cap "m2_786_1345#" "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/tg_5/out" 5.715
+cap "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/tg_5/a_100_74#" "m1_648_1345#" 8.7
+cap "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/W" "m2_785_1294#" 4.95
+cap "m1_648_1345#" "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/tg_5/out" 30.27
+cap "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/R0" "m2_786_1345#" 2.475
+cap "scratch_0/in5" "m1_648_1294#" 1341.25
+cap "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/W" "m2_785_1294#" 0.495
+cap "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/tg_5/GND!" "m2_786_1345#" 8.037
+cap "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/W" "m1_648_1294#" 10.2
+cap "m2_785_1294#" "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/R0" 4.95
+cap "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/R0" "m1_648_1345#" 11.7
+cap "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/W" "m1_648_1294#" 3.156
+cap "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/tg_5/GND!" "m1_648_1345#" 24.114
+cap "m1_648_1294#" "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/R0" 10.2
+cap "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_5/Vdd!" "m2_786_1345#" -11.196
+cap "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/tg_5/Vdd!" "m2_786_1345#" 8.037
+cap "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_5/Vdd!" "m1_648_1345#" -7.158
+cap "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/tg_5/Vdd!" "m1_648_1345#" 25.344
+cap "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/R0" "m2_785_1294#" 4.95
+cap "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/tg_5/GND!" "m2_785_1294#" 14.931
+cap "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/W" "m2_786_1345#" 2.475
+cap "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/R0" "m1_648_1294#" 10.2
+cap "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/tg_5/GND!" "m1_648_1294#" 19.622
+cap "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/W" "m2_786_1345#" -0.495
+cap "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/new_inv_state_0/a_90_10#" "m2_785_1294#" 19.96
+cap "m2_785_1294#" "scratch_0/m1_561_1316#" 189.29
+cap "m2_786_1345#" "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/R0" 2.475
+cap "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/W" "m1_648_1345#" 11.7
+cap "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/W" "m1_648_1345#" 3.84
+cap "m1_648_1294#" "scratch_0/m1_561_1316#" 98.7065
+cap "m1_648_1345#" "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/R0" 11.7
+cap "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/new_inv_state_0/a_90_10#" "m1_648_1294#" 58.619
+cap "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_5/Vdd!" "m2_785_1294#" -10.053
+cap "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/tg_5/Vdd!" "m2_785_1294#" 16.836
+cap "m2_786_1345#" "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/tg_5/a_100_74#" 1.485
+cap "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_5/Vdd!" "m1_648_1294#" -7.386
+cap "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/tg_5/Vdd!" "m1_648_1294#" 21.156
+cap "m2_785_1294#" "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/tg_5/GND!" 14.931
+cap "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/new_inv_state_0/a_90_10#" "m1_648_1294#" 58.619
+cap "m1_648_1294#" "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/W" 10.2
+cap "m1_648_1345#" "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_5/GND!" 7.536
+cap "m1_648_1345#" "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/W" 11.7
+cap "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_5/GND!" "m1_648_1294#" 5.696
+cap "scratch_0/m1_644_1316#" "m2_785_1294#" 189.29
+cap "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/R0" "m2_786_1345#" 2.475
+cap "m1_648_1294#" "scratch_0/in5" 1341.25
+cap "m2_786_1345#" "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/tg_5/Vdd!" 8.037
+cap "m1_648_1345#" "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/R0" 11.7
+cap "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/R0" "m1_648_1294#" 10.2
+cap "m1_648_1345#" "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/tg_5/Vdd!" 25.344
+cap "scratch_0/m1_727_1316#" "m1_648_1294#" 98.7065
+cap "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/a_0_88#" "m2_786_1345#" 1.485
+cap "m1_648_1294#" "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/tg_5/Vdd!" 21.156
+cap "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/new_inv_state_0/a_90_10#" "m2_785_1294#" 19.96
+cap "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/tg_5/a_100_74#" "m2_786_1345#" 1.485
+cap "m2_785_1294#" "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/W" 4.95
+cap "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_5/GND!" "m2_785_1294#" 2.514
+cap "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/tg_5/out" "m2_786_1345#" 5.715
+cap "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/a_0_88#" "m1_648_1345#" 8.7
+cap "m1_648_1345#" "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/tg_5/a_100_74#" 8.7
+cap "m1_648_1345#" "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/tg_5/out" 30.27
+cap "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/W" "m2_786_1345#" -3.96
+cap "m2_786_1345#" "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/tg_5/GND!" 8.037
+cap "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/R0" "m2_785_1294#" 4.95
+cap "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/W" "m1_648_1345#" 1.98
+cap "m2_785_1294#" "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/tg_5/Vdd!" 16.836
+cap "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/W" "m1_648_1294#" 1.164
+cap "scratch_0/m1_727_1316#" "m2_785_1294#" 189.29
+cap "m1_648_1294#" "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/tg_5/GND!" 19.622
+cap "m1_648_1345#" "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/tg_5/GND!" 24.114
+cap "scratch_0/m1_644_1316#" "m1_648_1294#" 98.7065
+cap "m2_786_1345#" "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/W" 2.475
+cap "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/W" "m2_785_1294#" -2.475
+cap "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_5/GND!" "m2_786_1345#" 0.648
+subcap "m1_648_1294#" -435.415
+subcap "m1_648_1345#" -333.389
+cap "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/R0" "m2_786_1345#" 2.475
+cap "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/new_inv_state_0/a_90_10#" "new_mux4_0/new_mux4_one_0[5]/in3" 58.619
+cap "new_mux4_0/new_mux4_one_0[5]/in3" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_1/Vdd!" 21.156
+cap "new_mux4_0/new_mux4_one_0[5]/in3" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_1/GND!" 1.212
+cap "m2_786_1345#" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_1/Vdd!" 8.037
+cap "m2_786_1345#" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_1/GND!" -8.415
+cap "new_mux4_0/new_mux4_one_0[5]/in2" "m2_786_1345#" 16.823
+cap "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_5/out" "new_mux4_0/new_mux4_one_0[5]/in2" 30.27
+cap "new_mux4_0/new_mux4_one_0[5]/in3" "m2_785_1294#" 45.081
+cap "new_mux4_0/new_mux4_one_0[4]/mux2_one_2/tg_0/GND!" "m2_785_1294#" 9.983
+cap "new_mux4_0/new_mux4_one_0[5]/in2" "new_mux4_0/new_mux4_one_0[5]/s0" 103.86
+cap "new_mux4_0/new_mux4_one_0[5]/in2" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/R0" 88.6567
+cap "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/new_inv_state_0/a_90_10#" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_1/Vdd!" 5.68434e-14
+cap "new_mux4_0/new_mux4_one_0[5]/mux2_one_1/tg_0/EN" "m2_786_1345#" 0.624
+cap "new_mux4_0/new_mux4_one_0[5]/in3" "scratch_0/in5" 402.375
+cap "new_mux4_0/new_mux4_one_0[5]/s0" "m2_785_1294#" 2.109
+cap "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/R0" "m2_785_1294#" 4.95
+cap "new_mux4_0/new_mux4_one_0[5]/in2" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_1/GND!" 3.864
+cap "new_mux4_0/new_mux4_one_0[5]/in2" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_1/Vdd!" 25.344
+cap "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/new_inv_state_0/a_90_10#" "m2_785_1294#" 19.96
+cap "m2_785_1294#" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_1/Vdd!" 16.836
+cap "m2_785_1294#" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_1/GND!" -3.387
+cap "new_mux4_0/new_mux4_one_0[4]/mux2_one_2/tg_0/GND!" "m2_786_1345#" 11.502
+cap "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_5/out" "m2_786_1345#" 5.715
+cap "new_mux4_0/new_mux4_one_0[5]/s0" "new_mux4_0/new_mux4_one_0[5]/in3" 103.86
+cap "new_mux4_0/new_mux4_one_0[5]/s0" "m2_786_1345#" 1.485
+cap "new_mux4_0/new_mux4_one_0[5]/in3" "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/R0" 87.1567
+subcap "m2_785_1294#" -634.358
+subcap "m2_786_1345#" -365.298
+cap "new_mux4_0/new_mux4_one_0[5]/out" "new_mux4_1/new_mux4_one_0[5]/s0" -2.536
+cap "new_mux4_1/new_mux4_one_0[5]/in3" "new_mux4_0/new_mux4_one_0[5]/mux2_one_0/tg_1/Vdd!" 32.286
+cap "new_mux4_1/new_mux4_one_0[5]/in2" "new_mux4_0/new_mux4_one_0[5]/mux2_one_1/tg_1/a_100_74#" 15.296
+cap "new_mux4_1/new_mux4_one_0[5]/in2" "new_mux4_0/new_mux4_one_0[5]/mux2_one_0/tg_1/GND!" 29.4
+cap "new_mux4_1/new_mux4_one_0[5]/in3" "new_mux4_0/new_mux4_one_0[4]/mux2_one_2/tg_0/GND!" -3.048
+cap "new_mux4_1/new_mux4_one_0[5]/in3" "new_mux4_0/new_mux4_one_0[4]/mux2_one_2/tg_0/Vdd!" 22.047
+cap "new_mux4_0/new_mux4_one_0[5]/mux2_one_1/tg_0/a_100_74#" "new_mux4_1/new_mux4_one_0[5]/in2" 0.312
+cap "new_mux4_0/new_mux4_one_0[5]/mux2_one_1/tg_1/a_100_57#" "new_mux4_1/new_mux4_one_0[5]/in3" 10.251
+cap "new_mux4_1/new_mux4_one_0[5]/in2" "new_mux4_0/new_mux4_one_0[5]/mux2_one_1/out" 17.472
+cap "new_mux4_1/new_mux4_one_0[5]/in3" "new_mux4_0/new_mux4_one_0[5]/mux2_one_1/tg_1/a_100_74#" 0.624
+cap "new_mux4_1/new_mux4_one_0[5]/in2" "new_mux4_0/new_mux4_one_0[5]/mux2_one_0/tg_1/Vdd!" 32.286
+cap "new_mux4_1/new_mux4_one_0[5]/in3" "new_mux4_0/new_mux4_one_0[5]/mux2_one_0/tg_1/GND!" 29.4
+cap "new_mux4_1/new_mux4_one_0[5]/s0" "new_mux4_0/new_mux4_one_0[5]/mux2_one_0/tg_1/a_100_74#" -2.332
+cap "new_mux4_0/new_mux4_one_0[5]/mux2_one_1/tg_0/a_100_57#" "new_mux4_1/new_mux4_one_0[5]/in2" 14.033
+cap "new_mux4_1/new_mux4_one_0[5]/s0" "new_mux4_0/new_mux4_one_0[5]/mux2_one_0/tg_1/Vdd!" 769.567
+cap "new_mux4_1/new_mux4_one_0[5]/in2" "new_mux4_0/new_mux4_one_0[4]/mux2_one_2/tg_0/GND!" -3.048
+cap "new_mux4_1/new_mux4_one_0[5]/in2" "new_mux4_0/new_mux4_one_0[4]/mux2_one_2/tg_0/Vdd!" 19.58
+cap "new_mux4_1/new_mux4_one_0[5]/in3" "new_mux4_0/new_mux4_one_0[5]/mux2_one_1/out" 32.768
+subcap "m2_785_1294#" -617.861
+subcap "m2_786_1345#" -345.897
+cap "new_mux4_1/new_mux4_one_0[5]/in2" "new_mux4_0/new_mux4_one_0[5]/mux2_one_0/tg_1/Vdd!" 2.141
+cap "new_mux4_1/new_mux4_one_0[5]/s0" "new_mux4_0/new_mux4_one_0[5]/out" 10.144
+cap "new_mux4_1/new_mux4_one_0[5]/s0" "new_mux4_1/new_mux4_one_0[5]/in3" 32.393
+cap "new_mux4_1/new_mux4_one_0[5]/s0" "new_mux4_0/new_mux4_one_0[5]/mux2_one_0/tg_1/Vdd!" 895.023
+cap "new_mux4_1/new_mux4_one_0[5]/s0" "new_mux4_0/new_mux4_one_0[5]/mux2_one_0/tg_1/a_100_74#" 4.664
+cap "new_mux4_1/new_mux4_one_0[5]/in2" "new_mux4_1/new_mux4_one_0[5]/s0" 28.033
+cap "new_mux4_1/new_mux4_one_0[5]/in3" "new_mux4_0/new_mux4_one_0[5]/mux2_one_0/tg_1/Vdd!" 3.882
+cap "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" "scratch_0/reg_six1_1/reg_one1_0[5]/m3_25_154#" 42.443
+cap "scratch_0/reg_six1_1/reg_one1_0[5]/m3_25_154#" "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/new_inv_3/GND!" 1.905
+cap "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/new_inv_3/Vdd!" "scratch_0/reg_six1_1/reg_one1_0[5]/m3_25_154#" 28.992
+cap "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/W" "m2_785_1451#" 0.495
+cap "m2_785_1451#" "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/R0" 4.95
+cap "scratch_0/reg_six1_0/reg_one1_0[5]/m3_25_154#" "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/new_inv_3/Vdd!" 31.132
+cap "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/W" "m2_785_1451#" 11.825
+cap "m2_785_1451#" "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" 23.19
+cap "m2_785_1451#" "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/new_inv_3/GND!" 37.515
+cap "scratch_0/reg_six1_0/reg_one1_0[5]/m3_25_154#" "m2_785_1451#" 11.925
+cap "scratch_0/reg_six1_0/reg_one1_0[5]/m3_25_154#" "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/W" 3.84
+cap "scratch_0/reg_six1_0/reg_one1_0[5]/m3_25_154#" "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/R0" 11.7
+cap "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/new_inv_3/Vdd!" "m2_785_1451#" 17.481
+cap "scratch_0/reg_six1_0/reg_one1_0[5]/m3_25_154#" "scratch_0/reg_six1_0/reg_one1_0[5]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" 65.541
+cap "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/R0" "m2_785_1451#" 11.825
+cap "m2_785_1451#" "scratch_0/reg_six1_1/reg_one1_0[5]/reg_one_0/new_inv_3/Vdd!" -9.303
+cap "m1_648_1451#" "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/W" 11.7
+cap "m2_785_1451#" "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/R0" 4.95
+cap "m1_648_1451#" "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" 93.353
+cap "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/new_inv_3/Vdd!" "m1_648_1451#" 32.116
+cap "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/W" "m2_785_1451#" 4.95
+cap "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/new_inv_3/GND!" "m1_648_1451#" 36.068
+cap "m2_785_1451#" "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" 22.251
+cap "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/new_inv_3/Vdd!" "m2_785_1451#" 17.481
+cap "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/new_inv_3/GND!" "m2_785_1451#" 20.796
+cap "m1_648_1451#" "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/new_inv_3/GND!" 9.216
+cap "m1_648_1451#" "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/W" 1.98
+cap "m1_648_1451#" "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/R0" 11.7
+cap "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/new_inv_3/GND!" "m2_785_1451#" 5.256
+cap "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/W" "m2_785_1451#" -2.475
+subcap "m1_648_1451#" -189.518
+cap "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/R0" "new_mux4_0/new_mux4_one_0[5]/in1" 88.6567
+cap "m2_785_1451#" "new_mux4_0/new_mux4_one_0[5]/mux2_one_2/sel" 4.218
+cap "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/R0" "m2_785_1451#" 4.95
+cap "new_mux4_0/new_mux4_one_0[5]/in1" "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_1/GND!" 15.818
+cap "m2_785_1451#" "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_1/GND!" 1.716
+cap "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" "new_mux4_0/new_mux4_one_0[5]/in1" 93.353
+cap "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_1/Vdd!" -1.13687e-13
+cap "m2_785_1451#" "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/stat_reg_1/new_inv_1/a_77_16#" 22.251
+cap "m2_785_1451#" "new_mux4_0/new_mux4_one_0[5]/mux2_one_1/tg_0/GND!" 16.877
+cap "new_mux4_0/new_mux4_one_0[5]/in1" "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_1/Vdd!" 32.116
+cap "new_mux4_0/new_mux4_one_0[5]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[5]/in1" 103.86
+cap "m2_785_1451#" "new_mux4_0/new_mux4_one_0[5]/in1" 28.894
+cap "m2_785_1451#" "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_1/Vdd!" 17.481
+subcap "m2_785_1451#" -393.267
+cap "new_mux4_0/new_mux4_one_0[5]/mux2_one_2/tg_1/a_100_74#" "new_mux4_1/new_mux4_one_0[5]/in1" 1.248
+cap "new_mux4_0/new_mux4_one_0[5]/mux2_one_2/out" "new_mux4_0/new_mux4_one_0[5]/mux2_one_1/tg_0/Vdd!" 5.68434e-14
+cap "new_mux4_0/new_mux4_one_0[5]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[5]/mux2_one_2/sel" 769.567
+cap "new_mux4_1/new_mux4_one_0[5]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[5]/mux2_one_0/tg_0/EN" -4.664
+cap "new_mux4_1/new_mux4_one_0[5]/in1" "new_mux4_0/new_mux4_one_0[5]/mux2_one_1/tg_0/GND!" -2.667
+cap "new_mux4_0/new_mux4_one_0[5]/mux2_one_0/tg_0/GND!" "new_mux4_1/new_mux4_one_0[5]/in1" 37.515
+cap "new_mux4_0/new_mux4_one_0[5]/s1" "new_mux4_1/new_mux4_one_0[5]/in1" 9.075
+cap "new_mux4_0/new_mux4_one_0[5]/mux2_one_2/tg_1/a_100_57#" "new_mux4_1/new_mux4_one_0[5]/in1" 4.43
+cap "new_mux4_0/new_mux4_one_0[5]/mux2_one_2/out" "new_mux4_1/new_mux4_one_0[5]/in1" 17.472
+cap "new_mux4_1/new_mux4_one_0[5]/in1" "new_mux4_0/new_mux4_one_0[5]/mux2_one_1/tg_0/Vdd!" 25.35
+cap "new_mux4_1/new_mux4_one_0[5]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[5]/s1" -2.332
+cap "new_mux4_0/new_mux4_one_0[5]/mux2_one_0/tg_0/EN" "new_mux4_1/new_mux4_one_0[5]/mux2_one_2/tg_1/EN" 1.81629
+cap "new_mux4_0/new_mux4_one_0[5]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[5]/in1" 38.739
+cap "new_mux4_1/new_mux4_one_0[5]/mux2_one_2/sel" "new_mux4_0/new_mux4_one_0[5]/mux2_one_0/tg_0/a_100_74#" -2.332
+cap "new_mux4_0/new_mux4_one_0[5]/mux2_one_0/tg_0/EN" "new_mux4_1/new_mux4_one_0[5]/in1" 29.796
+subcap "m2_785_1451#" -378.587
+cap "new_mux4_0/new_mux4_one_0[5]/mux2_one_0/tg_1/EN" "new_mux4_1/new_mux4_one_0[5]/mux2_one_2/sel" 4.664
+cap "new_mux4_0/new_mux4_one_0[5]/mux2_one_0/tg_0/a_100_74#" "new_mux4_1/new_mux4_one_0[5]/mux2_one_2/sel" 4.664
+cap "new_mux4_0/new_mux4_one_0[5]/mux2_one_0/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[5]/mux2_one_2/sel" 890.375
+cap "new_mux4_0/new_mux4_one_0[5]/mux2_one_0/tg_0/EN" "new_mux4_1/new_mux4_one_0[5]/mux2_one_2/sel" 9.7496
+cap "new_mux4_1/new_mux4_one_0[5]/in1" "new_mux4_0/new_mux4_one_0[5]/mux2_one_0/tg_0/Vdd!" 3.551
+cap "new_mux4_1/new_mux4_one_0[5]/in1" "new_mux4_1/new_mux4_one_0[5]/mux2_one_2/sel" 32.393
+cap "scratch_0/reg_six0_1/reg_one0_0[5]/m3_37_223#" "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/m1_29_198#" 8.24
+cap "scratch_0/reg_six0_1/reg_one0_0[5]/m3_37_223#" "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/tg_1/a_100_74#" 16.405
+cap "scratch_0/reg_six0_1/reg_one0_0[5]/m3_37_223#" "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/tg_1/Vdd!" 27.886
+cap "scratch_0/reg_six0_1/reg_one0_0[5]/m3_37_223#" "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_1/GND!" 7.656
+cap "scratch_0/reg_six0_1/reg_one0_0[5]/reg_one_0/R0" "scratch_0/reg_six0_1/reg_one0_0[5]/m3_37_223#" 17.033
+cap "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/W" "scratch_0/reg_six0_1/reg_one0_0[5]/m3_37_223#" 11.825
+subcap "m1_648_1502#" -17.237
+cap "new_mux4_0/new_mux4_one_0[5]/in0" "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_1/Vdd!" 24.606
+cap "m2_786_1502#" "new_mux4_0/new_mux4_one_0[5]/mux2_one_2/tg_0/GND!" 16.877
+cap "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/new_inv_3/a_90_10#" "new_mux4_0/new_mux4_one_0[5]/in0" 6.34
+cap "new_mux4_0/new_mux4_one_0[5]/s0" "m2_786_1502#" 2.97
+cap "new_mux4_0/new_mux4_one_0[5]/mux2_one_2/tg_0/EN" "m2_786_1502#" 1.248
+cap "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/R0" "m2_786_1502#" 8.178
+cap "new_mux4_0/new_mux4_one_0[5]/in0" "new_mux4_0/new_mux4_one_0[5]/s0" 103.86
+cap "m2_786_1502#" "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_1/a_100_74#" 13.91
+cap "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/R0" "new_mux4_0/new_mux4_one_0[5]/in0" 93.0007
+cap "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_1/GND!" "m2_786_1502#" 2.14
+cap "m2_786_1502#" "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_1/Vdd!" 18.741
+cap "new_mux4_0/new_mux4_one_0[5]/in0" "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_1/a_100_74#" 14.28
+cap "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/new_inv_3/a_90_10#" "m2_786_1502#" 8.24
+cap "new_mux4_0/new_mux4_one_0[5]/in0" "m2_786_1502#" 40.819
+subcap "m2_786_1502#" -287.174
+cap "new_mux4_1/new_mux4_one_0[5]/in0" "new_mux4_0/new_mux4_one_0[5]/w_190_76#" 20.24
+cap "new_mux4_1/new_mux4_one_0[5]/in0" "new_mux4_0/new_mux4_one_0[5]/m1_209_76#" 14.575
+cap "new_mux4_0/new_mux4_one_0[5]/mux2_one_2/tg_0/a_100_57#" "new_mux4_1/new_mux4_one_0[5]/in0" 7.282
+cap "new_mux4_1/new_mux4_one_0[5]/in0" "new_mux4_0/new_mux4_one_0[5]/w_161_76#" 17.204
+cap "new_mux4_1/new_mux4_one_0[5]/in0" "new_mux4_0/new_mux4_one_0[5]/s1" 9.075
+cap "new_mux4_0/new_mux4_one_0[5]/m1_209_76#" "new_mux4_1/new_mux4_one_0[5]/s0" 415.566
+cap "new_mux4_0/new_mux4_one_0[5]/mux2_one_2/tg_0/GND!" "new_mux4_1/new_mux4_one_0[5]/in0" -2.667
+cap "new_mux4_1/new_mux4_one_0[5]/in0" "new_mux4_0/new_mux4_one_0[5]/mux2_one_2/tg_0/EN" 17.472
+cap "new_mux4_1/new_mux4_one_0[5]/in0" "new_mux4_0/new_mux4_one_0[5]/m1_164_76#" 14.575
+cap "new_mux4_1/new_mux4_one_0[5]/in0" "new_mux4_0/new_mux4_one_0[5]/mux2_one_2/tg_0/a_100_74#" 0.624
+cap "new_mux4_0/new_mux4_one_0[5]/mux2_one_2/tg_0/Vdd!" "new_mux4_1/new_mux4_one_0[5]/in0" 25.6
+subcap "m2_786_1502#" -272.537
+cap "new_mux4_1/new_mux4_one_0[5]/in0" "new_mux4_1/new_mux4_one_0[5]/s0" 28.528
+cap "new_mux4_1/new_mux4_one_0[5]/mux2_one_2/tg_0/GND!" "new_mux4_1/new_mux4_one_0[5]/in0" 4.689
+cap "new_mux4_1/new_mux4_one_0[5]/s0" "new_mux4_0/new_mux4_one_0[5]/m1_209_76#" 415.566
+cap "new_mux4_0/new_mux4_one_0[5]/w_190_76#" "new_mux4_1/new_mux4_one_0[5]/s0" 62.748
+cap "new_mux4_0/new_mux4_one_0[5]/w_190_76#" "new_mux4_1/new_mux4_one_0[5]/in0" 1.86
+merge "new_mux4_0/new_mux4_one_0[5]/in1" "scratch_0/reg_six1_0/reg_one1_0[5]/m3_25_154#" -177.86 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 -525 -220 0 0 0 0 0 0
+merge "scratch_0/reg_six1_0/reg_one1_0[5]/m3_25_154#" "m1_648_1451#"
+merge "new_mux4_0/new_mux4_one_0[3]/in2" "scratch_0/reg_six2_0/reg_one2_0[3]/m3_25_48#" -323.797 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -1525 -620 0 0 0 0 0 0
+merge "scratch_0/reg_six2_0/reg_one2_0[3]/m3_25_48#" "m1_648_827#"
+merge "new_mux4_0/new_mux4_one_0[4]/in1" "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/P0" -112.571 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 315 -220 0 0 0 0 0 0
+merge "scratch_0/reg_six1_0/reg_one1_0[4]/reg_one_0/P0" "new_mux4_0/new_mux4_one_0[4]/mux2_one_2/tg_1/a_100_57#"
+merge "new_mux4_0/new_mux4_one_0[4]/mux2_one_2/tg_1/a_100_57#" "scratch_0/reg_six1_0/reg_one1_0[4]/m3_25_154#"
+merge "scratch_0/reg_six1_0/reg_one1_0[4]/m3_25_154#" "m1_648_1192#"
+merge "new_mux4_0/new_mux4_one_0[1]/in2" "scratch_0/reg_six2_0/reg_one2_0[1]/m3_25_48#" -323.797 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -1525 -620 0 0 0 0 0 0
+merge "scratch_0/reg_six2_0/reg_one2_0[1]/m3_25_48#" "m1_648_309#"
+merge "new_mux4_0/new_mux4_one_0[3]/in3" "scratch_0/reg_six3_0/reg_one3_0[3]/m3_25_n2#" -330.657 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28 -10 -420 -818 0 0 0 0 0 0
+merge "scratch_0/reg_six3_0/reg_one3_0[3]/m3_25_n2#" "m1_648_776#"
+merge "new_mux4_0/new_mux4_one_0[3]/in1" "scratch_0/reg_six1_0/reg_one1_0[3]/m3_25_154#" -176.411 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -525 -220 0 0 0 0 0 0
+merge "scratch_0/reg_six1_0/reg_one1_0[3]/m3_25_154#" "m1_648_933#"
+merge "new_mux4_1/new_mux4_one_0[5]/in0" "scratch_0/reg_six0_1/reg_one0_0[5]/m3_37_223#" -258.717 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -42 -44 -25 -20 -500 -200 0 0 0 0
+merge "scratch_0/reg_six0_1/reg_one0_0[5]/m3_37_223#" "m2_786_1502#"
+merge "new_mux4_1/new_mux4_one_0[1]/in1" "scratch_0/reg_six1_1/reg_one1_0[1]/m3_25_154#" -298.676 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -25 -20 -1200 -600 0 0 0 0
+merge "scratch_0/reg_six1_1/reg_one1_0[1]/m3_25_154#" "m2_785_415#"
+merge "scratch_0/reg_six1_0/reg_one1_0[2]/reg_one_0/P0" "new_mux4_0/new_mux4_one_0[2]/in1" -143.745 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -42 -10 -25 -220 0 0 0 0 0 0
+merge "new_mux4_0/new_mux4_one_0[2]/in1" "scratch_0/reg_six1_0/reg_one1_0[2]/m3_25_154#"
+merge "scratch_0/reg_six1_0/reg_one1_0[2]/m3_25_154#" "m1_648_674#"
+merge "new_mux4_1/new_mux4_one_0[2]/in0" "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/P0" -242.335 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -25 -20 -500 -200 0 0 0 0
+merge "scratch_0/reg_six0_1/reg_one0_0[2]/reg_one_0/P0" "m2_785_725#"
+merge "new_mux4_0/new_mux4_one_0[1]/in3" "scratch_0/reg_six3_0/reg_one3_0[1]/m3_25_n2#" -418.301 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -1620 -818 0 0 0 0 0 0
+merge "scratch_0/reg_six3_0/reg_one3_0[1]/m3_25_n2#" "m1_648_258#"
+merge "new_mux4_1/new_mux4_one_0[0]/in2" "scratch_0/reg_six2_1/reg_one2_0[0]/m3_25_48#" -506.921 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -10 -20 -2000 -800 0 0 0 0
+merge "scratch_0/reg_six2_1/reg_one2_0[0]/m3_25_48#" "m2_785_50#"
+merge "new_mux4_0/new_mux4_one_0[1]/in1" "scratch_0/reg_six1_0/reg_one1_0[1]/m3_25_154#" -176.411 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -525 -220 0 0 0 0 0 0
+merge "scratch_0/reg_six1_0/reg_one1_0[1]/m3_25_154#" "m1_648_415#"
+merge "scratch_0/reg_six0_1/reg_one0_0[3]/reg_one_0/P0" "new_mux4_1/new_mux4_one_0[3]/in0" -283.565 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -50 -25 -500 -300 0 0 0 0
+merge "new_mux4_1/new_mux4_one_0[3]/in0" "scratch_0/reg_six0_1/reg_one0_0[3]/m3_37_223#"
+merge "scratch_0/reg_six0_1/reg_one0_0[3]/m3_37_223#" "m2_785_984#"
+merge "scratch_0/reg_six1_1/reg_one1_0[2]/reg_one_0/P0" "new_mux4_1/new_mux4_one_0[2]/in1" -316.953 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -25 -20 0 -600 0 0 0 0
+merge "new_mux4_1/new_mux4_one_0[2]/in1" "scratch_0/reg_six1_1/reg_one1_0[2]/m3_25_154#"
+merge "scratch_0/reg_six1_1/reg_one1_0[2]/m3_25_154#" "m2_785_674#"
+merge "scratch_0/reg_six0_0/reg_one0_0[4]/reg_one_0/P0" "new_mux4_0/new_mux4_one_0[4]/in0" -45.399 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -25 -20 0 0 0 0 0 0
+merge "new_mux4_0/new_mux4_one_0[4]/in0" "m1_648_1243#"
+merge "new_mux4_0/new_mux4_one_0[0]/in1" "scratch_0/reg_six1_0/reg_one1_0[0]/m3_25_154#" -176.411 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -525 -220 0 0 0 0 0 0
+merge "scratch_0/reg_six1_0/reg_one1_0[0]/m3_25_154#" "m1_648_156#"
+merge "new_mux4_1/new_mux4_one_0[1]/in3" "scratch_0/reg_six3_1/reg_one3_0[1]/m3_25_n2#" -628.401 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -25 -20 -2400 -1200 0 0 0 0
+merge "scratch_0/reg_six3_1/reg_one3_0[1]/m3_25_n2#" "m2_785_258#"
+merge "new_mux4_0/new_mux4_one_0[0]/in2" "scratch_0/reg_six2_0/reg_one2_0[0]/m3_25_48#" -329.593 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -18 -1525 -620 0 0 0 0 0 0
+merge "scratch_0/reg_six2_0/reg_one2_0[0]/m3_25_48#" "m1_648_50#"
+merge "new_mux4_1/new_mux4_one_0[2]/in2" "scratch_0/reg_six2_1/reg_one2_0[2]/m3_25_48#" -384.708 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -10 -20 -2000 -800 0 0 0 0
+merge "scratch_0/reg_six2_1/reg_one2_0[2]/m3_25_48#" "m2_785_568#"
+merge "new_mux4_1/new_mux4_one_0[1]/in0" "scratch_0/reg_six0_1/reg_one0_0[1]/m3_37_223#" -242.335 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -25 -20 -500 -200 0 0 0 0
+merge "scratch_0/reg_six0_1/reg_one0_0[1]/m3_37_223#" "m2_785_466#"
+merge "new_mux4_1/new_mux4_one_0[1]/in2" "scratch_0/reg_six2_1/reg_one2_0[1]/m3_25_48#" -352.148 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -10 -20 -1600 -800 0 0 0 0
+merge "scratch_0/reg_six2_1/reg_one2_0[1]/m3_25_48#" "m2_785_309#"
+merge "new_mux4_1/new_mux4_one_0[2]/in3" "scratch_0/reg_six3_1/reg_one3_0[2]/m3_25_n2#" -628.401 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -25 -20 -2400 -1200 0 0 0 0
+merge "scratch_0/reg_six3_1/reg_one3_0[2]/m3_25_n2#" "m2_785_517#"
+merge "new_mux4_0/new_mux4_one_0[4]/in2" "scratch_0/reg_six2_0/reg_one2_0[4]/m3_25_48#" -285.431 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -42 -10 -950 -620 0 0 0 0 0 0
+merge "scratch_0/reg_six2_0/reg_one2_0[4]/m3_25_48#" "m1_648_1086#"
+merge "new_mux4_0/new_mux4_one_0[0]/in3" "scratch_0/reg_six3_0/reg_one3_0[0]/m3_25_n2#" -421.199 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -14 -1620 -818 0 0 0 0 0 0
+merge "scratch_0/reg_six3_0/reg_one3_0[0]/m3_25_n2#" "m1_648_n1#"
+merge "new_mux4_1/new_mux4_one_0[5]/in1" "scratch_0/reg_six1_1/reg_one1_0[5]/m3_25_154#" -391.703 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -25 -20 -1500 -600 0 0 0 0
+merge "scratch_0/reg_six1_1/reg_one1_0[5]/m3_25_154#" "m2_785_1451#"
+merge "scratch_0/reg_six0_0/reg_one0_0[0]/reg_one_0/P0" "new_mux4_0/new_mux4_one_0[0]/in0" -45.399 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -25 -20 0 0 0 0 0 0
+merge "new_mux4_0/new_mux4_one_0[0]/in0" "m1_648_207#"
+merge "new_mux4_1/new_mux4_one_0[5]/in2" "scratch_0/reg_six2_1/reg_one2_0[5]/m3_25_48#" -351.329 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -12 -10 -20 -1600 -800 0 0 0 0
+merge "scratch_0/reg_six2_1/reg_one2_0[5]/m3_25_48#" "m2_786_1345#"
+merge "new_mux4_1/new_mux4_one_0[5]/in3" "scratch_0/reg_six3_1/reg_one3_0[5]/m3_25_n2#" -628.401 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -25 -20 -2400 -1200 0 0 0 0
+merge "scratch_0/reg_six3_1/reg_one3_0[5]/m3_25_n2#" "m2_785_1294#"
+merge "new_mux4_1/new_mux4_one_0[4]/in3" "scratch_0/reg_six3_1/reg_one3_0[4]/m3_25_n2#" -628.401 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -25 -20 -2400 -1200 0 0 0 0
+merge "scratch_0/reg_six3_1/reg_one3_0[4]/m3_25_n2#" "m2_785_1035#"
+merge "new_mux4_1/new_mux4_one_0[0]/in0" "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/P0" -242.335 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -25 -20 -500 -200 0 0 0 0
+merge "scratch_0/reg_six0_1/reg_one0_0[0]/reg_one_0/P0" "m2_785_207#"
+merge "scratch_0/reg_six0_0/reg_one0_0[2]/reg_one_0/P0" "new_mux4_0/new_mux4_one_0[2]/in0" -45.399 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -25 -20 0 0 0 0 0 0
+merge "new_mux4_0/new_mux4_one_0[2]/in0" "m1_648_725#"
+merge "scratch_0/reg_six0_0/reg_one0_0[3]/reg_one_0/P0" "scratch_0/reg_six0_0/reg_one0_0[3]/m3_37_223#" -52.085 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28 -10 -50 -25 0 0 0 0 0 0
+merge "scratch_0/reg_six0_0/reg_one0_0[3]/m3_37_223#" "new_mux4_0/new_mux4_one_0[3]/in0"
+merge "new_mux4_0/new_mux4_one_0[3]/in0" "m1_648_984#"
+merge "scratch_0/reg_six0_0/reg_one0_0[5]/reg_one_0/P0" "new_mux4_0/new_mux4_one_0[5]/in0" -46.848 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 -25 -20 0 0 0 0 0 0
+merge "new_mux4_0/new_mux4_one_0[5]/in0" "m1_648_1502#"
+merge "new_mux4_0/new_mux4_one_0[2]/in2" "scratch_0/reg_six2_0/reg_one2_0[2]/m3_25_48#" -322.921 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -1520 -618 0 0 0 0 0 0
+merge "scratch_0/reg_six2_0/reg_one2_0[2]/m3_25_48#" "m1_648_568#"
+merge "new_mux4_0/new_mux4_one_0[5]/in3" "scratch_0/reg_six3_0/reg_one3_0[5]/m3_25_n2#" -418.301 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -1620 -818 0 0 0 0 0 0
+merge "scratch_0/reg_six3_0/reg_one3_0[5]/m3_25_n2#" "m1_648_1294#"
+merge "new_mux4_1/new_mux4_one_0[4]/in1" "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/P0" -268.913 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 15 -20 900 -600 0 0 0 0
+merge "scratch_0/reg_six1_1/reg_one1_0[4]/reg_one_0/P0" "new_mux4_1/new_mux4_one_0[4]/mux2_one_2/tg_1/a_100_57#"
+merge "new_mux4_1/new_mux4_one_0[4]/mux2_one_2/tg_1/a_100_57#" "scratch_0/reg_six1_1/reg_one1_0[4]/m3_25_154#"
+merge "scratch_0/reg_six1_1/reg_one1_0[4]/m3_25_154#" "m2_785_1192#"
+merge "new_mux4_0/new_mux4_one_0[2]/in3" "scratch_0/reg_six3_0/reg_one3_0[2]/m3_25_n2#" -418.301 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -1620 -818 0 0 0 0 0 0
+merge "scratch_0/reg_six3_0/reg_one3_0[2]/m3_25_n2#" "m1_648_517#"
+merge "new_mux4_0/new_mux4_one_0[5]/in2" "scratch_0/reg_six2_0/reg_one2_0[5]/m3_25_48#" -326.695 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -14 -1525 -620 0 0 0 0 0 0
+merge "scratch_0/reg_six2_0/reg_one2_0[5]/m3_25_48#" "m1_648_1345#"
+merge "new_mux4_1/new_mux4_one_0[4]/in0" "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/P0" -242.335 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -25 -20 -500 -200 0 0 0 0
+merge "scratch_0/reg_six0_1/reg_one0_0[4]/reg_one_0/P0" "m2_785_1243#"
+merge "scratch_0/reg_six0_0/reg_one0_0[1]/m3_37_223#" "new_mux4_0/new_mux4_one_0[1]/in0" -45.399 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -25 -20 0 0 0 0 0 0
+merge "new_mux4_0/new_mux4_one_0[1]/in0" "m1_648_466#"
+merge "new_mux4_1/new_mux4_one_0[4]/in2" "scratch_0/reg_six2_1/reg_one2_0[4]/m3_25_48#" -468.681 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -20 -20 -1200 -800 0 0 0 0
+merge "scratch_0/reg_six2_1/reg_one2_0[4]/m3_25_48#" "m2_785_1086#"
+merge "new_mux4_1/new_mux4_one_0[3]/in2" "scratch_0/reg_six2_1/reg_one2_0[3]/m3_25_48#" -507.921 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -10 -20 -2000 -800 0 0 0 0
+merge "scratch_0/reg_six2_1/reg_one2_0[3]/m3_25_48#" "m2_785_827#"
+merge "new_mux4_1/new_mux4_one_0[3]/in3" "scratch_0/reg_six3_1/reg_one3_0[3]/m3_25_n2#" -538.401 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -25 -20 -600 -1200 0 0 0 0
+merge "scratch_0/reg_six3_1/reg_one3_0[3]/m3_25_n2#" "m2_785_776#"
+merge "new_mux4_1/new_mux4_one_0[3]/in1" "scratch_0/reg_six1_1/reg_one1_0[3]/m3_25_154#" -391.953 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -25 -20 -1500 -600 0 0 0 0
+merge "scratch_0/reg_six1_1/reg_one1_0[3]/m3_25_154#" "m2_785_933#"
+merge "new_mux4_1/new_mux4_one_0[0]/in1" "scratch_0/reg_six1_1/reg_one1_0[0]/m3_25_154#" -391.953 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -25 -20 -1500 -600 0 0 0 0
+merge "scratch_0/reg_six1_1/reg_one1_0[0]/m3_25_154#" "m2_785_156#"
+merge "new_mux4_0/new_mux4_one_0[4]/in3" "scratch_0/reg_six3_0/reg_one3_0[4]/m3_25_n2#" -418.301 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -1620 -818 0 0 0 0 0 0
+merge "scratch_0/reg_six3_0/reg_one3_0[4]/m3_25_n2#" "m1_648_1035#"
+merge "new_mux4_1/new_mux4_one_0[0]/in3" "scratch_0/reg_six3_1/reg_one3_0[0]/m3_25_n2#" -627.582 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -12 -25 -20 -2400 -1200 0 0 0 0
+merge "scratch_0/reg_six3_1/reg_one3_0[0]/m3_25_n2#" "m2_786_n1#"

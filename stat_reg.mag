@@ -1,0 +1,36 @@
+magic
+tech scmos
+timestamp 1765788332
+<< nwell >>
+rect 29 0 58 7
+<< pwell >>
+rect 0 0 24 7
+<< polycontact >>
+rect 24 97 29 102
+rect 24 71 29 76
+<< metal1 >>
+rect 25 76 29 90
+rect 3 1 10 7
+rect 48 0 55 7
+<< m2contact >>
+rect 24 102 29 107
+rect 24 61 29 66
+rect 24 4 29 9
+<< metal2 >>
+rect 29 103 44 107
+rect 24 25 28 61
+rect 40 8 44 103
+rect 29 4 44 8
+use tg  tg_0
+timestamp 1765776620
+transform 1 0 -87 0 1 -37
+box 86 43 145 94
+use new_inv  new_inv_0
+timestamp 1765758641
+transform 1 0 -77 0 1 53
+box 77 4 135 30
+use new_inv  new_inv_1
+timestamp 1765758641
+transform 1 0 -77 0 1 79
+box 77 4 135 30
+<< end >>

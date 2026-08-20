@@ -1,0 +1,19 @@
+magic
+tech scmos
+timestamp 1765738707
+use nand2  nand2_2
+timestamp 1765291466
+transform 1 0 122 0 1 34
+box -55 -35 -18 18
+use nand2  nand2_0
+timestamp 1765291466
+transform 1 0 55 0 1 34
+box -55 -35 -18 18
+use nand2  nand2_1
+timestamp 1765291466
+transform 1 0 86 0 1 34
+box -55 -35 -18 18
+<< labels >>
+rlabel space 5 25 7 29 1 s0
+rlabel metal1 98 18 103 22 7 s0_next
+<< end >>

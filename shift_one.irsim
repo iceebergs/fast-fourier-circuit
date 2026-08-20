@@ -1,0 +1,49 @@
+ana s u a ad au o
+h Vdd!
+l GND!
+
+l s u a ad au
+s
+
+# s=0, o=a
+h a
+s
+path o
+h ad
+s
+l a ad
+h au u
+s
+
+# s=1,u=0, o=ad
+h s
+l a ad au u
+s
+h au
+s
+l au
+h ad
+s
+h a
+s
+h au
+s
+
+# s=1,u=1, o=au
+h s
+h u
+l a ad au
+s
+path o
+h au
+s
+l a
+h ad
+s
+l ad
+h a
+s
+h au
+s
+
+path o

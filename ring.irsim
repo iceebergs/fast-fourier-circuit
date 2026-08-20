@@ -1,0 +1,251 @@
+h Vdd
+l GND
+
+vector in in5 in4 in3 in2 in1 in0
+vector outim outim_5 outim_4 outim_3 outim_2 outim_1 outim_0
+vector outre outre_5 outre_4 outre_3 outre_2 outre_1 outre_0
+vector WA WA2 WA1 WA0
+vector RA REN R1 R0
+vector CLOCK phi0 phi1
+clock CLOCK 00 10 00 01
+
+ana CLOCK in outim outre l0_0 l1_0 RA
+l START ACK WA RA in
+
+# regular input test
+setvector WA 000
+setvector in 000011
+c
+setvector WA 001
+setvector in 001010
+c
+setvector WA 010
+setvector in 001100
+c
+setvector WA 011
+setvector in 000111
+c
+setvector WA 100
+setvector in 000101
+c
+setvector WA 101
+setvector in 001111
+c
+setvector WA 110
+setvector in 001000
+c
+setvector WA 111
+setvector in 000100
+c
+
+h START
+c
+c
+c
+c
+c
+c
+c
+c
+c
+
+setvector RA 100
+c
+setvector RA 101
+c
+setvector RA 110
+c
+setvector RA 111
+c
+h ACK
+c
+
+# 2nd regular input test with different inputs
+l START ACK WA RA in
+c
+
+setvector WA 000
+setvector in 000010
+c
+setvector WA 001
+setvector in 000111
+c
+setvector WA 010
+setvector in 001111
+c
+setvector WA 011
+setvector in 000101
+c
+setvector WA 100
+setvector in 000111
+c
+setvector WA 101
+setvector in 000000
+c
+setvector WA 110
+setvector in 000010
+c
+setvector WA 111
+setvector in 001001
+c
+
+h START
+c
+c
+c
+c
+c
+c
+c
+c
+c
+
+setvector RA 000
+c
+setvector RA 001
+c
+setvector RA 010
+c
+setvector RA 011
+c
+h ACK
+c
+
+# more random inputs
+l START ACK WA RA in
+c
+
+setvector WA 000
+setvector in 000111
+c
+setvector WA 001
+setvector in 000101
+c
+setvector WA 010
+setvector in 000110
+c
+setvector WA 011
+setvector in 000010
+c
+setvector WA 100
+setvector in 001101
+c
+setvector WA 101
+setvector in 001110
+c
+setvector WA 110
+setvector in 000001
+c
+setvector WA 111
+setvector in 001011
+c
+
+h START
+c
+c
+c
+c
+c
+c
+c
+c
+c
+
+setvector RA 010
+c
+setvector RA 100
+c
+setvector RA 110
+c
+setvector RA 111
+c
+h ACK
+c
+
+# specific cases for inputs (all 0's) 
+l START ACK WA RA in
+c
+
+# all zeros
+setvector WA 000
+setvector in 000000
+c
+
+# alternating
+setvector WA 001
+setvector in 000000
+c
+
+setvector WA 010
+setvector in 000000
+c
+
+setvector WA 011
+setvector in 000000
+c
+
+h START
+c
+c
+c
+c
+c
+c
+c
+c
+c
+
+setvector RA 000
+c
+setvector RA 001
+c
+setvector RA 010
+c
+setvector RA 011
+c
+h ACK
+c
+
+# specific cases for inputs (all alternating) 
+l START ACK WA RA in
+c
+
+# all zeros
+setvector WA 000
+setvector in 001010
+c
+
+# alternating
+setvector WA 001
+setvector in 000101
+c
+
+setvector WA 010
+setvector in 001010
+c
+
+setvector WA 011
+setvector in 000101
+c
+
+h START
+c
+c
+c
+c
+c
+c
+c
+c
+c
+
+setvector RA 000
+c
+setvector RA 001
+c
+setvector RA 010
+c
+setvector RA 011
+c
+h ACK
+c

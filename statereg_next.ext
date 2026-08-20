@@ -1,0 +1,408 @@
+timestamp 1765758246
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t24i
+scale 1000 1 9
+resistclasses 6900 7800 946000 946000 1 8000 8000 80 80 80 80 80 40
+use s9_next s9_next_0 0 -1 187 1 0 1366
+use s1_next s1_next_0 0 -1 187 1 0 112
+use s0_next s0_next_0 0 -1 183 1 0 0
+use statereg statereg_0 1 0 0 0 1 0
+node "s1" 0 3.56 129 254 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 12 0 0 0 0 0 0
+node "s2" 0 3.56 129 406 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 12 0 0 0 0 0 0
+node "s3" 0 3.56 129 558 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 12 0 0 0 0 0 0
+node "s4" 0 3.56 129 710 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 12 0 0 0 0 0 0
+node "s5" 0 3.56 129 862 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 12 0 0 0 0 0 0
+node "s6" 0 2.764 130 1014 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 10 0 0 0 0 0 0
+node "s7" 0 3.56 129 1166 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 12 0 0 0 0 0 0
+node "m1_128_0#" 0 19.786 128 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 27 24 0 0 0 0 0 0 0 0 0 0
+node "m1_161_101#" 5 322.336 161 101 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 1057 536 0 0 0 0 0 0 0 0
+node "m1_178_103#" 0 79.784 178 103 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 72 44 0 0 0 0 0 0 0 0 0 0
+node "s0" 5 151.852 153 2 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 40 50 40 730 372 0 0 0 0 0 0
+node "m1_134_103#" 0 8.88178e-15 134 103 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 90 46 0 0 0 0 0 0 0 0 0 0
+node "m1_183_195#" 24 4622.34 183 195 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4712 2364 0 0 0 0 0 0 0 0 0 0
+node "m1_160_191#" 6 323.632 160 191 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 1121 568 0 0 0 0 0 0 0 0
+node "m1_28_371#" 4 206.246 28 371 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 829 422 0 0 0 0 0 0
+node "m1_28_523#" 4 208.71 28 523 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 842 428 0 0 0 0 0 0
+node "m1_28_675#" 4 203.062 28 675 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 813 414 0 0 0 0 0 0
+node "m1_28_827#" 4 203.67 28 827 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 821 414 0 0 0 0 0 0
+node "m1_28_979#" 4 203.062 28 979 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 813 414 0 0 0 0 0 0
+node "m1_28_1131#" 4 203.67 28 1131 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 821 414 0 0 0 0 0 0
+node "m1_28_1283#" 4 203.062 28 1283 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 813 414 0 0 0 0 0 0
+node "m1_97_1318#" 0 41.33 97 1318 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 0 0 0 0 0 0 0 0
+node "not_ack" 0 21.044 158 1413 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0 0 0 0 0 0 0
+node "s8" 4 154.998 131 1318 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 40 734 374 33 24 0 0 0 0 0 0
+node "m1_28_1435#" 5 240.7 28 1435 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 40 50 40 882 448 0 0 0 0 0 0
+node "m1_127_1515#" 0 15.106 127 1515 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 52 34 0 0 0 0 0 0 0 0 0 0
+node "not_start" 9 140.069 153 24 pm12c 0 0 0 0 0 0 0 0 0 0 25 20 0 0 25 20 144 78 0 0 0 0 0 0 0 0
+node "ack" 10 201.822 153 38 pm12c 0 0 0 0 0 0 0 0 0 0 25 20 0 0 25 20 329 172 0 0 0 0 0 0 0 0
+node "s9" 45 1467.67 153 55 pm12c 0 0 0 0 0 0 0 0 0 0 25 20 0 0 75 60 131 80 7174 3594 0 0 0 0 0 0
+node "a_153_91#" 8 101.35 153 91 pm12c 0 0 0 0 0 0 0 0 0 0 25 20 0 0 25 20 25 20 0 0 0 0 0 0 0 0
+node "start" 9 134.4 157 154 pm12c 0 0 0 0 0 0 0 0 0 0 25 20 0 0 25 20 125 70 0 0 0 0 0 0 0 0
+node "w_124_113#" 14355 1820.13 124 113 nw 0 0 0 0 3122 464 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_122_1368#" 5102 2464.92 122 1368 nw 0 0 0 0 4228 358 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m1_28_1435#" "m1_127_1515#" 10.224
+cap "w_122_1368#" "m1_28_1435#" 11.448
+cap "s9" "w_122_1368#" 62.76
+cap "ack" "not_start" 394.863
+cap "s9" "s8" 322.067
+cap "s9" "m1_178_103#" 6.096
+cap "m1_134_103#" "m1_161_101#" 22.162
+cap "s0" "m1_128_0#" 7.56
+cap "w_122_1368#" "m1_127_1515#" 45.098
+cap "m1_134_103#" "s0" 10.2
+cap "s0" "m1_161_101#" 50.276
+cap "w_122_1368#" "s8" 155.996
+cap "s9" "m1_161_101#" 251.372
+cap "w_124_113#" "m1_128_0#" 18.848
+cap "a_153_91#" "m1_161_101#" 50.95
+cap "ack" "s0" 42.4583
+cap "m1_134_103#" "w_124_113#" 89.272
+cap "s9" "s0" 366.608
+cap "w_124_113#" "m1_160_191#" 79.926
+cap "w_124_113#" "m1_161_101#" 56.765
+cap "w_124_113#" "s0" 60.67
+cap "s9" "w_124_113#" 15.196
+cap "statereg_0/masterslave_0[0]/in" "statereg_0/masterslave_0[0]/tg_0/a_100_74#" 22.893
+cap "statereg_0/masterslave_0[0]/in" "statereg_0/masterslave_0[0]/tg_state_1/GND!" 55.357
+cap "statereg_0/masterslave_0[0]/in" "statereg_0/masterslave_0[0]/phi0" 5.92
+subcap "m1_161_101#" -331.819
+subcap "s0" -127.51
+subcap "not_start" -108.142
+subcap "ack" -170.175
+subcap "s9" -1438.31
+subcap "a_153_91#" -71.992
+cap "s0_next_0/nand2_1/b" "s0_next_0/nand2_2/a" 2.178
+cap "s0_next_0/nand2_1/b" "s0_next_0/nand2_1/Vdd!" 325.831
+cap "s0_next_0/nand2_1/a" "s0_next_0/nand2_0/b" 7.248
+cap "s0_next_0/nand2_2/a" "s0_next_0/nand2_0/a" 1.476
+cap "s0_next_0/nand2_1/Vdd!" "s0_next_0/nand2_0/a" 176.927
+cap "s0_next_0/nand2_1/b" "s0_next_0/nand2_1/GND!" 42.48
+cap "statereg_0/masterslave_0[0]/tg_3/a_100_74#" "s0_next_0/nand2_0/a" 1.932
+cap "s0_next_0/nand2_1/w_n55_n32#" "s0_next_0/nand2_0/b" 7.528
+cap "s0_next_0/nand2_1/b" "s0_next_0/nand2_2/b" 2.178
+cap "s0_next_0/nand2_1/w_n55_n32#" "s0_next_0/nand2_1/a" 5.288
+cap "s0_next_0/nand2_2/b" "s0_next_0/nand2_0/a" 2.916
+cap "m1_161_101#" "s0_next_0/nand2_2/out" 30.7827
+cap "s0_next_0/nand2_1/out" "s0_next_0/nand2_1/Vdd!" -8.52651e-14
+cap "s0_next_0/nand2_0/a_n40_n26#" "s0_next_0/nand2_0/b" 2.845
+cap "s0_next_0/nand2_0/out" "s0_next_0/nand2_1/Vdd!" -8.52651e-14
+cap "s0_next_0/nand2_1/Vdd!" "s0_next_0/nand2_2/a" 29.358
+cap "s0_next_0/nand2_1/Vdd!" "statereg_0/masterslave_0[0]/tg_3/a_100_74#" 4.632
+cap "s0_next_0/nand2_0/a_n40_n26#" "s0_next_0/nand2_1/a" 3.655
+cap "statereg_0/masterslave_0[0]/new_inv_3/a_77_16#" "s0_next_0/nand2_0/a" 17.444
+cap "s0_next_0/nand2_0/b" "s0_next_0/nand2_0/a" 1.476
+cap "s0_next_0/nand2_2/b" "s0_next_0/nand2_1/Vdd!" 28.389
+cap "s0_next_0/nand2_1/a" "s0_next_0/nand2_0/a" 38.74
+cap "s0_next_0/nand2_1/b" "s0_next_0/nand2_1/w_n55_n32#" 19.408
+cap "s0_next_0/nand2_0/out" "s0_next_0/nand2_0/b" 47.632
+cap "statereg_0/masterslave_0[0]/new_inv_2/a_77_16#" "s0_next_0/nand2_0/a" 0.492
+cap "s0_next_0/nand2_0/out" "s0_next_0/nand2_1/a" 107.411
+cap "s0_next_0/nand2_1/Vdd!" "s0_next_0/nand2_0/b" 35.665
+cap "s0_next_0/nand2_1/GND!" "s0_next_0/nand2_0/b" 33.679
+cap "s0_next_0/nand2_1/Vdd!" "s0_next_0/nand2_1/a" 124.003
+cap "s0_next_0/nand2_1/Vdd!" "s0_next_0/nand2_2/out" -8.52651e-14
+cap "s0_next_0/nand2_1/a" "s0_next_0/nand2_1/GND!" 31.644
+cap "s0_next_0/nand2_1/b" "s0_next_0/nand2_0/a" 1.476
+cap "s0_next_0/nand2_1/w_n55_n32#" "s0_next_0/nand2_1/GND!" 2.84217e-14
+cap "statereg_0/masterslave_0[0]/tg_state_1/Vdd!" "m1_161_101#" 63.532
+cap "statereg_0/masterslave_0[0]/tg_state_0/GND!" "m1_160_191#" 61.396
+cap "statereg_0/masterslave_0[0]/tg_state_0/EN" "m1_161_101#" 28.964
+cap "statereg_0/masterslave_0[1]/new_inv_1/a_90_10#" "m1_160_191#" 165.588
+cap "statereg_0/masterslave_0[0]/tg_state_1/a_100_74#" "s9" 3.36
+cap "statereg_0/masterslave_0[0]/tg_state_0/a_100_57#" "m1_161_101#" 254.75
+cap "s9" "statereg_0/masterslave_0[0]/tg_state_1/Vdd!" 14.736
+cap "s9" "statereg_0/masterslave_0[0]/tg_state_0/EN" 3.504
+cap "statereg_0/masterslave_0[1]/tg_0/out" "m1_160_191#" 1.632
+cap "statereg_0/masterslave_0[0]/tg_state_0/EN" "m1_160_191#" 23.044
+cap "statereg_0/masterslave_0[0]/tg_state_1/Vdd!" "m1_160_191#" 69.328
+cap "statereg_0/masterslave_0[0]/tg_state_1/GND!" "m1_161_101#" 115.368
+cap "statereg_0/masterslave_0[0]/tg_state_1/EN" "m1_161_101#" 85.856
+cap "statereg_0/masterslave_0[0]/tg_state_1/GND!" "s9" 13.26
+cap "statereg_0/masterslave_0[1]/new_inv_1/a_77_16#" "m1_160_191#" 1.632
+cap "statereg_0/masterslave_0[0]/tg_state_1/EN" "s9" 7.674
+cap "statereg_0/masterslave_0[0]/tg_state_1/a_100_57#" "m1_161_101#" 484.025
+cap "statereg_0/masterslave_0[0]/tg_state_1/GND!" "m1_160_191#" 80.626
+cap "statereg_0/masterslave_0[0]/tg_state_1/EN" "m1_160_191#" 138.536
+cap "statereg_0/masterslave_0[0]/tg_state_0/GND!" "m1_161_101#" 58.752
+cap "statereg_0/masterslave_0[0]/tg_state_1/out" "m1_161_101#" 11.908
+cap "statereg_0/masterslave_0[0]/tg_state_1/a_100_74#" "m1_161_101#" 32.372
+cap "statereg_0/masterslave_0[0]/tg_state_0/GND!" "s9" 12.768
+subcap "m1_161_101#" -293.835
+subcap "m1_183_195#" -4501.73
+subcap "m1_160_191#" -271.715
+subcap "a_153_91#" -375.866
+subcap "start" -12.95
+cap "s9" "s1_next_0/and2_0/GND!" 28.455
+cap "s1_next_0/s0" "m1_161_101#" 13.5637
+cap "s1_next_0/and2_0/a_10_n14#" "s9" 1.23
+cap "m1_161_101#" "s1_next_0/and2_0/Vdd!" 153.075
+cap "s1_next_0/and2_0/new_inv_0/a_77_16#" "s1_next_0/start" 31.809
+cap "s9" "s0_next_0/nand2_2/w_n55_n32#" 1.592
+cap "statereg_0/masterslave_0[1]/new_inv_3/a_90_10#" "s1_next_0/s1_next" 165.588
+cap "s1_next_0/s0" "statereg_0/masterslave_0[0]/tg_state_0/a_100_74#" 0.246
+cap "statereg_0/masterslave_0[0]/tg_state_0/GND!" "s1_next_0/s1_next" -2.341
+cap "s1_next_0/start" "s1_next_0/and2_0/GND!" 32.542
+cap "statereg_0/masterslave_0[0]/tg_state_0/a_100_74#" "s1_next_0/and2_0/Vdd!" 4.632
+cap "m1_161_101#" "statereg_0/masterslave_0[0]/tg_state_0/a_100_57#" 178.325
+cap "statereg_0/masterslave_0[1]/new_inv_3/a_90_10#" "s1_next_0/and2_0/Vdd!" 1.13687e-13
+cap "s9" "statereg_0/masterslave_0[0]/tg_state_0/a_100_74#" 3.36
+cap "statereg_0/masterslave_0[0]/tg_state_0/EN" "s1_next_0/and2_0/Vdd!" 4.632
+cap "s9" "statereg_0/masterslave_0[0]/tg_state_0/GND!" -1.722
+cap "m1_161_101#" "s0_next_0/nand2_2/w_n55_n32#" 12.996
+cap "s1_next_0/and2_0/Vdd!" "s1_next_0/s1_next" 118.114
+cap "statereg_0/masterslave_0[1]/tg_3/out" "s1_next_0/and2_0/Vdd!" 2.84217e-14
+cap "s1_next_0/s0" "s1_next_0/and2_0/Vdd!" 2.454
+cap "s1_next_0/s0" "s9" 25.306
+cap "m1_161_101#" "statereg_0/masterslave_0[0]/tg_state_0/a_100_74#" 35.588
+cap "s1_next_0/s0" "s1_next_0/and2_0/GND!" 2.764
+cap "s9" "s1_next_0/and2_0/Vdd!" 25.72
+cap "statereg_0/masterslave_0[0]/tg_state_0/GND!" "m1_161_101#" -2.341
+cap "s1_next_0/and2_0/new_inv_0/a_77_16#" "s9" 1.476
+cap "m1_161_101#" "s0_next_0/nand2_2/out" 30.7827
+cap "statereg_0/masterslave_0[0]/tg_state_0/a_100_57#" "s1_next_0/and2_0/Vdd!" -1.42109e-14
+cap "statereg_0/masterslave_0[1]/tg_state_1/a_100_74#" "statereg_0/masterslave_0[1]/tg_state_0/out" 10.866
+cap "s9" "statereg_0/masterslave_0[1]/phi0" 21.44
+cap "statereg_0/masterslave_0[1]/tg_state_0/out" "statereg_0/masterslave_0[1]/phi0" 7.12
+cap "statereg_0/masterslave_0[1]/tg_state_1/GND!" "statereg_0/masterslave_0[1]/in" 6.919
+cap "statereg_0/masterslave_0[1]/tg_state_1/out" "statereg_0/masterslave_0[1]/tg_state_0/out" 17.07
+cap "statereg_0/masterslave_0[1]/tg_state_0/GND!" "statereg_0/masterslave_0[1]/tg_state_0/out" 25.672
+cap "statereg_0/masterslave_0[1]/tg_state_1/Vdd!" "statereg_0/masterslave_0[1]/tg_state_0/out" 27.264
+cap "statereg_0/masterslave_0[1]/phi1" "statereg_0/masterslave_0[1]/tg_state_0/out" 7.464
+cap "statereg_0/masterslave_0[1]/in" "statereg_0/masterslave_0[1]/phi0" 47.112
+cap "statereg_0/masterslave_0[1]/tg_state_1/GND!" "statereg_0/masterslave_0[1]/tg_state_0/out" 30.084
+cap "statereg_0/masterslave_0[1]/tg_state_0/out" "statereg_0/masterslave_0[1]/tg_state_1/a_100_57#" 60.082
+subcap "m1_183_195#" -4261.39
+subcap "m1_160_191#" -353.817
+cap "statereg_0/masterslave_0[1]/out" "statereg_0/masterslave_0[1]/tg_state_0/GND!" -2.402
+subcap "m1_28_371#" -175.794
+cap "statereg_0/masterslave_0[1]/tg_state_1/EN" "s9" 16.01
+cap "statereg_0/masterslave_0[2]/in" "statereg_0/masterslave_0[2]/new_inv_1/a_90_10#" 10.866
+cap "statereg_0/masterslave_0[1]/tg_state_1/Vdd!" "statereg_0/masterslave_0[2]/new_inv_1/a_77_16#" -1.13687e-13
+cap "statereg_0/masterslave_0[2]/in" "statereg_0/masterslave_0[2]/new_inv_1/a_77_16#" 59.1343
+cap "statereg_0/masterslave_0[1]/tg_state_1/GND!" "statereg_0/masterslave_0[2]/in" 50.992
+cap "statereg_0/masterslave_0[2]/in" "statereg_0/masterslave_0[2]/tg_0/out" 24.224
+subcap "s2" -35.27
+cap "statereg_0/masterslave_0[2]/tg_state_0/out" "statereg_0/masterslave_0[2]/tg_state_1/a_100_74#" 10.656
+cap "statereg_0/masterslave_0[2]/tg_state_0/GND!" "statereg_0/masterslave_0[2]/tg_state_0/out" 25.672
+cap "statereg_0/masterslave_0[2]/tg_state_0/out" "statereg_0/masterslave_0[2]/tg_state_1/out" 16.86
+cap "statereg_0/masterslave_0[2]/phi0" "s9" 5.43
+cap "statereg_0/masterslave_0[2]/tg_state_1/Vdd!" "statereg_0/masterslave_0[2]/tg_state_0/out" 27.264
+cap "statereg_0/masterslave_0[3]/new_inv_1/a_77_16#" "statereg_0/masterslave_0[2]/tg_state_0/out" 81.2785
+cap "statereg_0/masterslave_0[3]/new_inv_0/a_77_16#" "statereg_0/masterslave_0[2]/tg_state_0/out" 3.56
+cap "statereg_0/masterslave_0[2]/phi0" "statereg_0/masterslave_0[2]/tg_state_0/out" 13.516
+cap "statereg_0/masterslave_0[2]/tg_state_0/out" "statereg_0/masterslave_0[2]/phi1" 7.464
+cap "statereg_0/masterslave_0[2]/tg_state_1/GND!" "statereg_0/masterslave_0[2]/tg_state_0/out" 60.944
+cap "statereg_0/masterslave_0[3]/new_inv_1/a_90_10#" "statereg_0/masterslave_0[2]/tg_state_0/out" 10.656
+cap "statereg_0/masterslave_0[2]/tg_state_1/a_100_57#" "statereg_0/masterslave_0[2]/tg_state_0/out" 59.872
+cap "statereg_0/masterslave_0[2]/tg_state_0/GND!" "statereg_0/masterslave_0[2]/out" -2.402
+subcap "m1_28_523#" -177.52
+cap "statereg_0/masterslave_0[3]/Vdd!" "statereg_0/masterslave_0[3]/in" 0.984
+cap "s9" "statereg_0/masterslave_0[3]/phi0" 21.44
+cap "statereg_0/masterslave_0[3]/tg_0/out" "statereg_0/masterslave_0[3]/in" 19.224
+cap "statereg_0/masterslave_0[3]/tg_state_0/GND!" "statereg_0/masterslave_0[3]/tg_state_0/out" 25.672
+cap "statereg_0/masterslave_0[3]/tg_state_1/a_100_57#" "statereg_0/masterslave_0[3]/tg_state_0/out" 59.872
+cap "statereg_0/masterslave_0[3]/phi0" "statereg_0/masterslave_0[3]/tg_state_0/out" 13.516
+cap "statereg_0/masterslave_0[3]/tg_state_1/a_100_74#" "statereg_0/masterslave_0[3]/tg_state_0/out" 10.656
+cap "statereg_0/masterslave_0[3]/GND!" "statereg_0/masterslave_0[3]/tg_state_0/out" 20.956
+cap "statereg_0/masterslave_0[3]/Vdd!" "statereg_0/masterslave_0[3]/tg_state_0/out" 27.264
+cap "statereg_0/masterslave_0[3]/tg_state_1/out" "statereg_0/masterslave_0[3]/tg_state_0/out" 16.86
+cap "statereg_0/masterslave_0[3]/GND!" "statereg_0/masterslave_0[3]/in" 16.204
+cap "statereg_0/masterslave_0[3]/phi1" "statereg_0/masterslave_0[3]/tg_state_0/out" 7.464
+cap "statereg_0/masterslave_0[3]/out" "statereg_0/masterslave_0[3]/tg_state_0/GND!" -2.402
+subcap "m1_28_675#" -171.076
+cap "statereg_0/masterslave_0[3]/tg_state_1/GND!" "statereg_0/masterslave_0[4]/in" 56.916
+cap "statereg_0/masterslave_0[4]/new_inv_1/a_90_10#" "statereg_0/masterslave_0[4]/in" 10.656
+cap "statereg_0/masterslave_0[4]/new_inv_1/a_77_16#" "statereg_0/masterslave_0[4]/in" 81.2785
+cap "statereg_0/masterslave_0[4]/tg_0/out" "statereg_0/masterslave_0[4]/in" 23.744
+cap "statereg_0/masterslave_0[3]/tg_state_1/EN" "s9" 12.808
+cap "statereg_0/masterslave_0[4]/new_inv_1/a_77_16#" "statereg_0/masterslave_0[3]/tg_state_1/Vdd!" -5.68434e-14
+cap "statereg_0/masterslave_0[4]/tg_state_0/out" "statereg_0/masterslave_0[5]/new_inv_1/a_77_16#" 81.2785
+cap "statereg_0/masterslave_0[5]/new_inv_0/a_77_16#" "statereg_0/masterslave_0[4]/tg_state_0/out" 3.56
+cap "statereg_0/masterslave_0[4]/tg_state_0/out" "statereg_0/masterslave_0[5]/new_inv_1/a_90_10#" 10.656
+cap "statereg_0/masterslave_0[4]/tg_state_1/Vdd!" "statereg_0/masterslave_0[4]/tg_state_0/out" 27.264
+cap "statereg_0/masterslave_0[4]/tg_state_1/out" "statereg_0/masterslave_0[4]/tg_state_0/out" 16.86
+cap "statereg_0/masterslave_0[4]/tg_state_0/GND!" "statereg_0/masterslave_0[4]/tg_state_0/out" 25.672
+cap "statereg_0/masterslave_0[4]/phi0" "statereg_0/masterslave_0[4]/tg_state_0/out" 13.516
+cap "statereg_0/masterslave_0[4]/tg_state_1/a_100_74#" "statereg_0/masterslave_0[4]/tg_state_0/out" 10.656
+cap "statereg_0/masterslave_0[4]/phi0" "s9" 8.632
+cap "statereg_0/masterslave_0[4]/phi1" "statereg_0/masterslave_0[4]/tg_state_0/out" 7.464
+cap "statereg_0/masterslave_0[4]/tg_state_0/out" "statereg_0/masterslave_0[4]/tg_state_1/GND!" 53.904
+cap "statereg_0/masterslave_0[4]/tg_state_1/a_100_57#" "statereg_0/masterslave_0[4]/tg_state_0/out" 59.872
+cap "statereg_0/masterslave_0[4]/out" "statereg_0/masterslave_0[4]/tg_state_0/GND!" -2.402
+subcap "m1_28_827#" -172.65
+cap "statereg_0/masterslave_0[5]/tg_state_0/out" "statereg_0/masterslave_0[5]/phi0" 13.516
+cap "statereg_0/masterslave_0[5]/phi1" "statereg_0/masterslave_0[5]/tg_state_0/out" 7.464
+cap "statereg_0/masterslave_0[5]/tg_state_0/out" "statereg_0/masterslave_0[5]/Vdd!" 27.264
+cap "statereg_0/masterslave_0[5]/in" "statereg_0/masterslave_0[5]/tg_0/out" 21.96
+cap "statereg_0/masterslave_0[5]/tg_state_0/out" "statereg_0/masterslave_0[5]/GND!" 13.916
+cap "statereg_0/masterslave_0[5]/in" "statereg_0/masterslave_0[5]/GND!" 22.114
+cap "statereg_0/masterslave_0[5]/tg_state_1/a_100_57#" "statereg_0/masterslave_0[5]/tg_state_0/out" 59.872
+cap "statereg_0/masterslave_0[5]/tg_state_1/a_100_74#" "statereg_0/masterslave_0[5]/tg_state_0/out" 10.656
+cap "statereg_0/masterslave_0[5]/tg_state_0/out" "statereg_0/masterslave_0[5]/tg_state_0/GND!" 25.672
+cap "s9" "statereg_0/masterslave_0[5]/phi0" 19.268
+cap "statereg_0/masterslave_0[5]/tg_state_1/out" "statereg_0/masterslave_0[5]/tg_state_0/out" 16.86
+cap "statereg_0/masterslave_0[5]/out" "statereg_0/masterslave_0[5]/tg_state_0/GND!" -2.402
+subcap "m1_28_979#" -172.61
+cap "statereg_0/masterslave_0[6]/in" "statereg_0/masterslave_0[6]/new_inv_1/a_90_10#" 10.656
+cap "s9" "statereg_0/masterslave_0[5]/tg_state_1/EN" 2.172
+cap "statereg_0/masterslave_0[6]/in" "statereg_0/masterslave_0[5]/tg_state_1/GND!" 62.536
+cap "statereg_0/masterslave_0[6]/new_inv_1/a_77_16#" "statereg_0/masterslave_0[5]/tg_state_1/Vdd!" -1.13687e-13
+cap "statereg_0/masterslave_0[6]/in" "statereg_0/masterslave_0[6]/new_inv_1/a_77_16#" 81.2785
+cap "statereg_0/masterslave_0[6]/in" "statereg_0/masterslave_0[6]/tg_0/out" 21.836
+cap "statereg_0/masterslave_0[7]/new_inv_1/a_77_16#" "statereg_0/masterslave_0[6]/tg_state_0/out" 79.4545
+cap "statereg_0/masterslave_0[6]/tg_state_1/Vdd!" "statereg_0/masterslave_0[6]/tg_state_0/out" 27.264
+cap "statereg_0/masterslave_0[6]/tg_state_1/a_100_57#" "statereg_0/masterslave_0[6]/tg_state_0/out" 59.872
+cap "statereg_0/masterslave_0[6]/tg_state_1/a_100_74#" "statereg_0/masterslave_0[6]/tg_state_0/out" 10.656
+cap "statereg_0/masterslave_0[6]/phi0" "statereg_0/masterslave_0[6]/tg_state_0/out" 13.516
+cap "statereg_0/masterslave_0[6]/tg_state_1/GND!" "statereg_0/masterslave_0[6]/tg_state_0/out" 53.506
+cap "statereg_0/masterslave_0[6]/tg_state_0/GND!" "statereg_0/masterslave_0[6]/tg_state_0/out" 25.672
+cap "statereg_0/masterslave_0[7]/new_inv_1/a_90_10#" "statereg_0/masterslave_0[6]/tg_state_0/out" 10.656
+cap "statereg_0/masterslave_0[6]/tg_state_1/out" "statereg_0/masterslave_0[6]/tg_state_0/out" 16.86
+cap "statereg_0/masterslave_0[6]/phi1" "statereg_0/masterslave_0[6]/tg_state_0/out" 7.464
+cap "s9" "statereg_0/masterslave_0[6]/phi0" 21.44
+cap "statereg_0/masterslave_0[6]/out" "statereg_0/masterslave_0[6]/tg_state_0/GND!" -2.402
+subcap "m1_28_1131#" -172.972
+cap "statereg_0/masterslave_0[7]/tg_state_0/GND!" "statereg_0/masterslave_0[7]/tg_state_0/out" 25.672
+cap "statereg_0/masterslave_0[7]/tg_state_1/a_100_74#" "statereg_0/masterslave_0[7]/tg_state_0/out" 8.832
+cap "statereg_0/masterslave_0[7]/phi0" "s9" 16.01
+cap "statereg_0/masterslave_0[7]/GND!" "statereg_0/masterslave_0[7]/tg_state_0/out" 13.764
+cap "statereg_0/masterslave_0[7]/in" "statereg_0/masterslave_0[7]/new_inv_0/a_90_10#" 5.184
+cap "statereg_0/masterslave_0[7]/tg_state_0/out" "statereg_0/masterslave_0[7]/Vdd!" 27.264
+cap "statereg_0/masterslave_0[7]/phi1" "statereg_0/masterslave_0[7]/tg_state_0/out" 7.464
+cap "statereg_0/masterslave_0[7]/in" "statereg_0/masterslave_0[7]/tg_0/out" 20.792
+cap "statereg_0/masterslave_0[7]/tg_state_0/out" "statereg_0/masterslave_0[7]/tg_state_1/out" 16.86
+cap "statereg_0/masterslave_0[7]/GND!" "statereg_0/masterslave_0[7]/in" 23.93
+cap "statereg_0/masterslave_0[7]/tg_state_0/out" "statereg_0/masterslave_0[7]/phi0" 9.464
+cap "statereg_0/masterslave_0[7]/tg_state_1/a_100_57#" "statereg_0/masterslave_0[7]/tg_state_0/out" 59.872
+cap "statereg_0/masterslave_0[7]/out" "statereg_0/masterslave_0[7]/tg_state_0/GND!" -2.402
+subcap "m1_28_1283#" -166.554
+cap "statereg_0/masterslave_0[8]/tg_0/out" "statereg_0/masterslave_0[8]/in" 22.604
+cap "statereg_0/masterslave_0[8]/in" "statereg_0/masterslave_0[8]/new_inv_1/a_77_16#" 81.2785
+cap "statereg_0/masterslave_0[8]/new_inv_1/a_90_10#" "statereg_0/masterslave_0[8]/in" 10.656
+cap "s9" "statereg_0/masterslave_0[7]/tg_state_1/EN" 5.43
+cap "statereg_0/masterslave_0[7]/tg_state_1/GND!" "statereg_0/masterslave_0[8]/in" 62.196
+cap "statereg_0/masterslave_0[7]/tg_state_1/EN" "statereg_0/masterslave_0[8]/in" 4.052
+cap "statereg_0/masterslave_0[7]/tg_state_1/a_100_74#" "statereg_0/masterslave_0[8]/in" 5.184
+subcap "m1_97_1318#" -46.159
+cap "s9" "statereg_0/masterslave_0[8]/tg_state_1/GND!" 26.468
+cap "s9" "statereg_0/masterslave_0[8]/tg_state_1/Vdd!" 28.48
+cap "s9" "statereg_0/masterslave_0[8]/phi1" 7.464
+cap "statereg_0/masterslave_0[8]/tg_state_0/GND!" "s9" 25.672
+cap "statereg_0/masterslave_0[9]/new_inv_1/a_90_10#" "s9" 35.068
+cap "s9" "statereg_0/masterslave_0[8]/phi0" 28.904
+subcap "s8" -55.185
+subcap "w_122_1368#" -321.516
+cap "s9_next_0/s9" "s9_next_0/and2_0/Vdd!" 47.132
+cap "statereg_0/masterslave_0[8]/out" "s9_next_0/and2_0/Vdd!" 169.863
+cap "s9_next_0/and2_0/GND!" "s9_next_0/and2_0/w_n7_n24#" 0.86
+cap "statereg_0/masterslave_0[9]/new_inv_3/a_77_16#" "s9_next_0/s9" 0.492
+cap "statereg_0/masterslave_0[8]/tg_state_0/EN" "statereg_0/masterslave_0[8]/out" 1.632
+cap "statereg_0/masterslave_0[8]/tg_state_0/a_100_74#" "statereg_0/masterslave_0[8]/out" 1.632
+cap "s9_next_0/s9" "statereg_0/masterslave_0[9]/new_inv_3/a_90_10#" 35.068
+cap "s9_next_0/s9" "s9_next_0/and2_0/w_n7_n24#" 2.764
+cap "s9_next_0/s9" "statereg_0/masterslave_0[8]/tg_state_0/GND!" -1.418
+subcap "m1_28_1435#" -206.222
+cap "statereg_0/masterslave_0[9]/tg_0/a_100_57#" "statereg_0/masterslave_0[9]/tg_state_1/out" 11.112
+cap "statereg_0/masterslave_0[9]/tg_0/a_100_57#" "statereg_0/masterslave_0[9]/tg_state_1/GND!" 0.492
+cap "statereg_0/masterslave_0[9]/tg_0/a_100_57#" "statereg_0/masterslave_0[9]/tg_state_1/a_100_74#" 3.56
+cap "statereg_0/masterslave_0[9]/tg_state_1/Vdd!" "statereg_0/masterslave_0[9]/tg_3/a_100_57#" 8.88178e-16
+cap "statereg_0/masterslave_0[9]/tg_0/EN" "statereg_0/masterslave_0[9]/tg_0/a_100_57#" 3.56
+cap "statereg_0/masterslave_0[9]/tg_state_1/Vdd!" "statereg_0/masterslave_0[9]/tg_0/a_100_57#" 37.076
+cap "statereg_0/masterslave_0[9]/tg_state_1/a_100_57#" "statereg_0/masterslave_0[9]/tg_0/a_100_57#" 38.456
+cap "statereg_0/masterslave_0[9]/tg_0/a_100_57#" "statereg_0/masterslave_0[9]/tg_0/a_100_74#" 11.604
+cap "s9_next_0/s8" "s9_next_0/or2_0/a_11_13#" 60.5611
+cap "statereg_0/masterslave_0[9]/out" "statereg_0/masterslave_0[9]/tg_3/EN" 1.932
+cap "s9_next_0/or2_0/Vdd!" "statereg_0/masterslave_0[9]/out" 37.296
+cap "statereg_0/masterslave_0[9]/out" "statereg_0/masterslave_0[9]/tg_3/out" 0.492
+cap "s9_next_0/or2_0/inv_0/in" "s9_next_0/s8" 61.5653
+cap "s9_next_0/or2_0/Vdd!" "statereg_0/masterslave_0[9]/tg_state_0/a_100_57#" -5.68434e-14
+cap "s9_next_0/or2_0/Vdd!" "statereg_0/masterslave_0[9]/tg_3/a_100_74#" 4.632
+cap "statereg_0/masterslave_0[9]/tg_state_0/a_100_57#" "statereg_0/masterslave_0[9]/out" -5.68434e-14
+cap "statereg_0/masterslave_0[9]/out" "statereg_0/masterslave_0[9]/tg_3/a_100_74#" 1.932
+cap "s9_next_0/s8" "statereg_0/masterslave_0[9]/tg_3/EN" 1.632
+cap "s9_next_0/or2_0/Vdd!" "s9_next_0/s8" 167.371
+cap "s9_next_0/or2_0/Vdd!" "statereg_0/masterslave_0[9]/tg_state_0/a_100_74#" 4.632
+cap "s9_next_0/s8" "statereg_0/masterslave_0[9]/tg_3/a_100_74#" 1.632
+cap "s9_next_0/or2_0/Vdd!" "statereg_0/masterslave_0[9]/tg_3/EN" 4.632
+cap "statereg_0/masterslave_0[9]/tg_state_0/EN" "m1_28_1435#" 7.464
+cap "statereg_0/masterslave_0[9]/tg_state_1/a_100_74#" "m1_28_1435#" 11.112
+cap "statereg_0/masterslave_0[9]/tg_state_0/GND!" "m1_28_1435#" 25.672
+cap "statereg_0/masterslave_0[9]/tg_state_1/Vdd!" "m1_28_1435#" 35.192
+cap "statereg_0/masterslave_0[9]/tg_state_1/EN" "m1_28_1435#" 3.56
+cap "s9_next_0/or2_0/inv_0/Vdd!" "s9_next_0/or2_0/out" 28.11
+cap "s9_next_0/or2_0/out" "statereg_0/masterslave_0[9]/tg_state_0/GND!" -1.418
+cap "s9_next_0/or2_0/inv_0/Vdd!" "statereg_0/masterslave_0[9]/tg_state_0/EN" 4.632
+cap "s9_next_0/or2_0/inv_0/Vdd!" "s9_next_0/or2_0/inv_0/in" 1.06581e-14
+merge "s9_next_0/or2_0/out" "statereg_0/masterslave_0[9]/tg_0/a_100_57#" -207.428 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -41 -36 -25 -20 -272 -136 0 0 0 0 0 0
+merge "statereg_0/masterslave_0[9]/tg_0/a_100_57#" "m1_28_1435#"
+merge "statereg_0/masterslave_0[4]/in" "statereg_0/masterslave_0[3]/out" -109.742 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 -25 -20 -8 -20 0 0 0 0 0 0
+merge "statereg_0/masterslave_0[3]/out" "statereg_0/masterslave_0[3]/tg_state_0/out"
+merge "statereg_0/masterslave_0[3]/tg_state_0/out" "m1_28_675#"
+merge "m1_28_675#" "s3"
+merge "s9_next_0/or2_0/inv_0/w_n5_0#" "statereg_0/masterslave_0[9]/tg_state_0/Vdd!" -410.474 0 0 0 0 -572 -104 0 0 0 0 0 0 0 0 -20 -26 0 0 0 0 0 0 0 0 0 0
+merge "statereg_0/masterslave_0[9]/tg_state_0/Vdd!" "s9_next_0/or2_0/Vdd!"
+merge "s9_next_0/or2_0/Vdd!" "statereg_0/masterslave_0[8]/tg_state_0/Vdd!"
+merge "statereg_0/masterslave_0[8]/tg_state_0/Vdd!" "s9_next_0/and2_0/Vdd!"
+merge "s9_next_0/and2_0/Vdd!" "w_122_1368#"
+merge "w_122_1368#" "s9_next_0/or2_0/inv_0/Vdd!"
+merge "s9_next_0/or2_0/inv_0/Vdd!" "m1_127_1515#"
+merge "statereg_0/masterslave_0[9]/out" "s9_next_0/s9" -1484.52 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 -50 -40 -25 -20 -6204 -3110 0 0 0 0 0 0
+merge "s9_next_0/s9" "s0_next_0/nand2_1/b"
+merge "s0_next_0/nand2_1/b" "s9"
+merge "statereg_0/masterslave_0[6]/in" "statereg_0/masterslave_0[5]/out" -114.46 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 -25 -20 -8 -20 0 0 0 0 0 0
+merge "statereg_0/masterslave_0[5]/out" "statereg_0/masterslave_0[5]/tg_state_0/out"
+merge "statereg_0/masterslave_0[5]/tg_state_0/out" "m1_28_979#"
+merge "m1_28_979#" "s5"
+merge "s9_next_0/or2_0/or_a" "statereg_0/masterslave_0[8]/out" -71.296 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 -25 -20 -8 -12 0 0 0 0 0 0
+merge "statereg_0/masterslave_0[8]/out" "statereg_0/masterslave_0[8]/tg_state_0/out"
+merge "statereg_0/masterslave_0[8]/tg_state_0/out" "m1_97_1318#"
+merge "m1_97_1318#" "s8"
+merge "s1_next_0/s0" "statereg_0/masterslave_0[0]/out" -181.406 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -33 -34 -25 -20 -40 -16 0 0 0 0 0 0
+merge "statereg_0/masterslave_0[0]/out" "s0_next_0/nand2_0/a"
+merge "s0_next_0/nand2_0/a" "s0"
+merge "statereg_0/masterslave_0[8]/in" "statereg_0/masterslave_0[7]/out" -117.398 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 -25 -20 -8 -20 0 0 0 0 0 0
+merge "statereg_0/masterslave_0[7]/out" "statereg_0/masterslave_0[7]/tg_state_0/out"
+merge "statereg_0/masterslave_0[7]/tg_state_0/out" "m1_28_1283#"
+merge "m1_28_1283#" "s7"
+merge "statereg_0/masterslave_0[2]/in" "statereg_0/masterslave_0[1]/out" -109.684 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 -25 -20 -8 -20 0 0 0 0 0 0
+merge "statereg_0/masterslave_0[1]/out" "statereg_0/masterslave_0[1]/tg_state_0/out"
+merge "statereg_0/masterslave_0[1]/tg_state_0/out" "m1_28_371#"
+merge "m1_28_371#" "s1"
+merge "statereg_0/masterslave_0[5]/in" "statereg_0/masterslave_0[4]/out" -73.108 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 -25 -20 -8 -20 0 0 0 0 0 0
+merge "statereg_0/masterslave_0[4]/out" "statereg_0/masterslave_0[4]/tg_state_0/out"
+merge "statereg_0/masterslave_0[4]/tg_state_0/out" "m1_28_827#"
+merge "m1_28_827#" "s4"
+merge "statereg_0/masterslave_0[3]/in" "statereg_0/masterslave_0[2]/out" -196.56 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 -25 -20 14 -30 0 0 0 0 0 0
+merge "statereg_0/masterslave_0[2]/out" "statereg_0/masterslave_0[2]/tg_state_0/out"
+merge "statereg_0/masterslave_0[2]/tg_state_0/out" "m1_28_523#"
+merge "m1_28_523#" "s2"
+merge "statereg_0/masterslave_0[0]/tg_3/EN" "s0_next_0/nand2_2/b" -108.46 0 0 0 0 0 0 0 0 0 0 -5 -24 0 0 -5 -20 0 0 0 0 0 0 0 0 0 0
+merge "s0_next_0/nand2_2/b" "a_153_91#"
+merge "statereg_0/masterslave_0[0]/in" "m1_161_101#" -293.835 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -560 -288 0 0 0 0 0 0 0 0
+merge "s9_next_0/and2_0/GND!" "s1_next_0/and2_0/new_inv_0/GND!" -3601.27 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3637 -1852 0 0 0 0 0 0 0 0 0 0
+merge "s1_next_0/and2_0/new_inv_0/GND!" "s0_next_0/nand2_2/GND!"
+merge "s0_next_0/nand2_2/GND!" "s1_next_0/and2_0/GND!"
+merge "s1_next_0/and2_0/GND!" "m1_183_195#"
+merge "m1_183_195#" "s0_next_0/nand2_1/GND!"
+merge "s0_next_0/nand2_1/GND!" "m1_178_103#"
+merge "s0_next_0/nand2_1/a" "ack" -228.891 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "statereg_0/masterslave_0[7]/in" "statereg_0/masterslave_0[6]/out" -75.818 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 -25 -20 -4 -18 0 0 0 0 0 0
+merge "statereg_0/masterslave_0[6]/out" "statereg_0/masterslave_0[6]/tg_state_0/out"
+merge "statereg_0/masterslave_0[6]/tg_state_0/out" "m1_28_1131#"
+merge "m1_28_1131#" "s6"
+merge "s1_next_0/start" "start" -129.542 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "statereg_0/masterslave_0[1]/tg_state_0/Vdd!" "s1_next_0/and2_0/new_inv_0/Vdd!" -1731.2 0 0 0 0 -2617 -876 0 0 0 0 0 0 0 0 -72 -52 0 0 0 0 0 0 0 0 0 0
+merge "s1_next_0/and2_0/new_inv_0/Vdd!" "s0_next_0/nand2_2/Vdd!"
+merge "s0_next_0/nand2_2/Vdd!" "s0_next_0/nand2_2/w_n55_n14#"
+merge "s0_next_0/nand2_2/w_n55_n14#" "s1_next_0/and2_0/Vdd!"
+merge "s1_next_0/and2_0/Vdd!" "statereg_0/masterslave_0[0]/tg_state_0/Vdd!"
+merge "statereg_0/masterslave_0[0]/tg_state_0/Vdd!" "s0_next_0/nand2_1/w_n55_n14#"
+merge "s0_next_0/nand2_1/w_n55_n14#" "w_124_113#"
+merge "w_124_113#" "s0_next_0/nand2_1/Vdd!"
+merge "s0_next_0/nand2_1/Vdd!" "m1_134_103#"
+merge "m1_134_103#" "m1_128_0#"
+merge "statereg_0/masterslave_0[1]/in" "s1_next_0/s1_next" -103.023 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -20 -17 -18 0 0 0 0 0 0 0 0
+merge "s1_next_0/s1_next" "m1_160_191#"
+merge "s9_next_0/and2_0/and_b" "not_ack" -21.044 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0 0 0 0 0 0 0 0 0
+merge "s0_next_0/nand2_0/b" "not_start" -166.858 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0

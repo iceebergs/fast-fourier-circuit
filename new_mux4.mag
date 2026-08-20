@@ -1,0 +1,23 @@
+magic
+tech scmos
+timestamp 1765788425
+<< error_p >>
+rect 0 0 196 125
+<< metal1 >>
+rect 79 1165 84 1170
+<< m2contact >>
+rect 84 1165 89 1170
+rect 7 1143 12 1148
+<< metal2 >>
+rect 84 1147 89 1165
+rect 12 1143 89 1147
+use new_mux4_one  new_mux4_one_0
+array 0 0 130 0 5 259
+timestamp 1765788425
+transform 1 0 -90 0 1 106
+box 89 -106 219 153
+<< labels >>
+rlabel space 0 901 0 901 3 s0
+rlabel space 66 0 68 1 1 s1
+rlabel space -1 0 1 1 2 s0
+<< end >>

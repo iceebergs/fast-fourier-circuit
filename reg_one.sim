@@ -1,0 +1,36 @@
+| units: 9 tech: scmos format: MIT
+n tg_5/out m1_29_198# GND! 2 5 18 195
+p tg_5/out m1_29_198# Vdd! 2 10 40 195
+p R0 tg_1/a_100_74# Vdd! 2 10 40 221
+p tg_1/a_100_74# P0 m1_29_198# 2 10 40 246
+n R0 tg_1/a_100_74# GND! 2 5 18 221
+n R0 P0 m1_29_198# 2 5 18 246
+p W stat_reg_1/tg_0/EN Vdd! 2 10 40 39
+p stat_reg_1/tg_0/EN tg_5/out m1_31_17# 2 10 40 64
+n W stat_reg_1/tg_0/EN GND! 2 5 18 39
+n W tg_5/out m1_31_17# 2 5 18 64
+p stat_reg_1/tg_0/EN stat_reg_1/tg_0/a_100_74# Vdd! 2 10 40 116
+p stat_reg_1/tg_0/a_100_74# tg_5/out stat_reg_1/m1_24_61# 2 10 40 91
+n stat_reg_1/tg_0/EN stat_reg_1/tg_0/a_100_74# GND! 2 5 18 116
+n stat_reg_1/tg_0/EN tg_5/out stat_reg_1/m1_24_61# 2 5 18 91
+n stat_reg_1/a_24_71# stat_reg_1/m1_24_61# GND! 2 5 18 142
+p stat_reg_1/a_24_71# stat_reg_1/m1_24_61# Vdd! 2 10 40 142
+n tg_5/out stat_reg_1/a_24_71# GND! 2 5 18 168
+p tg_5/out stat_reg_1/a_24_71# Vdd! 2 10 40 168
+n in m1_31_17# GND! 2 5 18 13
+p in m1_31_17# Vdd! 2 10 40 13
+R in 216
+C Vdd! GND 4.61
+R Vdd! 8996
+R GND! 793
+R stat_reg_1/a_24_71# 237
+R tg_5/out 542
+R stat_reg_1/m1_24_61# 93
+R stat_reg_1/tg_0/a_100_74# 180
+R m1_31_17# 93
+R stat_reg_1/tg_0/EN 591
+R W 461
+R P0 22
+R tg_1/a_100_74# 180
+R R0 432
+R m1_29_198# 93

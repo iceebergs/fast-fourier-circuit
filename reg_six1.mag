@@ -1,0 +1,12 @@
+magic
+tech scmos
+timestamp 1765788332
+<< error_p >>
+rect 0 376 130 400
+rect 0 0 130 108
+use reg_one1  reg_one1_0
+array 0 0 80 0 5 259
+timestamp 1765788332
+transform 1 0 4 0 1 1
+box -12 -18 68 241
+<< end >>

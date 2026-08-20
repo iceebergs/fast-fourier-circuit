@@ -1,0 +1,27 @@
+timestamp 1765758641
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t24i
+scale 1000 1 9
+resistclasses 6900 7800 946000 946000 1 8000 8000 80 80 80 80 80 40
+use reg_one reg_one_0 1 0 -4 0 1 -18
+node "m3_25_48#" 3 169.012 25 48 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 955 392 0 0 0 0 0 0
+subcap "m3_25_48#" -164.818
+cap "m3_25_48#" "reg_one_0/stat_reg_1/tg_0/Vdd!" 3.69
+cap "m3_25_48#" "reg_one_0/stat_reg_1/tg_0/GND!" 4.674
+cap "m3_25_48#" "reg_one_0/stat_reg_1/tg_0/a_100_57#" 34.884
+cap "m3_25_48#" "reg_one_0/stat_reg_1/tg_0/out" 60.361
+cap "reg_one_0/stat_reg_1/new_inv_0/a_77_16#" "m3_25_48#" 31.384
+cap "reg_one_0/stat_reg_1/tg_0/EN" "m3_25_48#" 1.628
+cap "reg_one_0/stat_reg_1/tg_0/a_100_57#" "m3_25_48#" 129.761
+cap "m3_25_48#" "reg_one_0/stat_reg_1/new_inv_1/Vdd!" 17.22
+cap "reg_one_0/new_inv_3/a_90_10#" "m3_25_48#" 18.13
+cap "reg_one_0/stat_reg_1/tg_0/a_100_74#" "m3_25_48#" 5.7
+cap "reg_one_0/stat_reg_1/new_inv_1/GND!" "m3_25_48#" 18.204
+cap "reg_one_0/stat_reg_1/new_inv_1/a_77_16#" "m3_25_48#" 58.821
+cap "reg_one_0/new_inv_3/Vdd!" "reg_one_0/P0" 8.364
+cap "reg_one_0/P0" "reg_one_0/new_inv_3/a_90_10#" 122.879
+cap "reg_one_0/tg_1/a_100_74#" "reg_one_0/P0" 4.2
+cap "reg_one_0/tg_1/EN" "reg_one_0/P0" 0.984
+cap "reg_one_0/new_inv_3/GND!" "reg_one_0/P0" 8.364
+merge "reg_one_0/P0" "m3_25_48#" -49.414 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -18 0 0 0 0 0 0

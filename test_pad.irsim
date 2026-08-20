@@ -1,0 +1,27 @@
+ana oe out inout in
+h Vdd
+l GND
+h oe
+h out
+s
+assert inout 1
+assert in 1
+
+l out
+s
+assert inout 0
+assert in 0
+
+l oe
+s
+assert inout x
+assert in x
+
+h inout
+s
+assert in 1
+
+l inout
+s
+assert in 0
+

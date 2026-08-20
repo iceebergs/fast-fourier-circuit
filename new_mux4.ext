@@ -1,0 +1,25 @@
+timestamp 1765759594
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t24i
+scale 1000 1 9
+resistclasses 6900 7800 946000 946000 1 8000 8000 80 80 80 80 80 40
+use new_mux4_one new_mux4_one_0[0:0:130][0:5:259] 1 0 -90 0 1 106
+node "m1_7_1143#" 2 226.001 7 1143 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 75 50 448 220 0 0 0 0 0 0 0 0
+subcap "m1_7_1143#" -180.828
+cap "new_mux4_one_0[4]/mux2_one_0/tg_1/a_100_57#" "new_mux4_one_0[4]/mux2_one_0/tg_1/GND!" 29.1143
+cap "new_mux4_one_0[4]/mux2_one_0/tg_1/a_100_74#" "new_mux4_one_0[4]/mux2_one_0/tg_1/GND!" 30.855
+cap "new_mux4_one_0[4]/mux2_one_0/tg_0/out" "new_mux4_one_0[4]/mux2_one_0/tg_1/GND!" 96.7455
+cap "new_mux4_one_0[4]/s1" "new_mux4_one_0[4]/mux2_one_0/tg_1/GND!" 30.036
+cap "new_mux4_one_0[4]/mux2_one_1/tg_0/Vdd!" "new_mux4_one_0[4]/mux2_one_0/tg_1/GND!" 69.328
+merge "new_mux4_one_0[4]/mux2_one_1/tg_0/GND!" "new_mux4_one_0[4]/mux2_one_0/tg_1/GND!" -213.364 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -35 -34 0 0 0 0 0 0 0 0 0 0
+merge "new_mux4_one_0[4]/mux2_one_0/tg_1/GND!" "m1_7_1143#"
+cap "new_mux4_one_0[0:4]/s1" "new_mux4_one_0[0:4]/mux2_one_2/tg_0/Vdd!" 1.42109e-14
+merge "new_mux4_one_0[1:5]/mux2_one_1/tg_1/Vdd!" "new_mux4_one_0[0:4]/mux2_one_2/tg_0/Vdd!" -16.268 0 0 0 0 0 -58 0 0 0 0 0 0 0 0 0 -14 0 0 0 0 0 0 0 0 0 0
+merge "new_mux4_one_0[1:5]/s0" "new_mux4_one_0[0:4]/s0" -6.972 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
+merge "new_mux4_one_0[1:5]/s1" "new_mux4_one_0[0:4]/s1" -6.972 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
+merge "new_mux4_one_0[1:5]/m1_209_n106#" "new_mux4_one_0[0:4]/m1_209_76#" -16.268 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14 0 0 0 0 0 0 0 0 0 0
+merge "new_mux4_one_0[1:5]/mux2_one_1/tg_1/GND!" "new_mux4_one_0[0:4]/mux2_one_2/tg_0/GND!" -16.268 0 0 0 0 0 0 0 0 0 -48 0 0 0 0 0 -14 0 0 0 0 0 0 0 0 0 0
+merge "new_mux4_one_0[1:5]/m1_164_n106#" "new_mux4_one_0[0:4]/m1_164_76#" -16.268 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14 0 0 0 0 0 0 0 0 0 0
+merge "new_mux4_one_0[1:5]/w_190_n106#" "new_mux4_one_0[0:4]/w_190_76#" 0 0 0 0 0 0 -58 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "new_mux4_one_0[1:5]/w_161_n106#" "new_mux4_one_0[0:4]/w_161_76#" 0 0 0 0 0 0 0 0 0 0 -48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

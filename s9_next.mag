@@ -1,0 +1,17 @@
+magic
+tech scmos
+timestamp 1765774077
+use and2  and2_0
+timestamp 1765774077
+transform 1 0 7 0 1 24
+box -7 -28 77 31
+use or2  or2_0
+timestamp 1765758641
+transform 1 0 81 0 1 23
+box -7 -25 72 33
+<< labels >>
+rlabel metal2 0 18 2 22 3 s9
+rlabel space 47 25 50 29 1 not_ack
+rlabel space 146 21 153 25 7 s9_next
+rlabel metal1 102 24 105 29 1 s8
+<< end >>

@@ -1,0 +1,45 @@
+| units: 9 tech: scmos format: MIT
+p mux2_one_0/tg_0/EN mux2_one_0/tg_0/a_100_74# Vdd! 2 10 196 62
+p mux2_one_0/tg_0/a_100_74# out mux2_one_0/a 2 10 196 37
+n mux2_one_0/tg_0/EN mux2_one_0/tg_0/a_100_74# GND! 2 5 174 62
+n mux2_one_0/tg_0/EN out mux2_one_0/a 2 5 174 37
+p s1 mux2_one_0/tg_0/EN Vdd! 2 10 196 11
+p mux2_one_0/tg_0/EN out mux2_one_0/b 2 10 196 -14
+n s1 mux2_one_0/tg_0/EN GND! 2 5 174 11
+n s1 out mux2_one_0/b 2 5 174 -14
+p mux2_one_1/tg_0/EN mux2_one_1/tg_0/a_100_74# Vdd! 2 10 129 -18
+p mux2_one_1/tg_0/a_100_74# mux2_one_0/b in2 2 10 129 -43
+n mux2_one_1/tg_0/EN mux2_one_1/tg_0/a_100_74# GND! 2 5 107 -18
+n mux2_one_1/tg_0/EN mux2_one_0/b in2 2 5 107 -43
+p s0 mux2_one_1/tg_0/EN Vdd! 2 10 129 -69
+p mux2_one_1/tg_0/EN mux2_one_0/b in3 2 10 129 -94
+n s0 mux2_one_1/tg_0/EN GND! 2 5 107 -69
+n s0 mux2_one_0/b in3 2 5 107 -94
+p mux2_one_2/tg_0/EN mux2_one_2/tg_0/a_100_74# Vdd! 2 10 129 139
+p mux2_one_2/tg_0/a_100_74# mux2_one_0/a in0 2 10 129 114
+n mux2_one_2/tg_0/EN mux2_one_2/tg_0/a_100_74# GND! 2 5 107 139
+n mux2_one_2/tg_0/EN mux2_one_0/a in0 2 5 107 114
+p s0 mux2_one_2/tg_0/EN Vdd! 2 10 129 88
+p mux2_one_2/tg_0/EN mux2_one_0/a in1 2 10 129 63
+n s0 mux2_one_2/tg_0/EN GND! 2 5 107 88
+n s0 mux2_one_0/a in1 2 5 107 63
+C s1 GND! 2.89
+C s0 GND! 3.38
+R in1 22
+R mux2_one_0/a 158
+R in0 22
+R mux2_one_2/tg_0/a_100_74# 180
+R mux2_one_2/tg_0/EN 562
+R in3 22
+R s0 883
+R mux2_one_0/b 159
+R in2 22
+R mux2_one_1/tg_0/a_100_74# 180
+R mux2_one_1/tg_0/EN 562
+C Vdd! GND 6.13
+R Vdd! 19972
+R GND! 893
+R s1 437
+R out 94
+R mux2_one_0/tg_0/a_100_74# 180
+R mux2_one_0/tg_0/EN 562

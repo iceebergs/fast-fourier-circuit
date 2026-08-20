@@ -1,0 +1,120 @@
+magic
+tech scmos
+timestamp 1762666711
+<< nwell >>
+rect -6 34 0 51
+<< pwell >>
+rect -6 16 0 33
+<< polysilicon >>
+rect 39 54 42 62
+rect 66 53 69 56
+rect 76 53 79 56
+rect 166 54 169 62
+rect 216 54 219 56
+rect 12 5 15 14
+rect 76 12 79 14
+rect 106 5 109 14
+rect 116 11 119 13
+rect 126 -3 129 14
+rect 156 5 159 14
+rect 176 -11 179 14
+rect 206 11 209 14
+rect 226 11 229 14
+<< polycontact >>
+rect 39 62 44 67
+rect 164 62 169 67
+rect 64 56 69 61
+rect 76 56 81 61
+rect 215 56 220 61
+rect 115 6 120 11
+rect 12 0 17 5
+rect 106 0 111 5
+rect 155 0 160 5
+rect 125 -8 130 -3
+rect 204 6 209 11
+rect 225 6 230 11
+rect 175 -16 180 -11
+<< metal1 >>
+rect -6 62 39 67
+rect 44 64 164 67
+rect 169 64 450 67
+rect 56 56 64 59
+rect 81 58 128 61
+rect 206 56 215 59
+rect -6 48 0 53
+rect 200 48 450 53
+rect 229 31 371 36
+rect 376 31 450 36
+rect -6 14 0 19
+rect 228 14 450 19
+rect 103 8 115 11
+rect 192 8 204 11
+rect 223 6 225 11
+rect -6 0 12 5
+rect 17 0 106 3
+rect 111 0 155 3
+rect 160 0 450 3
+<< m2contact >>
+rect 51 56 56 61
+rect 201 56 206 61
+rect 21 31 26 36
+rect 48 31 53 36
+rect 135 31 140 36
+rect 185 31 190 36
+rect 98 6 103 11
+rect 187 6 192 11
+<< metal2 >>
+rect 24 56 51 59
+rect 137 56 201 59
+rect 24 36 27 56
+rect 137 36 140 56
+rect 26 31 27 36
+rect 53 11 56 36
+rect 187 11 190 31
+rect 53 8 98 11
+<< m123contact >>
+rect 128 56 133 61
+rect 85 31 90 36
+rect 371 31 376 36
+rect 218 6 223 11
+<< metal3 >>
+rect 128 61 133 62
+rect 371 36 376 37
+rect 87 11 90 31
+rect 87 8 218 11
+<< m4contact >>
+rect 128 62 133 67
+rect 371 37 376 42
+use nand3  nand3_2
+timestamp 1762666711
+transform 1 0 259 0 1 40
+box -65 -27 -15 14
+use nand3  nand3_1
+timestamp 1762666711
+transform 1 0 209 0 1 40
+box -65 -27 -15 14
+use nand3  nand3_0
+timestamp 1762666711
+transform 1 0 159 0 1 40
+box -65 -27 -15 14
+use nand2  nand2_0
+timestamp 1762666711
+transform 1 0 109 0 1 40
+box -55 -27 -15 14
+use inv_fb  inv_fb_0
+timestamp 1762666711
+transform 1 0 55 0 1 40
+box -55 -27 -28 14
+use inv_fb  inv_fb_1
+timestamp 1762666711
+transform 1 0 82 0 1 40
+box -55 -27 -28 14
+<< labels >>
+rlabel polysilicon 12 12 15 12 1 s
+rlabel polysilicon 39 55 42 55 5 u
+rlabel polysilicon 126 12 129 12 1 ad
+rlabel polysilicon 176 13 179 13 1 au
+rlabel metal1 130 58 130 61 1 a
+rlabel metal1 234 31 234 36 1 o
+rlabel metal1 373 31 373 36 1 o
+<< end >>

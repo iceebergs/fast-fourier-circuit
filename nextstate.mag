@@ -1,0 +1,145 @@
+magic
+tech scmos
+timestamp 1762666711
+<< nwell >>
+rect 26 -22 33 -5
+rect 95 -22 105 -2
+<< pwell >>
+rect 42 73 44 76
+rect 131 74 133 77
+rect 27 -40 33 -23
+rect 90 -35 103 -28
+rect 27 -42 39 -40
+rect 90 -60 105 -35
+<< polysilicon >>
+rect 41 -45 44 -42
+rect 51 -45 54 -42
+rect 61 -43 64 -42
+rect 61 -45 65 -43
+<< polycontact >>
+rect 11 75 16 80
+rect 50 -50 55 -45
+<< metal1 >>
+rect 124 103 137 107
+rect 89 80 90 85
+rect 8 76 11 79
+rect 118 77 121 81
+rect 207 78 214 82
+rect 124 56 137 60
+rect 48 25 50 29
+rect 27 -8 38 -3
+rect 88 -24 101 -21
+rect 98 -34 101 -24
+rect 210 -33 219 -29
+rect 98 -37 102 -34
+rect 248 -36 254 -32
+rect 27 -42 34 -37
+<< m2contact >>
+rect 178 81 183 86
+rect 20 75 25 80
+rect 121 76 126 81
+rect 124 25 129 30
+rect 176 26 181 31
+rect 226 21 231 26
+rect 20 -26 25 -21
+rect 122 -34 127 -29
+rect 205 -33 210 -28
+<< pm12contact >>
+rect 8 -26 13 -21
+rect 40 -50 45 -45
+<< metal2 >>
+rect 29 94 137 97
+rect 29 82 32 94
+rect 25 79 32 82
+rect 25 76 31 79
+rect 134 78 137 94
+rect 42 73 44 76
+rect 123 55 126 76
+rect 131 74 133 77
+rect 134 67 138 76
+rect 134 64 166 67
+rect 123 52 144 55
+rect 141 31 144 52
+rect 163 40 166 64
+rect 180 50 183 81
+rect 179 47 230 50
+rect 163 37 200 40
+rect 141 28 176 31
+rect 0 18 2 21
+rect 125 6 128 25
+rect 0 3 128 6
+rect 0 -22 3 3
+rect 141 -2 144 28
+rect 122 -5 144 -2
+rect 0 -25 8 -22
+rect 22 -47 25 -26
+rect 122 -29 125 -5
+rect 197 -7 200 37
+rect 227 26 230 47
+rect 197 -10 208 -7
+rect 205 -28 208 -10
+rect 22 -50 40 -47
+<< m123contact >>
+rect 90 80 95 85
+rect 79 18 84 23
+rect 55 -50 60 -45
+<< metal3 >>
+rect 79 4 82 18
+rect 56 1 82 4
+rect 56 -45 59 1
+use and2  and2_0
+timestamp 1762666711
+transform 1 0 7 0 1 24
+box -7 -24 76 31
+use and2  and2_1
+timestamp 1762666711
+transform 1 0 84 0 1 24
+box -7 -24 76 31
+use and3  and3_0
+timestamp 1762666711
+transform 1 0 29 0 1 -43
+box 0 0 66 41
+use inv  inv_1
+timestamp 1762666711
+transform 1 0 56 0 1 -16
+box -55 -27 -28 14
+use or2  or2_1
+timestamp 1762666711
+transform 1 0 104 0 1 -35
+box -7 -25 72 33
+use or2  or2_0
+timestamp 1762666711
+transform 1 0 158 0 1 23
+box -7 -25 72 33
+use and2  and2_4
+timestamp 1762666711
+transform 1 0 178 0 1 -34
+box -7 -24 76 31
+use and2  and2_2
+timestamp 1762666711
+transform 1 0 49 0 1 79
+box -7 -24 76 31
+use inv  inv_0
+timestamp 1762666711
+transform 1 0 58 0 1 84
+box -55 -27 -28 14
+use and2  and2_3
+timestamp 1762666711
+transform 1 0 138 0 1 80
+box -7 -24 76 31
+<< labels >>
+rlabel metal2 1 18 1 21 3 not_S1
+rlabel metal2 1 18 1 21 3 not_S0
+rlabel metal1 49 25 49 29 1 not_S1
+rlabel space 78 22 78 26 7 ready
+rlabel m2contact 128 25 128 29 1 load
+rlabel metal2 131 74 131 77 1 not_reset
+rlabel metal2 43 73 43 76 3 s0
+rlabel m2contact 122 77 122 81 1 IS
+rlabel metal1 8 76 8 79 1 reset
+rlabel metal2 6 -25 6 -22 1 load
+rlabel polysilicon 61 -45 65 -45 1 iter
+rlabel metal1 250 -36 250 -32 7 NS_1
+rlabel metal1 210 78 210 82 1 NS0
+rlabel metal1 91 80 91 84 1 not_s1
+<< end >>

@@ -1,0 +1,105 @@
+magic
+tech scmos
+timestamp 1765776620
+<< nwell >>
+rect 116 43 145 94
+<< pwell >>
+rect 87 43 111 94
+<< ntransistor >>
+rect 100 80 105 82
+rect 100 55 105 57
+<< ptransistor >>
+rect 122 80 132 82
+rect 122 55 132 57
+<< ndiffusion >>
+rect 100 82 105 83
+rect 100 79 105 80
+rect 100 57 105 58
+rect 100 54 105 55
+<< pdiffusion >>
+rect 122 82 132 83
+rect 122 79 132 80
+rect 122 57 132 58
+rect 122 54 132 55
+<< ndcontact >>
+rect 100 83 105 88
+rect 100 74 105 79
+rect 100 58 105 63
+rect 100 49 105 54
+<< pdcontact >>
+rect 122 83 132 88
+rect 122 74 132 79
+rect 122 58 132 63
+rect 122 49 132 54
+<< psubstratepcontact >>
+rect 91 86 96 91
+rect 91 71 96 76
+rect 91 61 96 66
+rect 91 46 96 51
+<< nsubstratencontact >>
+rect 136 86 141 91
+rect 136 71 141 76
+rect 136 61 141 66
+rect 136 46 141 51
+<< polysilicon >>
+rect 87 80 100 82
+rect 105 80 122 82
+rect 132 80 145 82
+rect 107 57 109 80
+rect 87 55 100 57
+rect 105 55 109 57
+rect 118 57 120 66
+rect 118 55 122 57
+rect 132 55 145 57
+<< polycontact >>
+rect 118 66 123 71
+<< metal1 >>
+rect 90 91 97 94
+rect 90 86 91 91
+rect 96 88 97 91
+rect 135 91 142 94
+rect 135 88 136 91
+rect 96 86 100 88
+rect 90 83 100 86
+rect 132 86 136 88
+rect 141 86 142 91
+rect 132 83 142 86
+rect 90 76 97 83
+rect 90 71 91 76
+rect 96 71 97 76
+rect 105 74 122 79
+rect 135 76 142 83
+rect 90 66 97 71
+rect 118 71 121 74
+rect 135 71 136 76
+rect 141 71 142 76
+rect 135 66 142 71
+rect 90 61 91 66
+rect 96 61 97 66
+rect 90 51 97 61
+rect 105 58 110 63
+rect 115 58 122 63
+rect 135 61 136 66
+rect 141 61 142 66
+rect 90 46 91 51
+rect 96 46 97 51
+rect 105 49 122 54
+rect 135 51 142 61
+rect 112 46 115 49
+rect 135 46 136 51
+rect 141 46 142 51
+rect 90 43 97 46
+rect 135 43 142 46
+<< m2contact >>
+rect 110 58 115 63
+<< metal2 >>
+rect 86 62 90 63
+rect 86 58 110 62
+<< labels >>
+rlabel metal1 112 47 115 47 1 out
+rlabel metal1 136 44 141 44 1 Vdd!
+rlabel polysilicon 88 80 88 82 3 EN
+rlabel metal1 136 92 141 92 5 Vdd!
+rlabel metal1 91 92 96 92 5 GND!
+rlabel metal1 91 44 96 44 1 GND!
+<< end >>

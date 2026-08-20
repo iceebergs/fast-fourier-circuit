@@ -1,0 +1,10 @@
+magic
+tech scmos
+timestamp 1765788332
+<< metal3 >>
+rect 25 48 30 239
+use reg_one  reg_one_0
+timestamp 1765788332
+transform 1 0 -4 0 1 -18
+box -8 0 72 259
+<< end >>

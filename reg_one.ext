@@ -1,0 +1,75 @@
+timestamp 1765758641
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t24i
+scale 1000 1 9
+resistclasses 6900 7800 946000 946000 1 8000 8000 80 80 80 80 80 40
+use new_inv_reg new_inv_state_0 1 0 -72 0 -1 30
+use stat_reg stat_reg_1 1 0 5 0 1 73
+use new_inv new_inv_3 1 0 -72 0 -1 212
+use tg tg_5 1 0 -82 0 -1 120
+use tg tg_1 1 0 -82 0 -1 302
+node "m1_53_0#" 1 21.378 53 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 16 0 0 0 0 0 0 0 0 0 0
+node "m1_8_0#" 1 21.378 8 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 16 0 0 0 0 0 0 0 0 0 0
+node "m1_31_17#" 1 94.21 31 17 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 185 100 0 0 0 0 0 0 0 0
+node "m1_30_71#" 0 42.152 30 71 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30 26 0 0 0 0 0 0 0 0 0 0
+node "m1_29_198#" 1 99.29 29 198 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 225 100 0 0 0 0 0 0 0 0
+node "P0" 0 46.25 29 253 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 25 20 0 0 0 0 0 0
+node "W" 78 1284.5 -8 35 pc 0 0 0 0 0 0 0 0 0 0 55 50 0 0 1295 528 0 0 0 0 0 0 0 0 0 0
+node "a_0_88#" 27 353.221 0 88 pc 0 0 0 0 0 0 0 0 0 0 31 26 0 0 201 138 122 68 0 0 0 0 0 0 0 0
+node "a_29_189#" 8 131.908 29 189 pc 0 0 0 0 0 0 0 0 0 0 25 20 0 0 58 42 0 0 0 0 0 0 0 0 0 0
+node "R0" 29 1223.47 60 220 p 0 0 0 0 0 0 0 0 0 0 31 26 0 0 1315 536 0 0 0 0 0 0 0 0 0 0
+cap "a_0_88#" "m1_31_17#" 63.6875
+cap "a_0_88#" "W" 800.349
+cap "m1_53_0#" "R0" 6.59629
+cap "m1_29_198#" "a_29_189#" 57.7175
+subcap "m1_8_0#" -38.318
+subcap "m1_31_17#" -20.524
+subcap "a_0_88#" -78.786
+cap "tg_5/EN" "tg_5/a_100_74#" 1.632
+cap "new_inv_state_0/Vdd!" "new_inv_state_0/a_90_10#" 19.575
+cap "tg_5/EN" "new_inv_state_0/a_90_10#" 5.92
+cap "new_inv_state_0/a_90_10#" "tg_5/a_100_74#" 56.42
+cap "new_inv_state_0/Vdd!" "stat_reg_1/tg_0/out" -8.52651e-14
+cap "new_inv_state_0/GND!" "tg_5/a_100_74#" 609.044
+cap "new_inv_state_0/Vdd!" "R0" 653.032
+cap "new_inv_state_0/a_90_10#" "new_inv_state_0/GND!" -3.97904e-13
+subcap "m1_29_198#" -120.789
+cap "stat_reg_1/a_24_97#" "stat_reg_1/new_inv_1/GND!" 6.59629
+cap "stat_reg_1/a_24_97#" "stat_reg_1/new_inv_1/Vdd!" 6.59629
+cap "new_inv_3/a_90_10#" "stat_reg_1/a_24_97#" -57.7175
+cap "R0" "stat_reg_1/new_inv_1/Vdd!" 623.349
+subcap "m1_29_198#" -74.01
+subcap "P0" -11.465
+subcap "R0" -861.364
+cap "new_inv_3/a_77_16#" "new_inv_3/a_90_10#" -38.4783
+cap "tg_1/EN" "new_inv_3/a_90_10#" 6.992
+cap "new_inv_3/Vdd!" "tg_1/out" 9.075
+cap "new_inv_3/GND!" "tg_1/out" 9.075
+cap "new_inv_3/a_90_10#" "tg_1/a_100_74#" 36.385
+cap "new_inv_3/Vdd!" "new_inv_3/a_90_10#" 6.4
+cap "new_inv_3/Vdd!" "tg_1/EN" 430.398
+cap "new_inv_3/GND!" "new_inv_3/a_90_10#" 6.4
+merge "tg_5/a_100_57#" "new_inv_state_0/a_90_10#" -69.769 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15 -16 -5 -12 0 0 0 0 0 0 0 0
+merge "new_inv_state_0/a_90_10#" "m1_31_17#"
+merge "tg_1/EN" "R0" -39.27 0 0 0 0 0 0 0 0 0 0 -6 -10 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "tg_1/Vdd!" "new_inv_3/Vdd!" 125.008 0 0 0 0 232 -116 0 0 0 0 0 0 0 0 56 -28 0 0 0 0 0 0 0 0 0 0
+merge "new_inv_3/Vdd!" "stat_reg_1/new_inv_1/Vdd!"
+merge "tg_5/GND!" "stat_reg_1/tg_0/GND!" -45.78 0 0 0 0 0 0 0 0 -96 -104 0 0 0 0 -28 -50 0 0 0 0 0 0 0 0 0 0
+merge "stat_reg_1/tg_0/GND!" "new_inv_state_0/GND!"
+merge "new_inv_state_0/GND!" "m1_8_0#"
+merge "tg_1/out" "P0" -43.589 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9 -16 0 0 0 0 0 0 0 0 0 0
+merge "new_inv_3/a_77_16#" "stat_reg_1/a_24_97#" -68.119 0 0 0 0 0 0 0 0 0 0 5 -20 0 0 -1 -30 0 0 0 0 0 0 0 0 0 0
+merge "stat_reg_1/a_24_97#" "a_29_189#"
+merge "tg_5/Vdd!" "stat_reg_1/tg_0/Vdd!" -121.542 0 0 0 0 -116 -124 0 0 0 0 0 0 0 0 -35 -52 0 0 0 0 0 0 0 0 0 0
+merge "stat_reg_1/tg_0/Vdd!" "new_inv_state_0/Vdd!"
+merge "new_inv_state_0/Vdd!" "m1_53_0#"
+merge "tg_1/a_100_57#" "new_inv_3/a_90_10#" -80.101 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -54 -18 -16 -16 0 0 0 0 0 0 0 0
+merge "new_inv_3/a_90_10#" "m1_29_198#"
+merge "tg_5/EN" "W" -553.336 0 0 0 0 0 0 0 0 0 0 -14 -18 0 0 -318 -320 0 0 0 0 0 0 0 0 0 0
+merge "tg_5/a_100_74#" "stat_reg_1/tg_0/EN" -89.754 0 0 0 0 0 0 0 0 0 0 15 -10 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "stat_reg_1/tg_0/EN" "a_0_88#"
+merge "tg_1/GND!" "new_inv_3/GND!" -10.248 0 0 0 0 0 0 0 0 192 -96 0 0 0 0 56 -28 0 0 0 0 0 0 0 0 0 0
+merge "new_inv_3/GND!" "stat_reg_1/new_inv_1/GND!"
+merge "tg_5/out" "stat_reg_1/tg_0/out" -39.791 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -21 -26 0 0 0 0 0 0 0 0 0 0
+merge "stat_reg_1/tg_0/out" "m1_30_71#"

@@ -1,0 +1,42 @@
+| units: 9 tech: scmos format: MIT
+p s Vdd! nand2_0/a 3 5 13 40
+n s GND! nand2_0/a 3 5 13 23
+n ad nand3_0/a_n40_n18# GND! 3 5 127 23
+p nand3_0/b Vdd! nand3_2/b 3 5 117 40
+p s nand3_2/b Vdd! 3 5 107 40
+n s nand3_2/b nand3_0/a_n50_n18# 3 5 107 23
+n nand3_0/b nand3_0/a_n50_n18# nand3_0/a_n40_n18# 3 5 117 23
+p ad nand3_2/b Vdd! 3 5 127 40
+p u Vdd! nand3_0/b 3 5 40 40
+n u GND! nand3_0/b 3 5 40 23
+n au nand3_1/a_n40_n18# GND! 3 5 177 23
+p u Vdd! nand3_2/a 3 5 167 40
+p s nand3_2/a Vdd! 3 5 157 40
+n s nand3_2/a nand3_1/a_n50_n18# 3 5 157 23
+n u nand3_1/a_n50_n18# nand3_1/a_n40_n18# 3 5 167 23
+p au nand3_2/a Vdd! 3 5 177 40
+n nand3_2/c nand3_2/a_n40_n18# GND! 3 5 227 23
+p nand3_2/b Vdd! o 3 5 217 40
+p nand3_2/a o Vdd! 3 5 207 40
+n nand3_2/a o nand3_2/a_n50_n18# 3 5 207 23
+n nand3_2/b nand3_2/a_n50_n18# nand3_2/a_n40_n18# 3 5 217 23
+p nand3_2/c o Vdd! 3 5 227 40
+n a nand2_0/a_n40_n18# GND! 3 5 77 23
+p nand2_0/a Vdd! nand3_2/c 3 5 67 40
+n nand2_0/a nand3_2/c nand2_0/a_n40_n18# 3 5 67 23
+p a nand3_2/c Vdd! 3 5 77 40
+R a 134
+R nand3_2/c 154
+R GND! 161
+R Vdd! 308
+R o 58
+R nand3_2/a 184
+R au 114
+C nand3_2/w_n65_n6# GND 2.42
+R nand3_2/w_n65_n6# 19289
+R nand3_0/b 153
+R u 314
+R nand3_2/b 191
+R ad 114
+R nand2_0/a 152
+R s 470

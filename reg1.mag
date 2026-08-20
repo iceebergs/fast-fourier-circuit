@@ -1,0 +1,131 @@
+magic
+tech scmos
+timestamp 1762027594
+<< nwell >>
+rect 118 26 124 44
+<< pwell >>
+rect 118 62 119 78
+rect 117 9 124 25
+rect 87 1 88 4
+<< metal1 >>
+rect 111 95 147 98
+rect 143 92 147 95
+rect 53 89 72 92
+rect 53 84 56 89
+rect 80 87 91 90
+rect 10 81 18 84
+rect 26 81 35 84
+rect 42 81 56 84
+rect 6 65 14 68
+rect 6 51 9 65
+rect 19 65 34 68
+rect 5 47 9 51
+rect 53 55 56 81
+rect 88 80 91 87
+rect 88 77 103 80
+rect 119 77 136 81
+rect 53 52 73 55
+rect 30 43 34 44
+rect 30 40 33 43
+rect 3 25 15 29
+rect 53 28 56 52
+rect 42 25 56 28
+rect 88 27 91 77
+rect 119 66 122 77
+rect 117 65 122 66
+rect 111 62 122 65
+rect 111 41 146 44
+rect 143 38 146 41
+rect 88 24 103 27
+rect 119 23 136 26
+rect 61 16 72 20
+rect 80 17 90 20
+rect 5 7 34 10
+rect 87 4 90 17
+rect 119 12 122 23
+rect 111 9 122 12
+rect 56 1 90 4
+<< m2contact >>
+rect 25 98 31 104
+rect 5 80 10 85
+rect 14 63 19 68
+rect 0 46 5 51
+rect 111 77 116 82
+rect 25 41 30 46
+rect 23 24 28 29
+rect 33 24 38 29
+rect 80 51 85 56
+rect 56 16 61 21
+rect 0 6 5 11
+rect 51 1 56 6
+<< metal2 >>
+rect 5 85 8 240
+rect 25 46 28 98
+rect 113 82 116 131
+rect 85 51 86 56
+rect 0 11 3 46
+rect 25 29 28 41
+rect 83 39 86 51
+rect 56 36 86 39
+rect 38 25 52 29
+rect 49 10 52 25
+rect 56 21 59 36
+rect 49 7 54 10
+rect 51 6 54 7
+<< m123contact >>
+rect 5 240 10 245
+rect 116 127 121 132
+rect 109 23 114 28
+<< metal3 >>
+rect 109 177 112 381
+rect 109 28 112 172
+<< m4contact >>
+rect 5 245 10 259
+rect 109 172 114 177
+rect 121 127 126 132
+use invo  invo_0
+timestamp 1761530766
+transform 1 0 24 0 1 85
+box -22 -20 10 16
+use invo  invo_4
+timestamp 1761530766
+transform 1 0 144 0 1 28
+box -22 -20 10 16
+use transo  transo_2
+array 0 0 0 0 1 54
+timestamp 1761530766
+transform -1 0 109 0 1 28
+box -13 -27 13 24
+use invo  invo_2
+timestamp 1761530766
+transform 1 0 23 0 -1 24
+box -22 -20 10 16
+use invo  invo_1
+array 0 0 0 0 2 36
+timestamp 1761530766
+transform 1 0 80 0 1 21
+box -22 -20 10 16
+use invo  invo_3
+timestamp 1761530766
+transform 1 0 144 0 1 82
+box -22 -20 10 16
+use transo  transo_0
+timestamp 1761530766
+transform 1 0 39 0 1 85
+box -13 -27 13 24
+use transo  transo_1
+timestamp 1761530766
+transform 1 0 39 0 -1 24
+box -13 -27 13 24
+<< labels >>
+rlabel m2contact 115 80 115 80 7 port0
+port 6 w
+rlabel m123contact 112 25 112 25 1 port1
+port 7 n
+rlabel metal1 7 58 7 58 1 w
+rlabel metal1 115 10 115 10 7 r1
+port 3 w
+rlabel metal1 115 64 115 64 7 r0
+port 5 w
+rlabel m4contact 7 250 7 250 1 in
+<< end >>

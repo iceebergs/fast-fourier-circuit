@@ -1,0 +1,1564 @@
+| units: 9 tech: scmos format: MIT
+n new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/m1_29_198# GND! 2 5 10 179
+p new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/m1_29_198# Vdd! 2 10 32 179
+p rd new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 32 205
+p new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/tg_1/a_100_74# x3im new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/m1_29_198# 2 10 32 230
+n rd new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/tg_1/a_100_74# GND! 2 5 10 205
+n rd x3im new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/m1_29_198# 2 5 10 230
+p new_regfile_0/decoder_0/en7 new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 32 23
+p new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/m1_31_17# 2 10 32 48
+n new_regfile_0/decoder_0/en7 new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 10 23
+n new_regfile_0/decoder_0/en7 new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/m1_31_17# 2 5 10 48
+n in0 new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/m1_31_17# GND! 2 5 10 -3
+p in0 new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/m1_31_17# Vdd! 2 10 32 -3
+p new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 32 100
+p new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/stat_reg_1/m1_24_61# 2 10 32 75
+n new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 10 100
+n new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/stat_reg_1/m1_24_61# 2 5 10 75
+n new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 10 126
+p new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 32 126
+n new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 10 152
+p new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 32 152
+n new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/m1_29_198# GND! 2 5 10 438
+p new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/m1_29_198# Vdd! 2 10 32 438
+p rd new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 32 464
+p new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/P0 new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/m1_29_198# 2 10 32 489
+n rd new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/tg_1/a_100_74# GND! 2 5 10 464
+n rd new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/P0 new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/m1_29_198# 2 5 10 489
+p new_regfile_0/decoder_0/en7 new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 32 282
+p new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/m1_31_17# 2 10 32 307
+n new_regfile_0/decoder_0/en7 new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 10 282
+n new_regfile_0/decoder_0/en7 new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/m1_31_17# 2 5 10 307
+n in1 new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/m1_31_17# GND! 2 5 10 256
+p in1 new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/m1_31_17# Vdd! 2 10 32 256
+p new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 32 359
+p new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/stat_reg_1/m1_24_61# 2 10 32 334
+n new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 10 359
+n new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/stat_reg_1/m1_24_61# 2 5 10 334
+n new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 10 385
+p new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 32 385
+n new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 10 411
+p new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 32 411
+n new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/m1_29_198# GND! 2 5 10 697
+p new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/m1_29_198# Vdd! 2 10 32 697
+p rd new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 32 723
+p new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/P0 new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/m1_29_198# 2 10 32 748
+n rd new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/tg_1/a_100_74# GND! 2 5 10 723
+n rd new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/P0 new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/m1_29_198# 2 5 10 748
+p new_regfile_0/decoder_0/en7 new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 32 541
+p new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/m1_31_17# 2 10 32 566
+n new_regfile_0/decoder_0/en7 new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 10 541
+n new_regfile_0/decoder_0/en7 new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/m1_31_17# 2 5 10 566
+n in2 new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/m1_31_17# GND! 2 5 10 515
+p in2 new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/m1_31_17# Vdd! 2 10 32 515
+p new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 32 618
+p new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/stat_reg_1/m1_24_61# 2 10 32 593
+n new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 10 618
+n new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/stat_reg_1/m1_24_61# 2 5 10 593
+n new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 10 644
+p new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 32 644
+n new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 10 670
+p new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 32 670
+n new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/m1_29_198# GND! 2 5 10 956
+p new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/m1_29_198# Vdd! 2 10 32 956
+p rd new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 32 982
+p new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/P0 new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/m1_29_198# 2 10 32 1007
+n rd new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/tg_1/a_100_74# GND! 2 5 10 982
+n rd new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/P0 new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/m1_29_198# 2 5 10 1007
+p new_regfile_0/decoder_0/en7 new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 32 800
+p new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/m1_31_17# 2 10 32 825
+n new_regfile_0/decoder_0/en7 new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 10 800
+n new_regfile_0/decoder_0/en7 new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/m1_31_17# 2 5 10 825
+n in3 new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/m1_31_17# GND! 2 5 10 774
+p in3 new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/m1_31_17# Vdd! 2 10 32 774
+p new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 32 877
+p new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/stat_reg_1/m1_24_61# 2 10 32 852
+n new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 10 877
+n new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/stat_reg_1/m1_24_61# 2 5 10 852
+n new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 10 903
+p new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 32 903
+n new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 10 929
+p new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 32 929
+n new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/m1_29_198# GND! 2 5 10 1215
+p new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/m1_29_198# Vdd! 2 10 32 1215
+p rd new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 32 1241
+p new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/P0 new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/m1_29_198# 2 10 32 1266
+n rd new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/tg_1/a_100_74# GND! 2 5 10 1241
+n rd new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/P0 new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/m1_29_198# 2 5 10 1266
+p new_regfile_0/decoder_0/en7 new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 32 1059
+p new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/m1_31_17# 2 10 32 1084
+n new_regfile_0/decoder_0/en7 new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 10 1059
+n new_regfile_0/decoder_0/en7 new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/m1_31_17# 2 5 10 1084
+n in4 new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/m1_31_17# GND! 2 5 10 1033
+p in4 new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/m1_31_17# Vdd! 2 10 32 1033
+p new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 32 1136
+p new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/stat_reg_1/m1_24_61# 2 10 32 1111
+n new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 10 1136
+n new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/stat_reg_1/m1_24_61# 2 5 10 1111
+n new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 10 1162
+p new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 32 1162
+n new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 10 1188
+p new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 32 1188
+n new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/m1_29_198# GND! 2 5 10 1474
+p new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/m1_29_198# Vdd! 2 10 32 1474
+p rd new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 32 1500
+p new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/P0 new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/m1_29_198# 2 10 32 1525
+n rd new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/tg_1/a_100_74# GND! 2 5 10 1500
+n rd new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/P0 new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/m1_29_198# 2 5 10 1525
+p new_regfile_0/decoder_0/en7 new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 32 1318
+p new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/m1_31_17# 2 10 32 1343
+n new_regfile_0/decoder_0/en7 new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 10 1318
+n new_regfile_0/decoder_0/en7 new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/m1_31_17# 2 5 10 1343
+n in5 new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/m1_31_17# GND! 2 5 10 1292
+p in5 new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/m1_31_17# Vdd! 2 10 32 1292
+p new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 32 1395
+p new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/stat_reg_1/m1_24_61# 2 10 32 1370
+n new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 10 1395
+n new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/stat_reg_1/m1_24_61# 2 5 10 1370
+n new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 10 1421
+p new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 32 1421
+n new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 10 1447
+p new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 32 1447
+n new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/m1_29_198# GND! 2 5 93 179
+p new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/m1_29_198# Vdd! 2 10 115 179
+p new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 115 205
+p new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/P0 new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/m1_29_198# 2 10 115 230
+n new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/tg_1/a_100_74# GND! 2 5 93 205
+n new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/P0 new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/m1_29_198# 2 5 93 230
+p new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 115 23
+p new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/m1_31_17# 2 10 115 48
+n new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 93 23
+n new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/m1_31_17# 2 5 93 48
+n in0 new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/m1_31_17# GND! 2 5 93 -3
+p in0 new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/m1_31_17# Vdd! 2 10 115 -3
+p new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 115 100
+p new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/stat_reg_1/m1_24_61# 2 10 115 75
+n new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 93 100
+n new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/stat_reg_1/m1_24_61# 2 5 93 75
+n new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 93 126
+p new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 115 126
+n new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 93 152
+p new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 115 152
+n new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/m1_29_198# GND! 2 5 93 438
+p new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/m1_29_198# Vdd! 2 10 115 438
+p new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 115 464
+p new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/P0 new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/m1_29_198# 2 10 115 489
+n new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/tg_1/a_100_74# GND! 2 5 93 464
+n new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/P0 new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/m1_29_198# 2 5 93 489
+p new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 115 282
+p new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/m1_31_17# 2 10 115 307
+n new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 93 282
+n new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/m1_31_17# 2 5 93 307
+n in1 new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/m1_31_17# GND! 2 5 93 256
+p in1 new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/m1_31_17# Vdd! 2 10 115 256
+p new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 115 359
+p new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/stat_reg_1/m1_24_61# 2 10 115 334
+n new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 93 359
+n new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/stat_reg_1/m1_24_61# 2 5 93 334
+n new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 93 385
+p new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 115 385
+n new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 93 411
+p new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 115 411
+n new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/m1_29_198# GND! 2 5 93 697
+p new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/m1_29_198# Vdd! 2 10 115 697
+p new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 115 723
+p new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/P0 new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/m1_29_198# 2 10 115 748
+n new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/tg_1/a_100_74# GND! 2 5 93 723
+n new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/P0 new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/m1_29_198# 2 5 93 748
+p new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 115 541
+p new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/m1_31_17# 2 10 115 566
+n new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 93 541
+n new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/m1_31_17# 2 5 93 566
+n in2 new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/m1_31_17# GND! 2 5 93 515
+p in2 new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/m1_31_17# Vdd! 2 10 115 515
+p new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 115 618
+p new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/stat_reg_1/m1_24_61# 2 10 115 593
+n new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 93 618
+n new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/stat_reg_1/m1_24_61# 2 5 93 593
+n new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 93 644
+p new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 115 644
+n new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 93 670
+p new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 115 670
+n new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/m1_29_198# GND! 2 5 93 956
+p new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/m1_29_198# Vdd! 2 10 115 956
+p new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 115 982
+p new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/P0 new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/m1_29_198# 2 10 115 1007
+n new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/tg_1/a_100_74# GND! 2 5 93 982
+n new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/P0 new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/m1_29_198# 2 5 93 1007
+p new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 115 800
+p new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/m1_31_17# 2 10 115 825
+n new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 93 800
+n new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/m1_31_17# 2 5 93 825
+n in3 new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/m1_31_17# GND! 2 5 93 774
+p in3 new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/m1_31_17# Vdd! 2 10 115 774
+p new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 115 877
+p new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/stat_reg_1/m1_24_61# 2 10 115 852
+n new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 93 877
+n new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/stat_reg_1/m1_24_61# 2 5 93 852
+n new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 93 903
+p new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 115 903
+n new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 93 929
+p new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 115 929
+n new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/m1_29_198# GND! 2 5 93 1215
+p new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/m1_29_198# Vdd! 2 10 115 1215
+p new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 115 1241
+p new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/P0 new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/m1_29_198# 2 10 115 1266
+n new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/tg_1/a_100_74# GND! 2 5 93 1241
+n new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/P0 new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/m1_29_198# 2 5 93 1266
+p new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 115 1059
+p new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/m1_31_17# 2 10 115 1084
+n new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 93 1059
+n new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/m1_31_17# 2 5 93 1084
+n in4 new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/m1_31_17# GND! 2 5 93 1033
+p in4 new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/m1_31_17# Vdd! 2 10 115 1033
+p new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 115 1136
+p new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/stat_reg_1/m1_24_61# 2 10 115 1111
+n new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 93 1136
+n new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/stat_reg_1/m1_24_61# 2 5 93 1111
+n new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 93 1162
+p new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 115 1162
+n new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 93 1188
+p new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 115 1188
+n new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/m1_29_198# GND! 2 5 93 1474
+p new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/m1_29_198# Vdd! 2 10 115 1474
+p new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 115 1500
+p new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/P0 new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/m1_29_198# 2 10 115 1525
+n new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/tg_1/a_100_74# GND! 2 5 93 1500
+n new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/P0 new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/m1_29_198# 2 5 93 1525
+p new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 115 1318
+p new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/m1_31_17# 2 10 115 1343
+n new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 93 1318
+n new_regfile_0/r6 new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/m1_31_17# 2 5 93 1343
+n in5 new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/m1_31_17# GND! 2 5 93 1292
+p in5 new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/m1_31_17# Vdd! 2 10 115 1292
+p new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 115 1395
+p new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/stat_reg_1/m1_24_61# 2 10 115 1370
+n new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 93 1395
+n new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/stat_reg_1/m1_24_61# 2 5 93 1370
+n new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 93 1421
+p new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 115 1421
+n new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 93 1447
+p new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 115 1447
+n new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/m1_29_198# GND! 2 5 425 179
+p new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/m1_29_198# Vdd! 2 10 447 179
+p new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 447 205
+p new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/P0 new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/m1_29_198# 2 10 447 230
+n new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/tg_1/a_100_74# GND! 2 5 425 205
+n new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/P0 new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/m1_29_198# 2 5 425 230
+p new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 447 23
+p new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/m1_31_17# 2 10 447 48
+n new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 425 23
+n new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/m1_31_17# 2 5 425 48
+n in0 new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/m1_31_17# GND! 2 5 425 -3
+p in0 new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/m1_31_17# Vdd! 2 10 447 -3
+p new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 447 100
+p new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/stat_reg_1/m1_24_61# 2 10 447 75
+n new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 425 100
+n new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/stat_reg_1/m1_24_61# 2 5 425 75
+n new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 425 126
+p new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 447 126
+n new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 425 152
+p new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 447 152
+n new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/m1_29_198# GND! 2 5 425 438
+p new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/m1_29_198# Vdd! 2 10 447 438
+p new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 447 464
+p new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/P0 new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/m1_29_198# 2 10 447 489
+n new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/tg_1/a_100_74# GND! 2 5 425 464
+n new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/P0 new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/m1_29_198# 2 5 425 489
+p new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 447 282
+p new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/m1_31_17# 2 10 447 307
+n new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 425 282
+n new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/m1_31_17# 2 5 425 307
+n in1 new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/m1_31_17# GND! 2 5 425 256
+p in1 new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/m1_31_17# Vdd! 2 10 447 256
+p new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 447 359
+p new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/stat_reg_1/m1_24_61# 2 10 447 334
+n new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 425 359
+n new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/stat_reg_1/m1_24_61# 2 5 425 334
+n new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 425 385
+p new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 447 385
+n new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 425 411
+p new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 447 411
+n new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/m1_29_198# GND! 2 5 425 697
+p new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/m1_29_198# Vdd! 2 10 447 697
+p new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 447 723
+p new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/P0 new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/m1_29_198# 2 10 447 748
+n new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_1/a_100_74# GND! 2 5 425 723
+n new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/P0 new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/m1_29_198# 2 5 425 748
+p new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 447 541
+p new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/m1_31_17# 2 10 447 566
+n new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 425 541
+n new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/m1_31_17# 2 5 425 566
+n in2 new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/m1_31_17# GND! 2 5 425 515
+p in2 new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/m1_31_17# Vdd! 2 10 447 515
+p new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 447 618
+p new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/stat_reg_1/m1_24_61# 2 10 447 593
+n new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 425 618
+n new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/stat_reg_1/m1_24_61# 2 5 425 593
+n new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 425 644
+p new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 447 644
+n new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 425 670
+p new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 447 670
+n new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/m1_29_198# GND! 2 5 425 956
+p new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/m1_29_198# Vdd! 2 10 447 956
+p new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 447 982
+p new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/P0 new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/m1_29_198# 2 10 447 1007
+n new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/tg_1/a_100_74# GND! 2 5 425 982
+n new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/P0 new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/m1_29_198# 2 5 425 1007
+p new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 447 800
+p new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/m1_31_17# 2 10 447 825
+n new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 425 800
+n new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/m1_31_17# 2 5 425 825
+n in3 new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/m1_31_17# GND! 2 5 425 774
+p in3 new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/m1_31_17# Vdd! 2 10 447 774
+p new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 447 877
+p new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/stat_reg_1/m1_24_61# 2 10 447 852
+n new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 425 877
+n new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/stat_reg_1/m1_24_61# 2 5 425 852
+n new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 425 903
+p new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 447 903
+n new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 425 929
+p new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 447 929
+n new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/m1_29_198# GND! 2 5 425 1215
+p new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/m1_29_198# Vdd! 2 10 447 1215
+p new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 447 1241
+p new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/P0 new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/m1_29_198# 2 10 447 1266
+n new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/tg_1/a_100_74# GND! 2 5 425 1241
+n new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/P0 new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/m1_29_198# 2 5 425 1266
+p new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 447 1059
+p new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/m1_31_17# 2 10 447 1084
+n new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 425 1059
+n new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/m1_31_17# 2 5 425 1084
+n in4 new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/m1_31_17# GND! 2 5 425 1033
+p in4 new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/m1_31_17# Vdd! 2 10 447 1033
+p new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 447 1136
+p new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/stat_reg_1/m1_24_61# 2 10 447 1111
+n new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 425 1136
+n new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/stat_reg_1/m1_24_61# 2 5 425 1111
+n new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 425 1162
+p new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 447 1162
+n new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 425 1188
+p new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 447 1188
+n new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/m1_29_198# GND! 2 5 425 1474
+p new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/m1_29_198# Vdd! 2 10 447 1474
+p new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 447 1500
+p new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/P0 new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/m1_29_198# 2 10 447 1525
+n new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/tg_1/a_100_74# GND! 2 5 425 1500
+n new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/P0 new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/m1_29_198# 2 5 425 1525
+p new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 447 1318
+p new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/m1_31_17# 2 10 447 1343
+n new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 425 1318
+n new_regfile_0/r2 new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/m1_31_17# 2 5 425 1343
+n in5 new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/m1_31_17# GND! 2 5 425 1292
+p in5 new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/m1_31_17# Vdd! 2 10 447 1292
+p new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 447 1395
+p new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/stat_reg_1/m1_24_61# 2 10 447 1370
+n new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 425 1395
+n new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/stat_reg_1/m1_24_61# 2 5 425 1370
+n new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 425 1421
+p new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 447 1421
+n new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 425 1447
+p new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 447 1447
+n new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/m1_29_198# GND! 2 5 342 179
+p new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/m1_29_198# Vdd! 2 10 364 179
+p new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 364 205
+p new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_1/a_100_74# x2im new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/m1_29_198# 2 10 364 230
+n new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_1/a_100_74# GND! 2 5 342 205
+n new_regfile_0/r3 x2im new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/m1_29_198# 2 5 342 230
+p new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 364 23
+p new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/m1_31_17# 2 10 364 48
+n new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 342 23
+n new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/m1_31_17# 2 5 342 48
+n in0 new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/m1_31_17# GND! 2 5 342 -3
+p in0 new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/m1_31_17# Vdd! 2 10 364 -3
+p new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 364 100
+p new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/stat_reg_1/m1_24_61# 2 10 364 75
+n new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 342 100
+n new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/stat_reg_1/m1_24_61# 2 5 342 75
+n new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 342 126
+p new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 364 126
+n new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 342 152
+p new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 364 152
+n new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/m1_29_198# GND! 2 5 342 438
+p new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/m1_29_198# Vdd! 2 10 364 438
+p new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 364 464
+p new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/P0 new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/m1_29_198# 2 10 364 489
+n new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/tg_1/a_100_74# GND! 2 5 342 464
+n new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/P0 new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/m1_29_198# 2 5 342 489
+p new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 364 282
+p new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/m1_31_17# 2 10 364 307
+n new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 342 282
+n new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/m1_31_17# 2 5 342 307
+n in1 new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/m1_31_17# GND! 2 5 342 256
+p in1 new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/m1_31_17# Vdd! 2 10 364 256
+p new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 364 359
+p new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/stat_reg_1/m1_24_61# 2 10 364 334
+n new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 342 359
+n new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/stat_reg_1/m1_24_61# 2 5 342 334
+n new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 342 385
+p new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 364 385
+n new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 342 411
+p new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 364 411
+n new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/m1_29_198# GND! 2 5 342 697
+p new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/m1_29_198# Vdd! 2 10 364 697
+p new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 364 723
+p new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/P0 new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/m1_29_198# 2 10 364 748
+n new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_1/a_100_74# GND! 2 5 342 723
+n new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/P0 new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/m1_29_198# 2 5 342 748
+p new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 364 541
+p new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/m1_31_17# 2 10 364 566
+n new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 342 541
+n new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/m1_31_17# 2 5 342 566
+n in2 new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/m1_31_17# GND! 2 5 342 515
+p in2 new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/m1_31_17# Vdd! 2 10 364 515
+p new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 364 618
+p new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/stat_reg_1/m1_24_61# 2 10 364 593
+n new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 342 618
+n new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/stat_reg_1/m1_24_61# 2 5 342 593
+n new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 342 644
+p new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 364 644
+n new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 342 670
+p new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 364 670
+n new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/m1_29_198# GND! 2 5 342 956
+p new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/m1_29_198# Vdd! 2 10 364 956
+p new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 364 982
+p new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/P0 new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/m1_29_198# 2 10 364 1007
+n new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/tg_1/a_100_74# GND! 2 5 342 982
+n new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/P0 new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/m1_29_198# 2 5 342 1007
+p new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 364 800
+p new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/m1_31_17# 2 10 364 825
+n new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 342 800
+n new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/m1_31_17# 2 5 342 825
+n in3 new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/m1_31_17# GND! 2 5 342 774
+p in3 new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/m1_31_17# Vdd! 2 10 364 774
+p new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 364 877
+p new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/stat_reg_1/m1_24_61# 2 10 364 852
+n new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 342 877
+n new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/stat_reg_1/m1_24_61# 2 5 342 852
+n new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 342 903
+p new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 364 903
+n new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 342 929
+p new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 364 929
+n new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/m1_29_198# GND! 2 5 342 1215
+p new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/m1_29_198# Vdd! 2 10 364 1215
+p new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 364 1241
+p new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/P0 new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/m1_29_198# 2 10 364 1266
+n new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_1/a_100_74# GND! 2 5 342 1241
+n new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/P0 new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/m1_29_198# 2 5 342 1266
+p new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 364 1059
+p new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/m1_31_17# 2 10 364 1084
+n new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 342 1059
+n new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/m1_31_17# 2 5 342 1084
+n in4 new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/m1_31_17# GND! 2 5 342 1033
+p in4 new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/m1_31_17# Vdd! 2 10 364 1033
+p new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 364 1136
+p new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/stat_reg_1/m1_24_61# 2 10 364 1111
+n new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 342 1136
+n new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/stat_reg_1/m1_24_61# 2 5 342 1111
+n new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 342 1162
+p new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 364 1162
+n new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 342 1188
+p new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 364 1188
+n new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/m1_29_198# GND! 2 5 342 1474
+p new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/m1_29_198# Vdd! 2 10 364 1474
+p new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 364 1500
+p new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/P0 new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/m1_29_198# 2 10 364 1525
+n new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_1/a_100_74# GND! 2 5 342 1500
+n new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/P0 new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/m1_29_198# 2 5 342 1525
+p new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 364 1318
+p new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/m1_31_17# 2 10 364 1343
+n new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 342 1318
+n new_regfile_0/r3 new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/m1_31_17# 2 5 342 1343
+n in5 new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/m1_31_17# GND! 2 5 342 1292
+p in5 new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/m1_31_17# Vdd! 2 10 364 1292
+p new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 364 1395
+p new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/stat_reg_1/m1_24_61# 2 10 364 1370
+n new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 342 1395
+n new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/stat_reg_1/m1_24_61# 2 5 342 1370
+n new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 342 1421
+p new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 364 1421
+n new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 342 1447
+p new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 364 1447
+n new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/m1_29_198# GND! 2 5 259 179
+p new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/m1_29_198# Vdd! 2 10 281 179
+p new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 281 205
+p new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/P0 new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/m1_29_198# 2 10 281 230
+n new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_1/a_100_74# GND! 2 5 259 205
+n new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/P0 new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/m1_29_198# 2 5 259 230
+p new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 281 23
+p new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/m1_31_17# 2 10 281 48
+n new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 259 23
+n new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/m1_31_17# 2 5 259 48
+n in0 new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/m1_31_17# GND! 2 5 259 -3
+p in0 new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/m1_31_17# Vdd! 2 10 281 -3
+p new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 281 100
+p new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/stat_reg_1/m1_24_61# 2 10 281 75
+n new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 259 100
+n new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/stat_reg_1/m1_24_61# 2 5 259 75
+n new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 259 126
+p new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 281 126
+n new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 259 152
+p new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 281 152
+n new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/m1_29_198# GND! 2 5 259 438
+p new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/m1_29_198# Vdd! 2 10 281 438
+p new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 281 464
+p new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/P0 new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/m1_29_198# 2 10 281 489
+n new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_1/a_100_74# GND! 2 5 259 464
+n new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/P0 new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/m1_29_198# 2 5 259 489
+p new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 281 282
+p new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/m1_31_17# 2 10 281 307
+n new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 259 282
+n new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/m1_31_17# 2 5 259 307
+n in1 new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/m1_31_17# GND! 2 5 259 256
+p in1 new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/m1_31_17# Vdd! 2 10 281 256
+p new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 281 359
+p new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/stat_reg_1/m1_24_61# 2 10 281 334
+n new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 259 359
+n new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/stat_reg_1/m1_24_61# 2 5 259 334
+n new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 259 385
+p new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 281 385
+n new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 259 411
+p new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 281 411
+n new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/m1_29_198# GND! 2 5 259 697
+p new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/m1_29_198# Vdd! 2 10 281 697
+p new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 281 723
+p new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/P0 new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/m1_29_198# 2 10 281 748
+n new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_1/a_100_74# GND! 2 5 259 723
+n new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/P0 new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/m1_29_198# 2 5 259 748
+p new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 281 541
+p new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/m1_31_17# 2 10 281 566
+n new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 259 541
+n new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/m1_31_17# 2 5 259 566
+n in2 new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/m1_31_17# GND! 2 5 259 515
+p in2 new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/m1_31_17# Vdd! 2 10 281 515
+p new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 281 618
+p new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/stat_reg_1/m1_24_61# 2 10 281 593
+n new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 259 618
+n new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/stat_reg_1/m1_24_61# 2 5 259 593
+n new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 259 644
+p new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 281 644
+n new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 259 670
+p new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 281 670
+n new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/m1_29_198# GND! 2 5 259 956
+p new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/m1_29_198# Vdd! 2 10 281 956
+p new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 281 982
+p new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/P0 new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/m1_29_198# 2 10 281 1007
+n new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/tg_1/a_100_74# GND! 2 5 259 982
+n new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/P0 new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/m1_29_198# 2 5 259 1007
+p new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 281 800
+p new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/m1_31_17# 2 10 281 825
+n new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 259 800
+n new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/m1_31_17# 2 5 259 825
+n in3 new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/m1_31_17# GND! 2 5 259 774
+p in3 new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/m1_31_17# Vdd! 2 10 281 774
+p new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 281 877
+p new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/stat_reg_1/m1_24_61# 2 10 281 852
+n new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 259 877
+n new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/stat_reg_1/m1_24_61# 2 5 259 852
+n new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 259 903
+p new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 281 903
+n new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 259 929
+p new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 281 929
+n new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/m1_29_198# GND! 2 5 259 1215
+p new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/m1_29_198# Vdd! 2 10 281 1215
+p new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 281 1241
+p new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/P0 new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/m1_29_198# 2 10 281 1266
+n new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_1/a_100_74# GND! 2 5 259 1241
+n new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/P0 new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/m1_29_198# 2 5 259 1266
+p new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 281 1059
+p new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/m1_31_17# 2 10 281 1084
+n new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 259 1059
+n new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/m1_31_17# 2 5 259 1084
+n in4 new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/m1_31_17# GND! 2 5 259 1033
+p in4 new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/m1_31_17# Vdd! 2 10 281 1033
+p new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 281 1136
+p new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/stat_reg_1/m1_24_61# 2 10 281 1111
+n new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 259 1136
+n new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/stat_reg_1/m1_24_61# 2 5 259 1111
+n new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 259 1162
+p new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 281 1162
+n new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 259 1188
+p new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 281 1188
+n new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/m1_29_198# GND! 2 5 259 1474
+p new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/m1_29_198# Vdd! 2 10 281 1474
+p new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 281 1500
+p new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/P0 new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/m1_29_198# 2 10 281 1525
+n new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_1/a_100_74# GND! 2 5 259 1500
+n new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/P0 new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/m1_29_198# 2 5 259 1525
+p new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 281 1318
+p new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/m1_31_17# 2 10 281 1343
+n new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 259 1318
+n new_regfile_0/r4 new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/m1_31_17# 2 5 259 1343
+n in5 new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/m1_31_17# GND! 2 5 259 1292
+p in5 new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/m1_31_17# Vdd! 2 10 281 1292
+p new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 281 1395
+p new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/stat_reg_1/m1_24_61# 2 10 281 1370
+n new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 259 1395
+n new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/stat_reg_1/m1_24_61# 2 5 259 1370
+n new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 259 1421
+p new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 281 1421
+n new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 259 1447
+p new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 281 1447
+n new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/m1_29_198# GND! 2 5 176 179
+p new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/m1_29_198# Vdd! 2 10 198 179
+p new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 198 205
+p new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/tg_1/a_100_74# x3re new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/m1_29_198# 2 10 198 230
+n new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/tg_1/a_100_74# GND! 2 5 176 205
+n new_regfile_0/r5 x3re new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/m1_29_198# 2 5 176 230
+p new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 198 23
+p new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/m1_31_17# 2 10 198 48
+n new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 176 23
+n new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/m1_31_17# 2 5 176 48
+n in0 new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/m1_31_17# GND! 2 5 176 -3
+p in0 new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/m1_31_17# Vdd! 2 10 198 -3
+p new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 198 100
+p new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/stat_reg_1/m1_24_61# 2 10 198 75
+n new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 176 100
+n new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/stat_reg_1/m1_24_61# 2 5 176 75
+n new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 176 126
+p new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 198 126
+n new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 176 152
+p new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 198 152
+n new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/m1_29_198# GND! 2 5 176 438
+p new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/m1_29_198# Vdd! 2 10 198 438
+p new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 198 464
+p new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/P0 new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/m1_29_198# 2 10 198 489
+n new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/tg_1/a_100_74# GND! 2 5 176 464
+n new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/P0 new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/m1_29_198# 2 5 176 489
+p new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 198 282
+p new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/m1_31_17# 2 10 198 307
+n new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 176 282
+n new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/m1_31_17# 2 5 176 307
+n in1 new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/m1_31_17# GND! 2 5 176 256
+p in1 new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/m1_31_17# Vdd! 2 10 198 256
+p new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 198 359
+p new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/stat_reg_1/m1_24_61# 2 10 198 334
+n new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 176 359
+n new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/stat_reg_1/m1_24_61# 2 5 176 334
+n new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 176 385
+p new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 198 385
+n new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 176 411
+p new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 198 411
+n new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/m1_29_198# GND! 2 5 176 697
+p new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/m1_29_198# Vdd! 2 10 198 697
+p new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 198 723
+p new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/P0 new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/m1_29_198# 2 10 198 748
+n new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/tg_1/a_100_74# GND! 2 5 176 723
+n new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/P0 new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/m1_29_198# 2 5 176 748
+p new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 198 541
+p new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/m1_31_17# 2 10 198 566
+n new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 176 541
+n new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/m1_31_17# 2 5 176 566
+n in2 new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/m1_31_17# GND! 2 5 176 515
+p in2 new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/m1_31_17# Vdd! 2 10 198 515
+p new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 198 618
+p new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/stat_reg_1/m1_24_61# 2 10 198 593
+n new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 176 618
+n new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/stat_reg_1/m1_24_61# 2 5 176 593
+n new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 176 644
+p new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 198 644
+n new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 176 670
+p new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 198 670
+n new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/m1_29_198# GND! 2 5 176 956
+p new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/m1_29_198# Vdd! 2 10 198 956
+p new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 198 982
+p new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/P0 new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/m1_29_198# 2 10 198 1007
+n new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/tg_1/a_100_74# GND! 2 5 176 982
+n new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/P0 new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/m1_29_198# 2 5 176 1007
+p new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 198 800
+p new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/m1_31_17# 2 10 198 825
+n new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 176 800
+n new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/m1_31_17# 2 5 176 825
+n in3 new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/m1_31_17# GND! 2 5 176 774
+p in3 new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/m1_31_17# Vdd! 2 10 198 774
+p new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 198 877
+p new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/stat_reg_1/m1_24_61# 2 10 198 852
+n new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 176 877
+n new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/stat_reg_1/m1_24_61# 2 5 176 852
+n new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 176 903
+p new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 198 903
+n new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 176 929
+p new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 198 929
+n new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/m1_29_198# GND! 2 5 176 1215
+p new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/m1_29_198# Vdd! 2 10 198 1215
+p new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 198 1241
+p new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/P0 new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/m1_29_198# 2 10 198 1266
+n new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/tg_1/a_100_74# GND! 2 5 176 1241
+n new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/P0 new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/m1_29_198# 2 5 176 1266
+p new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 198 1059
+p new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/m1_31_17# 2 10 198 1084
+n new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 176 1059
+n new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/m1_31_17# 2 5 176 1084
+n in4 new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/m1_31_17# GND! 2 5 176 1033
+p in4 new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/m1_31_17# Vdd! 2 10 198 1033
+p new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 198 1136
+p new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/stat_reg_1/m1_24_61# 2 10 198 1111
+n new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 176 1136
+n new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/stat_reg_1/m1_24_61# 2 5 176 1111
+n new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 176 1162
+p new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 198 1162
+n new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 176 1188
+p new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 198 1188
+n new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/m1_29_198# GND! 2 5 176 1474
+p new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/m1_29_198# Vdd! 2 10 198 1474
+p new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 198 1500
+p new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/P0 new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/m1_29_198# 2 10 198 1525
+n new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/tg_1/a_100_74# GND! 2 5 176 1500
+n new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/P0 new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/m1_29_198# 2 5 176 1525
+p new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 198 1318
+p new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/m1_31_17# 2 10 198 1343
+n new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 176 1318
+n new_regfile_0/r5 new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/m1_31_17# 2 5 176 1343
+n in5 new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/m1_31_17# GND! 2 5 176 1292
+p in5 new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/m1_31_17# Vdd! 2 10 198 1292
+p new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 198 1395
+p new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/stat_reg_1/m1_24_61# 2 10 198 1370
+n new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 176 1395
+n new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/stat_reg_1/m1_24_61# 2 5 176 1370
+n new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 176 1421
+p new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 198 1421
+n new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 176 1447
+p new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 198 1447
+n new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/m1_29_198# GND! 2 5 591 179
+p new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/m1_29_198# Vdd! 2 10 613 179
+p new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 613 205
+p new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/P0 new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/m1_29_198# 2 10 613 230
+n new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_1/a_100_74# GND! 2 5 591 205
+n new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/P0 new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/m1_29_198# 2 5 591 230
+p new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 613 23
+p new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/m1_31_17# 2 10 613 48
+n new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 591 23
+n new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/m1_31_17# 2 5 591 48
+n in0 new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/m1_31_17# GND! 2 5 591 -3
+p in0 new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/m1_31_17# Vdd! 2 10 613 -3
+p new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 613 100
+p new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/stat_reg_1/m1_24_61# 2 10 613 75
+n new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 591 100
+n new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/stat_reg_1/m1_24_61# 2 5 591 75
+n new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 591 126
+p new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 613 126
+n new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 591 152
+p new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 613 152
+n new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/m1_29_198# GND! 2 5 591 438
+p new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/m1_29_198# Vdd! 2 10 613 438
+p new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 613 464
+p new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/P0 new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/m1_29_198# 2 10 613 489
+n new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/a_100_74# GND! 2 5 591 464
+n new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/P0 new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/m1_29_198# 2 5 591 489
+p new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 613 282
+p new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/m1_31_17# 2 10 613 307
+n new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 591 282
+n new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/m1_31_17# 2 5 591 307
+n in1 new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/m1_31_17# GND! 2 5 591 256
+p in1 new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/m1_31_17# Vdd! 2 10 613 256
+p new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 613 359
+p new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/stat_reg_1/m1_24_61# 2 10 613 334
+n new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 591 359
+n new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/stat_reg_1/m1_24_61# 2 5 591 334
+n new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 591 385
+p new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 613 385
+n new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 591 411
+p new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 613 411
+n new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/m1_29_198# GND! 2 5 591 697
+p new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/m1_29_198# Vdd! 2 10 613 697
+p new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 613 723
+p new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/P0 new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/m1_29_198# 2 10 613 748
+n new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_1/a_100_74# GND! 2 5 591 723
+n new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/P0 new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/m1_29_198# 2 5 591 748
+p new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 613 541
+p new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/m1_31_17# 2 10 613 566
+n new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 591 541
+n new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/m1_31_17# 2 5 591 566
+n in2 new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/m1_31_17# GND! 2 5 591 515
+p in2 new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/m1_31_17# Vdd! 2 10 613 515
+p new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 613 618
+p new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/stat_reg_1/m1_24_61# 2 10 613 593
+n new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 591 618
+n new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/stat_reg_1/m1_24_61# 2 5 591 593
+n new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 591 644
+p new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 613 644
+n new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 591 670
+p new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 613 670
+n new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/m1_29_198# GND! 2 5 591 956
+p new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/m1_29_198# Vdd! 2 10 613 956
+p new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 613 982
+p new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/P0 new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/m1_29_198# 2 10 613 1007
+n new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_1/a_100_74# GND! 2 5 591 982
+n new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/P0 new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/m1_29_198# 2 5 591 1007
+p new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 613 800
+p new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/m1_31_17# 2 10 613 825
+n new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 591 800
+n new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/m1_31_17# 2 5 591 825
+n in3 new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/m1_31_17# GND! 2 5 591 774
+p in3 new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/m1_31_17# Vdd! 2 10 613 774
+p new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 613 877
+p new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/stat_reg_1/m1_24_61# 2 10 613 852
+n new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 591 877
+n new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/stat_reg_1/m1_24_61# 2 5 591 852
+n new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 591 903
+p new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 613 903
+n new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 591 929
+p new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 613 929
+n new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/m1_29_198# GND! 2 5 591 1215
+p new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/m1_29_198# Vdd! 2 10 613 1215
+p new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 613 1241
+p new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/P0 new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/m1_29_198# 2 10 613 1266
+n new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_1/a_100_74# GND! 2 5 591 1241
+n new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/P0 new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/m1_29_198# 2 5 591 1266
+p new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 613 1059
+p new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/m1_31_17# 2 10 613 1084
+n new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 591 1059
+n new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/m1_31_17# 2 5 591 1084
+n in4 new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/m1_31_17# GND! 2 5 591 1033
+p in4 new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/m1_31_17# Vdd! 2 10 613 1033
+p new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 613 1136
+p new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/stat_reg_1/m1_24_61# 2 10 613 1111
+n new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 591 1136
+n new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/stat_reg_1/m1_24_61# 2 5 591 1111
+n new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 591 1162
+p new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 613 1162
+n new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 591 1188
+p new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 613 1188
+n new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/m1_29_198# GND! 2 5 591 1474
+p new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/m1_29_198# Vdd! 2 10 613 1474
+p new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 613 1500
+p new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/P0 new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/m1_29_198# 2 10 613 1525
+n new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_1/a_100_74# GND! 2 5 591 1500
+n new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/P0 new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/m1_29_198# 2 5 591 1525
+p new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 613 1318
+p new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/m1_31_17# 2 10 613 1343
+n new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 591 1318
+n new_regfile_0/r0 new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/m1_31_17# 2 5 591 1343
+n in5 new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/m1_31_17# GND! 2 5 591 1292
+p in5 new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/m1_31_17# Vdd! 2 10 613 1292
+p new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 613 1395
+p new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/stat_reg_1/m1_24_61# 2 10 613 1370
+n new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 591 1395
+n new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/stat_reg_1/m1_24_61# 2 5 591 1370
+n new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 591 1421
+p new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 613 1421
+n new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 591 1447
+p new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 613 1447
+n new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/m1_29_198# GND! 2 5 508 179
+p new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/m1_29_198# Vdd! 2 10 530 179
+p new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 530 205
+p new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_1/a_100_74# x2re new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/m1_29_198# 2 10 530 230
+n new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_1/a_100_74# GND! 2 5 508 205
+n new_regfile_0/r1 x2re new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/m1_29_198# 2 5 508 230
+p new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 530 23
+p new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/m1_31_17# 2 10 530 48
+n new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 508 23
+n new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/m1_31_17# 2 5 508 48
+n in0 new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/m1_31_17# GND! 2 5 508 -3
+p in0 new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/m1_31_17# Vdd! 2 10 530 -3
+p new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 530 100
+p new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/stat_reg_1/m1_24_61# 2 10 530 75
+n new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 508 100
+n new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/stat_reg_1/m1_24_61# 2 5 508 75
+n new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 508 126
+p new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 530 126
+n new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 508 152
+p new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 530 152
+n new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/m1_29_198# GND! 2 5 508 438
+p new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/m1_29_198# Vdd! 2 10 530 438
+p new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 530 464
+p new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/P0 new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/m1_29_198# 2 10 530 489
+n new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_1/a_100_74# GND! 2 5 508 464
+n new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/P0 new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/m1_29_198# 2 5 508 489
+p new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 530 282
+p new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/m1_31_17# 2 10 530 307
+n new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 508 282
+n new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/m1_31_17# 2 5 508 307
+n in1 new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/m1_31_17# GND! 2 5 508 256
+p in1 new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/m1_31_17# Vdd! 2 10 530 256
+p new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 530 359
+p new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/stat_reg_1/m1_24_61# 2 10 530 334
+n new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 508 359
+n new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/stat_reg_1/m1_24_61# 2 5 508 334
+n new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 508 385
+p new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 530 385
+n new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 508 411
+p new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 530 411
+n new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/m1_29_198# GND! 2 5 508 697
+p new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/m1_29_198# Vdd! 2 10 530 697
+p new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 530 723
+p new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/P0 new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/m1_29_198# 2 10 530 748
+n new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_1/a_100_74# GND! 2 5 508 723
+n new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/P0 new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/m1_29_198# 2 5 508 748
+p new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 530 541
+p new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/m1_31_17# 2 10 530 566
+n new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 508 541
+n new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/m1_31_17# 2 5 508 566
+n in2 new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/m1_31_17# GND! 2 5 508 515
+p in2 new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/m1_31_17# Vdd! 2 10 530 515
+p new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 530 618
+p new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/stat_reg_1/m1_24_61# 2 10 530 593
+n new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 508 618
+n new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/stat_reg_1/m1_24_61# 2 5 508 593
+n new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 508 644
+p new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 530 644
+n new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 508 670
+p new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 530 670
+n new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/m1_29_198# GND! 2 5 508 956
+p new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/m1_29_198# Vdd! 2 10 530 956
+p new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 530 982
+p new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/P0 new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/m1_29_198# 2 10 530 1007
+n new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_1/a_100_74# GND! 2 5 508 982
+n new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/P0 new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/m1_29_198# 2 5 508 1007
+p new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 530 800
+p new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/m1_31_17# 2 10 530 825
+n new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 508 800
+n new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/m1_31_17# 2 5 508 825
+n in3 new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/m1_31_17# GND! 2 5 508 774
+p in3 new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/m1_31_17# Vdd! 2 10 530 774
+p new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 530 877
+p new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/stat_reg_1/m1_24_61# 2 10 530 852
+n new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 508 877
+n new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/stat_reg_1/m1_24_61# 2 5 508 852
+n new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 508 903
+p new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 530 903
+n new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 508 929
+p new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 530 929
+n new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/m1_29_198# GND! 2 5 508 1215
+p new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/m1_29_198# Vdd! 2 10 530 1215
+p new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 530 1241
+p new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/P0 new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/m1_29_198# 2 10 530 1266
+n new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/tg_1/a_100_74# GND! 2 5 508 1241
+n new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/P0 new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/m1_29_198# 2 5 508 1266
+p new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 530 1059
+p new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/m1_31_17# 2 10 530 1084
+n new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 508 1059
+n new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/m1_31_17# 2 5 508 1084
+n in4 new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/m1_31_17# GND! 2 5 508 1033
+p in4 new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/m1_31_17# Vdd! 2 10 530 1033
+p new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 530 1136
+p new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/stat_reg_1/m1_24_61# 2 10 530 1111
+n new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 508 1136
+n new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/stat_reg_1/m1_24_61# 2 5 508 1111
+n new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 508 1162
+p new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 530 1162
+n new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 508 1188
+p new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 530 1188
+n new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/m1_29_198# GND! 2 5 508 1474
+p new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/m1_29_198# Vdd! 2 10 530 1474
+p new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/tg_1/a_100_74# Vdd! 2 10 530 1500
+p new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/tg_1/a_100_74# new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/P0 new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/m1_29_198# 2 10 530 1525
+n new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/tg_1/a_100_74# GND! 2 5 508 1500
+n new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/P0 new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/m1_29_198# 2 5 508 1525
+p new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/stat_reg_1/tg_0/EN Vdd! 2 10 530 1318
+p new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/m1_31_17# 2 10 530 1343
+n new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/stat_reg_1/tg_0/EN GND! 2 5 508 1318
+n new_regfile_0/r1 new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/m1_31_17# 2 5 508 1343
+n in5 new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/m1_31_17# GND! 2 5 508 1292
+p in5 new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/m1_31_17# Vdd! 2 10 530 1292
+p new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 530 1395
+p new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/stat_reg_1/m1_24_61# 2 10 530 1370
+n new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# GND! 2 5 508 1395
+n new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/stat_reg_1/tg_0/EN new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/stat_reg_1/m1_24_61# 2 5 508 1370
+n new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/stat_reg_1/m1_24_61# GND! 2 5 508 1421
+p new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/stat_reg_1/a_24_71# new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/stat_reg_1/m1_24_61# Vdd! 2 10 530 1421
+n new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/stat_reg_1/a_24_71# GND! 2 5 508 1447
+p new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/tg_5/out new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/stat_reg_1/a_24_71# Vdd! 2 10 530 1447
+n WA0 new_regfile_0/decoder_0/nor4_0[7]/c GND! 2 5 632 1598
+p WA0 new_regfile_0/decoder_0/nor4_0[7]/c Vdd! 2 10 632 1576
+n WA2 new_regfile_0/r0 GND! 3 5 522 1597
+p WA0 new_regfile_0/decoder_0/nor4_0[0]/a_n40_6# new_regfile_0/r0 3 10 502 1576
+p WA1 new_regfile_0/decoder_0/nor4_0[0]/a_n50_6# new_regfile_0/decoder_0/nor4_0[0]/a_n40_6# 3 10 512 1576
+n WA1 GND! new_regfile_0/r0 3 5 512 1597
+p WA2 new_regfile_0/decoder_0/nor4_0[0]/a_n60_6# new_regfile_0/decoder_0/nor4_0[0]/a_n50_6# 3 10 522 1576
+p new_regfile_0/decoder_0/nor4_0[7]/d Vdd! new_regfile_0/decoder_0/nor4_0[0]/a_n60_6# 3 10 532 1576
+n WA0 new_regfile_0/r0 GND! 3 5 502 1597
+n new_regfile_0/decoder_0/nor4_0[7]/d GND! new_regfile_0/r0 3 5 532 1597
+n WA2 new_regfile_0/r1 GND! 3 5 465 1597
+p new_regfile_0/decoder_0/nor4_0[7]/c new_regfile_0/decoder_0/nor4_0[1]/a_n40_6# new_regfile_0/r1 3 10 445 1576
+p WA1 new_regfile_0/decoder_0/nor4_0[1]/a_n50_6# new_regfile_0/decoder_0/nor4_0[1]/a_n40_6# 3 10 455 1576
+n WA1 GND! new_regfile_0/r1 3 5 455 1597
+p WA2 new_regfile_0/decoder_0/nor4_0[1]/a_n60_6# new_regfile_0/decoder_0/nor4_0[1]/a_n50_6# 3 10 465 1576
+p new_regfile_0/decoder_0/nor4_0[7]/d Vdd! new_regfile_0/decoder_0/nor4_0[1]/a_n60_6# 3 10 475 1576
+n new_regfile_0/decoder_0/nor4_0[7]/c new_regfile_0/r1 GND! 3 5 445 1597
+n new_regfile_0/decoder_0/nor4_0[7]/d GND! new_regfile_0/r1 3 5 475 1597
+n WA2 new_regfile_0/r2 GND! 3 5 408 1597
+p WA0 new_regfile_0/decoder_0/nor4_0[2]/a_n40_6# new_regfile_0/r2 3 10 388 1576
+p new_regfile_0/decoder_0/nor4_0[7]/b new_regfile_0/decoder_0/nor4_0[2]/a_n50_6# new_regfile_0/decoder_0/nor4_0[2]/a_n40_6# 3 10 398 1576
+n new_regfile_0/decoder_0/nor4_0[7]/b GND! new_regfile_0/r2 3 5 398 1597
+p WA2 new_regfile_0/decoder_0/nor4_0[2]/a_n60_6# new_regfile_0/decoder_0/nor4_0[2]/a_n50_6# 3 10 408 1576
+p new_regfile_0/decoder_0/nor4_0[7]/d Vdd! new_regfile_0/decoder_0/nor4_0[2]/a_n60_6# 3 10 418 1576
+n WA0 new_regfile_0/r2 GND! 3 5 388 1597
+n new_regfile_0/decoder_0/nor4_0[7]/d GND! new_regfile_0/r2 3 5 418 1597
+n WA2 new_regfile_0/r3 GND! 3 5 351 1597
+p new_regfile_0/decoder_0/nor4_0[7]/c new_regfile_0/decoder_0/nor4_0[3]/a_n40_6# new_regfile_0/r3 3 10 331 1576
+p new_regfile_0/decoder_0/nor4_0[7]/b new_regfile_0/decoder_0/nor4_0[3]/a_n50_6# new_regfile_0/decoder_0/nor4_0[3]/a_n40_6# 3 10 341 1576
+n new_regfile_0/decoder_0/nor4_0[7]/b GND! new_regfile_0/r3 3 5 341 1597
+p WA2 new_regfile_0/decoder_0/nor4_0[3]/a_n60_6# new_regfile_0/decoder_0/nor4_0[3]/a_n50_6# 3 10 351 1576
+p new_regfile_0/decoder_0/nor4_0[7]/d Vdd! new_regfile_0/decoder_0/nor4_0[3]/a_n60_6# 3 10 361 1576
+n new_regfile_0/decoder_0/nor4_0[7]/c new_regfile_0/r3 GND! 3 5 331 1597
+n new_regfile_0/decoder_0/nor4_0[7]/d GND! new_regfile_0/r3 3 5 361 1597
+n new_regfile_0/decoder_0/nor4_0[7]/a new_regfile_0/r4 GND! 3 5 294 1597
+p WA0 new_regfile_0/decoder_0/nor4_0[4]/a_n40_6# new_regfile_0/r4 3 10 274 1576
+p WA1 new_regfile_0/decoder_0/nor4_0[4]/a_n50_6# new_regfile_0/decoder_0/nor4_0[4]/a_n40_6# 3 10 284 1576
+n WA1 GND! new_regfile_0/r4 3 5 284 1597
+p new_regfile_0/decoder_0/nor4_0[7]/a new_regfile_0/decoder_0/nor4_0[4]/a_n60_6# new_regfile_0/decoder_0/nor4_0[4]/a_n50_6# 3 10 294 1576
+p new_regfile_0/decoder_0/nor4_0[7]/d Vdd! new_regfile_0/decoder_0/nor4_0[4]/a_n60_6# 3 10 304 1576
+n WA0 new_regfile_0/r4 GND! 3 5 274 1597
+n new_regfile_0/decoder_0/nor4_0[7]/d GND! new_regfile_0/r4 3 5 304 1597
+n new_regfile_0/decoder_0/nor4_0[7]/a new_regfile_0/r5 GND! 3 5 237 1597
+p new_regfile_0/decoder_0/nor4_0[7]/c new_regfile_0/decoder_0/nor4_0[5]/a_n40_6# new_regfile_0/r5 3 10 217 1576
+p WA1 new_regfile_0/decoder_0/nor4_0[5]/a_n50_6# new_regfile_0/decoder_0/nor4_0[5]/a_n40_6# 3 10 227 1576
+n WA1 GND! new_regfile_0/r5 3 5 227 1597
+p new_regfile_0/decoder_0/nor4_0[7]/a new_regfile_0/decoder_0/nor4_0[5]/a_n60_6# new_regfile_0/decoder_0/nor4_0[5]/a_n50_6# 3 10 237 1576
+p new_regfile_0/decoder_0/nor4_0[7]/d Vdd! new_regfile_0/decoder_0/nor4_0[5]/a_n60_6# 3 10 247 1576
+n new_regfile_0/decoder_0/nor4_0[7]/c new_regfile_0/r5 GND! 3 5 217 1597
+n new_regfile_0/decoder_0/nor4_0[7]/d GND! new_regfile_0/r5 3 5 247 1597
+n new_regfile_0/decoder_0/nor4_0[7]/a new_regfile_0/r6 GND! 3 5 180 1597
+p WA0 new_regfile_0/decoder_0/nor4_0[6]/a_n40_6# new_regfile_0/r6 3 10 160 1576
+p new_regfile_0/decoder_0/nor4_0[7]/b new_regfile_0/decoder_0/nor4_0[6]/a_n50_6# new_regfile_0/decoder_0/nor4_0[6]/a_n40_6# 3 10 170 1576
+n new_regfile_0/decoder_0/nor4_0[7]/b GND! new_regfile_0/r6 3 5 170 1597
+p new_regfile_0/decoder_0/nor4_0[7]/a new_regfile_0/decoder_0/nor4_0[6]/a_n60_6# new_regfile_0/decoder_0/nor4_0[6]/a_n50_6# 3 10 180 1576
+p new_regfile_0/decoder_0/nor4_0[7]/d Vdd! new_regfile_0/decoder_0/nor4_0[6]/a_n60_6# 3 10 190 1576
+n WA0 new_regfile_0/r6 GND! 3 5 160 1597
+n new_regfile_0/decoder_0/nor4_0[7]/d GND! new_regfile_0/r6 3 5 190 1597
+n new_regfile_0/decoder_0/nor4_0[7]/a new_regfile_0/decoder_0/en7 GND! 3 5 123 1597
+p new_regfile_0/decoder_0/nor4_0[7]/c new_regfile_0/decoder_0/nor4_0[7]/a_n40_6# new_regfile_0/decoder_0/en7 3 10 103 1576
+p new_regfile_0/decoder_0/nor4_0[7]/b new_regfile_0/decoder_0/nor4_0[7]/a_n50_6# new_regfile_0/decoder_0/nor4_0[7]/a_n40_6# 3 10 113 1576
+n new_regfile_0/decoder_0/nor4_0[7]/b GND! new_regfile_0/decoder_0/en7 3 5 113 1597
+p new_regfile_0/decoder_0/nor4_0[7]/a new_regfile_0/decoder_0/nor4_0[7]/a_n60_6# new_regfile_0/decoder_0/nor4_0[7]/a_n50_6# 3 10 123 1576
+p new_regfile_0/decoder_0/nor4_0[7]/d Vdd! new_regfile_0/decoder_0/nor4_0[7]/a_n60_6# 3 10 133 1576
+n new_regfile_0/decoder_0/nor4_0[7]/c new_regfile_0/decoder_0/en7 GND! 3 5 103 1597
+n new_regfile_0/decoder_0/nor4_0[7]/d GND! new_regfile_0/decoder_0/en7 3 5 133 1597
+n EN new_regfile_0/decoder_0/nor4_0[7]/d GND! 2 5 558 1598
+p EN new_regfile_0/decoder_0/nor4_0[7]/d Vdd! 2 10 558 1576
+n WA2 new_regfile_0/decoder_0/nor4_0[7]/a GND! 2 5 584 1598
+p WA2 new_regfile_0/decoder_0/nor4_0[7]/a Vdd! 2 10 584 1576
+n WA1 new_regfile_0/decoder_0/nor4_0[7]/b GND! 2 5 608 1598
+p WA1 new_regfile_0/decoder_0/nor4_0[7]/b Vdd! 2 10 608 1576
+C new_regfile_0/r4 GND! 5.92
+C new_regfile_0/r6 new_regfile_0/r5 24.51
+C in5 new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/P0 6.84
+C rd new_regfile_0/r6 24.41
+C in4 new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/P0 6.85
+C in0 new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/P0 6.83
+C new_regfile_0/r3 Vdd! 12.38
+C new_regfile_0/decoder_0/en7 GND! 3.21
+C in3 new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/P0 6.83
+C new_regfile_0/r2 new_regfile_0/r3 24.16
+C in2 new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/P0 6.79
+C new_regfile_0/r0 GND! 5.92
+C in1 new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/P0 6.79
+C new_regfile_0/r1 Vdd! 12.40
+C new_regfile_0/r2 Vdd! 12.38
+C new_regfile_0/r2 new_regfile_0/r1 31.33
+C WA0 new_regfile_0/decoder_0/nor4_0[7]/c 2.43
+C new_regfile_0/r5 Vdd! 12.48
+C rd Vdd! 11.24
+C new_regfile_0/r3 new_regfile_0/r4 24.00
+C new_regfile_0/decoder_0/nor4_0[7]/b WA1 2.02
+C new_regfile_0/r4 Vdd! 12.38
+C new_regfile_0/r6 GND! 5.92
+C new_regfile_0/r4 new_regfile_0/r5 24.06
+C in5 GND! 2.26
+C in4 GND! 2.26
+C in3 GND! 2.26
+C new_regfile_0/r0 Vdd! 12.47
+C in2 GND! 2.26
+C new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/P0 new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/P0 2.52
+C in1 GND! 2.26
+C new_regfile_0/r0 new_regfile_0/r1 24.11
+C in0 GND! 2.26
+C GND! new_regfile_0/decoder_0/nor4_0[7]/d 2.58
+C new_regfile_0/r3 GND! 5.92
+C new_regfile_0/r1 GND! 5.92
+C new_regfile_0/r2 GND! 5.92
+C new_regfile_0/r5 GND! 5.92
+C rd GND! 2.71
+C new_regfile_0/r6 Vdd! 12.40
+R new_regfile_0/decoder_0/nor4_0[7]/d 1705
+R new_regfile_0/decoder_0/nor4_0[7]/c 867
+R WA0 1122
+R WA1 920
+R WA2 954
+R new_regfile_0/decoder_0/nor4_0[7]/b 743
+R new_regfile_0/decoder_0/nor4_0[7]/a 738
+R EN 226
+R new_regfile_0/decoder_0/nor4_0[7]/a_n40_6# 11
+R new_regfile_0/decoder_0/nor4_0[7]/a_n50_6# 11
+R new_regfile_0/decoder_0/nor4_0[7]/a_n60_6# 11
+R new_regfile_0/decoder_0/nor4_0[6]/a_n40_6# 11
+R new_regfile_0/decoder_0/nor4_0[6]/a_n50_6# 11
+R new_regfile_0/decoder_0/nor4_0[6]/a_n60_6# 11
+R new_regfile_0/decoder_0/nor4_0[5]/a_n40_6# 11
+R new_regfile_0/decoder_0/nor4_0[5]/a_n50_6# 11
+R new_regfile_0/decoder_0/nor4_0[5]/a_n60_6# 11
+R new_regfile_0/decoder_0/nor4_0[4]/a_n40_6# 11
+R new_regfile_0/decoder_0/nor4_0[4]/a_n50_6# 11
+R new_regfile_0/decoder_0/nor4_0[4]/a_n60_6# 11
+R new_regfile_0/decoder_0/nor4_0[3]/a_n40_6# 11
+R new_regfile_0/decoder_0/nor4_0[3]/a_n50_6# 11
+R new_regfile_0/decoder_0/nor4_0[3]/a_n60_6# 11
+R new_regfile_0/decoder_0/nor4_0[2]/a_n40_6# 11
+R new_regfile_0/decoder_0/nor4_0[2]/a_n50_6# 11
+R new_regfile_0/decoder_0/nor4_0[2]/a_n60_6# 11
+R new_regfile_0/decoder_0/nor4_0[1]/a_n40_6# 11
+R new_regfile_0/decoder_0/nor4_0[1]/a_n50_6# 11
+R new_regfile_0/decoder_0/nor4_0[1]/a_n60_6# 11
+R new_regfile_0/decoder_0/nor4_0[0]/a_n40_6# 11
+R new_regfile_0/decoder_0/nor4_0[0]/a_n50_6# 11
+R new_regfile_0/decoder_0/nor4_0[0]/a_n60_6# 11
+R new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/P0 26
+R new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six0_1/reg_one0_0[5]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/P0 26
+R new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six0_1/reg_one0_0[4]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/P0 25
+R new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six0_1/reg_one0_0[3]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/P0 26
+R new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six0_1/reg_one0_0[2]/reg_one_0/m1_29_198# 93
+C Vdd! GND 228.15
+R Vdd! 450022
+R GND! 40748
+R new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/m1_31_17# 93
+C new_regfile_0/r1 GND 10.64
+R new_regfile_0/r1 5592
+R new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/P0 26
+R new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six0_1/reg_one0_0[1]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/m1_31_17# 93
+R x2re 26
+R new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six0_1/reg_one0_0[0]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/P0 24
+R new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six0_0/reg_one0_0[5]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/P0 24
+R new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six0_0/reg_one0_0[4]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/P0 24
+R new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six0_0/reg_one0_0[3]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/P0 24
+R new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six0_0/reg_one0_0[2]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/m1_31_17# 93
+C new_regfile_0/r0 GND 10.82
+R new_regfile_0/r0 5593
+R new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/P0 24
+R new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six0_0/reg_one0_0[1]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/P0 24
+R new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six0_0/reg_one0_0[0]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/P0 30
+R new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six2_1/reg_one2_0[5]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/P0 27
+R new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six2_1/reg_one2_0[4]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/P0 29
+R new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six2_1/reg_one2_0[3]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/P0 29
+R new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six2_1/reg_one2_0[2]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/P0 30
+R new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/tg_1/a_100_74# 180
+C new_regfile_0/r5 GND 10.79
+R new_regfile_0/r5 5591
+R new_regfile_0/reg_six2_1/reg_one2_0[1]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/m1_31_17# 93
+R x3re 29
+R new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six2_1/reg_one2_0[0]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/P0 27
+R new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six2_0/reg_one2_0[5]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/P0 26
+R new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six2_0/reg_one2_0[4]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/P0 27
+R new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six2_0/reg_one2_0[3]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/P0 27
+R new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six2_0/reg_one2_0[2]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/m1_31_17# 93
+C new_regfile_0/r4 GND 10.77
+R new_regfile_0/r4 5592
+R new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/P0 27
+R new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six2_0/reg_one2_0[1]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/P0 27
+R new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six2_0/reg_one2_0[0]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/P0 26
+R new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six1_1/reg_one1_0[5]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/P0 24
+R new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six1_1/reg_one1_0[4]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/P0 26
+R new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six1_1/reg_one1_0[3]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/P0 25
+R new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six1_1/reg_one1_0[2]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/P0 27
+R new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/tg_1/a_100_74# 180
+C new_regfile_0/r3 GND 10.37
+R new_regfile_0/r3 5591
+R new_regfile_0/reg_six1_1/reg_one1_0[1]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/m1_31_17# 93
+R x2im 26
+R new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six1_1/reg_one1_0[0]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/P0 26
+R new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six1_0/reg_one1_0[5]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/P0 24
+R new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six1_0/reg_one1_0[4]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/P0 26
+R new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six1_0/reg_one1_0[3]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/P0 24
+R new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six1_0/reg_one1_0[2]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/m1_31_17# 93
+C new_regfile_0/r2 GND 10.79
+R new_regfile_0/r2 5591
+R new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/P0 26
+R new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six1_0/reg_one1_0[1]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/P0 26
+R new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six1_0/reg_one1_0[0]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/P0 29
+R new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six3_0/reg_one3_0[5]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/P0 29
+R new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six3_0/reg_one3_0[4]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/P0 27
+R new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six3_0/reg_one3_0[3]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/P0 29
+R new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six3_0/reg_one3_0[2]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/P0 29
+R new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/tg_1/a_100_74# 180
+C new_regfile_0/r6 GND 10.80
+R new_regfile_0/r6 5591
+R new_regfile_0/reg_six3_0/reg_one3_0[1]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/m1_31_17# 93
+R new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/P0 29
+R new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six3_0/reg_one3_0[0]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/m1_31_17# 93
+R in5 1825
+R new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/P0 30
+R new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six3_1/reg_one3_0[5]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/m1_31_17# 93
+R in4 1825
+R new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/P0 30
+R new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six3_1/reg_one3_0[4]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/m1_31_17# 93
+R in3 1825
+R new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/P0 27
+R new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six3_1/reg_one3_0[3]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/m1_31_17# 93
+R in2 1825
+R new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/P0 30
+R new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six3_1/reg_one3_0[2]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/m1_31_17# 93
+R in1 1825
+C new_regfile_0/decoder_0/en7 GND 8.26
+R new_regfile_0/decoder_0/en7 2902
+R new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/P0 30
+R new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/tg_1/a_100_74# 180
+C rd GND 2.57
+R rd 2673
+R new_regfile_0/reg_six3_1/reg_one3_0[1]/reg_one_0/m1_29_198# 93
+R new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/stat_reg_1/a_24_71# 236
+R new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/tg_5/out 494
+R new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/stat_reg_1/m1_24_61# 93
+R new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/stat_reg_1/tg_0/a_100_74# 180
+R new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/stat_reg_1/tg_0/EN 591
+R new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/m1_31_17# 93
+R in0 1825
+R x3im 30
+R new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/tg_1/a_100_74# 180
+R new_regfile_0/reg_six3_1/reg_one3_0[0]/reg_one_0/m1_29_198# 93

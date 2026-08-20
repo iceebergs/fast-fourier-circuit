@@ -1,0 +1,63 @@
+magic
+tech scmos
+timestamp 1762666711
+<< nwell >>
+rect -2 -33 7 -7
+<< pwell >>
+rect -1 -7 5 -3
+rect -58 -46 -53 -41
+rect -2 -59 8 -40
+rect -2 -64 -1 -59
+<< metal1 >>
+rect -2 40 4 45
+rect -53 11 -50 15
+rect 3 11 4 15
+rect -1 -7 5 -3
+rect -2 -17 5 -12
+rect 2 -46 3 -42
+rect 53 -46 58 -42
+rect 61 -60 64 -3
+rect 57 -64 64 -60
+<< m2contact >>
+rect -27 40 -22 45
+rect -13 18 -8 23
+rect 48 18 53 23
+rect -58 11 -53 16
+rect 58 11 63 16
+rect -27 -17 -22 -12
+rect 45 -39 50 -34
+rect -58 -46 -53 -41
+<< metal2 >>
+rect -57 -41 -54 11
+rect -26 -12 -23 40
+rect -11 23 53 24
+rect -8 21 48 23
+rect 59 -35 62 11
+rect 50 -38 62 -35
+<< m123contact >>
+rect -2 11 3 16
+rect -10 -39 -5 -34
+<< metal3 >>
+rect -1 -35 2 11
+rect -5 -39 2 -35
+use nand2_add  nand2_1
+timestamp 1762666711
+transform 1 0 -53 0 1 -40
+box -7 -24 57 33
+use nand2_add  nand2_0
+timestamp 1762666711
+transform 1 0 8 0 1 17
+box -7 -24 57 33
+use nand2_add  nand2_2
+timestamp 1762666711
+transform 1 0 -53 0 1 17
+box -7 -24 57 33
+use nand2_add  nand2_3
+timestamp 1762666711
+transform 1 0 5 0 1 -40
+box -7 -24 57 33
+<< labels >>
+rlabel metal2 -10 18 -10 24 1 xor_b
+rlabel m2contact -58 11 -58 15 3 xor_a
+rlabel metal1 57 -46 57 -42 1 xor_out
+<< end >>

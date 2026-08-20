@@ -1,0 +1,23 @@
+timestamp 1765738707
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t24i
+scale 1000 1 9
+resistclasses 6900 7800 946000 946000 1 8000 8000 80 80 80 80 80 40
+use nand2 nand2_1 1 0 86 0 1 34
+use nand2 nand2_0 1 0 55 0 1 34
+use nand2 nand2_2 1 0 122 0 1 34
+node "s0_next" 0 0 98 18 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "nand2_1/out" "nand2_0/out" 30.7827
+cap "nand2_1/a" "nand2_0/b" 61.5653
+cap "nand2_1/out" "nand2_1/GND!" 38.4783
+cap "nand2_1/w_n55_n32#" "nand2_1/GND!" -16.492
+cap "nand2_1/w_n55_n14#" "nand2_1/Vdd!" -16.492
+merge "nand2_2/Vdd!" "nand2_0/Vdd!" -36.946 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -35 -34 0 0 0 0 0 0 0 0 0 0
+merge "nand2_0/Vdd!" "nand2_1/Vdd!"
+merge "nand2_2/w_n55_n32#" "nand2_0/w_n55_n32#" 0 0 0 0 0 0 0 0 0 -126 -86 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nand2_0/w_n55_n32#" "nand2_1/w_n55_n32#"
+merge "nand2_2/w_n55_n14#" "nand2_0/w_n55_n14#" -118.349 0 0 0 0 -203 -130 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nand2_0/w_n55_n14#" "nand2_1/w_n55_n14#"
+merge "nand2_2/GND!" "nand2_0/GND!" -36.946 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -35 -34 0 0 0 0 0 0 0 0 0 0
+merge "nand2_0/GND!" "nand2_1/GND!"

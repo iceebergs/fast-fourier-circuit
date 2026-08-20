@@ -1,0 +1,59 @@
+magic
+tech scmos
+timestamp 1765788332
+<< polysilicon >>
+rect 60 220 63 222
+rect 5 91 8 93
+rect -3 38 12 40
+<< polycontact >>
+rect 63 218 68 223
+rect 29 189 34 194
+rect 0 88 5 93
+rect -8 35 -3 40
+<< metal1 >>
+rect -8 40 -3 259
+rect 67 223 72 259
+rect 68 218 72 223
+rect 30 178 33 189
+rect 0 46 3 88
+rect 30 71 33 81
+rect -8 0 -3 35
+rect 8 0 15 1
+rect 53 0 60 1
+rect 67 0 72 218
+<< m2contact >>
+rect 29 198 34 203
+rect 0 41 5 46
+rect 23 41 28 46
+rect 31 17 36 22
+<< metal2 >>
+rect 29 203 34 243
+rect 5 41 23 45
+rect 32 22 36 62
+<< m123contact >>
+rect 29 253 34 258
+use new_inv  new_inv_3
+timestamp 1765758641
+transform 1 0 -72 0 -1 212
+box 77 4 135 30
+use new_inv_reg  new_inv_state_0
+timestamp 1765736863
+transform 1 0 -72 0 -1 30
+box 77 4 135 30
+use tg  tg_1
+timestamp 1765776620
+transform 1 0 -82 0 -1 302
+box 86 43 145 94
+use tg  tg_5
+timestamp 1765776620
+transform 1 0 -82 0 -1 120
+box 86 43 145 94
+use stat_reg  stat_reg_1
+timestamp 1765788332
+transform 1 0 5 0 1 73
+box -1 0 58 109
+<< labels >>
+rlabel polysilicon 7 38 7 40 1 W
+rlabel polysilicon 62 220 62 222 1 R0
+rlabel metal1 30 254 33 254 1 P0
+<< end >>

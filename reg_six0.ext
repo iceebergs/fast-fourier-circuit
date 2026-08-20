@@ -1,0 +1,12 @@
+timestamp 1765758641
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t24i
+scale 1000 1 9
+resistclasses 6900 7800 946000 946000 1 8000 8000 80 80 80 80 80 40
+use reg_one0 reg_one0_0[0:0:80][0:5:259] 1 0 0 0 1 0
+cap "reg_one0_0[0:4]/reg_one_0/R0" "reg_one0_0[0:4]/reg_one_0/tg_1/Vdd!" 1.42109e-14
+merge "reg_one0_0[1:5]/reg_one_0/new_inv_state_0/Vdd!" "reg_one0_0[0:4]/reg_one_0/tg_1/Vdd!" -16.268 0 0 0 0 0 -58 0 0 0 0 0 0 0 0 0 -14 0 0 0 0 0 0 0 0 0 0
+merge "reg_one0_0[1:5]/reg_one_0/R0" "reg_one0_0[0:4]/reg_one_0/R0" -11.62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0 0 0 0 0 0 0
+merge "reg_one0_0[1:5]/reg_one_0/new_inv_state_0/GND!" "reg_one0_0[0:4]/reg_one_0/tg_1/GND!" -16.268 0 0 0 0 0 0 0 0 0 -48 0 0 0 0 0 -14 0 0 0 0 0 0 0 0 0 0
+merge "reg_one0_0[1:5]/reg_one_0/W" "reg_one0_0[0:4]/reg_one_0/W" -11.62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0 0 0 0 0 0 0

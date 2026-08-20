@@ -1,0 +1,1517 @@
+| units: 9 tech: scmos format: MIT
+n reg_six_0/reg_one_0[0]/tg_5/out reg_six_0/reg_one_0[0]/m1_29_198# GND! 2 5 132 209
+p reg_six_0/reg_one_0[0]/tg_5/out reg_six_0/reg_one_0[0]/m1_29_198# Vdd! 2 10 154 209
+p r7 reg_six_0/reg_one_0[0]/tg_1/a_100_74# Vdd! 2 10 154 235
+p reg_six_0/reg_one_0[0]/tg_1/a_100_74# o0 reg_six_0/reg_one_0[0]/m1_29_198# 2 10 154 260
+n r7 reg_six_0/reg_one_0[0]/tg_1/a_100_74# GND! 2 5 132 235
+n r7 o0 reg_six_0/reg_one_0[0]/m1_29_198# 2 5 132 260
+p r7 reg_six_0/reg_one_0[0]/stat_reg_1/tg_0/EN Vdd! 2 10 154 53
+p reg_six_0/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_0/reg_one_0[0]/tg_5/out reg_six_0/reg_one_0[0]/m1_31_17# 2 10 154 78
+n r7 reg_six_0/reg_one_0[0]/stat_reg_1/tg_0/EN GND! 2 5 132 53
+n r7 reg_six_0/reg_one_0[0]/tg_5/out reg_six_0/reg_one_0[0]/m1_31_17# 2 5 132 78
+p reg_six_0/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_0/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 154 130
+p reg_six_0/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# reg_six_0/reg_one_0[0]/tg_5/out reg_six_0/reg_one_0[0]/stat_reg_1/m1_24_61# 2 10 154 105
+n reg_six_0/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_0/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# GND! 2 5 132 130
+n reg_six_0/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_0/reg_one_0[0]/tg_5/out reg_six_0/reg_one_0[0]/stat_reg_1/m1_24_61# 2 5 132 105
+n reg_six_0/reg_one_0[0]/stat_reg_1/a_24_71# reg_six_0/reg_one_0[0]/stat_reg_1/m1_24_61# GND! 2 5 132 156
+p reg_six_0/reg_one_0[0]/stat_reg_1/a_24_71# reg_six_0/reg_one_0[0]/stat_reg_1/m1_24_61# Vdd! 2 10 154 156
+n reg_six_0/reg_one_0[0]/tg_5/out reg_six_0/reg_one_0[0]/stat_reg_1/a_24_71# GND! 2 5 132 182
+p reg_six_0/reg_one_0[0]/tg_5/out reg_six_0/reg_one_0[0]/stat_reg_1/a_24_71# Vdd! 2 10 154 182
+n in0 reg_six_0/reg_one_0[0]/m1_31_17# GND! 2 5 132 27
+p in0 reg_six_0/reg_one_0[0]/m1_31_17# Vdd! 2 10 154 27
+n reg_six_0/reg_one_0[1]/tg_5/out reg_six_0/reg_one_0[1]/m1_29_198# GND! 2 5 132 468
+p reg_six_0/reg_one_0[1]/tg_5/out reg_six_0/reg_one_0[1]/m1_29_198# Vdd! 2 10 154 468
+p r7 reg_six_0/reg_one_0[1]/tg_1/a_100_74# Vdd! 2 10 154 494
+p reg_six_0/reg_one_0[1]/tg_1/a_100_74# o1 reg_six_0/reg_one_0[1]/m1_29_198# 2 10 154 519
+n r7 reg_six_0/reg_one_0[1]/tg_1/a_100_74# GND! 2 5 132 494
+n r7 o1 reg_six_0/reg_one_0[1]/m1_29_198# 2 5 132 519
+p r7 reg_six_0/reg_one_0[1]/stat_reg_1/tg_0/EN Vdd! 2 10 154 312
+p reg_six_0/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_0/reg_one_0[1]/tg_5/out reg_six_0/reg_one_0[1]/m1_31_17# 2 10 154 337
+n r7 reg_six_0/reg_one_0[1]/stat_reg_1/tg_0/EN GND! 2 5 132 312
+n r7 reg_six_0/reg_one_0[1]/tg_5/out reg_six_0/reg_one_0[1]/m1_31_17# 2 5 132 337
+p reg_six_0/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_0/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 154 389
+p reg_six_0/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# reg_six_0/reg_one_0[1]/tg_5/out reg_six_0/reg_one_0[1]/stat_reg_1/m1_24_61# 2 10 154 364
+n reg_six_0/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_0/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# GND! 2 5 132 389
+n reg_six_0/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_0/reg_one_0[1]/tg_5/out reg_six_0/reg_one_0[1]/stat_reg_1/m1_24_61# 2 5 132 364
+n reg_six_0/reg_one_0[1]/stat_reg_1/a_24_71# reg_six_0/reg_one_0[1]/stat_reg_1/m1_24_61# GND! 2 5 132 415
+p reg_six_0/reg_one_0[1]/stat_reg_1/a_24_71# reg_six_0/reg_one_0[1]/stat_reg_1/m1_24_61# Vdd! 2 10 154 415
+n reg_six_0/reg_one_0[1]/tg_5/out reg_six_0/reg_one_0[1]/stat_reg_1/a_24_71# GND! 2 5 132 441
+p reg_six_0/reg_one_0[1]/tg_5/out reg_six_0/reg_one_0[1]/stat_reg_1/a_24_71# Vdd! 2 10 154 441
+n in1 reg_six_0/reg_one_0[1]/m1_31_17# GND! 2 5 132 286
+p in1 reg_six_0/reg_one_0[1]/m1_31_17# Vdd! 2 10 154 286
+n reg_six_0/reg_one_0[2]/tg_5/out reg_six_0/reg_one_0[2]/m1_29_198# GND! 2 5 132 727
+p reg_six_0/reg_one_0[2]/tg_5/out reg_six_0/reg_one_0[2]/m1_29_198# Vdd! 2 10 154 727
+p r7 reg_six_0/reg_one_0[2]/tg_1/a_100_74# Vdd! 2 10 154 753
+p reg_six_0/reg_one_0[2]/tg_1/a_100_74# o2 reg_six_0/reg_one_0[2]/m1_29_198# 2 10 154 778
+n r7 reg_six_0/reg_one_0[2]/tg_1/a_100_74# GND! 2 5 132 753
+n r7 o2 reg_six_0/reg_one_0[2]/m1_29_198# 2 5 132 778
+p r7 reg_six_0/reg_one_0[2]/stat_reg_1/tg_0/EN Vdd! 2 10 154 571
+p reg_six_0/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_0/reg_one_0[2]/tg_5/out reg_six_0/reg_one_0[2]/m1_31_17# 2 10 154 596
+n r7 reg_six_0/reg_one_0[2]/stat_reg_1/tg_0/EN GND! 2 5 132 571
+n r7 reg_six_0/reg_one_0[2]/tg_5/out reg_six_0/reg_one_0[2]/m1_31_17# 2 5 132 596
+p reg_six_0/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_0/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 154 648
+p reg_six_0/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# reg_six_0/reg_one_0[2]/tg_5/out reg_six_0/reg_one_0[2]/stat_reg_1/m1_24_61# 2 10 154 623
+n reg_six_0/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_0/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# GND! 2 5 132 648
+n reg_six_0/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_0/reg_one_0[2]/tg_5/out reg_six_0/reg_one_0[2]/stat_reg_1/m1_24_61# 2 5 132 623
+n reg_six_0/reg_one_0[2]/stat_reg_1/a_24_71# reg_six_0/reg_one_0[2]/stat_reg_1/m1_24_61# GND! 2 5 132 674
+p reg_six_0/reg_one_0[2]/stat_reg_1/a_24_71# reg_six_0/reg_one_0[2]/stat_reg_1/m1_24_61# Vdd! 2 10 154 674
+n reg_six_0/reg_one_0[2]/tg_5/out reg_six_0/reg_one_0[2]/stat_reg_1/a_24_71# GND! 2 5 132 700
+p reg_six_0/reg_one_0[2]/tg_5/out reg_six_0/reg_one_0[2]/stat_reg_1/a_24_71# Vdd! 2 10 154 700
+n in2 reg_six_0/reg_one_0[2]/m1_31_17# GND! 2 5 132 545
+p in2 reg_six_0/reg_one_0[2]/m1_31_17# Vdd! 2 10 154 545
+n reg_six_0/reg_one_0[3]/tg_5/out reg_six_0/reg_one_0[3]/m1_29_198# GND! 2 5 132 986
+p reg_six_0/reg_one_0[3]/tg_5/out reg_six_0/reg_one_0[3]/m1_29_198# Vdd! 2 10 154 986
+p r7 reg_six_0/reg_one_0[3]/tg_1/a_100_74# Vdd! 2 10 154 1012
+p reg_six_0/reg_one_0[3]/tg_1/a_100_74# o3 reg_six_0/reg_one_0[3]/m1_29_198# 2 10 154 1037
+n r7 reg_six_0/reg_one_0[3]/tg_1/a_100_74# GND! 2 5 132 1012
+n r7 o3 reg_six_0/reg_one_0[3]/m1_29_198# 2 5 132 1037
+p r7 reg_six_0/reg_one_0[3]/stat_reg_1/tg_0/EN Vdd! 2 10 154 830
+p reg_six_0/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_0/reg_one_0[3]/tg_5/out reg_six_0/reg_one_0[3]/m1_31_17# 2 10 154 855
+n r7 reg_six_0/reg_one_0[3]/stat_reg_1/tg_0/EN GND! 2 5 132 830
+n r7 reg_six_0/reg_one_0[3]/tg_5/out reg_six_0/reg_one_0[3]/m1_31_17# 2 5 132 855
+p reg_six_0/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_0/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 154 907
+p reg_six_0/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# reg_six_0/reg_one_0[3]/tg_5/out reg_six_0/reg_one_0[3]/stat_reg_1/m1_24_61# 2 10 154 882
+n reg_six_0/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_0/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# GND! 2 5 132 907
+n reg_six_0/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_0/reg_one_0[3]/tg_5/out reg_six_0/reg_one_0[3]/stat_reg_1/m1_24_61# 2 5 132 882
+n reg_six_0/reg_one_0[3]/stat_reg_1/a_24_71# reg_six_0/reg_one_0[3]/stat_reg_1/m1_24_61# GND! 2 5 132 933
+p reg_six_0/reg_one_0[3]/stat_reg_1/a_24_71# reg_six_0/reg_one_0[3]/stat_reg_1/m1_24_61# Vdd! 2 10 154 933
+n reg_six_0/reg_one_0[3]/tg_5/out reg_six_0/reg_one_0[3]/stat_reg_1/a_24_71# GND! 2 5 132 959
+p reg_six_0/reg_one_0[3]/tg_5/out reg_six_0/reg_one_0[3]/stat_reg_1/a_24_71# Vdd! 2 10 154 959
+n in3 reg_six_0/reg_one_0[3]/m1_31_17# GND! 2 5 132 804
+p in3 reg_six_0/reg_one_0[3]/m1_31_17# Vdd! 2 10 154 804
+n reg_six_0/reg_one_0[4]/tg_5/out reg_six_0/reg_one_0[4]/m1_29_198# GND! 2 5 132 1245
+p reg_six_0/reg_one_0[4]/tg_5/out reg_six_0/reg_one_0[4]/m1_29_198# Vdd! 2 10 154 1245
+p r7 reg_six_0/reg_one_0[4]/tg_1/a_100_74# Vdd! 2 10 154 1271
+p reg_six_0/reg_one_0[4]/tg_1/a_100_74# o4 reg_six_0/reg_one_0[4]/m1_29_198# 2 10 154 1296
+n r7 reg_six_0/reg_one_0[4]/tg_1/a_100_74# GND! 2 5 132 1271
+n r7 o4 reg_six_0/reg_one_0[4]/m1_29_198# 2 5 132 1296
+p r7 reg_six_0/reg_one_0[4]/stat_reg_1/tg_0/EN Vdd! 2 10 154 1089
+p reg_six_0/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_0/reg_one_0[4]/tg_5/out reg_six_0/reg_one_0[4]/m1_31_17# 2 10 154 1114
+n r7 reg_six_0/reg_one_0[4]/stat_reg_1/tg_0/EN GND! 2 5 132 1089
+n r7 reg_six_0/reg_one_0[4]/tg_5/out reg_six_0/reg_one_0[4]/m1_31_17# 2 5 132 1114
+p reg_six_0/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_0/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 154 1166
+p reg_six_0/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# reg_six_0/reg_one_0[4]/tg_5/out reg_six_0/reg_one_0[4]/stat_reg_1/m1_24_61# 2 10 154 1141
+n reg_six_0/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_0/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# GND! 2 5 132 1166
+n reg_six_0/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_0/reg_one_0[4]/tg_5/out reg_six_0/reg_one_0[4]/stat_reg_1/m1_24_61# 2 5 132 1141
+n reg_six_0/reg_one_0[4]/stat_reg_1/a_24_71# reg_six_0/reg_one_0[4]/stat_reg_1/m1_24_61# GND! 2 5 132 1192
+p reg_six_0/reg_one_0[4]/stat_reg_1/a_24_71# reg_six_0/reg_one_0[4]/stat_reg_1/m1_24_61# Vdd! 2 10 154 1192
+n reg_six_0/reg_one_0[4]/tg_5/out reg_six_0/reg_one_0[4]/stat_reg_1/a_24_71# GND! 2 5 132 1218
+p reg_six_0/reg_one_0[4]/tg_5/out reg_six_0/reg_one_0[4]/stat_reg_1/a_24_71# Vdd! 2 10 154 1218
+n in4 reg_six_0/reg_one_0[4]/m1_31_17# GND! 2 5 132 1063
+p in4 reg_six_0/reg_one_0[4]/m1_31_17# Vdd! 2 10 154 1063
+n reg_six_0/reg_one_0[5]/tg_5/out reg_six_0/reg_one_0[5]/m1_29_198# GND! 2 5 132 1504
+p reg_six_0/reg_one_0[5]/tg_5/out reg_six_0/reg_one_0[5]/m1_29_198# Vdd! 2 10 154 1504
+p r7 reg_six_0/reg_one_0[5]/tg_1/a_100_74# Vdd! 2 10 154 1530
+p reg_six_0/reg_one_0[5]/tg_1/a_100_74# o5 reg_six_0/reg_one_0[5]/m1_29_198# 2 10 154 1555
+n r7 reg_six_0/reg_one_0[5]/tg_1/a_100_74# GND! 2 5 132 1530
+n r7 o5 reg_six_0/reg_one_0[5]/m1_29_198# 2 5 132 1555
+p r7 reg_six_0/reg_one_0[5]/stat_reg_1/tg_0/EN Vdd! 2 10 154 1348
+p reg_six_0/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_0/reg_one_0[5]/tg_5/out reg_six_0/reg_one_0[5]/m1_31_17# 2 10 154 1373
+n r7 reg_six_0/reg_one_0[5]/stat_reg_1/tg_0/EN GND! 2 5 132 1348
+n r7 reg_six_0/reg_one_0[5]/tg_5/out reg_six_0/reg_one_0[5]/m1_31_17# 2 5 132 1373
+p reg_six_0/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_0/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 154 1425
+p reg_six_0/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# reg_six_0/reg_one_0[5]/tg_5/out reg_six_0/reg_one_0[5]/stat_reg_1/m1_24_61# 2 10 154 1400
+n reg_six_0/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_0/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# GND! 2 5 132 1425
+n reg_six_0/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_0/reg_one_0[5]/tg_5/out reg_six_0/reg_one_0[5]/stat_reg_1/m1_24_61# 2 5 132 1400
+n reg_six_0/reg_one_0[5]/stat_reg_1/a_24_71# reg_six_0/reg_one_0[5]/stat_reg_1/m1_24_61# GND! 2 5 132 1451
+p reg_six_0/reg_one_0[5]/stat_reg_1/a_24_71# reg_six_0/reg_one_0[5]/stat_reg_1/m1_24_61# Vdd! 2 10 154 1451
+n reg_six_0/reg_one_0[5]/tg_5/out reg_six_0/reg_one_0[5]/stat_reg_1/a_24_71# GND! 2 5 132 1477
+p reg_six_0/reg_one_0[5]/tg_5/out reg_six_0/reg_one_0[5]/stat_reg_1/a_24_71# Vdd! 2 10 154 1477
+n in5 reg_six_0/reg_one_0[5]/m1_31_17# GND! 2 5 132 1322
+p in5 reg_six_0/reg_one_0[5]/m1_31_17# Vdd! 2 10 154 1322
+n reg_six_1/reg_one_0[0]/tg_5/out reg_six_1/reg_one_0[0]/m1_29_198# GND! 2 5 215 209
+p reg_six_1/reg_one_0[0]/tg_5/out reg_six_1/reg_one_0[0]/m1_29_198# Vdd! 2 10 237 209
+p r6 reg_six_1/reg_one_0[0]/tg_1/a_100_74# Vdd! 2 10 237 235
+p reg_six_1/reg_one_0[0]/tg_1/a_100_74# o0 reg_six_1/reg_one_0[0]/m1_29_198# 2 10 237 260
+n r6 reg_six_1/reg_one_0[0]/tg_1/a_100_74# GND! 2 5 215 235
+n r6 o0 reg_six_1/reg_one_0[0]/m1_29_198# 2 5 215 260
+p r6 reg_six_1/reg_one_0[0]/stat_reg_1/tg_0/EN Vdd! 2 10 237 53
+p reg_six_1/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_1/reg_one_0[0]/tg_5/out reg_six_1/reg_one_0[0]/m1_31_17# 2 10 237 78
+n r6 reg_six_1/reg_one_0[0]/stat_reg_1/tg_0/EN GND! 2 5 215 53
+n r6 reg_six_1/reg_one_0[0]/tg_5/out reg_six_1/reg_one_0[0]/m1_31_17# 2 5 215 78
+p reg_six_1/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_1/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 237 130
+p reg_six_1/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# reg_six_1/reg_one_0[0]/tg_5/out reg_six_1/reg_one_0[0]/stat_reg_1/m1_24_61# 2 10 237 105
+n reg_six_1/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_1/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# GND! 2 5 215 130
+n reg_six_1/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_1/reg_one_0[0]/tg_5/out reg_six_1/reg_one_0[0]/stat_reg_1/m1_24_61# 2 5 215 105
+n reg_six_1/reg_one_0[0]/stat_reg_1/a_24_71# reg_six_1/reg_one_0[0]/stat_reg_1/m1_24_61# GND! 2 5 215 156
+p reg_six_1/reg_one_0[0]/stat_reg_1/a_24_71# reg_six_1/reg_one_0[0]/stat_reg_1/m1_24_61# Vdd! 2 10 237 156
+n reg_six_1/reg_one_0[0]/tg_5/out reg_six_1/reg_one_0[0]/stat_reg_1/a_24_71# GND! 2 5 215 182
+p reg_six_1/reg_one_0[0]/tg_5/out reg_six_1/reg_one_0[0]/stat_reg_1/a_24_71# Vdd! 2 10 237 182
+n in0 reg_six_1/reg_one_0[0]/m1_31_17# GND! 2 5 215 27
+p in0 reg_six_1/reg_one_0[0]/m1_31_17# Vdd! 2 10 237 27
+n reg_six_1/reg_one_0[1]/tg_5/out reg_six_1/reg_one_0[1]/m1_29_198# GND! 2 5 215 468
+p reg_six_1/reg_one_0[1]/tg_5/out reg_six_1/reg_one_0[1]/m1_29_198# Vdd! 2 10 237 468
+p r6 reg_six_1/reg_one_0[1]/tg_1/a_100_74# Vdd! 2 10 237 494
+p reg_six_1/reg_one_0[1]/tg_1/a_100_74# o1 reg_six_1/reg_one_0[1]/m1_29_198# 2 10 237 519
+n r6 reg_six_1/reg_one_0[1]/tg_1/a_100_74# GND! 2 5 215 494
+n r6 o1 reg_six_1/reg_one_0[1]/m1_29_198# 2 5 215 519
+p r6 reg_six_1/reg_one_0[1]/stat_reg_1/tg_0/EN Vdd! 2 10 237 312
+p reg_six_1/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_1/reg_one_0[1]/tg_5/out reg_six_1/reg_one_0[1]/m1_31_17# 2 10 237 337
+n r6 reg_six_1/reg_one_0[1]/stat_reg_1/tg_0/EN GND! 2 5 215 312
+n r6 reg_six_1/reg_one_0[1]/tg_5/out reg_six_1/reg_one_0[1]/m1_31_17# 2 5 215 337
+p reg_six_1/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_1/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 237 389
+p reg_six_1/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# reg_six_1/reg_one_0[1]/tg_5/out reg_six_1/reg_one_0[1]/stat_reg_1/m1_24_61# 2 10 237 364
+n reg_six_1/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_1/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# GND! 2 5 215 389
+n reg_six_1/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_1/reg_one_0[1]/tg_5/out reg_six_1/reg_one_0[1]/stat_reg_1/m1_24_61# 2 5 215 364
+n reg_six_1/reg_one_0[1]/stat_reg_1/a_24_71# reg_six_1/reg_one_0[1]/stat_reg_1/m1_24_61# GND! 2 5 215 415
+p reg_six_1/reg_one_0[1]/stat_reg_1/a_24_71# reg_six_1/reg_one_0[1]/stat_reg_1/m1_24_61# Vdd! 2 10 237 415
+n reg_six_1/reg_one_0[1]/tg_5/out reg_six_1/reg_one_0[1]/stat_reg_1/a_24_71# GND! 2 5 215 441
+p reg_six_1/reg_one_0[1]/tg_5/out reg_six_1/reg_one_0[1]/stat_reg_1/a_24_71# Vdd! 2 10 237 441
+n in1 reg_six_1/reg_one_0[1]/m1_31_17# GND! 2 5 215 286
+p in1 reg_six_1/reg_one_0[1]/m1_31_17# Vdd! 2 10 237 286
+n reg_six_1/reg_one_0[2]/tg_5/out reg_six_1/reg_one_0[2]/m1_29_198# GND! 2 5 215 727
+p reg_six_1/reg_one_0[2]/tg_5/out reg_six_1/reg_one_0[2]/m1_29_198# Vdd! 2 10 237 727
+p r6 reg_six_1/reg_one_0[2]/tg_1/a_100_74# Vdd! 2 10 237 753
+p reg_six_1/reg_one_0[2]/tg_1/a_100_74# o2 reg_six_1/reg_one_0[2]/m1_29_198# 2 10 237 778
+n r6 reg_six_1/reg_one_0[2]/tg_1/a_100_74# GND! 2 5 215 753
+n r6 o2 reg_six_1/reg_one_0[2]/m1_29_198# 2 5 215 778
+p r6 reg_six_1/reg_one_0[2]/stat_reg_1/tg_0/EN Vdd! 2 10 237 571
+p reg_six_1/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_1/reg_one_0[2]/tg_5/out reg_six_1/reg_one_0[2]/m1_31_17# 2 10 237 596
+n r6 reg_six_1/reg_one_0[2]/stat_reg_1/tg_0/EN GND! 2 5 215 571
+n r6 reg_six_1/reg_one_0[2]/tg_5/out reg_six_1/reg_one_0[2]/m1_31_17# 2 5 215 596
+p reg_six_1/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_1/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 237 648
+p reg_six_1/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# reg_six_1/reg_one_0[2]/tg_5/out reg_six_1/reg_one_0[2]/stat_reg_1/m1_24_61# 2 10 237 623
+n reg_six_1/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_1/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# GND! 2 5 215 648
+n reg_six_1/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_1/reg_one_0[2]/tg_5/out reg_six_1/reg_one_0[2]/stat_reg_1/m1_24_61# 2 5 215 623
+n reg_six_1/reg_one_0[2]/stat_reg_1/a_24_71# reg_six_1/reg_one_0[2]/stat_reg_1/m1_24_61# GND! 2 5 215 674
+p reg_six_1/reg_one_0[2]/stat_reg_1/a_24_71# reg_six_1/reg_one_0[2]/stat_reg_1/m1_24_61# Vdd! 2 10 237 674
+n reg_six_1/reg_one_0[2]/tg_5/out reg_six_1/reg_one_0[2]/stat_reg_1/a_24_71# GND! 2 5 215 700
+p reg_six_1/reg_one_0[2]/tg_5/out reg_six_1/reg_one_0[2]/stat_reg_1/a_24_71# Vdd! 2 10 237 700
+n in2 reg_six_1/reg_one_0[2]/m1_31_17# GND! 2 5 215 545
+p in2 reg_six_1/reg_one_0[2]/m1_31_17# Vdd! 2 10 237 545
+n reg_six_1/reg_one_0[3]/tg_5/out reg_six_1/reg_one_0[3]/m1_29_198# GND! 2 5 215 986
+p reg_six_1/reg_one_0[3]/tg_5/out reg_six_1/reg_one_0[3]/m1_29_198# Vdd! 2 10 237 986
+p r6 reg_six_1/reg_one_0[3]/tg_1/a_100_74# Vdd! 2 10 237 1012
+p reg_six_1/reg_one_0[3]/tg_1/a_100_74# o3 reg_six_1/reg_one_0[3]/m1_29_198# 2 10 237 1037
+n r6 reg_six_1/reg_one_0[3]/tg_1/a_100_74# GND! 2 5 215 1012
+n r6 o3 reg_six_1/reg_one_0[3]/m1_29_198# 2 5 215 1037
+p r6 reg_six_1/reg_one_0[3]/stat_reg_1/tg_0/EN Vdd! 2 10 237 830
+p reg_six_1/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_1/reg_one_0[3]/tg_5/out reg_six_1/reg_one_0[3]/m1_31_17# 2 10 237 855
+n r6 reg_six_1/reg_one_0[3]/stat_reg_1/tg_0/EN GND! 2 5 215 830
+n r6 reg_six_1/reg_one_0[3]/tg_5/out reg_six_1/reg_one_0[3]/m1_31_17# 2 5 215 855
+p reg_six_1/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_1/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 237 907
+p reg_six_1/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# reg_six_1/reg_one_0[3]/tg_5/out reg_six_1/reg_one_0[3]/stat_reg_1/m1_24_61# 2 10 237 882
+n reg_six_1/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_1/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# GND! 2 5 215 907
+n reg_six_1/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_1/reg_one_0[3]/tg_5/out reg_six_1/reg_one_0[3]/stat_reg_1/m1_24_61# 2 5 215 882
+n reg_six_1/reg_one_0[3]/stat_reg_1/a_24_71# reg_six_1/reg_one_0[3]/stat_reg_1/m1_24_61# GND! 2 5 215 933
+p reg_six_1/reg_one_0[3]/stat_reg_1/a_24_71# reg_six_1/reg_one_0[3]/stat_reg_1/m1_24_61# Vdd! 2 10 237 933
+n reg_six_1/reg_one_0[3]/tg_5/out reg_six_1/reg_one_0[3]/stat_reg_1/a_24_71# GND! 2 5 215 959
+p reg_six_1/reg_one_0[3]/tg_5/out reg_six_1/reg_one_0[3]/stat_reg_1/a_24_71# Vdd! 2 10 237 959
+n in3 reg_six_1/reg_one_0[3]/m1_31_17# GND! 2 5 215 804
+p in3 reg_six_1/reg_one_0[3]/m1_31_17# Vdd! 2 10 237 804
+n reg_six_1/reg_one_0[4]/tg_5/out reg_six_1/reg_one_0[4]/m1_29_198# GND! 2 5 215 1245
+p reg_six_1/reg_one_0[4]/tg_5/out reg_six_1/reg_one_0[4]/m1_29_198# Vdd! 2 10 237 1245
+p r6 reg_six_1/reg_one_0[4]/tg_1/a_100_74# Vdd! 2 10 237 1271
+p reg_six_1/reg_one_0[4]/tg_1/a_100_74# o4 reg_six_1/reg_one_0[4]/m1_29_198# 2 10 237 1296
+n r6 reg_six_1/reg_one_0[4]/tg_1/a_100_74# GND! 2 5 215 1271
+n r6 o4 reg_six_1/reg_one_0[4]/m1_29_198# 2 5 215 1296
+p r6 reg_six_1/reg_one_0[4]/stat_reg_1/tg_0/EN Vdd! 2 10 237 1089
+p reg_six_1/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_1/reg_one_0[4]/tg_5/out reg_six_1/reg_one_0[4]/m1_31_17# 2 10 237 1114
+n r6 reg_six_1/reg_one_0[4]/stat_reg_1/tg_0/EN GND! 2 5 215 1089
+n r6 reg_six_1/reg_one_0[4]/tg_5/out reg_six_1/reg_one_0[4]/m1_31_17# 2 5 215 1114
+p reg_six_1/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_1/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 237 1166
+p reg_six_1/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# reg_six_1/reg_one_0[4]/tg_5/out reg_six_1/reg_one_0[4]/stat_reg_1/m1_24_61# 2 10 237 1141
+n reg_six_1/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_1/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# GND! 2 5 215 1166
+n reg_six_1/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_1/reg_one_0[4]/tg_5/out reg_six_1/reg_one_0[4]/stat_reg_1/m1_24_61# 2 5 215 1141
+n reg_six_1/reg_one_0[4]/stat_reg_1/a_24_71# reg_six_1/reg_one_0[4]/stat_reg_1/m1_24_61# GND! 2 5 215 1192
+p reg_six_1/reg_one_0[4]/stat_reg_1/a_24_71# reg_six_1/reg_one_0[4]/stat_reg_1/m1_24_61# Vdd! 2 10 237 1192
+n reg_six_1/reg_one_0[4]/tg_5/out reg_six_1/reg_one_0[4]/stat_reg_1/a_24_71# GND! 2 5 215 1218
+p reg_six_1/reg_one_0[4]/tg_5/out reg_six_1/reg_one_0[4]/stat_reg_1/a_24_71# Vdd! 2 10 237 1218
+n in4 reg_six_1/reg_one_0[4]/m1_31_17# GND! 2 5 215 1063
+p in4 reg_six_1/reg_one_0[4]/m1_31_17# Vdd! 2 10 237 1063
+n reg_six_1/reg_one_0[5]/tg_5/out reg_six_1/reg_one_0[5]/m1_29_198# GND! 2 5 215 1504
+p reg_six_1/reg_one_0[5]/tg_5/out reg_six_1/reg_one_0[5]/m1_29_198# Vdd! 2 10 237 1504
+p r6 reg_six_1/reg_one_0[5]/tg_1/a_100_74# Vdd! 2 10 237 1530
+p reg_six_1/reg_one_0[5]/tg_1/a_100_74# o5 reg_six_1/reg_one_0[5]/m1_29_198# 2 10 237 1555
+n r6 reg_six_1/reg_one_0[5]/tg_1/a_100_74# GND! 2 5 215 1530
+n r6 o5 reg_six_1/reg_one_0[5]/m1_29_198# 2 5 215 1555
+p r6 reg_six_1/reg_one_0[5]/stat_reg_1/tg_0/EN Vdd! 2 10 237 1348
+p reg_six_1/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_1/reg_one_0[5]/tg_5/out reg_six_1/reg_one_0[5]/m1_31_17# 2 10 237 1373
+n r6 reg_six_1/reg_one_0[5]/stat_reg_1/tg_0/EN GND! 2 5 215 1348
+n r6 reg_six_1/reg_one_0[5]/tg_5/out reg_six_1/reg_one_0[5]/m1_31_17# 2 5 215 1373
+p reg_six_1/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_1/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 237 1425
+p reg_six_1/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# reg_six_1/reg_one_0[5]/tg_5/out reg_six_1/reg_one_0[5]/stat_reg_1/m1_24_61# 2 10 237 1400
+n reg_six_1/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_1/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# GND! 2 5 215 1425
+n reg_six_1/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_1/reg_one_0[5]/tg_5/out reg_six_1/reg_one_0[5]/stat_reg_1/m1_24_61# 2 5 215 1400
+n reg_six_1/reg_one_0[5]/stat_reg_1/a_24_71# reg_six_1/reg_one_0[5]/stat_reg_1/m1_24_61# GND! 2 5 215 1451
+p reg_six_1/reg_one_0[5]/stat_reg_1/a_24_71# reg_six_1/reg_one_0[5]/stat_reg_1/m1_24_61# Vdd! 2 10 237 1451
+n reg_six_1/reg_one_0[5]/tg_5/out reg_six_1/reg_one_0[5]/stat_reg_1/a_24_71# GND! 2 5 215 1477
+p reg_six_1/reg_one_0[5]/tg_5/out reg_six_1/reg_one_0[5]/stat_reg_1/a_24_71# Vdd! 2 10 237 1477
+n in5 reg_six_1/reg_one_0[5]/m1_31_17# GND! 2 5 215 1322
+p in5 reg_six_1/reg_one_0[5]/m1_31_17# Vdd! 2 10 237 1322
+n reg_six_2/reg_one_0[0]/tg_5/out reg_six_2/reg_one_0[0]/m1_29_198# GND! 2 5 298 209
+p reg_six_2/reg_one_0[0]/tg_5/out reg_six_2/reg_one_0[0]/m1_29_198# Vdd! 2 10 320 209
+p r5 reg_six_2/reg_one_0[0]/tg_1/a_100_74# Vdd! 2 10 320 235
+p reg_six_2/reg_one_0[0]/tg_1/a_100_74# o0 reg_six_2/reg_one_0[0]/m1_29_198# 2 10 320 260
+n r5 reg_six_2/reg_one_0[0]/tg_1/a_100_74# GND! 2 5 298 235
+n r5 o0 reg_six_2/reg_one_0[0]/m1_29_198# 2 5 298 260
+p r5 reg_six_2/reg_one_0[0]/stat_reg_1/tg_0/EN Vdd! 2 10 320 53
+p reg_six_2/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_2/reg_one_0[0]/tg_5/out reg_six_2/reg_one_0[0]/m1_31_17# 2 10 320 78
+n r5 reg_six_2/reg_one_0[0]/stat_reg_1/tg_0/EN GND! 2 5 298 53
+n r5 reg_six_2/reg_one_0[0]/tg_5/out reg_six_2/reg_one_0[0]/m1_31_17# 2 5 298 78
+p reg_six_2/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_2/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 320 130
+p reg_six_2/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# reg_six_2/reg_one_0[0]/tg_5/out reg_six_2/reg_one_0[0]/stat_reg_1/m1_24_61# 2 10 320 105
+n reg_six_2/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_2/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# GND! 2 5 298 130
+n reg_six_2/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_2/reg_one_0[0]/tg_5/out reg_six_2/reg_one_0[0]/stat_reg_1/m1_24_61# 2 5 298 105
+n reg_six_2/reg_one_0[0]/stat_reg_1/a_24_71# reg_six_2/reg_one_0[0]/stat_reg_1/m1_24_61# GND! 2 5 298 156
+p reg_six_2/reg_one_0[0]/stat_reg_1/a_24_71# reg_six_2/reg_one_0[0]/stat_reg_1/m1_24_61# Vdd! 2 10 320 156
+n reg_six_2/reg_one_0[0]/tg_5/out reg_six_2/reg_one_0[0]/stat_reg_1/a_24_71# GND! 2 5 298 182
+p reg_six_2/reg_one_0[0]/tg_5/out reg_six_2/reg_one_0[0]/stat_reg_1/a_24_71# Vdd! 2 10 320 182
+n in0 reg_six_2/reg_one_0[0]/m1_31_17# GND! 2 5 298 27
+p in0 reg_six_2/reg_one_0[0]/m1_31_17# Vdd! 2 10 320 27
+n reg_six_2/reg_one_0[1]/tg_5/out reg_six_2/reg_one_0[1]/m1_29_198# GND! 2 5 298 468
+p reg_six_2/reg_one_0[1]/tg_5/out reg_six_2/reg_one_0[1]/m1_29_198# Vdd! 2 10 320 468
+p r5 reg_six_2/reg_one_0[1]/tg_1/a_100_74# Vdd! 2 10 320 494
+p reg_six_2/reg_one_0[1]/tg_1/a_100_74# o1 reg_six_2/reg_one_0[1]/m1_29_198# 2 10 320 519
+n r5 reg_six_2/reg_one_0[1]/tg_1/a_100_74# GND! 2 5 298 494
+n r5 o1 reg_six_2/reg_one_0[1]/m1_29_198# 2 5 298 519
+p r5 reg_six_2/reg_one_0[1]/stat_reg_1/tg_0/EN Vdd! 2 10 320 312
+p reg_six_2/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_2/reg_one_0[1]/tg_5/out reg_six_2/reg_one_0[1]/m1_31_17# 2 10 320 337
+n r5 reg_six_2/reg_one_0[1]/stat_reg_1/tg_0/EN GND! 2 5 298 312
+n r5 reg_six_2/reg_one_0[1]/tg_5/out reg_six_2/reg_one_0[1]/m1_31_17# 2 5 298 337
+p reg_six_2/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_2/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 320 389
+p reg_six_2/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# reg_six_2/reg_one_0[1]/tg_5/out reg_six_2/reg_one_0[1]/stat_reg_1/m1_24_61# 2 10 320 364
+n reg_six_2/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_2/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# GND! 2 5 298 389
+n reg_six_2/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_2/reg_one_0[1]/tg_5/out reg_six_2/reg_one_0[1]/stat_reg_1/m1_24_61# 2 5 298 364
+n reg_six_2/reg_one_0[1]/stat_reg_1/a_24_71# reg_six_2/reg_one_0[1]/stat_reg_1/m1_24_61# GND! 2 5 298 415
+p reg_six_2/reg_one_0[1]/stat_reg_1/a_24_71# reg_six_2/reg_one_0[1]/stat_reg_1/m1_24_61# Vdd! 2 10 320 415
+n reg_six_2/reg_one_0[1]/tg_5/out reg_six_2/reg_one_0[1]/stat_reg_1/a_24_71# GND! 2 5 298 441
+p reg_six_2/reg_one_0[1]/tg_5/out reg_six_2/reg_one_0[1]/stat_reg_1/a_24_71# Vdd! 2 10 320 441
+n in1 reg_six_2/reg_one_0[1]/m1_31_17# GND! 2 5 298 286
+p in1 reg_six_2/reg_one_0[1]/m1_31_17# Vdd! 2 10 320 286
+n reg_six_2/reg_one_0[2]/tg_5/out reg_six_2/reg_one_0[2]/m1_29_198# GND! 2 5 298 727
+p reg_six_2/reg_one_0[2]/tg_5/out reg_six_2/reg_one_0[2]/m1_29_198# Vdd! 2 10 320 727
+p r5 reg_six_2/reg_one_0[2]/tg_1/a_100_74# Vdd! 2 10 320 753
+p reg_six_2/reg_one_0[2]/tg_1/a_100_74# o2 reg_six_2/reg_one_0[2]/m1_29_198# 2 10 320 778
+n r5 reg_six_2/reg_one_0[2]/tg_1/a_100_74# GND! 2 5 298 753
+n r5 o2 reg_six_2/reg_one_0[2]/m1_29_198# 2 5 298 778
+p r5 reg_six_2/reg_one_0[2]/stat_reg_1/tg_0/EN Vdd! 2 10 320 571
+p reg_six_2/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_2/reg_one_0[2]/tg_5/out reg_six_2/reg_one_0[2]/m1_31_17# 2 10 320 596
+n r5 reg_six_2/reg_one_0[2]/stat_reg_1/tg_0/EN GND! 2 5 298 571
+n r5 reg_six_2/reg_one_0[2]/tg_5/out reg_six_2/reg_one_0[2]/m1_31_17# 2 5 298 596
+p reg_six_2/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_2/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 320 648
+p reg_six_2/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# reg_six_2/reg_one_0[2]/tg_5/out reg_six_2/reg_one_0[2]/stat_reg_1/m1_24_61# 2 10 320 623
+n reg_six_2/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_2/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# GND! 2 5 298 648
+n reg_six_2/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_2/reg_one_0[2]/tg_5/out reg_six_2/reg_one_0[2]/stat_reg_1/m1_24_61# 2 5 298 623
+n reg_six_2/reg_one_0[2]/stat_reg_1/a_24_71# reg_six_2/reg_one_0[2]/stat_reg_1/m1_24_61# GND! 2 5 298 674
+p reg_six_2/reg_one_0[2]/stat_reg_1/a_24_71# reg_six_2/reg_one_0[2]/stat_reg_1/m1_24_61# Vdd! 2 10 320 674
+n reg_six_2/reg_one_0[2]/tg_5/out reg_six_2/reg_one_0[2]/stat_reg_1/a_24_71# GND! 2 5 298 700
+p reg_six_2/reg_one_0[2]/tg_5/out reg_six_2/reg_one_0[2]/stat_reg_1/a_24_71# Vdd! 2 10 320 700
+n in2 reg_six_2/reg_one_0[2]/m1_31_17# GND! 2 5 298 545
+p in2 reg_six_2/reg_one_0[2]/m1_31_17# Vdd! 2 10 320 545
+n reg_six_2/reg_one_0[3]/tg_5/out reg_six_2/reg_one_0[3]/m1_29_198# GND! 2 5 298 986
+p reg_six_2/reg_one_0[3]/tg_5/out reg_six_2/reg_one_0[3]/m1_29_198# Vdd! 2 10 320 986
+p r5 reg_six_2/reg_one_0[3]/tg_1/a_100_74# Vdd! 2 10 320 1012
+p reg_six_2/reg_one_0[3]/tg_1/a_100_74# o3 reg_six_2/reg_one_0[3]/m1_29_198# 2 10 320 1037
+n r5 reg_six_2/reg_one_0[3]/tg_1/a_100_74# GND! 2 5 298 1012
+n r5 o3 reg_six_2/reg_one_0[3]/m1_29_198# 2 5 298 1037
+p r5 reg_six_2/reg_one_0[3]/stat_reg_1/tg_0/EN Vdd! 2 10 320 830
+p reg_six_2/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_2/reg_one_0[3]/tg_5/out reg_six_2/reg_one_0[3]/m1_31_17# 2 10 320 855
+n r5 reg_six_2/reg_one_0[3]/stat_reg_1/tg_0/EN GND! 2 5 298 830
+n r5 reg_six_2/reg_one_0[3]/tg_5/out reg_six_2/reg_one_0[3]/m1_31_17# 2 5 298 855
+p reg_six_2/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_2/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 320 907
+p reg_six_2/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# reg_six_2/reg_one_0[3]/tg_5/out reg_six_2/reg_one_0[3]/stat_reg_1/m1_24_61# 2 10 320 882
+n reg_six_2/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_2/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# GND! 2 5 298 907
+n reg_six_2/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_2/reg_one_0[3]/tg_5/out reg_six_2/reg_one_0[3]/stat_reg_1/m1_24_61# 2 5 298 882
+n reg_six_2/reg_one_0[3]/stat_reg_1/a_24_71# reg_six_2/reg_one_0[3]/stat_reg_1/m1_24_61# GND! 2 5 298 933
+p reg_six_2/reg_one_0[3]/stat_reg_1/a_24_71# reg_six_2/reg_one_0[3]/stat_reg_1/m1_24_61# Vdd! 2 10 320 933
+n reg_six_2/reg_one_0[3]/tg_5/out reg_six_2/reg_one_0[3]/stat_reg_1/a_24_71# GND! 2 5 298 959
+p reg_six_2/reg_one_0[3]/tg_5/out reg_six_2/reg_one_0[3]/stat_reg_1/a_24_71# Vdd! 2 10 320 959
+n in3 reg_six_2/reg_one_0[3]/m1_31_17# GND! 2 5 298 804
+p in3 reg_six_2/reg_one_0[3]/m1_31_17# Vdd! 2 10 320 804
+n reg_six_2/reg_one_0[4]/tg_5/out reg_six_2/reg_one_0[4]/m1_29_198# GND! 2 5 298 1245
+p reg_six_2/reg_one_0[4]/tg_5/out reg_six_2/reg_one_0[4]/m1_29_198# Vdd! 2 10 320 1245
+p r5 reg_six_2/reg_one_0[4]/tg_1/a_100_74# Vdd! 2 10 320 1271
+p reg_six_2/reg_one_0[4]/tg_1/a_100_74# o4 reg_six_2/reg_one_0[4]/m1_29_198# 2 10 320 1296
+n r5 reg_six_2/reg_one_0[4]/tg_1/a_100_74# GND! 2 5 298 1271
+n r5 o4 reg_six_2/reg_one_0[4]/m1_29_198# 2 5 298 1296
+p r5 reg_six_2/reg_one_0[4]/stat_reg_1/tg_0/EN Vdd! 2 10 320 1089
+p reg_six_2/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_2/reg_one_0[4]/tg_5/out reg_six_2/reg_one_0[4]/m1_31_17# 2 10 320 1114
+n r5 reg_six_2/reg_one_0[4]/stat_reg_1/tg_0/EN GND! 2 5 298 1089
+n r5 reg_six_2/reg_one_0[4]/tg_5/out reg_six_2/reg_one_0[4]/m1_31_17# 2 5 298 1114
+p reg_six_2/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_2/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 320 1166
+p reg_six_2/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# reg_six_2/reg_one_0[4]/tg_5/out reg_six_2/reg_one_0[4]/stat_reg_1/m1_24_61# 2 10 320 1141
+n reg_six_2/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_2/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# GND! 2 5 298 1166
+n reg_six_2/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_2/reg_one_0[4]/tg_5/out reg_six_2/reg_one_0[4]/stat_reg_1/m1_24_61# 2 5 298 1141
+n reg_six_2/reg_one_0[4]/stat_reg_1/a_24_71# reg_six_2/reg_one_0[4]/stat_reg_1/m1_24_61# GND! 2 5 298 1192
+p reg_six_2/reg_one_0[4]/stat_reg_1/a_24_71# reg_six_2/reg_one_0[4]/stat_reg_1/m1_24_61# Vdd! 2 10 320 1192
+n reg_six_2/reg_one_0[4]/tg_5/out reg_six_2/reg_one_0[4]/stat_reg_1/a_24_71# GND! 2 5 298 1218
+p reg_six_2/reg_one_0[4]/tg_5/out reg_six_2/reg_one_0[4]/stat_reg_1/a_24_71# Vdd! 2 10 320 1218
+n in4 reg_six_2/reg_one_0[4]/m1_31_17# GND! 2 5 298 1063
+p in4 reg_six_2/reg_one_0[4]/m1_31_17# Vdd! 2 10 320 1063
+n reg_six_2/reg_one_0[5]/tg_5/out reg_six_2/reg_one_0[5]/m1_29_198# GND! 2 5 298 1504
+p reg_six_2/reg_one_0[5]/tg_5/out reg_six_2/reg_one_0[5]/m1_29_198# Vdd! 2 10 320 1504
+p r5 reg_six_2/reg_one_0[5]/tg_1/a_100_74# Vdd! 2 10 320 1530
+p reg_six_2/reg_one_0[5]/tg_1/a_100_74# o5 reg_six_2/reg_one_0[5]/m1_29_198# 2 10 320 1555
+n r5 reg_six_2/reg_one_0[5]/tg_1/a_100_74# GND! 2 5 298 1530
+n r5 o5 reg_six_2/reg_one_0[5]/m1_29_198# 2 5 298 1555
+p r5 reg_six_2/reg_one_0[5]/stat_reg_1/tg_0/EN Vdd! 2 10 320 1348
+p reg_six_2/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_2/reg_one_0[5]/tg_5/out reg_six_2/reg_one_0[5]/m1_31_17# 2 10 320 1373
+n r5 reg_six_2/reg_one_0[5]/stat_reg_1/tg_0/EN GND! 2 5 298 1348
+n r5 reg_six_2/reg_one_0[5]/tg_5/out reg_six_2/reg_one_0[5]/m1_31_17# 2 5 298 1373
+p reg_six_2/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_2/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 320 1425
+p reg_six_2/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# reg_six_2/reg_one_0[5]/tg_5/out reg_six_2/reg_one_0[5]/stat_reg_1/m1_24_61# 2 10 320 1400
+n reg_six_2/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_2/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# GND! 2 5 298 1425
+n reg_six_2/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_2/reg_one_0[5]/tg_5/out reg_six_2/reg_one_0[5]/stat_reg_1/m1_24_61# 2 5 298 1400
+n reg_six_2/reg_one_0[5]/stat_reg_1/a_24_71# reg_six_2/reg_one_0[5]/stat_reg_1/m1_24_61# GND! 2 5 298 1451
+p reg_six_2/reg_one_0[5]/stat_reg_1/a_24_71# reg_six_2/reg_one_0[5]/stat_reg_1/m1_24_61# Vdd! 2 10 320 1451
+n reg_six_2/reg_one_0[5]/tg_5/out reg_six_2/reg_one_0[5]/stat_reg_1/a_24_71# GND! 2 5 298 1477
+p reg_six_2/reg_one_0[5]/tg_5/out reg_six_2/reg_one_0[5]/stat_reg_1/a_24_71# Vdd! 2 10 320 1477
+n in5 reg_six_2/reg_one_0[5]/m1_31_17# GND! 2 5 298 1322
+p in5 reg_six_2/reg_one_0[5]/m1_31_17# Vdd! 2 10 320 1322
+n reg_six_3/reg_one_0[0]/tg_5/out reg_six_3/reg_one_0[0]/m1_29_198# GND! 2 5 381 209
+p reg_six_3/reg_one_0[0]/tg_5/out reg_six_3/reg_one_0[0]/m1_29_198# Vdd! 2 10 403 209
+p r4 reg_six_3/reg_one_0[0]/tg_1/a_100_74# Vdd! 2 10 403 235
+p reg_six_3/reg_one_0[0]/tg_1/a_100_74# o0 reg_six_3/reg_one_0[0]/m1_29_198# 2 10 403 260
+n r4 reg_six_3/reg_one_0[0]/tg_1/a_100_74# GND! 2 5 381 235
+n r4 o0 reg_six_3/reg_one_0[0]/m1_29_198# 2 5 381 260
+p r4 reg_six_3/reg_one_0[0]/stat_reg_1/tg_0/EN Vdd! 2 10 403 53
+p reg_six_3/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_3/reg_one_0[0]/tg_5/out reg_six_3/reg_one_0[0]/m1_31_17# 2 10 403 78
+n r4 reg_six_3/reg_one_0[0]/stat_reg_1/tg_0/EN GND! 2 5 381 53
+n r4 reg_six_3/reg_one_0[0]/tg_5/out reg_six_3/reg_one_0[0]/m1_31_17# 2 5 381 78
+p reg_six_3/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_3/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 403 130
+p reg_six_3/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# reg_six_3/reg_one_0[0]/tg_5/out reg_six_3/reg_one_0[0]/stat_reg_1/m1_24_61# 2 10 403 105
+n reg_six_3/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_3/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# GND! 2 5 381 130
+n reg_six_3/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_3/reg_one_0[0]/tg_5/out reg_six_3/reg_one_0[0]/stat_reg_1/m1_24_61# 2 5 381 105
+n reg_six_3/reg_one_0[0]/stat_reg_1/a_24_71# reg_six_3/reg_one_0[0]/stat_reg_1/m1_24_61# GND! 2 5 381 156
+p reg_six_3/reg_one_0[0]/stat_reg_1/a_24_71# reg_six_3/reg_one_0[0]/stat_reg_1/m1_24_61# Vdd! 2 10 403 156
+n reg_six_3/reg_one_0[0]/tg_5/out reg_six_3/reg_one_0[0]/stat_reg_1/a_24_71# GND! 2 5 381 182
+p reg_six_3/reg_one_0[0]/tg_5/out reg_six_3/reg_one_0[0]/stat_reg_1/a_24_71# Vdd! 2 10 403 182
+n in0 reg_six_3/reg_one_0[0]/m1_31_17# GND! 2 5 381 27
+p in0 reg_six_3/reg_one_0[0]/m1_31_17# Vdd! 2 10 403 27
+n reg_six_3/reg_one_0[1]/tg_5/out reg_six_3/reg_one_0[1]/m1_29_198# GND! 2 5 381 468
+p reg_six_3/reg_one_0[1]/tg_5/out reg_six_3/reg_one_0[1]/m1_29_198# Vdd! 2 10 403 468
+p r4 reg_six_3/reg_one_0[1]/tg_1/a_100_74# Vdd! 2 10 403 494
+p reg_six_3/reg_one_0[1]/tg_1/a_100_74# o1 reg_six_3/reg_one_0[1]/m1_29_198# 2 10 403 519
+n r4 reg_six_3/reg_one_0[1]/tg_1/a_100_74# GND! 2 5 381 494
+n r4 o1 reg_six_3/reg_one_0[1]/m1_29_198# 2 5 381 519
+p r4 reg_six_3/reg_one_0[1]/stat_reg_1/tg_0/EN Vdd! 2 10 403 312
+p reg_six_3/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_3/reg_one_0[1]/tg_5/out reg_six_3/reg_one_0[1]/m1_31_17# 2 10 403 337
+n r4 reg_six_3/reg_one_0[1]/stat_reg_1/tg_0/EN GND! 2 5 381 312
+n r4 reg_six_3/reg_one_0[1]/tg_5/out reg_six_3/reg_one_0[1]/m1_31_17# 2 5 381 337
+p reg_six_3/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_3/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 403 389
+p reg_six_3/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# reg_six_3/reg_one_0[1]/tg_5/out reg_six_3/reg_one_0[1]/stat_reg_1/m1_24_61# 2 10 403 364
+n reg_six_3/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_3/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# GND! 2 5 381 389
+n reg_six_3/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_3/reg_one_0[1]/tg_5/out reg_six_3/reg_one_0[1]/stat_reg_1/m1_24_61# 2 5 381 364
+n reg_six_3/reg_one_0[1]/stat_reg_1/a_24_71# reg_six_3/reg_one_0[1]/stat_reg_1/m1_24_61# GND! 2 5 381 415
+p reg_six_3/reg_one_0[1]/stat_reg_1/a_24_71# reg_six_3/reg_one_0[1]/stat_reg_1/m1_24_61# Vdd! 2 10 403 415
+n reg_six_3/reg_one_0[1]/tg_5/out reg_six_3/reg_one_0[1]/stat_reg_1/a_24_71# GND! 2 5 381 441
+p reg_six_3/reg_one_0[1]/tg_5/out reg_six_3/reg_one_0[1]/stat_reg_1/a_24_71# Vdd! 2 10 403 441
+n in1 reg_six_3/reg_one_0[1]/m1_31_17# GND! 2 5 381 286
+p in1 reg_six_3/reg_one_0[1]/m1_31_17# Vdd! 2 10 403 286
+n reg_six_3/reg_one_0[2]/tg_5/out reg_six_3/reg_one_0[2]/m1_29_198# GND! 2 5 381 727
+p reg_six_3/reg_one_0[2]/tg_5/out reg_six_3/reg_one_0[2]/m1_29_198# Vdd! 2 10 403 727
+p r4 reg_six_3/reg_one_0[2]/tg_1/a_100_74# Vdd! 2 10 403 753
+p reg_six_3/reg_one_0[2]/tg_1/a_100_74# o2 reg_six_3/reg_one_0[2]/m1_29_198# 2 10 403 778
+n r4 reg_six_3/reg_one_0[2]/tg_1/a_100_74# GND! 2 5 381 753
+n r4 o2 reg_six_3/reg_one_0[2]/m1_29_198# 2 5 381 778
+p r4 reg_six_3/reg_one_0[2]/stat_reg_1/tg_0/EN Vdd! 2 10 403 571
+p reg_six_3/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_3/reg_one_0[2]/tg_5/out reg_six_3/reg_one_0[2]/m1_31_17# 2 10 403 596
+n r4 reg_six_3/reg_one_0[2]/stat_reg_1/tg_0/EN GND! 2 5 381 571
+n r4 reg_six_3/reg_one_0[2]/tg_5/out reg_six_3/reg_one_0[2]/m1_31_17# 2 5 381 596
+p reg_six_3/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_3/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 403 648
+p reg_six_3/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# reg_six_3/reg_one_0[2]/tg_5/out reg_six_3/reg_one_0[2]/stat_reg_1/m1_24_61# 2 10 403 623
+n reg_six_3/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_3/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# GND! 2 5 381 648
+n reg_six_3/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_3/reg_one_0[2]/tg_5/out reg_six_3/reg_one_0[2]/stat_reg_1/m1_24_61# 2 5 381 623
+n reg_six_3/reg_one_0[2]/stat_reg_1/a_24_71# reg_six_3/reg_one_0[2]/stat_reg_1/m1_24_61# GND! 2 5 381 674
+p reg_six_3/reg_one_0[2]/stat_reg_1/a_24_71# reg_six_3/reg_one_0[2]/stat_reg_1/m1_24_61# Vdd! 2 10 403 674
+n reg_six_3/reg_one_0[2]/tg_5/out reg_six_3/reg_one_0[2]/stat_reg_1/a_24_71# GND! 2 5 381 700
+p reg_six_3/reg_one_0[2]/tg_5/out reg_six_3/reg_one_0[2]/stat_reg_1/a_24_71# Vdd! 2 10 403 700
+n in2 reg_six_3/reg_one_0[2]/m1_31_17# GND! 2 5 381 545
+p in2 reg_six_3/reg_one_0[2]/m1_31_17# Vdd! 2 10 403 545
+n reg_six_3/reg_one_0[3]/tg_5/out reg_six_3/reg_one_0[3]/m1_29_198# GND! 2 5 381 986
+p reg_six_3/reg_one_0[3]/tg_5/out reg_six_3/reg_one_0[3]/m1_29_198# Vdd! 2 10 403 986
+p r4 reg_six_3/reg_one_0[3]/tg_1/a_100_74# Vdd! 2 10 403 1012
+p reg_six_3/reg_one_0[3]/tg_1/a_100_74# o3 reg_six_3/reg_one_0[3]/m1_29_198# 2 10 403 1037
+n r4 reg_six_3/reg_one_0[3]/tg_1/a_100_74# GND! 2 5 381 1012
+n r4 o3 reg_six_3/reg_one_0[3]/m1_29_198# 2 5 381 1037
+p r4 reg_six_3/reg_one_0[3]/stat_reg_1/tg_0/EN Vdd! 2 10 403 830
+p reg_six_3/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_3/reg_one_0[3]/tg_5/out reg_six_3/reg_one_0[3]/m1_31_17# 2 10 403 855
+n r4 reg_six_3/reg_one_0[3]/stat_reg_1/tg_0/EN GND! 2 5 381 830
+n r4 reg_six_3/reg_one_0[3]/tg_5/out reg_six_3/reg_one_0[3]/m1_31_17# 2 5 381 855
+p reg_six_3/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_3/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 403 907
+p reg_six_3/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# reg_six_3/reg_one_0[3]/tg_5/out reg_six_3/reg_one_0[3]/stat_reg_1/m1_24_61# 2 10 403 882
+n reg_six_3/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_3/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# GND! 2 5 381 907
+n reg_six_3/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_3/reg_one_0[3]/tg_5/out reg_six_3/reg_one_0[3]/stat_reg_1/m1_24_61# 2 5 381 882
+n reg_six_3/reg_one_0[3]/stat_reg_1/a_24_71# reg_six_3/reg_one_0[3]/stat_reg_1/m1_24_61# GND! 2 5 381 933
+p reg_six_3/reg_one_0[3]/stat_reg_1/a_24_71# reg_six_3/reg_one_0[3]/stat_reg_1/m1_24_61# Vdd! 2 10 403 933
+n reg_six_3/reg_one_0[3]/tg_5/out reg_six_3/reg_one_0[3]/stat_reg_1/a_24_71# GND! 2 5 381 959
+p reg_six_3/reg_one_0[3]/tg_5/out reg_six_3/reg_one_0[3]/stat_reg_1/a_24_71# Vdd! 2 10 403 959
+n in3 reg_six_3/reg_one_0[3]/m1_31_17# GND! 2 5 381 804
+p in3 reg_six_3/reg_one_0[3]/m1_31_17# Vdd! 2 10 403 804
+n reg_six_3/reg_one_0[4]/tg_5/out reg_six_3/reg_one_0[4]/m1_29_198# GND! 2 5 381 1245
+p reg_six_3/reg_one_0[4]/tg_5/out reg_six_3/reg_one_0[4]/m1_29_198# Vdd! 2 10 403 1245
+p r4 reg_six_3/reg_one_0[4]/tg_1/a_100_74# Vdd! 2 10 403 1271
+p reg_six_3/reg_one_0[4]/tg_1/a_100_74# o4 reg_six_3/reg_one_0[4]/m1_29_198# 2 10 403 1296
+n r4 reg_six_3/reg_one_0[4]/tg_1/a_100_74# GND! 2 5 381 1271
+n r4 o4 reg_six_3/reg_one_0[4]/m1_29_198# 2 5 381 1296
+p r4 reg_six_3/reg_one_0[4]/stat_reg_1/tg_0/EN Vdd! 2 10 403 1089
+p reg_six_3/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_3/reg_one_0[4]/tg_5/out reg_six_3/reg_one_0[4]/m1_31_17# 2 10 403 1114
+n r4 reg_six_3/reg_one_0[4]/stat_reg_1/tg_0/EN GND! 2 5 381 1089
+n r4 reg_six_3/reg_one_0[4]/tg_5/out reg_six_3/reg_one_0[4]/m1_31_17# 2 5 381 1114
+p reg_six_3/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_3/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 403 1166
+p reg_six_3/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# reg_six_3/reg_one_0[4]/tg_5/out reg_six_3/reg_one_0[4]/stat_reg_1/m1_24_61# 2 10 403 1141
+n reg_six_3/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_3/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# GND! 2 5 381 1166
+n reg_six_3/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_3/reg_one_0[4]/tg_5/out reg_six_3/reg_one_0[4]/stat_reg_1/m1_24_61# 2 5 381 1141
+n reg_six_3/reg_one_0[4]/stat_reg_1/a_24_71# reg_six_3/reg_one_0[4]/stat_reg_1/m1_24_61# GND! 2 5 381 1192
+p reg_six_3/reg_one_0[4]/stat_reg_1/a_24_71# reg_six_3/reg_one_0[4]/stat_reg_1/m1_24_61# Vdd! 2 10 403 1192
+n reg_six_3/reg_one_0[4]/tg_5/out reg_six_3/reg_one_0[4]/stat_reg_1/a_24_71# GND! 2 5 381 1218
+p reg_six_3/reg_one_0[4]/tg_5/out reg_six_3/reg_one_0[4]/stat_reg_1/a_24_71# Vdd! 2 10 403 1218
+n in4 reg_six_3/reg_one_0[4]/m1_31_17# GND! 2 5 381 1063
+p in4 reg_six_3/reg_one_0[4]/m1_31_17# Vdd! 2 10 403 1063
+n reg_six_3/reg_one_0[5]/tg_5/out reg_six_3/reg_one_0[5]/m1_29_198# GND! 2 5 381 1504
+p reg_six_3/reg_one_0[5]/tg_5/out reg_six_3/reg_one_0[5]/m1_29_198# Vdd! 2 10 403 1504
+p r4 reg_six_3/reg_one_0[5]/tg_1/a_100_74# Vdd! 2 10 403 1530
+p reg_six_3/reg_one_0[5]/tg_1/a_100_74# o5 reg_six_3/reg_one_0[5]/m1_29_198# 2 10 403 1555
+n r4 reg_six_3/reg_one_0[5]/tg_1/a_100_74# GND! 2 5 381 1530
+n r4 o5 reg_six_3/reg_one_0[5]/m1_29_198# 2 5 381 1555
+p r4 reg_six_3/reg_one_0[5]/stat_reg_1/tg_0/EN Vdd! 2 10 403 1348
+p reg_six_3/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_3/reg_one_0[5]/tg_5/out reg_six_3/reg_one_0[5]/m1_31_17# 2 10 403 1373
+n r4 reg_six_3/reg_one_0[5]/stat_reg_1/tg_0/EN GND! 2 5 381 1348
+n r4 reg_six_3/reg_one_0[5]/tg_5/out reg_six_3/reg_one_0[5]/m1_31_17# 2 5 381 1373
+p reg_six_3/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_3/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 403 1425
+p reg_six_3/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# reg_six_3/reg_one_0[5]/tg_5/out reg_six_3/reg_one_0[5]/stat_reg_1/m1_24_61# 2 10 403 1400
+n reg_six_3/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_3/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# GND! 2 5 381 1425
+n reg_six_3/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_3/reg_one_0[5]/tg_5/out reg_six_3/reg_one_0[5]/stat_reg_1/m1_24_61# 2 5 381 1400
+n reg_six_3/reg_one_0[5]/stat_reg_1/a_24_71# reg_six_3/reg_one_0[5]/stat_reg_1/m1_24_61# GND! 2 5 381 1451
+p reg_six_3/reg_one_0[5]/stat_reg_1/a_24_71# reg_six_3/reg_one_0[5]/stat_reg_1/m1_24_61# Vdd! 2 10 403 1451
+n reg_six_3/reg_one_0[5]/tg_5/out reg_six_3/reg_one_0[5]/stat_reg_1/a_24_71# GND! 2 5 381 1477
+p reg_six_3/reg_one_0[5]/tg_5/out reg_six_3/reg_one_0[5]/stat_reg_1/a_24_71# Vdd! 2 10 403 1477
+n in5 reg_six_3/reg_one_0[5]/m1_31_17# GND! 2 5 381 1322
+p in5 reg_six_3/reg_one_0[5]/m1_31_17# Vdd! 2 10 403 1322
+n reg_six_4/reg_one_0[0]/tg_5/out reg_six_4/reg_one_0[0]/m1_29_198# GND! 2 5 464 209
+p reg_six_4/reg_one_0[0]/tg_5/out reg_six_4/reg_one_0[0]/m1_29_198# Vdd! 2 10 486 209
+p r3 reg_six_4/reg_one_0[0]/tg_1/a_100_74# Vdd! 2 10 486 235
+p reg_six_4/reg_one_0[0]/tg_1/a_100_74# o0 reg_six_4/reg_one_0[0]/m1_29_198# 2 10 486 260
+n r3 reg_six_4/reg_one_0[0]/tg_1/a_100_74# GND! 2 5 464 235
+n r3 o0 reg_six_4/reg_one_0[0]/m1_29_198# 2 5 464 260
+p r3 reg_six_4/reg_one_0[0]/stat_reg_1/tg_0/EN Vdd! 2 10 486 53
+p reg_six_4/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_4/reg_one_0[0]/tg_5/out reg_six_4/reg_one_0[0]/m1_31_17# 2 10 486 78
+n r3 reg_six_4/reg_one_0[0]/stat_reg_1/tg_0/EN GND! 2 5 464 53
+n r3 reg_six_4/reg_one_0[0]/tg_5/out reg_six_4/reg_one_0[0]/m1_31_17# 2 5 464 78
+p reg_six_4/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_4/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 486 130
+p reg_six_4/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# reg_six_4/reg_one_0[0]/tg_5/out reg_six_4/reg_one_0[0]/stat_reg_1/m1_24_61# 2 10 486 105
+n reg_six_4/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_4/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# GND! 2 5 464 130
+n reg_six_4/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_4/reg_one_0[0]/tg_5/out reg_six_4/reg_one_0[0]/stat_reg_1/m1_24_61# 2 5 464 105
+n reg_six_4/reg_one_0[0]/stat_reg_1/a_24_71# reg_six_4/reg_one_0[0]/stat_reg_1/m1_24_61# GND! 2 5 464 156
+p reg_six_4/reg_one_0[0]/stat_reg_1/a_24_71# reg_six_4/reg_one_0[0]/stat_reg_1/m1_24_61# Vdd! 2 10 486 156
+n reg_six_4/reg_one_0[0]/tg_5/out reg_six_4/reg_one_0[0]/stat_reg_1/a_24_71# GND! 2 5 464 182
+p reg_six_4/reg_one_0[0]/tg_5/out reg_six_4/reg_one_0[0]/stat_reg_1/a_24_71# Vdd! 2 10 486 182
+n in0 reg_six_4/reg_one_0[0]/m1_31_17# GND! 2 5 464 27
+p in0 reg_six_4/reg_one_0[0]/m1_31_17# Vdd! 2 10 486 27
+n reg_six_4/reg_one_0[1]/tg_5/out reg_six_4/reg_one_0[1]/m1_29_198# GND! 2 5 464 468
+p reg_six_4/reg_one_0[1]/tg_5/out reg_six_4/reg_one_0[1]/m1_29_198# Vdd! 2 10 486 468
+p r3 reg_six_4/reg_one_0[1]/tg_1/a_100_74# Vdd! 2 10 486 494
+p reg_six_4/reg_one_0[1]/tg_1/a_100_74# o1 reg_six_4/reg_one_0[1]/m1_29_198# 2 10 486 519
+n r3 reg_six_4/reg_one_0[1]/tg_1/a_100_74# GND! 2 5 464 494
+n r3 o1 reg_six_4/reg_one_0[1]/m1_29_198# 2 5 464 519
+p r3 reg_six_4/reg_one_0[1]/stat_reg_1/tg_0/EN Vdd! 2 10 486 312
+p reg_six_4/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_4/reg_one_0[1]/tg_5/out reg_six_4/reg_one_0[1]/m1_31_17# 2 10 486 337
+n r3 reg_six_4/reg_one_0[1]/stat_reg_1/tg_0/EN GND! 2 5 464 312
+n r3 reg_six_4/reg_one_0[1]/tg_5/out reg_six_4/reg_one_0[1]/m1_31_17# 2 5 464 337
+p reg_six_4/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_4/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 486 389
+p reg_six_4/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# reg_six_4/reg_one_0[1]/tg_5/out reg_six_4/reg_one_0[1]/stat_reg_1/m1_24_61# 2 10 486 364
+n reg_six_4/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_4/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# GND! 2 5 464 389
+n reg_six_4/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_4/reg_one_0[1]/tg_5/out reg_six_4/reg_one_0[1]/stat_reg_1/m1_24_61# 2 5 464 364
+n reg_six_4/reg_one_0[1]/stat_reg_1/a_24_71# reg_six_4/reg_one_0[1]/stat_reg_1/m1_24_61# GND! 2 5 464 415
+p reg_six_4/reg_one_0[1]/stat_reg_1/a_24_71# reg_six_4/reg_one_0[1]/stat_reg_1/m1_24_61# Vdd! 2 10 486 415
+n reg_six_4/reg_one_0[1]/tg_5/out reg_six_4/reg_one_0[1]/stat_reg_1/a_24_71# GND! 2 5 464 441
+p reg_six_4/reg_one_0[1]/tg_5/out reg_six_4/reg_one_0[1]/stat_reg_1/a_24_71# Vdd! 2 10 486 441
+n in1 reg_six_4/reg_one_0[1]/m1_31_17# GND! 2 5 464 286
+p in1 reg_six_4/reg_one_0[1]/m1_31_17# Vdd! 2 10 486 286
+n reg_six_4/reg_one_0[2]/tg_5/out reg_six_4/reg_one_0[2]/m1_29_198# GND! 2 5 464 727
+p reg_six_4/reg_one_0[2]/tg_5/out reg_six_4/reg_one_0[2]/m1_29_198# Vdd! 2 10 486 727
+p r3 reg_six_4/reg_one_0[2]/tg_1/a_100_74# Vdd! 2 10 486 753
+p reg_six_4/reg_one_0[2]/tg_1/a_100_74# o2 reg_six_4/reg_one_0[2]/m1_29_198# 2 10 486 778
+n r3 reg_six_4/reg_one_0[2]/tg_1/a_100_74# GND! 2 5 464 753
+n r3 o2 reg_six_4/reg_one_0[2]/m1_29_198# 2 5 464 778
+p r3 reg_six_4/reg_one_0[2]/stat_reg_1/tg_0/EN Vdd! 2 10 486 571
+p reg_six_4/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_4/reg_one_0[2]/tg_5/out reg_six_4/reg_one_0[2]/m1_31_17# 2 10 486 596
+n r3 reg_six_4/reg_one_0[2]/stat_reg_1/tg_0/EN GND! 2 5 464 571
+n r3 reg_six_4/reg_one_0[2]/tg_5/out reg_six_4/reg_one_0[2]/m1_31_17# 2 5 464 596
+p reg_six_4/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_4/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 486 648
+p reg_six_4/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# reg_six_4/reg_one_0[2]/tg_5/out reg_six_4/reg_one_0[2]/stat_reg_1/m1_24_61# 2 10 486 623
+n reg_six_4/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_4/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# GND! 2 5 464 648
+n reg_six_4/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_4/reg_one_0[2]/tg_5/out reg_six_4/reg_one_0[2]/stat_reg_1/m1_24_61# 2 5 464 623
+n reg_six_4/reg_one_0[2]/stat_reg_1/a_24_71# reg_six_4/reg_one_0[2]/stat_reg_1/m1_24_61# GND! 2 5 464 674
+p reg_six_4/reg_one_0[2]/stat_reg_1/a_24_71# reg_six_4/reg_one_0[2]/stat_reg_1/m1_24_61# Vdd! 2 10 486 674
+n reg_six_4/reg_one_0[2]/tg_5/out reg_six_4/reg_one_0[2]/stat_reg_1/a_24_71# GND! 2 5 464 700
+p reg_six_4/reg_one_0[2]/tg_5/out reg_six_4/reg_one_0[2]/stat_reg_1/a_24_71# Vdd! 2 10 486 700
+n in2 reg_six_4/reg_one_0[2]/m1_31_17# GND! 2 5 464 545
+p in2 reg_six_4/reg_one_0[2]/m1_31_17# Vdd! 2 10 486 545
+n reg_six_4/reg_one_0[3]/tg_5/out reg_six_4/reg_one_0[3]/m1_29_198# GND! 2 5 464 986
+p reg_six_4/reg_one_0[3]/tg_5/out reg_six_4/reg_one_0[3]/m1_29_198# Vdd! 2 10 486 986
+p r3 reg_six_4/reg_one_0[3]/tg_1/a_100_74# Vdd! 2 10 486 1012
+p reg_six_4/reg_one_0[3]/tg_1/a_100_74# o3 reg_six_4/reg_one_0[3]/m1_29_198# 2 10 486 1037
+n r3 reg_six_4/reg_one_0[3]/tg_1/a_100_74# GND! 2 5 464 1012
+n r3 o3 reg_six_4/reg_one_0[3]/m1_29_198# 2 5 464 1037
+p r3 reg_six_4/reg_one_0[3]/stat_reg_1/tg_0/EN Vdd! 2 10 486 830
+p reg_six_4/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_4/reg_one_0[3]/tg_5/out reg_six_4/reg_one_0[3]/m1_31_17# 2 10 486 855
+n r3 reg_six_4/reg_one_0[3]/stat_reg_1/tg_0/EN GND! 2 5 464 830
+n r3 reg_six_4/reg_one_0[3]/tg_5/out reg_six_4/reg_one_0[3]/m1_31_17# 2 5 464 855
+p reg_six_4/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_4/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 486 907
+p reg_six_4/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# reg_six_4/reg_one_0[3]/tg_5/out reg_six_4/reg_one_0[3]/stat_reg_1/m1_24_61# 2 10 486 882
+n reg_six_4/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_4/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# GND! 2 5 464 907
+n reg_six_4/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_4/reg_one_0[3]/tg_5/out reg_six_4/reg_one_0[3]/stat_reg_1/m1_24_61# 2 5 464 882
+n reg_six_4/reg_one_0[3]/stat_reg_1/a_24_71# reg_six_4/reg_one_0[3]/stat_reg_1/m1_24_61# GND! 2 5 464 933
+p reg_six_4/reg_one_0[3]/stat_reg_1/a_24_71# reg_six_4/reg_one_0[3]/stat_reg_1/m1_24_61# Vdd! 2 10 486 933
+n reg_six_4/reg_one_0[3]/tg_5/out reg_six_4/reg_one_0[3]/stat_reg_1/a_24_71# GND! 2 5 464 959
+p reg_six_4/reg_one_0[3]/tg_5/out reg_six_4/reg_one_0[3]/stat_reg_1/a_24_71# Vdd! 2 10 486 959
+n in3 reg_six_4/reg_one_0[3]/m1_31_17# GND! 2 5 464 804
+p in3 reg_six_4/reg_one_0[3]/m1_31_17# Vdd! 2 10 486 804
+n reg_six_4/reg_one_0[4]/tg_5/out reg_six_4/reg_one_0[4]/m1_29_198# GND! 2 5 464 1245
+p reg_six_4/reg_one_0[4]/tg_5/out reg_six_4/reg_one_0[4]/m1_29_198# Vdd! 2 10 486 1245
+p r3 reg_six_4/reg_one_0[4]/tg_1/a_100_74# Vdd! 2 10 486 1271
+p reg_six_4/reg_one_0[4]/tg_1/a_100_74# o4 reg_six_4/reg_one_0[4]/m1_29_198# 2 10 486 1296
+n r3 reg_six_4/reg_one_0[4]/tg_1/a_100_74# GND! 2 5 464 1271
+n r3 o4 reg_six_4/reg_one_0[4]/m1_29_198# 2 5 464 1296
+p r3 reg_six_4/reg_one_0[4]/stat_reg_1/tg_0/EN Vdd! 2 10 486 1089
+p reg_six_4/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_4/reg_one_0[4]/tg_5/out reg_six_4/reg_one_0[4]/m1_31_17# 2 10 486 1114
+n r3 reg_six_4/reg_one_0[4]/stat_reg_1/tg_0/EN GND! 2 5 464 1089
+n r3 reg_six_4/reg_one_0[4]/tg_5/out reg_six_4/reg_one_0[4]/m1_31_17# 2 5 464 1114
+p reg_six_4/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_4/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 486 1166
+p reg_six_4/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# reg_six_4/reg_one_0[4]/tg_5/out reg_six_4/reg_one_0[4]/stat_reg_1/m1_24_61# 2 10 486 1141
+n reg_six_4/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_4/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# GND! 2 5 464 1166
+n reg_six_4/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_4/reg_one_0[4]/tg_5/out reg_six_4/reg_one_0[4]/stat_reg_1/m1_24_61# 2 5 464 1141
+n reg_six_4/reg_one_0[4]/stat_reg_1/a_24_71# reg_six_4/reg_one_0[4]/stat_reg_1/m1_24_61# GND! 2 5 464 1192
+p reg_six_4/reg_one_0[4]/stat_reg_1/a_24_71# reg_six_4/reg_one_0[4]/stat_reg_1/m1_24_61# Vdd! 2 10 486 1192
+n reg_six_4/reg_one_0[4]/tg_5/out reg_six_4/reg_one_0[4]/stat_reg_1/a_24_71# GND! 2 5 464 1218
+p reg_six_4/reg_one_0[4]/tg_5/out reg_six_4/reg_one_0[4]/stat_reg_1/a_24_71# Vdd! 2 10 486 1218
+n in4 reg_six_4/reg_one_0[4]/m1_31_17# GND! 2 5 464 1063
+p in4 reg_six_4/reg_one_0[4]/m1_31_17# Vdd! 2 10 486 1063
+n reg_six_4/reg_one_0[5]/tg_5/out reg_six_4/reg_one_0[5]/m1_29_198# GND! 2 5 464 1504
+p reg_six_4/reg_one_0[5]/tg_5/out reg_six_4/reg_one_0[5]/m1_29_198# Vdd! 2 10 486 1504
+p r3 reg_six_4/reg_one_0[5]/tg_1/a_100_74# Vdd! 2 10 486 1530
+p reg_six_4/reg_one_0[5]/tg_1/a_100_74# o5 reg_six_4/reg_one_0[5]/m1_29_198# 2 10 486 1555
+n r3 reg_six_4/reg_one_0[5]/tg_1/a_100_74# GND! 2 5 464 1530
+n r3 o5 reg_six_4/reg_one_0[5]/m1_29_198# 2 5 464 1555
+p r3 reg_six_4/reg_one_0[5]/stat_reg_1/tg_0/EN Vdd! 2 10 486 1348
+p reg_six_4/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_4/reg_one_0[5]/tg_5/out reg_six_4/reg_one_0[5]/m1_31_17# 2 10 486 1373
+n r3 reg_six_4/reg_one_0[5]/stat_reg_1/tg_0/EN GND! 2 5 464 1348
+n r3 reg_six_4/reg_one_0[5]/tg_5/out reg_six_4/reg_one_0[5]/m1_31_17# 2 5 464 1373
+p reg_six_4/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_4/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 486 1425
+p reg_six_4/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# reg_six_4/reg_one_0[5]/tg_5/out reg_six_4/reg_one_0[5]/stat_reg_1/m1_24_61# 2 10 486 1400
+n reg_six_4/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_4/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# GND! 2 5 464 1425
+n reg_six_4/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_4/reg_one_0[5]/tg_5/out reg_six_4/reg_one_0[5]/stat_reg_1/m1_24_61# 2 5 464 1400
+n reg_six_4/reg_one_0[5]/stat_reg_1/a_24_71# reg_six_4/reg_one_0[5]/stat_reg_1/m1_24_61# GND! 2 5 464 1451
+p reg_six_4/reg_one_0[5]/stat_reg_1/a_24_71# reg_six_4/reg_one_0[5]/stat_reg_1/m1_24_61# Vdd! 2 10 486 1451
+n reg_six_4/reg_one_0[5]/tg_5/out reg_six_4/reg_one_0[5]/stat_reg_1/a_24_71# GND! 2 5 464 1477
+p reg_six_4/reg_one_0[5]/tg_5/out reg_six_4/reg_one_0[5]/stat_reg_1/a_24_71# Vdd! 2 10 486 1477
+n in5 reg_six_4/reg_one_0[5]/m1_31_17# GND! 2 5 464 1322
+p in5 reg_six_4/reg_one_0[5]/m1_31_17# Vdd! 2 10 486 1322
+n reg_six_5/reg_one_0[0]/tg_5/out reg_six_5/reg_one_0[0]/m1_29_198# GND! 2 5 547 209
+p reg_six_5/reg_one_0[0]/tg_5/out reg_six_5/reg_one_0[0]/m1_29_198# Vdd! 2 10 569 209
+p r2 reg_six_5/reg_one_0[0]/tg_1/a_100_74# Vdd! 2 10 569 235
+p reg_six_5/reg_one_0[0]/tg_1/a_100_74# o0 reg_six_5/reg_one_0[0]/m1_29_198# 2 10 569 260
+n r2 reg_six_5/reg_one_0[0]/tg_1/a_100_74# GND! 2 5 547 235
+n r2 o0 reg_six_5/reg_one_0[0]/m1_29_198# 2 5 547 260
+p r2 reg_six_5/reg_one_0[0]/stat_reg_1/tg_0/EN Vdd! 2 10 569 53
+p reg_six_5/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_5/reg_one_0[0]/tg_5/out reg_six_5/reg_one_0[0]/m1_31_17# 2 10 569 78
+n r2 reg_six_5/reg_one_0[0]/stat_reg_1/tg_0/EN GND! 2 5 547 53
+n r2 reg_six_5/reg_one_0[0]/tg_5/out reg_six_5/reg_one_0[0]/m1_31_17# 2 5 547 78
+p reg_six_5/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_5/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 569 130
+p reg_six_5/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# reg_six_5/reg_one_0[0]/tg_5/out reg_six_5/reg_one_0[0]/stat_reg_1/m1_24_61# 2 10 569 105
+n reg_six_5/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_5/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# GND! 2 5 547 130
+n reg_six_5/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_5/reg_one_0[0]/tg_5/out reg_six_5/reg_one_0[0]/stat_reg_1/m1_24_61# 2 5 547 105
+n reg_six_5/reg_one_0[0]/stat_reg_1/a_24_71# reg_six_5/reg_one_0[0]/stat_reg_1/m1_24_61# GND! 2 5 547 156
+p reg_six_5/reg_one_0[0]/stat_reg_1/a_24_71# reg_six_5/reg_one_0[0]/stat_reg_1/m1_24_61# Vdd! 2 10 569 156
+n reg_six_5/reg_one_0[0]/tg_5/out reg_six_5/reg_one_0[0]/stat_reg_1/a_24_71# GND! 2 5 547 182
+p reg_six_5/reg_one_0[0]/tg_5/out reg_six_5/reg_one_0[0]/stat_reg_1/a_24_71# Vdd! 2 10 569 182
+n in0 reg_six_5/reg_one_0[0]/m1_31_17# GND! 2 5 547 27
+p in0 reg_six_5/reg_one_0[0]/m1_31_17# Vdd! 2 10 569 27
+n reg_six_5/reg_one_0[1]/tg_5/out reg_six_5/reg_one_0[1]/m1_29_198# GND! 2 5 547 468
+p reg_six_5/reg_one_0[1]/tg_5/out reg_six_5/reg_one_0[1]/m1_29_198# Vdd! 2 10 569 468
+p r2 reg_six_5/reg_one_0[1]/tg_1/a_100_74# Vdd! 2 10 569 494
+p reg_six_5/reg_one_0[1]/tg_1/a_100_74# o1 reg_six_5/reg_one_0[1]/m1_29_198# 2 10 569 519
+n r2 reg_six_5/reg_one_0[1]/tg_1/a_100_74# GND! 2 5 547 494
+n r2 o1 reg_six_5/reg_one_0[1]/m1_29_198# 2 5 547 519
+p r2 reg_six_5/reg_one_0[1]/stat_reg_1/tg_0/EN Vdd! 2 10 569 312
+p reg_six_5/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_5/reg_one_0[1]/tg_5/out reg_six_5/reg_one_0[1]/m1_31_17# 2 10 569 337
+n r2 reg_six_5/reg_one_0[1]/stat_reg_1/tg_0/EN GND! 2 5 547 312
+n r2 reg_six_5/reg_one_0[1]/tg_5/out reg_six_5/reg_one_0[1]/m1_31_17# 2 5 547 337
+p reg_six_5/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_5/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 569 389
+p reg_six_5/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# reg_six_5/reg_one_0[1]/tg_5/out reg_six_5/reg_one_0[1]/stat_reg_1/m1_24_61# 2 10 569 364
+n reg_six_5/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_5/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# GND! 2 5 547 389
+n reg_six_5/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_5/reg_one_0[1]/tg_5/out reg_six_5/reg_one_0[1]/stat_reg_1/m1_24_61# 2 5 547 364
+n reg_six_5/reg_one_0[1]/stat_reg_1/a_24_71# reg_six_5/reg_one_0[1]/stat_reg_1/m1_24_61# GND! 2 5 547 415
+p reg_six_5/reg_one_0[1]/stat_reg_1/a_24_71# reg_six_5/reg_one_0[1]/stat_reg_1/m1_24_61# Vdd! 2 10 569 415
+n reg_six_5/reg_one_0[1]/tg_5/out reg_six_5/reg_one_0[1]/stat_reg_1/a_24_71# GND! 2 5 547 441
+p reg_six_5/reg_one_0[1]/tg_5/out reg_six_5/reg_one_0[1]/stat_reg_1/a_24_71# Vdd! 2 10 569 441
+n in1 reg_six_5/reg_one_0[1]/m1_31_17# GND! 2 5 547 286
+p in1 reg_six_5/reg_one_0[1]/m1_31_17# Vdd! 2 10 569 286
+n reg_six_5/reg_one_0[2]/tg_5/out reg_six_5/reg_one_0[2]/m1_29_198# GND! 2 5 547 727
+p reg_six_5/reg_one_0[2]/tg_5/out reg_six_5/reg_one_0[2]/m1_29_198# Vdd! 2 10 569 727
+p r2 reg_six_5/reg_one_0[2]/tg_1/a_100_74# Vdd! 2 10 569 753
+p reg_six_5/reg_one_0[2]/tg_1/a_100_74# o2 reg_six_5/reg_one_0[2]/m1_29_198# 2 10 569 778
+n r2 reg_six_5/reg_one_0[2]/tg_1/a_100_74# GND! 2 5 547 753
+n r2 o2 reg_six_5/reg_one_0[2]/m1_29_198# 2 5 547 778
+p r2 reg_six_5/reg_one_0[2]/stat_reg_1/tg_0/EN Vdd! 2 10 569 571
+p reg_six_5/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_5/reg_one_0[2]/tg_5/out reg_six_5/reg_one_0[2]/m1_31_17# 2 10 569 596
+n r2 reg_six_5/reg_one_0[2]/stat_reg_1/tg_0/EN GND! 2 5 547 571
+n r2 reg_six_5/reg_one_0[2]/tg_5/out reg_six_5/reg_one_0[2]/m1_31_17# 2 5 547 596
+p reg_six_5/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_5/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 569 648
+p reg_six_5/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# reg_six_5/reg_one_0[2]/tg_5/out reg_six_5/reg_one_0[2]/stat_reg_1/m1_24_61# 2 10 569 623
+n reg_six_5/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_5/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# GND! 2 5 547 648
+n reg_six_5/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_5/reg_one_0[2]/tg_5/out reg_six_5/reg_one_0[2]/stat_reg_1/m1_24_61# 2 5 547 623
+n reg_six_5/reg_one_0[2]/stat_reg_1/a_24_71# reg_six_5/reg_one_0[2]/stat_reg_1/m1_24_61# GND! 2 5 547 674
+p reg_six_5/reg_one_0[2]/stat_reg_1/a_24_71# reg_six_5/reg_one_0[2]/stat_reg_1/m1_24_61# Vdd! 2 10 569 674
+n reg_six_5/reg_one_0[2]/tg_5/out reg_six_5/reg_one_0[2]/stat_reg_1/a_24_71# GND! 2 5 547 700
+p reg_six_5/reg_one_0[2]/tg_5/out reg_six_5/reg_one_0[2]/stat_reg_1/a_24_71# Vdd! 2 10 569 700
+n in2 reg_six_5/reg_one_0[2]/m1_31_17# GND! 2 5 547 545
+p in2 reg_six_5/reg_one_0[2]/m1_31_17# Vdd! 2 10 569 545
+n reg_six_5/reg_one_0[3]/tg_5/out reg_six_5/reg_one_0[3]/m1_29_198# GND! 2 5 547 986
+p reg_six_5/reg_one_0[3]/tg_5/out reg_six_5/reg_one_0[3]/m1_29_198# Vdd! 2 10 569 986
+p r2 reg_six_5/reg_one_0[3]/tg_1/a_100_74# Vdd! 2 10 569 1012
+p reg_six_5/reg_one_0[3]/tg_1/a_100_74# o3 reg_six_5/reg_one_0[3]/m1_29_198# 2 10 569 1037
+n r2 reg_six_5/reg_one_0[3]/tg_1/a_100_74# GND! 2 5 547 1012
+n r2 o3 reg_six_5/reg_one_0[3]/m1_29_198# 2 5 547 1037
+p r2 reg_six_5/reg_one_0[3]/stat_reg_1/tg_0/EN Vdd! 2 10 569 830
+p reg_six_5/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_5/reg_one_0[3]/tg_5/out reg_six_5/reg_one_0[3]/m1_31_17# 2 10 569 855
+n r2 reg_six_5/reg_one_0[3]/stat_reg_1/tg_0/EN GND! 2 5 547 830
+n r2 reg_six_5/reg_one_0[3]/tg_5/out reg_six_5/reg_one_0[3]/m1_31_17# 2 5 547 855
+p reg_six_5/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_5/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 569 907
+p reg_six_5/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# reg_six_5/reg_one_0[3]/tg_5/out reg_six_5/reg_one_0[3]/stat_reg_1/m1_24_61# 2 10 569 882
+n reg_six_5/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_5/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# GND! 2 5 547 907
+n reg_six_5/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_5/reg_one_0[3]/tg_5/out reg_six_5/reg_one_0[3]/stat_reg_1/m1_24_61# 2 5 547 882
+n reg_six_5/reg_one_0[3]/stat_reg_1/a_24_71# reg_six_5/reg_one_0[3]/stat_reg_1/m1_24_61# GND! 2 5 547 933
+p reg_six_5/reg_one_0[3]/stat_reg_1/a_24_71# reg_six_5/reg_one_0[3]/stat_reg_1/m1_24_61# Vdd! 2 10 569 933
+n reg_six_5/reg_one_0[3]/tg_5/out reg_six_5/reg_one_0[3]/stat_reg_1/a_24_71# GND! 2 5 547 959
+p reg_six_5/reg_one_0[3]/tg_5/out reg_six_5/reg_one_0[3]/stat_reg_1/a_24_71# Vdd! 2 10 569 959
+n in3 reg_six_5/reg_one_0[3]/m1_31_17# GND! 2 5 547 804
+p in3 reg_six_5/reg_one_0[3]/m1_31_17# Vdd! 2 10 569 804
+n reg_six_5/reg_one_0[4]/tg_5/out reg_six_5/reg_one_0[4]/m1_29_198# GND! 2 5 547 1245
+p reg_six_5/reg_one_0[4]/tg_5/out reg_six_5/reg_one_0[4]/m1_29_198# Vdd! 2 10 569 1245
+p r2 reg_six_5/reg_one_0[4]/tg_1/a_100_74# Vdd! 2 10 569 1271
+p reg_six_5/reg_one_0[4]/tg_1/a_100_74# o4 reg_six_5/reg_one_0[4]/m1_29_198# 2 10 569 1296
+n r2 reg_six_5/reg_one_0[4]/tg_1/a_100_74# GND! 2 5 547 1271
+n r2 o4 reg_six_5/reg_one_0[4]/m1_29_198# 2 5 547 1296
+p r2 reg_six_5/reg_one_0[4]/stat_reg_1/tg_0/EN Vdd! 2 10 569 1089
+p reg_six_5/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_5/reg_one_0[4]/tg_5/out reg_six_5/reg_one_0[4]/m1_31_17# 2 10 569 1114
+n r2 reg_six_5/reg_one_0[4]/stat_reg_1/tg_0/EN GND! 2 5 547 1089
+n r2 reg_six_5/reg_one_0[4]/tg_5/out reg_six_5/reg_one_0[4]/m1_31_17# 2 5 547 1114
+p reg_six_5/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_5/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 569 1166
+p reg_six_5/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# reg_six_5/reg_one_0[4]/tg_5/out reg_six_5/reg_one_0[4]/stat_reg_1/m1_24_61# 2 10 569 1141
+n reg_six_5/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_5/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# GND! 2 5 547 1166
+n reg_six_5/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_5/reg_one_0[4]/tg_5/out reg_six_5/reg_one_0[4]/stat_reg_1/m1_24_61# 2 5 547 1141
+n reg_six_5/reg_one_0[4]/stat_reg_1/a_24_71# reg_six_5/reg_one_0[4]/stat_reg_1/m1_24_61# GND! 2 5 547 1192
+p reg_six_5/reg_one_0[4]/stat_reg_1/a_24_71# reg_six_5/reg_one_0[4]/stat_reg_1/m1_24_61# Vdd! 2 10 569 1192
+n reg_six_5/reg_one_0[4]/tg_5/out reg_six_5/reg_one_0[4]/stat_reg_1/a_24_71# GND! 2 5 547 1218
+p reg_six_5/reg_one_0[4]/tg_5/out reg_six_5/reg_one_0[4]/stat_reg_1/a_24_71# Vdd! 2 10 569 1218
+n in4 reg_six_5/reg_one_0[4]/m1_31_17# GND! 2 5 547 1063
+p in4 reg_six_5/reg_one_0[4]/m1_31_17# Vdd! 2 10 569 1063
+n reg_six_5/reg_one_0[5]/tg_5/out reg_six_5/reg_one_0[5]/m1_29_198# GND! 2 5 547 1504
+p reg_six_5/reg_one_0[5]/tg_5/out reg_six_5/reg_one_0[5]/m1_29_198# Vdd! 2 10 569 1504
+p r2 reg_six_5/reg_one_0[5]/tg_1/a_100_74# Vdd! 2 10 569 1530
+p reg_six_5/reg_one_0[5]/tg_1/a_100_74# o5 reg_six_5/reg_one_0[5]/m1_29_198# 2 10 569 1555
+n r2 reg_six_5/reg_one_0[5]/tg_1/a_100_74# GND! 2 5 547 1530
+n r2 o5 reg_six_5/reg_one_0[5]/m1_29_198# 2 5 547 1555
+p r2 reg_six_5/reg_one_0[5]/stat_reg_1/tg_0/EN Vdd! 2 10 569 1348
+p reg_six_5/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_5/reg_one_0[5]/tg_5/out reg_six_5/reg_one_0[5]/m1_31_17# 2 10 569 1373
+n r2 reg_six_5/reg_one_0[5]/stat_reg_1/tg_0/EN GND! 2 5 547 1348
+n r2 reg_six_5/reg_one_0[5]/tg_5/out reg_six_5/reg_one_0[5]/m1_31_17# 2 5 547 1373
+p reg_six_5/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_5/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 569 1425
+p reg_six_5/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# reg_six_5/reg_one_0[5]/tg_5/out reg_six_5/reg_one_0[5]/stat_reg_1/m1_24_61# 2 10 569 1400
+n reg_six_5/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_5/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# GND! 2 5 547 1425
+n reg_six_5/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_5/reg_one_0[5]/tg_5/out reg_six_5/reg_one_0[5]/stat_reg_1/m1_24_61# 2 5 547 1400
+n reg_six_5/reg_one_0[5]/stat_reg_1/a_24_71# reg_six_5/reg_one_0[5]/stat_reg_1/m1_24_61# GND! 2 5 547 1451
+p reg_six_5/reg_one_0[5]/stat_reg_1/a_24_71# reg_six_5/reg_one_0[5]/stat_reg_1/m1_24_61# Vdd! 2 10 569 1451
+n reg_six_5/reg_one_0[5]/tg_5/out reg_six_5/reg_one_0[5]/stat_reg_1/a_24_71# GND! 2 5 547 1477
+p reg_six_5/reg_one_0[5]/tg_5/out reg_six_5/reg_one_0[5]/stat_reg_1/a_24_71# Vdd! 2 10 569 1477
+n in5 reg_six_5/reg_one_0[5]/m1_31_17# GND! 2 5 547 1322
+p in5 reg_six_5/reg_one_0[5]/m1_31_17# Vdd! 2 10 569 1322
+n reg_six_6/reg_one_0[0]/tg_5/out reg_six_6/reg_one_0[0]/m1_29_198# GND! 2 5 630 209
+p reg_six_6/reg_one_0[0]/tg_5/out reg_six_6/reg_one_0[0]/m1_29_198# Vdd! 2 10 652 209
+p r1 reg_six_6/reg_one_0[0]/tg_1/a_100_74# Vdd! 2 10 652 235
+p reg_six_6/reg_one_0[0]/tg_1/a_100_74# o0 reg_six_6/reg_one_0[0]/m1_29_198# 2 10 652 260
+n r1 reg_six_6/reg_one_0[0]/tg_1/a_100_74# GND! 2 5 630 235
+n r1 o0 reg_six_6/reg_one_0[0]/m1_29_198# 2 5 630 260
+p r1 reg_six_6/reg_one_0[0]/stat_reg_1/tg_0/EN Vdd! 2 10 652 53
+p reg_six_6/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_6/reg_one_0[0]/tg_5/out reg_six_6/reg_one_0[0]/m1_31_17# 2 10 652 78
+n r1 reg_six_6/reg_one_0[0]/stat_reg_1/tg_0/EN GND! 2 5 630 53
+n r1 reg_six_6/reg_one_0[0]/tg_5/out reg_six_6/reg_one_0[0]/m1_31_17# 2 5 630 78
+p reg_six_6/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_6/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 652 130
+p reg_six_6/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# reg_six_6/reg_one_0[0]/tg_5/out reg_six_6/reg_one_0[0]/stat_reg_1/m1_24_61# 2 10 652 105
+n reg_six_6/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_6/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# GND! 2 5 630 130
+n reg_six_6/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_6/reg_one_0[0]/tg_5/out reg_six_6/reg_one_0[0]/stat_reg_1/m1_24_61# 2 5 630 105
+n reg_six_6/reg_one_0[0]/stat_reg_1/a_24_71# reg_six_6/reg_one_0[0]/stat_reg_1/m1_24_61# GND! 2 5 630 156
+p reg_six_6/reg_one_0[0]/stat_reg_1/a_24_71# reg_six_6/reg_one_0[0]/stat_reg_1/m1_24_61# Vdd! 2 10 652 156
+n reg_six_6/reg_one_0[0]/tg_5/out reg_six_6/reg_one_0[0]/stat_reg_1/a_24_71# GND! 2 5 630 182
+p reg_six_6/reg_one_0[0]/tg_5/out reg_six_6/reg_one_0[0]/stat_reg_1/a_24_71# Vdd! 2 10 652 182
+n in0 reg_six_6/reg_one_0[0]/m1_31_17# GND! 2 5 630 27
+p in0 reg_six_6/reg_one_0[0]/m1_31_17# Vdd! 2 10 652 27
+n reg_six_6/reg_one_0[1]/tg_5/out reg_six_6/reg_one_0[1]/m1_29_198# GND! 2 5 630 468
+p reg_six_6/reg_one_0[1]/tg_5/out reg_six_6/reg_one_0[1]/m1_29_198# Vdd! 2 10 652 468
+p r1 reg_six_6/reg_one_0[1]/tg_1/a_100_74# Vdd! 2 10 652 494
+p reg_six_6/reg_one_0[1]/tg_1/a_100_74# o1 reg_six_6/reg_one_0[1]/m1_29_198# 2 10 652 519
+n r1 reg_six_6/reg_one_0[1]/tg_1/a_100_74# GND! 2 5 630 494
+n r1 o1 reg_six_6/reg_one_0[1]/m1_29_198# 2 5 630 519
+p r1 reg_six_6/reg_one_0[1]/stat_reg_1/tg_0/EN Vdd! 2 10 652 312
+p reg_six_6/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_6/reg_one_0[1]/tg_5/out reg_six_6/reg_one_0[1]/m1_31_17# 2 10 652 337
+n r1 reg_six_6/reg_one_0[1]/stat_reg_1/tg_0/EN GND! 2 5 630 312
+n r1 reg_six_6/reg_one_0[1]/tg_5/out reg_six_6/reg_one_0[1]/m1_31_17# 2 5 630 337
+p reg_six_6/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_6/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 652 389
+p reg_six_6/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# reg_six_6/reg_one_0[1]/tg_5/out reg_six_6/reg_one_0[1]/stat_reg_1/m1_24_61# 2 10 652 364
+n reg_six_6/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_6/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# GND! 2 5 630 389
+n reg_six_6/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_6/reg_one_0[1]/tg_5/out reg_six_6/reg_one_0[1]/stat_reg_1/m1_24_61# 2 5 630 364
+n reg_six_6/reg_one_0[1]/stat_reg_1/a_24_71# reg_six_6/reg_one_0[1]/stat_reg_1/m1_24_61# GND! 2 5 630 415
+p reg_six_6/reg_one_0[1]/stat_reg_1/a_24_71# reg_six_6/reg_one_0[1]/stat_reg_1/m1_24_61# Vdd! 2 10 652 415
+n reg_six_6/reg_one_0[1]/tg_5/out reg_six_6/reg_one_0[1]/stat_reg_1/a_24_71# GND! 2 5 630 441
+p reg_six_6/reg_one_0[1]/tg_5/out reg_six_6/reg_one_0[1]/stat_reg_1/a_24_71# Vdd! 2 10 652 441
+n in1 reg_six_6/reg_one_0[1]/m1_31_17# GND! 2 5 630 286
+p in1 reg_six_6/reg_one_0[1]/m1_31_17# Vdd! 2 10 652 286
+n reg_six_6/reg_one_0[2]/tg_5/out reg_six_6/reg_one_0[2]/m1_29_198# GND! 2 5 630 727
+p reg_six_6/reg_one_0[2]/tg_5/out reg_six_6/reg_one_0[2]/m1_29_198# Vdd! 2 10 652 727
+p r1 reg_six_6/reg_one_0[2]/tg_1/a_100_74# Vdd! 2 10 652 753
+p reg_six_6/reg_one_0[2]/tg_1/a_100_74# o2 reg_six_6/reg_one_0[2]/m1_29_198# 2 10 652 778
+n r1 reg_six_6/reg_one_0[2]/tg_1/a_100_74# GND! 2 5 630 753
+n r1 o2 reg_six_6/reg_one_0[2]/m1_29_198# 2 5 630 778
+p r1 reg_six_6/reg_one_0[2]/stat_reg_1/tg_0/EN Vdd! 2 10 652 571
+p reg_six_6/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_6/reg_one_0[2]/tg_5/out reg_six_6/reg_one_0[2]/m1_31_17# 2 10 652 596
+n r1 reg_six_6/reg_one_0[2]/stat_reg_1/tg_0/EN GND! 2 5 630 571
+n r1 reg_six_6/reg_one_0[2]/tg_5/out reg_six_6/reg_one_0[2]/m1_31_17# 2 5 630 596
+p reg_six_6/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_6/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 652 648
+p reg_six_6/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# reg_six_6/reg_one_0[2]/tg_5/out reg_six_6/reg_one_0[2]/stat_reg_1/m1_24_61# 2 10 652 623
+n reg_six_6/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_6/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# GND! 2 5 630 648
+n reg_six_6/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_6/reg_one_0[2]/tg_5/out reg_six_6/reg_one_0[2]/stat_reg_1/m1_24_61# 2 5 630 623
+n reg_six_6/reg_one_0[2]/stat_reg_1/a_24_71# reg_six_6/reg_one_0[2]/stat_reg_1/m1_24_61# GND! 2 5 630 674
+p reg_six_6/reg_one_0[2]/stat_reg_1/a_24_71# reg_six_6/reg_one_0[2]/stat_reg_1/m1_24_61# Vdd! 2 10 652 674
+n reg_six_6/reg_one_0[2]/tg_5/out reg_six_6/reg_one_0[2]/stat_reg_1/a_24_71# GND! 2 5 630 700
+p reg_six_6/reg_one_0[2]/tg_5/out reg_six_6/reg_one_0[2]/stat_reg_1/a_24_71# Vdd! 2 10 652 700
+n in2 reg_six_6/reg_one_0[2]/m1_31_17# GND! 2 5 630 545
+p in2 reg_six_6/reg_one_0[2]/m1_31_17# Vdd! 2 10 652 545
+n reg_six_6/reg_one_0[3]/tg_5/out reg_six_6/reg_one_0[3]/m1_29_198# GND! 2 5 630 986
+p reg_six_6/reg_one_0[3]/tg_5/out reg_six_6/reg_one_0[3]/m1_29_198# Vdd! 2 10 652 986
+p r1 reg_six_6/reg_one_0[3]/tg_1/a_100_74# Vdd! 2 10 652 1012
+p reg_six_6/reg_one_0[3]/tg_1/a_100_74# o3 reg_six_6/reg_one_0[3]/m1_29_198# 2 10 652 1037
+n r1 reg_six_6/reg_one_0[3]/tg_1/a_100_74# GND! 2 5 630 1012
+n r1 o3 reg_six_6/reg_one_0[3]/m1_29_198# 2 5 630 1037
+p r1 reg_six_6/reg_one_0[3]/stat_reg_1/tg_0/EN Vdd! 2 10 652 830
+p reg_six_6/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_6/reg_one_0[3]/tg_5/out reg_six_6/reg_one_0[3]/m1_31_17# 2 10 652 855
+n r1 reg_six_6/reg_one_0[3]/stat_reg_1/tg_0/EN GND! 2 5 630 830
+n r1 reg_six_6/reg_one_0[3]/tg_5/out reg_six_6/reg_one_0[3]/m1_31_17# 2 5 630 855
+p reg_six_6/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_6/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 652 907
+p reg_six_6/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# reg_six_6/reg_one_0[3]/tg_5/out reg_six_6/reg_one_0[3]/stat_reg_1/m1_24_61# 2 10 652 882
+n reg_six_6/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_6/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# GND! 2 5 630 907
+n reg_six_6/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_6/reg_one_0[3]/tg_5/out reg_six_6/reg_one_0[3]/stat_reg_1/m1_24_61# 2 5 630 882
+n reg_six_6/reg_one_0[3]/stat_reg_1/a_24_71# reg_six_6/reg_one_0[3]/stat_reg_1/m1_24_61# GND! 2 5 630 933
+p reg_six_6/reg_one_0[3]/stat_reg_1/a_24_71# reg_six_6/reg_one_0[3]/stat_reg_1/m1_24_61# Vdd! 2 10 652 933
+n reg_six_6/reg_one_0[3]/tg_5/out reg_six_6/reg_one_0[3]/stat_reg_1/a_24_71# GND! 2 5 630 959
+p reg_six_6/reg_one_0[3]/tg_5/out reg_six_6/reg_one_0[3]/stat_reg_1/a_24_71# Vdd! 2 10 652 959
+n in3 reg_six_6/reg_one_0[3]/m1_31_17# GND! 2 5 630 804
+p in3 reg_six_6/reg_one_0[3]/m1_31_17# Vdd! 2 10 652 804
+n reg_six_6/reg_one_0[4]/tg_5/out reg_six_6/reg_one_0[4]/m1_29_198# GND! 2 5 630 1245
+p reg_six_6/reg_one_0[4]/tg_5/out reg_six_6/reg_one_0[4]/m1_29_198# Vdd! 2 10 652 1245
+p r1 reg_six_6/reg_one_0[4]/tg_1/a_100_74# Vdd! 2 10 652 1271
+p reg_six_6/reg_one_0[4]/tg_1/a_100_74# o4 reg_six_6/reg_one_0[4]/m1_29_198# 2 10 652 1296
+n r1 reg_six_6/reg_one_0[4]/tg_1/a_100_74# GND! 2 5 630 1271
+n r1 o4 reg_six_6/reg_one_0[4]/m1_29_198# 2 5 630 1296
+p r1 reg_six_6/reg_one_0[4]/stat_reg_1/tg_0/EN Vdd! 2 10 652 1089
+p reg_six_6/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_6/reg_one_0[4]/tg_5/out reg_six_6/reg_one_0[4]/m1_31_17# 2 10 652 1114
+n r1 reg_six_6/reg_one_0[4]/stat_reg_1/tg_0/EN GND! 2 5 630 1089
+n r1 reg_six_6/reg_one_0[4]/tg_5/out reg_six_6/reg_one_0[4]/m1_31_17# 2 5 630 1114
+p reg_six_6/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_6/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 652 1166
+p reg_six_6/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# reg_six_6/reg_one_0[4]/tg_5/out reg_six_6/reg_one_0[4]/stat_reg_1/m1_24_61# 2 10 652 1141
+n reg_six_6/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_6/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# GND! 2 5 630 1166
+n reg_six_6/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_6/reg_one_0[4]/tg_5/out reg_six_6/reg_one_0[4]/stat_reg_1/m1_24_61# 2 5 630 1141
+n reg_six_6/reg_one_0[4]/stat_reg_1/a_24_71# reg_six_6/reg_one_0[4]/stat_reg_1/m1_24_61# GND! 2 5 630 1192
+p reg_six_6/reg_one_0[4]/stat_reg_1/a_24_71# reg_six_6/reg_one_0[4]/stat_reg_1/m1_24_61# Vdd! 2 10 652 1192
+n reg_six_6/reg_one_0[4]/tg_5/out reg_six_6/reg_one_0[4]/stat_reg_1/a_24_71# GND! 2 5 630 1218
+p reg_six_6/reg_one_0[4]/tg_5/out reg_six_6/reg_one_0[4]/stat_reg_1/a_24_71# Vdd! 2 10 652 1218
+n in4 reg_six_6/reg_one_0[4]/m1_31_17# GND! 2 5 630 1063
+p in4 reg_six_6/reg_one_0[4]/m1_31_17# Vdd! 2 10 652 1063
+n reg_six_6/reg_one_0[5]/tg_5/out reg_six_6/reg_one_0[5]/m1_29_198# GND! 2 5 630 1504
+p reg_six_6/reg_one_0[5]/tg_5/out reg_six_6/reg_one_0[5]/m1_29_198# Vdd! 2 10 652 1504
+p r1 reg_six_6/reg_one_0[5]/tg_1/a_100_74# Vdd! 2 10 652 1530
+p reg_six_6/reg_one_0[5]/tg_1/a_100_74# o5 reg_six_6/reg_one_0[5]/m1_29_198# 2 10 652 1555
+n r1 reg_six_6/reg_one_0[5]/tg_1/a_100_74# GND! 2 5 630 1530
+n r1 o5 reg_six_6/reg_one_0[5]/m1_29_198# 2 5 630 1555
+p r1 reg_six_6/reg_one_0[5]/stat_reg_1/tg_0/EN Vdd! 2 10 652 1348
+p reg_six_6/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_6/reg_one_0[5]/tg_5/out reg_six_6/reg_one_0[5]/m1_31_17# 2 10 652 1373
+n r1 reg_six_6/reg_one_0[5]/stat_reg_1/tg_0/EN GND! 2 5 630 1348
+n r1 reg_six_6/reg_one_0[5]/tg_5/out reg_six_6/reg_one_0[5]/m1_31_17# 2 5 630 1373
+p reg_six_6/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_6/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 652 1425
+p reg_six_6/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# reg_six_6/reg_one_0[5]/tg_5/out reg_six_6/reg_one_0[5]/stat_reg_1/m1_24_61# 2 10 652 1400
+n reg_six_6/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_6/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# GND! 2 5 630 1425
+n reg_six_6/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_6/reg_one_0[5]/tg_5/out reg_six_6/reg_one_0[5]/stat_reg_1/m1_24_61# 2 5 630 1400
+n reg_six_6/reg_one_0[5]/stat_reg_1/a_24_71# reg_six_6/reg_one_0[5]/stat_reg_1/m1_24_61# GND! 2 5 630 1451
+p reg_six_6/reg_one_0[5]/stat_reg_1/a_24_71# reg_six_6/reg_one_0[5]/stat_reg_1/m1_24_61# Vdd! 2 10 652 1451
+n reg_six_6/reg_one_0[5]/tg_5/out reg_six_6/reg_one_0[5]/stat_reg_1/a_24_71# GND! 2 5 630 1477
+p reg_six_6/reg_one_0[5]/tg_5/out reg_six_6/reg_one_0[5]/stat_reg_1/a_24_71# Vdd! 2 10 652 1477
+n in5 reg_six_6/reg_one_0[5]/m1_31_17# GND! 2 5 630 1322
+p in5 reg_six_6/reg_one_0[5]/m1_31_17# Vdd! 2 10 652 1322
+n reg_six_7/reg_one_0[0]/tg_5/out reg_six_7/reg_one_0[0]/m1_29_198# GND! 2 5 713 209
+p reg_six_7/reg_one_0[0]/tg_5/out reg_six_7/reg_one_0[0]/m1_29_198# Vdd! 2 10 735 209
+p r0 reg_six_7/reg_one_0[0]/tg_1/a_100_74# Vdd! 2 10 735 235
+p reg_six_7/reg_one_0[0]/tg_1/a_100_74# o0 reg_six_7/reg_one_0[0]/m1_29_198# 2 10 735 260
+n r0 reg_six_7/reg_one_0[0]/tg_1/a_100_74# GND! 2 5 713 235
+n r0 o0 reg_six_7/reg_one_0[0]/m1_29_198# 2 5 713 260
+p r0 reg_six_7/reg_one_0[0]/stat_reg_1/tg_0/EN Vdd! 2 10 735 53
+p reg_six_7/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_7/reg_one_0[0]/tg_5/out reg_six_7/reg_one_0[0]/m1_31_17# 2 10 735 78
+n r0 reg_six_7/reg_one_0[0]/stat_reg_1/tg_0/EN GND! 2 5 713 53
+n r0 reg_six_7/reg_one_0[0]/tg_5/out reg_six_7/reg_one_0[0]/m1_31_17# 2 5 713 78
+p reg_six_7/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_7/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 735 130
+p reg_six_7/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# reg_six_7/reg_one_0[0]/tg_5/out reg_six_7/reg_one_0[0]/stat_reg_1/m1_24_61# 2 10 735 105
+n reg_six_7/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_7/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# GND! 2 5 713 130
+n reg_six_7/reg_one_0[0]/stat_reg_1/tg_0/EN reg_six_7/reg_one_0[0]/tg_5/out reg_six_7/reg_one_0[0]/stat_reg_1/m1_24_61# 2 5 713 105
+n reg_six_7/reg_one_0[0]/stat_reg_1/a_24_71# reg_six_7/reg_one_0[0]/stat_reg_1/m1_24_61# GND! 2 5 713 156
+p reg_six_7/reg_one_0[0]/stat_reg_1/a_24_71# reg_six_7/reg_one_0[0]/stat_reg_1/m1_24_61# Vdd! 2 10 735 156
+n reg_six_7/reg_one_0[0]/tg_5/out reg_six_7/reg_one_0[0]/stat_reg_1/a_24_71# GND! 2 5 713 182
+p reg_six_7/reg_one_0[0]/tg_5/out reg_six_7/reg_one_0[0]/stat_reg_1/a_24_71# Vdd! 2 10 735 182
+n in0 reg_six_7/reg_one_0[0]/m1_31_17# GND! 2 5 713 27
+p in0 reg_six_7/reg_one_0[0]/m1_31_17# Vdd! 2 10 735 27
+n reg_six_7/reg_one_0[1]/tg_5/out reg_six_7/reg_one_0[1]/m1_29_198# GND! 2 5 713 468
+p reg_six_7/reg_one_0[1]/tg_5/out reg_six_7/reg_one_0[1]/m1_29_198# Vdd! 2 10 735 468
+p r0 reg_six_7/reg_one_0[1]/tg_1/a_100_74# Vdd! 2 10 735 494
+p reg_six_7/reg_one_0[1]/tg_1/a_100_74# o1 reg_six_7/reg_one_0[1]/m1_29_198# 2 10 735 519
+n r0 reg_six_7/reg_one_0[1]/tg_1/a_100_74# GND! 2 5 713 494
+n r0 o1 reg_six_7/reg_one_0[1]/m1_29_198# 2 5 713 519
+p r0 reg_six_7/reg_one_0[1]/stat_reg_1/tg_0/EN Vdd! 2 10 735 312
+p reg_six_7/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_7/reg_one_0[1]/tg_5/out reg_six_7/reg_one_0[1]/m1_31_17# 2 10 735 337
+n r0 reg_six_7/reg_one_0[1]/stat_reg_1/tg_0/EN GND! 2 5 713 312
+n r0 reg_six_7/reg_one_0[1]/tg_5/out reg_six_7/reg_one_0[1]/m1_31_17# 2 5 713 337
+p reg_six_7/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_7/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 735 389
+p reg_six_7/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# reg_six_7/reg_one_0[1]/tg_5/out reg_six_7/reg_one_0[1]/stat_reg_1/m1_24_61# 2 10 735 364
+n reg_six_7/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_7/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# GND! 2 5 713 389
+n reg_six_7/reg_one_0[1]/stat_reg_1/tg_0/EN reg_six_7/reg_one_0[1]/tg_5/out reg_six_7/reg_one_0[1]/stat_reg_1/m1_24_61# 2 5 713 364
+n reg_six_7/reg_one_0[1]/stat_reg_1/a_24_71# reg_six_7/reg_one_0[1]/stat_reg_1/m1_24_61# GND! 2 5 713 415
+p reg_six_7/reg_one_0[1]/stat_reg_1/a_24_71# reg_six_7/reg_one_0[1]/stat_reg_1/m1_24_61# Vdd! 2 10 735 415
+n reg_six_7/reg_one_0[1]/tg_5/out reg_six_7/reg_one_0[1]/stat_reg_1/a_24_71# GND! 2 5 713 441
+p reg_six_7/reg_one_0[1]/tg_5/out reg_six_7/reg_one_0[1]/stat_reg_1/a_24_71# Vdd! 2 10 735 441
+n in1 reg_six_7/reg_one_0[1]/m1_31_17# GND! 2 5 713 286
+p in1 reg_six_7/reg_one_0[1]/m1_31_17# Vdd! 2 10 735 286
+n reg_six_7/reg_one_0[2]/tg_5/out reg_six_7/reg_one_0[2]/m1_29_198# GND! 2 5 713 727
+p reg_six_7/reg_one_0[2]/tg_5/out reg_six_7/reg_one_0[2]/m1_29_198# Vdd! 2 10 735 727
+p r0 reg_six_7/reg_one_0[2]/tg_1/a_100_74# Vdd! 2 10 735 753
+p reg_six_7/reg_one_0[2]/tg_1/a_100_74# o2 reg_six_7/reg_one_0[2]/m1_29_198# 2 10 735 778
+n r0 reg_six_7/reg_one_0[2]/tg_1/a_100_74# GND! 2 5 713 753
+n r0 o2 reg_six_7/reg_one_0[2]/m1_29_198# 2 5 713 778
+p r0 reg_six_7/reg_one_0[2]/stat_reg_1/tg_0/EN Vdd! 2 10 735 571
+p reg_six_7/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_7/reg_one_0[2]/tg_5/out reg_six_7/reg_one_0[2]/m1_31_17# 2 10 735 596
+n r0 reg_six_7/reg_one_0[2]/stat_reg_1/tg_0/EN GND! 2 5 713 571
+n r0 reg_six_7/reg_one_0[2]/tg_5/out reg_six_7/reg_one_0[2]/m1_31_17# 2 5 713 596
+p reg_six_7/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_7/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 735 648
+p reg_six_7/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# reg_six_7/reg_one_0[2]/tg_5/out reg_six_7/reg_one_0[2]/stat_reg_1/m1_24_61# 2 10 735 623
+n reg_six_7/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_7/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# GND! 2 5 713 648
+n reg_six_7/reg_one_0[2]/stat_reg_1/tg_0/EN reg_six_7/reg_one_0[2]/tg_5/out reg_six_7/reg_one_0[2]/stat_reg_1/m1_24_61# 2 5 713 623
+n reg_six_7/reg_one_0[2]/stat_reg_1/a_24_71# reg_six_7/reg_one_0[2]/stat_reg_1/m1_24_61# GND! 2 5 713 674
+p reg_six_7/reg_one_0[2]/stat_reg_1/a_24_71# reg_six_7/reg_one_0[2]/stat_reg_1/m1_24_61# Vdd! 2 10 735 674
+n reg_six_7/reg_one_0[2]/tg_5/out reg_six_7/reg_one_0[2]/stat_reg_1/a_24_71# GND! 2 5 713 700
+p reg_six_7/reg_one_0[2]/tg_5/out reg_six_7/reg_one_0[2]/stat_reg_1/a_24_71# Vdd! 2 10 735 700
+n in2 reg_six_7/reg_one_0[2]/m1_31_17# GND! 2 5 713 545
+p in2 reg_six_7/reg_one_0[2]/m1_31_17# Vdd! 2 10 735 545
+n reg_six_7/reg_one_0[3]/tg_5/out reg_six_7/reg_one_0[3]/m1_29_198# GND! 2 5 713 986
+p reg_six_7/reg_one_0[3]/tg_5/out reg_six_7/reg_one_0[3]/m1_29_198# Vdd! 2 10 735 986
+p r0 reg_six_7/reg_one_0[3]/tg_1/a_100_74# Vdd! 2 10 735 1012
+p reg_six_7/reg_one_0[3]/tg_1/a_100_74# o3 reg_six_7/reg_one_0[3]/m1_29_198# 2 10 735 1037
+n r0 reg_six_7/reg_one_0[3]/tg_1/a_100_74# GND! 2 5 713 1012
+n r0 o3 reg_six_7/reg_one_0[3]/m1_29_198# 2 5 713 1037
+p r0 reg_six_7/reg_one_0[3]/stat_reg_1/tg_0/EN Vdd! 2 10 735 830
+p reg_six_7/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_7/reg_one_0[3]/tg_5/out reg_six_7/reg_one_0[3]/m1_31_17# 2 10 735 855
+n r0 reg_six_7/reg_one_0[3]/stat_reg_1/tg_0/EN GND! 2 5 713 830
+n r0 reg_six_7/reg_one_0[3]/tg_5/out reg_six_7/reg_one_0[3]/m1_31_17# 2 5 713 855
+p reg_six_7/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_7/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 735 907
+p reg_six_7/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# reg_six_7/reg_one_0[3]/tg_5/out reg_six_7/reg_one_0[3]/stat_reg_1/m1_24_61# 2 10 735 882
+n reg_six_7/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_7/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# GND! 2 5 713 907
+n reg_six_7/reg_one_0[3]/stat_reg_1/tg_0/EN reg_six_7/reg_one_0[3]/tg_5/out reg_six_7/reg_one_0[3]/stat_reg_1/m1_24_61# 2 5 713 882
+n reg_six_7/reg_one_0[3]/stat_reg_1/a_24_71# reg_six_7/reg_one_0[3]/stat_reg_1/m1_24_61# GND! 2 5 713 933
+p reg_six_7/reg_one_0[3]/stat_reg_1/a_24_71# reg_six_7/reg_one_0[3]/stat_reg_1/m1_24_61# Vdd! 2 10 735 933
+n reg_six_7/reg_one_0[3]/tg_5/out reg_six_7/reg_one_0[3]/stat_reg_1/a_24_71# GND! 2 5 713 959
+p reg_six_7/reg_one_0[3]/tg_5/out reg_six_7/reg_one_0[3]/stat_reg_1/a_24_71# Vdd! 2 10 735 959
+n in3 reg_six_7/reg_one_0[3]/m1_31_17# GND! 2 5 713 804
+p in3 reg_six_7/reg_one_0[3]/m1_31_17# Vdd! 2 10 735 804
+n reg_six_7/reg_one_0[4]/tg_5/out reg_six_7/reg_one_0[4]/m1_29_198# GND! 2 5 713 1245
+p reg_six_7/reg_one_0[4]/tg_5/out reg_six_7/reg_one_0[4]/m1_29_198# Vdd! 2 10 735 1245
+p r0 reg_six_7/reg_one_0[4]/tg_1/a_100_74# Vdd! 2 10 735 1271
+p reg_six_7/reg_one_0[4]/tg_1/a_100_74# o4 reg_six_7/reg_one_0[4]/m1_29_198# 2 10 735 1296
+n r0 reg_six_7/reg_one_0[4]/tg_1/a_100_74# GND! 2 5 713 1271
+n r0 o4 reg_six_7/reg_one_0[4]/m1_29_198# 2 5 713 1296
+p r0 reg_six_7/reg_one_0[4]/stat_reg_1/tg_0/EN Vdd! 2 10 735 1089
+p reg_six_7/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_7/reg_one_0[4]/tg_5/out reg_six_7/reg_one_0[4]/m1_31_17# 2 10 735 1114
+n r0 reg_six_7/reg_one_0[4]/stat_reg_1/tg_0/EN GND! 2 5 713 1089
+n r0 reg_six_7/reg_one_0[4]/tg_5/out reg_six_7/reg_one_0[4]/m1_31_17# 2 5 713 1114
+p reg_six_7/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_7/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 735 1166
+p reg_six_7/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# reg_six_7/reg_one_0[4]/tg_5/out reg_six_7/reg_one_0[4]/stat_reg_1/m1_24_61# 2 10 735 1141
+n reg_six_7/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_7/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# GND! 2 5 713 1166
+n reg_six_7/reg_one_0[4]/stat_reg_1/tg_0/EN reg_six_7/reg_one_0[4]/tg_5/out reg_six_7/reg_one_0[4]/stat_reg_1/m1_24_61# 2 5 713 1141
+n reg_six_7/reg_one_0[4]/stat_reg_1/a_24_71# reg_six_7/reg_one_0[4]/stat_reg_1/m1_24_61# GND! 2 5 713 1192
+p reg_six_7/reg_one_0[4]/stat_reg_1/a_24_71# reg_six_7/reg_one_0[4]/stat_reg_1/m1_24_61# Vdd! 2 10 735 1192
+n reg_six_7/reg_one_0[4]/tg_5/out reg_six_7/reg_one_0[4]/stat_reg_1/a_24_71# GND! 2 5 713 1218
+p reg_six_7/reg_one_0[4]/tg_5/out reg_six_7/reg_one_0[4]/stat_reg_1/a_24_71# Vdd! 2 10 735 1218
+n in4 reg_six_7/reg_one_0[4]/m1_31_17# GND! 2 5 713 1063
+p in4 reg_six_7/reg_one_0[4]/m1_31_17# Vdd! 2 10 735 1063
+n reg_six_7/reg_one_0[5]/tg_5/out reg_six_7/reg_one_0[5]/m1_29_198# GND! 2 5 713 1504
+p reg_six_7/reg_one_0[5]/tg_5/out reg_six_7/reg_one_0[5]/m1_29_198# Vdd! 2 10 735 1504
+p r0 reg_six_7/reg_one_0[5]/tg_1/a_100_74# Vdd! 2 10 735 1530
+p reg_six_7/reg_one_0[5]/tg_1/a_100_74# o5 reg_six_7/reg_one_0[5]/m1_29_198# 2 10 735 1555
+n r0 reg_six_7/reg_one_0[5]/tg_1/a_100_74# GND! 2 5 713 1530
+n r0 o5 reg_six_7/reg_one_0[5]/m1_29_198# 2 5 713 1555
+p r0 reg_six_7/reg_one_0[5]/stat_reg_1/tg_0/EN Vdd! 2 10 735 1348
+p reg_six_7/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_7/reg_one_0[5]/tg_5/out reg_six_7/reg_one_0[5]/m1_31_17# 2 10 735 1373
+n r0 reg_six_7/reg_one_0[5]/stat_reg_1/tg_0/EN GND! 2 5 713 1348
+n r0 reg_six_7/reg_one_0[5]/tg_5/out reg_six_7/reg_one_0[5]/m1_31_17# 2 5 713 1373
+p reg_six_7/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_7/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# Vdd! 2 10 735 1425
+p reg_six_7/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# reg_six_7/reg_one_0[5]/tg_5/out reg_six_7/reg_one_0[5]/stat_reg_1/m1_24_61# 2 10 735 1400
+n reg_six_7/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_7/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# GND! 2 5 713 1425
+n reg_six_7/reg_one_0[5]/stat_reg_1/tg_0/EN reg_six_7/reg_one_0[5]/tg_5/out reg_six_7/reg_one_0[5]/stat_reg_1/m1_24_61# 2 5 713 1400
+n reg_six_7/reg_one_0[5]/stat_reg_1/a_24_71# reg_six_7/reg_one_0[5]/stat_reg_1/m1_24_61# GND! 2 5 713 1451
+p reg_six_7/reg_one_0[5]/stat_reg_1/a_24_71# reg_six_7/reg_one_0[5]/stat_reg_1/m1_24_61# Vdd! 2 10 735 1451
+n reg_six_7/reg_one_0[5]/tg_5/out reg_six_7/reg_one_0[5]/stat_reg_1/a_24_71# GND! 2 5 713 1477
+p reg_six_7/reg_one_0[5]/tg_5/out reg_six_7/reg_one_0[5]/stat_reg_1/a_24_71# Vdd! 2 10 735 1477
+n in5 reg_six_7/reg_one_0[5]/m1_31_17# GND! 2 5 713 1322
+p in5 reg_six_7/reg_one_0[5]/m1_31_17# Vdd! 2 10 735 1322
+n waddr0 decoder_0/nor4_0[7]/c GND! 2 5 754 1628
+p waddr0 decoder_0/nor4_0[7]/c Vdd! 2 10 754 1606
+n waddr2 r0 GND! 3 5 644 1627
+p waddr0 decoder_0/nor4_0[0]/a_n40_6# r0 3 10 624 1606
+p waddr1 decoder_0/nor4_0[0]/a_n50_6# decoder_0/nor4_0[0]/a_n40_6# 3 10 634 1606
+n waddr1 GND! r0 3 5 634 1627
+p waddr2 decoder_0/nor4_0[0]/a_n60_6# decoder_0/nor4_0[0]/a_n50_6# 3 10 644 1606
+p decoder_0/nor4_0[7]/d Vdd! decoder_0/nor4_0[0]/a_n60_6# 3 10 654 1606
+n waddr0 r0 GND! 3 5 624 1627
+n decoder_0/nor4_0[7]/d GND! r0 3 5 654 1627
+n waddr2 r1 GND! 3 5 587 1627
+p decoder_0/nor4_0[7]/c decoder_0/nor4_0[1]/a_n40_6# r1 3 10 567 1606
+p waddr1 decoder_0/nor4_0[1]/a_n50_6# decoder_0/nor4_0[1]/a_n40_6# 3 10 577 1606
+n waddr1 GND! r1 3 5 577 1627
+p waddr2 decoder_0/nor4_0[1]/a_n60_6# decoder_0/nor4_0[1]/a_n50_6# 3 10 587 1606
+p decoder_0/nor4_0[7]/d Vdd! decoder_0/nor4_0[1]/a_n60_6# 3 10 597 1606
+n decoder_0/nor4_0[7]/c r1 GND! 3 5 567 1627
+n decoder_0/nor4_0[7]/d GND! r1 3 5 597 1627
+n waddr2 r2 GND! 3 5 530 1627
+p waddr0 decoder_0/nor4_0[2]/a_n40_6# r2 3 10 510 1606
+p decoder_0/nor4_0[7]/b decoder_0/nor4_0[2]/a_n50_6# decoder_0/nor4_0[2]/a_n40_6# 3 10 520 1606
+n decoder_0/nor4_0[7]/b GND! r2 3 5 520 1627
+p waddr2 decoder_0/nor4_0[2]/a_n60_6# decoder_0/nor4_0[2]/a_n50_6# 3 10 530 1606
+p decoder_0/nor4_0[7]/d Vdd! decoder_0/nor4_0[2]/a_n60_6# 3 10 540 1606
+n waddr0 r2 GND! 3 5 510 1627
+n decoder_0/nor4_0[7]/d GND! r2 3 5 540 1627
+n waddr2 r3 GND! 3 5 473 1627
+p decoder_0/nor4_0[7]/c decoder_0/nor4_0[3]/a_n40_6# r3 3 10 453 1606
+p decoder_0/nor4_0[7]/b decoder_0/nor4_0[3]/a_n50_6# decoder_0/nor4_0[3]/a_n40_6# 3 10 463 1606
+n decoder_0/nor4_0[7]/b GND! r3 3 5 463 1627
+p waddr2 decoder_0/nor4_0[3]/a_n60_6# decoder_0/nor4_0[3]/a_n50_6# 3 10 473 1606
+p decoder_0/nor4_0[7]/d Vdd! decoder_0/nor4_0[3]/a_n60_6# 3 10 483 1606
+n decoder_0/nor4_0[7]/c r3 GND! 3 5 453 1627
+n decoder_0/nor4_0[7]/d GND! r3 3 5 483 1627
+n decoder_0/nor4_0[7]/a r4 GND! 3 5 416 1627
+p waddr0 decoder_0/nor4_0[4]/a_n40_6# r4 3 10 396 1606
+p waddr1 decoder_0/nor4_0[4]/a_n50_6# decoder_0/nor4_0[4]/a_n40_6# 3 10 406 1606
+n waddr1 GND! r4 3 5 406 1627
+p decoder_0/nor4_0[7]/a decoder_0/nor4_0[4]/a_n60_6# decoder_0/nor4_0[4]/a_n50_6# 3 10 416 1606
+p decoder_0/nor4_0[7]/d Vdd! decoder_0/nor4_0[4]/a_n60_6# 3 10 426 1606
+n waddr0 r4 GND! 3 5 396 1627
+n decoder_0/nor4_0[7]/d GND! r4 3 5 426 1627
+n decoder_0/nor4_0[7]/a r5 GND! 3 5 359 1627
+p decoder_0/nor4_0[7]/c decoder_0/nor4_0[5]/a_n40_6# r5 3 10 339 1606
+p waddr1 decoder_0/nor4_0[5]/a_n50_6# decoder_0/nor4_0[5]/a_n40_6# 3 10 349 1606
+n waddr1 GND! r5 3 5 349 1627
+p decoder_0/nor4_0[7]/a decoder_0/nor4_0[5]/a_n60_6# decoder_0/nor4_0[5]/a_n50_6# 3 10 359 1606
+p decoder_0/nor4_0[7]/d Vdd! decoder_0/nor4_0[5]/a_n60_6# 3 10 369 1606
+n decoder_0/nor4_0[7]/c r5 GND! 3 5 339 1627
+n decoder_0/nor4_0[7]/d GND! r5 3 5 369 1627
+n decoder_0/nor4_0[7]/a r6 GND! 3 5 302 1627
+p waddr0 decoder_0/nor4_0[6]/a_n40_6# r6 3 10 282 1606
+p decoder_0/nor4_0[7]/b decoder_0/nor4_0[6]/a_n50_6# decoder_0/nor4_0[6]/a_n40_6# 3 10 292 1606
+n decoder_0/nor4_0[7]/b GND! r6 3 5 292 1627
+p decoder_0/nor4_0[7]/a decoder_0/nor4_0[6]/a_n60_6# decoder_0/nor4_0[6]/a_n50_6# 3 10 302 1606
+p decoder_0/nor4_0[7]/d Vdd! decoder_0/nor4_0[6]/a_n60_6# 3 10 312 1606
+n waddr0 r6 GND! 3 5 282 1627
+n decoder_0/nor4_0[7]/d GND! r6 3 5 312 1627
+n decoder_0/nor4_0[7]/a r7 GND! 3 5 245 1627
+p decoder_0/nor4_0[7]/c decoder_0/nor4_0[7]/a_n40_6# r7 3 10 225 1606
+p decoder_0/nor4_0[7]/b decoder_0/nor4_0[7]/a_n50_6# decoder_0/nor4_0[7]/a_n40_6# 3 10 235 1606
+n decoder_0/nor4_0[7]/b GND! r7 3 5 235 1627
+p decoder_0/nor4_0[7]/a decoder_0/nor4_0[7]/a_n60_6# decoder_0/nor4_0[7]/a_n50_6# 3 10 245 1606
+p decoder_0/nor4_0[7]/d Vdd! decoder_0/nor4_0[7]/a_n60_6# 3 10 255 1606
+n decoder_0/nor4_0[7]/c r7 GND! 3 5 225 1627
+n decoder_0/nor4_0[7]/d GND! r7 3 5 255 1627
+n EN decoder_0/nor4_0[7]/d GND! 2 5 681 1628
+p EN decoder_0/nor4_0[7]/d Vdd! 2 10 681 1606
+n waddr1 decoder_0/nor4_0[7]/b GND! 2 5 730 1628
+p waddr1 decoder_0/nor4_0[7]/b Vdd! 2 10 730 1606
+n waddr2 decoder_0/nor4_0[7]/a GND! 2 5 706 1628
+p waddr2 decoder_0/nor4_0[7]/a Vdd! 2 10 706 1606
+C in4 GND! 2.09
+C r6 r5 24.51
+C r3 Vdd! 12.67
+C r1 GND! 5.92
+C waddr0 decoder_0/nor4_0[7]/c 2.35
+C in1 Vdd! 2.04
+C r5 GND! 5.92
+C GND! decoder_0/nor4_0[7]/d 2.64
+C in5 Vdd! 2.05
+C r0 Vdd! 12.76
+C in3 GND! 2.09
+C r7 r6 24.96
+C r1 r0 24.11
+C r4 Vdd! 12.68
+C r2 GND! 5.92
+C in0 Vdd! 2.05
+C r3 r2 24.16
+C r7 GND! 5.92
+C r6 GND! 5.92
+C in4 Vdd! 2.05
+C in2 GND! 2.09
+C r5 r4 24.06
+C r1 Vdd! 12.70
+C r5 Vdd! 12.77
+C r3 GND! 5.92
+C in3 Vdd! 2.05
+C in1 GND! 2.09
+C in5 GND! 2.09
+C r2 Vdd! 12.68
+C r0 GND! 5.92
+C r7 Vdd! 12.66
+C r2 r1 31.33
+C r6 Vdd! 12.70
+C r4 GND! 5.92
+C in2 Vdd! 2.04
+C r4 r3 24.00
+C in0 GND! 2.09
+R decoder_0/nor4_0[7]/d 1705
+R decoder_0/nor4_0[7]/c 867
+R waddr0 1125
+R waddr1 915
+R waddr2 949
+R decoder_0/nor4_0[7]/a 738
+R decoder_0/nor4_0[7]/b 743
+R EN 224
+R decoder_0/nor4_0[7]/a_n40_6# 11
+R decoder_0/nor4_0[7]/a_n50_6# 11
+R decoder_0/nor4_0[7]/a_n60_6# 11
+R decoder_0/nor4_0[6]/a_n40_6# 11
+R decoder_0/nor4_0[6]/a_n50_6# 11
+R decoder_0/nor4_0[6]/a_n60_6# 11
+R decoder_0/nor4_0[5]/a_n40_6# 11
+R decoder_0/nor4_0[5]/a_n50_6# 11
+R decoder_0/nor4_0[5]/a_n60_6# 11
+R decoder_0/nor4_0[4]/a_n40_6# 11
+R decoder_0/nor4_0[4]/a_n50_6# 11
+R decoder_0/nor4_0[4]/a_n60_6# 11
+R decoder_0/nor4_0[3]/a_n40_6# 11
+R decoder_0/nor4_0[3]/a_n50_6# 11
+R decoder_0/nor4_0[3]/a_n60_6# 11
+R decoder_0/nor4_0[2]/a_n40_6# 11
+R decoder_0/nor4_0[2]/a_n50_6# 11
+R decoder_0/nor4_0[2]/a_n60_6# 11
+R decoder_0/nor4_0[1]/a_n40_6# 11
+R decoder_0/nor4_0[1]/a_n50_6# 11
+R decoder_0/nor4_0[1]/a_n60_6# 11
+R decoder_0/nor4_0[0]/a_n40_6# 11
+R decoder_0/nor4_0[0]/a_n50_6# 11
+R decoder_0/nor4_0[0]/a_n60_6# 11
+R reg_six_7/reg_one_0[5]/m1_31_17# 93
+R reg_six_7/reg_one_0[5]/stat_reg_1/a_24_71# 237
+R reg_six_7/reg_one_0[5]/tg_5/out 542
+R reg_six_7/reg_one_0[5]/stat_reg_1/m1_24_61# 93
+R reg_six_7/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_7/reg_one_0[5]/stat_reg_1/tg_0/EN 591
+R reg_six_7/reg_one_0[5]/tg_1/a_100_74# 180
+R reg_six_7/reg_one_0[5]/m1_29_198# 93
+R reg_six_7/reg_one_0[4]/m1_31_17# 93
+R reg_six_7/reg_one_0[4]/stat_reg_1/a_24_71# 237
+R reg_six_7/reg_one_0[4]/tg_5/out 542
+R reg_six_7/reg_one_0[4]/stat_reg_1/m1_24_61# 93
+R reg_six_7/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_7/reg_one_0[4]/stat_reg_1/tg_0/EN 591
+R reg_six_7/reg_one_0[4]/tg_1/a_100_74# 180
+R reg_six_7/reg_one_0[4]/m1_29_198# 93
+R reg_six_7/reg_one_0[3]/m1_31_17# 93
+R reg_six_7/reg_one_0[3]/stat_reg_1/a_24_71# 237
+R reg_six_7/reg_one_0[3]/tg_5/out 542
+R reg_six_7/reg_one_0[3]/stat_reg_1/m1_24_61# 93
+R reg_six_7/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_7/reg_one_0[3]/stat_reg_1/tg_0/EN 591
+R reg_six_7/reg_one_0[3]/tg_1/a_100_74# 180
+R reg_six_7/reg_one_0[3]/m1_29_198# 93
+R reg_six_7/reg_one_0[2]/m1_31_17# 93
+R reg_six_7/reg_one_0[2]/stat_reg_1/a_24_71# 237
+R reg_six_7/reg_one_0[2]/tg_5/out 542
+R reg_six_7/reg_one_0[2]/stat_reg_1/m1_24_61# 93
+R reg_six_7/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_7/reg_one_0[2]/stat_reg_1/tg_0/EN 591
+R reg_six_7/reg_one_0[2]/tg_1/a_100_74# 180
+R reg_six_7/reg_one_0[2]/m1_29_198# 93
+R reg_six_7/reg_one_0[1]/m1_31_17# 93
+C Vdd! GND 231.18
+R Vdd! 471081
+R GND! 40748
+R reg_six_7/reg_one_0[1]/stat_reg_1/a_24_71# 237
+R reg_six_7/reg_one_0[1]/tg_5/out 542
+R reg_six_7/reg_one_0[1]/stat_reg_1/m1_24_61# 93
+R reg_six_7/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_7/reg_one_0[1]/stat_reg_1/tg_0/EN 591
+C r0 GND 10.82
+R r0 5593
+R reg_six_7/reg_one_0[1]/tg_1/a_100_74# 180
+R reg_six_7/reg_one_0[1]/m1_29_198# 93
+R reg_six_7/reg_one_0[0]/m1_31_17# 93
+R reg_six_7/reg_one_0[0]/stat_reg_1/a_24_71# 237
+R reg_six_7/reg_one_0[0]/tg_5/out 542
+R reg_six_7/reg_one_0[0]/stat_reg_1/m1_24_61# 93
+R reg_six_7/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_7/reg_one_0[0]/stat_reg_1/tg_0/EN 591
+R reg_six_7/reg_one_0[0]/tg_1/a_100_74# 180
+R reg_six_7/reg_one_0[0]/m1_29_198# 93
+R reg_six_6/reg_one_0[5]/m1_31_17# 93
+R reg_six_6/reg_one_0[5]/stat_reg_1/a_24_71# 237
+R reg_six_6/reg_one_0[5]/tg_5/out 542
+R reg_six_6/reg_one_0[5]/stat_reg_1/m1_24_61# 93
+R reg_six_6/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_6/reg_one_0[5]/stat_reg_1/tg_0/EN 591
+R reg_six_6/reg_one_0[5]/tg_1/a_100_74# 180
+R reg_six_6/reg_one_0[5]/m1_29_198# 93
+R reg_six_6/reg_one_0[4]/m1_31_17# 93
+R reg_six_6/reg_one_0[4]/stat_reg_1/a_24_71# 237
+R reg_six_6/reg_one_0[4]/tg_5/out 542
+R reg_six_6/reg_one_0[4]/stat_reg_1/m1_24_61# 93
+R reg_six_6/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_6/reg_one_0[4]/stat_reg_1/tg_0/EN 591
+R reg_six_6/reg_one_0[4]/tg_1/a_100_74# 180
+R reg_six_6/reg_one_0[4]/m1_29_198# 93
+R reg_six_6/reg_one_0[3]/m1_31_17# 93
+R reg_six_6/reg_one_0[3]/stat_reg_1/a_24_71# 237
+R reg_six_6/reg_one_0[3]/tg_5/out 542
+R reg_six_6/reg_one_0[3]/stat_reg_1/m1_24_61# 93
+R reg_six_6/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_6/reg_one_0[3]/stat_reg_1/tg_0/EN 591
+R reg_six_6/reg_one_0[3]/tg_1/a_100_74# 180
+R reg_six_6/reg_one_0[3]/m1_29_198# 93
+R reg_six_6/reg_one_0[2]/m1_31_17# 93
+R reg_six_6/reg_one_0[2]/stat_reg_1/a_24_71# 237
+R reg_six_6/reg_one_0[2]/tg_5/out 542
+R reg_six_6/reg_one_0[2]/stat_reg_1/m1_24_61# 93
+R reg_six_6/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_6/reg_one_0[2]/stat_reg_1/tg_0/EN 591
+R reg_six_6/reg_one_0[2]/tg_1/a_100_74# 180
+R reg_six_6/reg_one_0[2]/m1_29_198# 93
+R reg_six_6/reg_one_0[1]/m1_31_17# 93
+R reg_six_6/reg_one_0[1]/stat_reg_1/a_24_71# 237
+R reg_six_6/reg_one_0[1]/tg_5/out 542
+R reg_six_6/reg_one_0[1]/stat_reg_1/m1_24_61# 93
+R reg_six_6/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_6/reg_one_0[1]/stat_reg_1/tg_0/EN 591
+C r1 GND 10.64
+R r1 5592
+R reg_six_6/reg_one_0[1]/tg_1/a_100_74# 180
+R reg_six_6/reg_one_0[1]/m1_29_198# 93
+R reg_six_6/reg_one_0[0]/m1_31_17# 93
+R reg_six_6/reg_one_0[0]/stat_reg_1/a_24_71# 237
+R reg_six_6/reg_one_0[0]/tg_5/out 542
+R reg_six_6/reg_one_0[0]/stat_reg_1/m1_24_61# 93
+R reg_six_6/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_6/reg_one_0[0]/stat_reg_1/tg_0/EN 591
+R reg_six_6/reg_one_0[0]/tg_1/a_100_74# 180
+R reg_six_6/reg_one_0[0]/m1_29_198# 93
+R reg_six_5/reg_one_0[5]/m1_31_17# 93
+R reg_six_5/reg_one_0[5]/stat_reg_1/a_24_71# 237
+R reg_six_5/reg_one_0[5]/tg_5/out 542
+R reg_six_5/reg_one_0[5]/stat_reg_1/m1_24_61# 93
+R reg_six_5/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_5/reg_one_0[5]/stat_reg_1/tg_0/EN 591
+R reg_six_5/reg_one_0[5]/tg_1/a_100_74# 180
+R reg_six_5/reg_one_0[5]/m1_29_198# 93
+R reg_six_5/reg_one_0[4]/m1_31_17# 93
+R reg_six_5/reg_one_0[4]/stat_reg_1/a_24_71# 237
+R reg_six_5/reg_one_0[4]/tg_5/out 542
+R reg_six_5/reg_one_0[4]/stat_reg_1/m1_24_61# 93
+R reg_six_5/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_5/reg_one_0[4]/stat_reg_1/tg_0/EN 591
+R reg_six_5/reg_one_0[4]/tg_1/a_100_74# 180
+R reg_six_5/reg_one_0[4]/m1_29_198# 93
+R reg_six_5/reg_one_0[3]/m1_31_17# 93
+R reg_six_5/reg_one_0[3]/stat_reg_1/a_24_71# 237
+R reg_six_5/reg_one_0[3]/tg_5/out 542
+R reg_six_5/reg_one_0[3]/stat_reg_1/m1_24_61# 93
+R reg_six_5/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_5/reg_one_0[3]/stat_reg_1/tg_0/EN 591
+R reg_six_5/reg_one_0[3]/tg_1/a_100_74# 180
+R reg_six_5/reg_one_0[3]/m1_29_198# 93
+R reg_six_5/reg_one_0[2]/m1_31_17# 93
+R reg_six_5/reg_one_0[2]/stat_reg_1/a_24_71# 237
+R reg_six_5/reg_one_0[2]/tg_5/out 542
+R reg_six_5/reg_one_0[2]/stat_reg_1/m1_24_61# 93
+R reg_six_5/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_5/reg_one_0[2]/stat_reg_1/tg_0/EN 591
+R reg_six_5/reg_one_0[2]/tg_1/a_100_74# 180
+R reg_six_5/reg_one_0[2]/m1_29_198# 93
+R reg_six_5/reg_one_0[1]/m1_31_17# 93
+R reg_six_5/reg_one_0[1]/stat_reg_1/a_24_71# 237
+R reg_six_5/reg_one_0[1]/tg_5/out 542
+R reg_six_5/reg_one_0[1]/stat_reg_1/m1_24_61# 93
+R reg_six_5/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_5/reg_one_0[1]/stat_reg_1/tg_0/EN 591
+C r2 GND 10.79
+R r2 5591
+R reg_six_5/reg_one_0[1]/tg_1/a_100_74# 180
+R reg_six_5/reg_one_0[1]/m1_29_198# 93
+R reg_six_5/reg_one_0[0]/m1_31_17# 93
+R reg_six_5/reg_one_0[0]/stat_reg_1/a_24_71# 237
+R reg_six_5/reg_one_0[0]/tg_5/out 542
+R reg_six_5/reg_one_0[0]/stat_reg_1/m1_24_61# 93
+R reg_six_5/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_5/reg_one_0[0]/stat_reg_1/tg_0/EN 591
+R reg_six_5/reg_one_0[0]/tg_1/a_100_74# 180
+R reg_six_5/reg_one_0[0]/m1_29_198# 93
+R reg_six_4/reg_one_0[5]/m1_31_17# 93
+R reg_six_4/reg_one_0[5]/stat_reg_1/a_24_71# 237
+R reg_six_4/reg_one_0[5]/tg_5/out 542
+R reg_six_4/reg_one_0[5]/stat_reg_1/m1_24_61# 93
+R reg_six_4/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_4/reg_one_0[5]/stat_reg_1/tg_0/EN 591
+R reg_six_4/reg_one_0[5]/tg_1/a_100_74# 180
+R reg_six_4/reg_one_0[5]/m1_29_198# 93
+R reg_six_4/reg_one_0[4]/m1_31_17# 93
+R reg_six_4/reg_one_0[4]/stat_reg_1/a_24_71# 237
+R reg_six_4/reg_one_0[4]/tg_5/out 542
+R reg_six_4/reg_one_0[4]/stat_reg_1/m1_24_61# 93
+R reg_six_4/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_4/reg_one_0[4]/stat_reg_1/tg_0/EN 591
+R reg_six_4/reg_one_0[4]/tg_1/a_100_74# 180
+R reg_six_4/reg_one_0[4]/m1_29_198# 93
+R reg_six_4/reg_one_0[3]/m1_31_17# 93
+R reg_six_4/reg_one_0[3]/stat_reg_1/a_24_71# 237
+R reg_six_4/reg_one_0[3]/tg_5/out 542
+R reg_six_4/reg_one_0[3]/stat_reg_1/m1_24_61# 93
+R reg_six_4/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_4/reg_one_0[3]/stat_reg_1/tg_0/EN 591
+R reg_six_4/reg_one_0[3]/tg_1/a_100_74# 180
+R reg_six_4/reg_one_0[3]/m1_29_198# 93
+R reg_six_4/reg_one_0[2]/m1_31_17# 93
+R reg_six_4/reg_one_0[2]/stat_reg_1/a_24_71# 237
+R reg_six_4/reg_one_0[2]/tg_5/out 542
+R reg_six_4/reg_one_0[2]/stat_reg_1/m1_24_61# 93
+R reg_six_4/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_4/reg_one_0[2]/stat_reg_1/tg_0/EN 591
+R reg_six_4/reg_one_0[2]/tg_1/a_100_74# 180
+R reg_six_4/reg_one_0[2]/m1_29_198# 93
+R reg_six_4/reg_one_0[1]/m1_31_17# 93
+R reg_six_4/reg_one_0[1]/stat_reg_1/a_24_71# 237
+R reg_six_4/reg_one_0[1]/tg_5/out 542
+R reg_six_4/reg_one_0[1]/stat_reg_1/m1_24_61# 93
+R reg_six_4/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_4/reg_one_0[1]/stat_reg_1/tg_0/EN 591
+C r3 GND 10.37
+R r3 5591
+R reg_six_4/reg_one_0[1]/tg_1/a_100_74# 180
+R reg_six_4/reg_one_0[1]/m1_29_198# 93
+R reg_six_4/reg_one_0[0]/m1_31_17# 93
+R reg_six_4/reg_one_0[0]/stat_reg_1/a_24_71# 237
+R reg_six_4/reg_one_0[0]/tg_5/out 542
+R reg_six_4/reg_one_0[0]/stat_reg_1/m1_24_61# 93
+R reg_six_4/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_4/reg_one_0[0]/stat_reg_1/tg_0/EN 591
+R reg_six_4/reg_one_0[0]/tg_1/a_100_74# 180
+R reg_six_4/reg_one_0[0]/m1_29_198# 93
+R reg_six_3/reg_one_0[5]/m1_31_17# 93
+R reg_six_3/reg_one_0[5]/stat_reg_1/a_24_71# 237
+R reg_six_3/reg_one_0[5]/tg_5/out 542
+R reg_six_3/reg_one_0[5]/stat_reg_1/m1_24_61# 93
+R reg_six_3/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_3/reg_one_0[5]/stat_reg_1/tg_0/EN 591
+R reg_six_3/reg_one_0[5]/tg_1/a_100_74# 180
+R reg_six_3/reg_one_0[5]/m1_29_198# 93
+R reg_six_3/reg_one_0[4]/m1_31_17# 93
+R reg_six_3/reg_one_0[4]/stat_reg_1/a_24_71# 237
+R reg_six_3/reg_one_0[4]/tg_5/out 542
+R reg_six_3/reg_one_0[4]/stat_reg_1/m1_24_61# 93
+R reg_six_3/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_3/reg_one_0[4]/stat_reg_1/tg_0/EN 591
+R reg_six_3/reg_one_0[4]/tg_1/a_100_74# 180
+R reg_six_3/reg_one_0[4]/m1_29_198# 93
+R reg_six_3/reg_one_0[3]/m1_31_17# 93
+R reg_six_3/reg_one_0[3]/stat_reg_1/a_24_71# 237
+R reg_six_3/reg_one_0[3]/tg_5/out 542
+R reg_six_3/reg_one_0[3]/stat_reg_1/m1_24_61# 93
+R reg_six_3/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_3/reg_one_0[3]/stat_reg_1/tg_0/EN 591
+R reg_six_3/reg_one_0[3]/tg_1/a_100_74# 180
+R reg_six_3/reg_one_0[3]/m1_29_198# 93
+R reg_six_3/reg_one_0[2]/m1_31_17# 93
+R reg_six_3/reg_one_0[2]/stat_reg_1/a_24_71# 237
+R reg_six_3/reg_one_0[2]/tg_5/out 542
+R reg_six_3/reg_one_0[2]/stat_reg_1/m1_24_61# 93
+R reg_six_3/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_3/reg_one_0[2]/stat_reg_1/tg_0/EN 591
+R reg_six_3/reg_one_0[2]/tg_1/a_100_74# 180
+R reg_six_3/reg_one_0[2]/m1_29_198# 93
+R reg_six_3/reg_one_0[1]/m1_31_17# 93
+R reg_six_3/reg_one_0[1]/stat_reg_1/a_24_71# 237
+R reg_six_3/reg_one_0[1]/tg_5/out 542
+R reg_six_3/reg_one_0[1]/stat_reg_1/m1_24_61# 93
+R reg_six_3/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_3/reg_one_0[1]/stat_reg_1/tg_0/EN 591
+C r4 GND 10.77
+R r4 5592
+R reg_six_3/reg_one_0[1]/tg_1/a_100_74# 180
+R reg_six_3/reg_one_0[1]/m1_29_198# 93
+R reg_six_3/reg_one_0[0]/m1_31_17# 93
+R reg_six_3/reg_one_0[0]/stat_reg_1/a_24_71# 237
+R reg_six_3/reg_one_0[0]/tg_5/out 542
+R reg_six_3/reg_one_0[0]/stat_reg_1/m1_24_61# 93
+R reg_six_3/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_3/reg_one_0[0]/stat_reg_1/tg_0/EN 591
+R reg_six_3/reg_one_0[0]/tg_1/a_100_74# 180
+R reg_six_3/reg_one_0[0]/m1_29_198# 93
+R reg_six_2/reg_one_0[5]/m1_31_17# 93
+R reg_six_2/reg_one_0[5]/stat_reg_1/a_24_71# 237
+R reg_six_2/reg_one_0[5]/tg_5/out 542
+R reg_six_2/reg_one_0[5]/stat_reg_1/m1_24_61# 93
+R reg_six_2/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_2/reg_one_0[5]/stat_reg_1/tg_0/EN 591
+R reg_six_2/reg_one_0[5]/tg_1/a_100_74# 180
+R reg_six_2/reg_one_0[5]/m1_29_198# 93
+R reg_six_2/reg_one_0[4]/m1_31_17# 93
+R reg_six_2/reg_one_0[4]/stat_reg_1/a_24_71# 237
+R reg_six_2/reg_one_0[4]/tg_5/out 542
+R reg_six_2/reg_one_0[4]/stat_reg_1/m1_24_61# 93
+R reg_six_2/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_2/reg_one_0[4]/stat_reg_1/tg_0/EN 591
+R reg_six_2/reg_one_0[4]/tg_1/a_100_74# 180
+R reg_six_2/reg_one_0[4]/m1_29_198# 93
+R reg_six_2/reg_one_0[3]/m1_31_17# 93
+R reg_six_2/reg_one_0[3]/stat_reg_1/a_24_71# 237
+R reg_six_2/reg_one_0[3]/tg_5/out 542
+R reg_six_2/reg_one_0[3]/stat_reg_1/m1_24_61# 93
+R reg_six_2/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_2/reg_one_0[3]/stat_reg_1/tg_0/EN 591
+R reg_six_2/reg_one_0[3]/tg_1/a_100_74# 180
+R reg_six_2/reg_one_0[3]/m1_29_198# 93
+R reg_six_2/reg_one_0[2]/m1_31_17# 93
+R reg_six_2/reg_one_0[2]/stat_reg_1/a_24_71# 237
+R reg_six_2/reg_one_0[2]/tg_5/out 542
+R reg_six_2/reg_one_0[2]/stat_reg_1/m1_24_61# 93
+R reg_six_2/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_2/reg_one_0[2]/stat_reg_1/tg_0/EN 591
+R reg_six_2/reg_one_0[2]/tg_1/a_100_74# 180
+R reg_six_2/reg_one_0[2]/m1_29_198# 93
+R reg_six_2/reg_one_0[1]/m1_31_17# 93
+R reg_six_2/reg_one_0[1]/stat_reg_1/a_24_71# 237
+R reg_six_2/reg_one_0[1]/tg_5/out 542
+R reg_six_2/reg_one_0[1]/stat_reg_1/m1_24_61# 93
+R reg_six_2/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_2/reg_one_0[1]/stat_reg_1/tg_0/EN 591
+C r5 GND 10.79
+R r5 5591
+R reg_six_2/reg_one_0[1]/tg_1/a_100_74# 180
+R reg_six_2/reg_one_0[1]/m1_29_198# 93
+R reg_six_2/reg_one_0[0]/m1_31_17# 93
+R reg_six_2/reg_one_0[0]/stat_reg_1/a_24_71# 237
+R reg_six_2/reg_one_0[0]/tg_5/out 542
+R reg_six_2/reg_one_0[0]/stat_reg_1/m1_24_61# 93
+R reg_six_2/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_2/reg_one_0[0]/stat_reg_1/tg_0/EN 591
+R reg_six_2/reg_one_0[0]/tg_1/a_100_74# 180
+R reg_six_2/reg_one_0[0]/m1_29_198# 93
+R reg_six_1/reg_one_0[5]/m1_31_17# 93
+R reg_six_1/reg_one_0[5]/stat_reg_1/a_24_71# 237
+R reg_six_1/reg_one_0[5]/tg_5/out 542
+R reg_six_1/reg_one_0[5]/stat_reg_1/m1_24_61# 93
+R reg_six_1/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_1/reg_one_0[5]/stat_reg_1/tg_0/EN 591
+R reg_six_1/reg_one_0[5]/tg_1/a_100_74# 180
+R reg_six_1/reg_one_0[5]/m1_29_198# 93
+R reg_six_1/reg_one_0[4]/m1_31_17# 93
+R reg_six_1/reg_one_0[4]/stat_reg_1/a_24_71# 237
+R reg_six_1/reg_one_0[4]/tg_5/out 542
+R reg_six_1/reg_one_0[4]/stat_reg_1/m1_24_61# 93
+R reg_six_1/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_1/reg_one_0[4]/stat_reg_1/tg_0/EN 591
+R reg_six_1/reg_one_0[4]/tg_1/a_100_74# 180
+R reg_six_1/reg_one_0[4]/m1_29_198# 93
+R reg_six_1/reg_one_0[3]/m1_31_17# 93
+R reg_six_1/reg_one_0[3]/stat_reg_1/a_24_71# 237
+R reg_six_1/reg_one_0[3]/tg_5/out 542
+R reg_six_1/reg_one_0[3]/stat_reg_1/m1_24_61# 93
+R reg_six_1/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_1/reg_one_0[3]/stat_reg_1/tg_0/EN 591
+R reg_six_1/reg_one_0[3]/tg_1/a_100_74# 180
+R reg_six_1/reg_one_0[3]/m1_29_198# 93
+R reg_six_1/reg_one_0[2]/m1_31_17# 93
+R reg_six_1/reg_one_0[2]/stat_reg_1/a_24_71# 237
+R reg_six_1/reg_one_0[2]/tg_5/out 542
+R reg_six_1/reg_one_0[2]/stat_reg_1/m1_24_61# 93
+R reg_six_1/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_1/reg_one_0[2]/stat_reg_1/tg_0/EN 591
+R reg_six_1/reg_one_0[2]/tg_1/a_100_74# 180
+R reg_six_1/reg_one_0[2]/m1_29_198# 93
+R reg_six_1/reg_one_0[1]/m1_31_17# 93
+R reg_six_1/reg_one_0[1]/stat_reg_1/a_24_71# 237
+R reg_six_1/reg_one_0[1]/tg_5/out 542
+R reg_six_1/reg_one_0[1]/stat_reg_1/m1_24_61# 93
+R reg_six_1/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_1/reg_one_0[1]/stat_reg_1/tg_0/EN 591
+C r6 GND 10.80
+R r6 5591
+R reg_six_1/reg_one_0[1]/tg_1/a_100_74# 180
+R reg_six_1/reg_one_0[1]/m1_29_198# 93
+R reg_six_1/reg_one_0[0]/m1_31_17# 93
+R reg_six_1/reg_one_0[0]/stat_reg_1/a_24_71# 237
+R reg_six_1/reg_one_0[0]/tg_5/out 542
+R reg_six_1/reg_one_0[0]/stat_reg_1/m1_24_61# 93
+R reg_six_1/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_1/reg_one_0[0]/stat_reg_1/tg_0/EN 591
+R reg_six_1/reg_one_0[0]/tg_1/a_100_74# 180
+R reg_six_1/reg_one_0[0]/m1_29_198# 93
+R reg_six_0/reg_one_0[5]/m1_31_17# 93
+R in5 1851
+R reg_six_0/reg_one_0[5]/stat_reg_1/a_24_71# 237
+R reg_six_0/reg_one_0[5]/tg_5/out 542
+R reg_six_0/reg_one_0[5]/stat_reg_1/m1_24_61# 93
+R reg_six_0/reg_one_0[5]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_0/reg_one_0[5]/stat_reg_1/tg_0/EN 591
+R o5 479
+R reg_six_0/reg_one_0[5]/tg_1/a_100_74# 180
+R reg_six_0/reg_one_0[5]/m1_29_198# 93
+R reg_six_0/reg_one_0[4]/m1_31_17# 93
+R in4 1851
+R reg_six_0/reg_one_0[4]/stat_reg_1/a_24_71# 237
+R reg_six_0/reg_one_0[4]/tg_5/out 542
+R reg_six_0/reg_one_0[4]/stat_reg_1/m1_24_61# 93
+R reg_six_0/reg_one_0[4]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_0/reg_one_0[4]/stat_reg_1/tg_0/EN 591
+R o4 477
+R reg_six_0/reg_one_0[4]/tg_1/a_100_74# 180
+R reg_six_0/reg_one_0[4]/m1_29_198# 93
+R reg_six_0/reg_one_0[3]/m1_31_17# 93
+R in3 1851
+R reg_six_0/reg_one_0[3]/stat_reg_1/a_24_71# 237
+R reg_six_0/reg_one_0[3]/tg_5/out 542
+R reg_six_0/reg_one_0[3]/stat_reg_1/m1_24_61# 93
+R reg_six_0/reg_one_0[3]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_0/reg_one_0[3]/stat_reg_1/tg_0/EN 591
+R o3 478
+R reg_six_0/reg_one_0[3]/tg_1/a_100_74# 180
+R reg_six_0/reg_one_0[3]/m1_29_198# 93
+R reg_six_0/reg_one_0[2]/m1_31_17# 93
+R in2 1851
+R reg_six_0/reg_one_0[2]/stat_reg_1/a_24_71# 237
+R reg_six_0/reg_one_0[2]/tg_5/out 542
+R reg_six_0/reg_one_0[2]/stat_reg_1/m1_24_61# 93
+R reg_six_0/reg_one_0[2]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_0/reg_one_0[2]/stat_reg_1/tg_0/EN 591
+R o2 478
+R reg_six_0/reg_one_0[2]/tg_1/a_100_74# 180
+R reg_six_0/reg_one_0[2]/m1_29_198# 93
+R reg_six_0/reg_one_0[1]/m1_31_17# 93
+R in1 1851
+R reg_six_0/reg_one_0[1]/stat_reg_1/a_24_71# 237
+R reg_six_0/reg_one_0[1]/tg_5/out 542
+R reg_six_0/reg_one_0[1]/stat_reg_1/m1_24_61# 93
+R reg_six_0/reg_one_0[1]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_0/reg_one_0[1]/stat_reg_1/tg_0/EN 591
+R o1 478
+R reg_six_0/reg_one_0[1]/tg_1/a_100_74# 180
+C r7 GND 10.83
+R r7 5593
+R reg_six_0/reg_one_0[1]/m1_29_198# 93
+R reg_six_0/reg_one_0[0]/m1_31_17# 93
+R in0 1851
+R reg_six_0/reg_one_0[0]/stat_reg_1/a_24_71# 237
+R reg_six_0/reg_one_0[0]/tg_5/out 542
+R reg_six_0/reg_one_0[0]/stat_reg_1/m1_24_61# 93
+R reg_six_0/reg_one_0[0]/stat_reg_1/tg_0/a_100_74# 180
+R reg_six_0/reg_one_0[0]/stat_reg_1/tg_0/EN 591
+R o0 478
+R reg_six_0/reg_one_0[0]/tg_1/a_100_74# 180
+R reg_six_0/reg_one_0[0]/m1_29_198# 93

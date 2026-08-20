@@ -1,0 +1,21 @@
+h Vdd!
+l GND!
+
+stepsize 200
+
+vector in in5 in4 in3 in2 in1 in0
+vector out o5 o4 o3 o2 o1 o0
+vector WA EN waddr2 waddr1 waddr0
+vector RA r7 r6 r5 r4 r3 r2 r1 r0
+
+ana in WA RA out
+
+setvector WA 0000
+s
+setvector in 111111
+s
+setvector WA 1111
+s
+setvector in 101010
+setvector WA 1010
+s

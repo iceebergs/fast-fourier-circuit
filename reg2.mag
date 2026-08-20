@@ -1,0 +1,29 @@
+magic
+tech scmos
+timestamp 1762666711
+<< polysilicon >>
+rect 60 479 63 481
+rect 61 219 63 221
+<< polycontact >>
+rect 63 477 68 482
+rect 63 217 68 222
+<< metal1 >>
+rect 30 514 33 517
+rect 0 92 3 301
+rect 29 262 34 265
+rect 30 254 33 257
+rect 63 222 66 477
+rect 29 2 34 5
+use reg2_one  reg2_one_0
+array 0 0 63 0 1 260
+timestamp 1762666711
+transform 1 0 0 0 1 -1
+box 0 0 63 260
+<< labels >>
+rlabel metal1 32 516 32 516 5 P1
+rlabel metal1 32 256 32 256 1 P0
+rlabel metal1 65 227 65 227 7 R
+rlabel metal1 1 177 1 177 3 W
+rlabel metal1 31 4 31 4 1 D0
+rlabel metal1 32 263 32 263 1 D1
+<< end >>

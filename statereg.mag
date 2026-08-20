@@ -1,0 +1,12 @@
+magic
+tech scmos
+timestamp 1765777820
+<< error_p >>
+rect 0 286 198 400
+rect 0 0 198 18
+use masterslave  masterslave_0
+array 0 0 131 0 9 152
+timestamp 1765777820
+transform 1 0 0 0 1 -4
+box 0 4 131 156
+<< end >>

@@ -1,0 +1,15 @@
+timestamp 1765738559
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t24i
+scale 1000 1 9
+resistclasses 6900 7800 946000 946000 1 8000 8000 80 80 80 80 80 40
+use masterslave masterslave_0[0:0:131][0:9:152] 1 0 0 0 1 -4
+cap "masterslave_0[0:8]/tg_state_0/GND!" "masterslave_0[0:8]/phi1" -1.42109e-14
+cap "masterslave_0[0:8]/tg_state_1/GND!" "masterslave_0[0:8]/phi0" -1.42109e-14
+merge "masterslave_0[1:9]/new_inv_3/Vdd!" "masterslave_0[0:8]/tg_state_0/Vdd!" -16.268 0 0 0 0 0 -58 0 0 0 0 0 0 0 0 0 -14 0 0 0 0 0 0 0 0 0 0
+merge "masterslave_0[1:9]/new_inv_1/Vdd!" "masterslave_0[0:8]/tg_state_1/Vdd!" -16.268 0 0 0 0 0 -58 0 0 0 0 0 0 0 0 0 -14 0 0 0 0 0 0 0 0 0 0
+merge "masterslave_0[1:9]/new_inv_3/GND!" "masterslave_0[0:8]/tg_state_0/GND!" -16.268 0 0 0 0 0 0 0 0 0 -48 0 0 0 0 0 -14 0 0 0 0 0 0 0 0 0 0
+merge "masterslave_0[1:9]/phi0" "masterslave_0[0:8]/phi0" -6.972 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
+merge "masterslave_0[1:9]/phi1" "masterslave_0[0:8]/phi1" -6.972 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
+merge "masterslave_0[1:9]/new_inv_1/GND!" "masterslave_0[0:8]/tg_state_1/GND!" -16.268 0 0 0 0 0 0 0 0 0 -48 0 0 0 0 0 -14 0 0 0 0 0 0 0 0 0 0
