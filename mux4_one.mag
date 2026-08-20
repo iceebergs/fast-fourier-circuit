@@ -1,0 +1,55 @@
+magic
+tech scmos
+timestamp 1765034140
+<< nwell >>
+rect 27 -105 56 -97
+<< pwell >>
+rect -2 -106 22 -97
+<< polysilicon >>
+rect -2 -65 1 -63
+<< polycontact >>
+rect -7 9 -2 14
+rect 56 -67 61 -62
+rect -7 -118 -2 -113
+<< metal1 >>
+rect -7 14 -4 102
+rect -7 -113 -4 9
+rect 56 -62 59 102
+rect 1 -104 8 -100
+rect 46 -105 53 -101
+rect -7 -206 -4 -118
+rect 56 -206 59 -67
+<< metal2 >>
+rect -2 67 4 70
+rect -2 16 2 19
+rect 9 4 22 5
+rect 9 1 31 4
+rect 9 -32 13 1
+rect 9 -35 12 -32
+rect 14 -84 17 -83
+rect 14 -105 18 -84
+rect 30 -101 35 -98
+rect 14 -109 26 -105
+rect -2 -123 2 -120
+rect -2 -174 2 -171
+use mux2_one  mux2_one_0
+timestamp 1765034140
+transform 1 0 -2 0 1 51
+box -1 -51 58 51
+use mux2_one  mux2_one_1
+timestamp 1765034140
+transform 1 0 -2 0 1 -51
+box -1 -51 58 51
+use mux2_one  mux2_one_2
+timestamp 1765034140
+transform 1 0 -2 0 -1 -155
+box -1 -51 58 51
+<< labels >>
+rlabel metal2 32 -99 32 -99 1 out
+rlabel metal1 -6 -47 -6 -47 3 s0
+rlabel polysilicon 0 -64 0 -64 1 s1
+rlabel metal2 -1 68 -1 68 1 in0
+rlabel metal2 -1 17 -1 17 1 in1
+rlabel metal2 -1 -122 -1 -122 1 in3
+rlabel metal2 -1 -173 -1 -173 1 in2
+<< end >>

@@ -1,0 +1,30 @@
+magic
+tech scmos
+timestamp 1765665517
+<< polycontact >>
+rect 187 36 192 41
+<< metal1 >>
+rect 6 131 15 161
+rect 83 131 92 163
+rect 6 0 15 18
+rect 83 0 92 17
+<< m2contact >>
+rect 39 77 44 82
+rect 38 0 43 5
+<< metal2 >>
+rect 30 70 34 142
+rect 44 77 105 82
+rect 30 66 42 70
+rect 30 4 34 66
+rect 30 0 38 4
+use addsub_onev3  addsub_onev3_0
+timestamp 1765665517
+transform 0 -1 133 1 0 -3
+box 3 -59 169 37
+use xorgate  xorgate_0
+timestamp 1765665517
+transform 0 -1 19 1 0 36
+box -36 -76 130 19
+<< labels >>
+rlabel space 49 144 53 144 1 B
+<< end >>

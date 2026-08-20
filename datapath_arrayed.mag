@@ -1,0 +1,17 @@
+magic
+tech scmos
+timestamp 1765777820
+<< error_p >>
+rect 4025 -1898 4400 -1600
+rect 4025 -2188 4400 -2166
+<< m123contact >>
+rect 4059 -2260 4064 -2255
+rect 4142 -2260 4147 -2255
+<< metal3 >>
+rect 4064 -2260 4142 -2255
+use datapath_onefin  datapath_onefin_0
+array 0 0 502 0 5 259
+timestamp 1765777820
+transform 1 0 3838 0 1 -2291
+box -5 0 501 259
+<< end >>

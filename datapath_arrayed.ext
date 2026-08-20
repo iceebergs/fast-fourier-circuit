@@ -1,0 +1,46 @@
+timestamp 1765748487
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t24i
+scale 1000 1 9
+resistclasses 6900 7800 946000 946000 1 8000 8000 80 80 80 80 80 40
+use datapath_onefin datapath_onefin_0[0:0:502][0:5:259] 1 0 3838 0 1 -2291
+node "m1_4059_n2260#" 2 158.056 4059 -2260 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 40 50 40 440 186 0 0 0 0 0 0
+subcap "m1_4059_n2260#" -145.524
+cap "datapath_onefin_0[0]/addsub_onefin_0/addsub_onev3_0/Vdd!" "datapath_onefin_0[0]/addsub_onefin_0/addsub_onev3_0/a_9_n41#" 36.385
+cap "datapath_onefin_0[0]/addsub_onefin_0/addsub_onev3_0/Vdd!" "datapath_onefin_0[0]/addsub_onefin_0/addsub_onev3_0/Vdd!" 8.327
+cap "datapath_onefin_0[0]/addsub_onefin_0/addsub_onev3_0/Vdd!" "datapath_onefin_0[0]/addsub_onefin_0/addsub_onev3_0/a_35_n41#" 88.718
+cap "datapath_onefin_0[0]/addsub_onefin_0/addsub_onev3_0/Vdd!" "datapath_onefin_0[0]/addsub_onefin_0/addsub_onev3_0/a_9_9#" 36.385
+cap "datapath_onefin_0[0]/addsub_onefin_0/addsub_onev3_0/Vdd!" "datapath_onefin_0[0]/addsub_onefin_0/addsub_onev3_0/b" 33.598
+cap "datapath_onefin_0[0]/addsub_onefin_0/addsub_onev3_0/Vdd!" "datapath_onefin_0[0]/addsub_onefin_0/addsub_onev3_0/GND!" 3.586
+cap "datapath_onefin_0[0]/addsub_onefin_0/addsub_onev3_0/a_9_9#" "datapath_onefin_0[0]/addsub_onefin_0/addsub_onev3_0/b" 8.88178e-16
+cap "datapath_onefin_0[0]/addsub_onefin_0/addsub_onev3_0/cin" "datapath_onefin_0[0]/addsub_onefin_1/xorgate_0/Vdd!" 9.075
+cap "datapath_onefin_0[0]/addsub_onefin_0/addsub_onev3_0/cin" "datapath_onefin_0[0]/addsub_onefin_0/addsub_onev3_0/GND!" 80.208
+cap "datapath_onefin_0[0]/addsub_onefin_1/xorgate_0/Vdd!" "datapath_onefin_0[0]/addsub_onefin_0/addsub_onev3_0/cin" 38.4783
+merge "datapath_onefin_0[0]/addsub_onefin_0/addsub_onev3_0/cin" "datapath_onefin_0[0]/addsub_onefin_0/addsub_onev3_0/Vdd!" -157.362 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -30 -25 -20 -370 -153 0 0 0 0 0 0
+merge "datapath_onefin_0[0]/addsub_onefin_0/addsub_onev3_0/Vdd!" "m1_4059_n2260#"
+cap "datapath_onefin_0[0:4]/w_n1_155#" "datapath_onefin_0[0:4]/a_n5_89#" -1.42109e-14
+cap "datapath_onefin_0[0:4]/w_91_155#" "datapath_onefin_0[1:5]/addsub_onefin_0/xorgate_0/A" 0.814
+cap "datapath_onefin_0[0:4]/w_309_155#" "datapath_onefin_0[1:5]/addsub_onefin_1/xorgate_0/A" 0.814
+merge "datapath_onefin_0[1:5]/addsub_onefin_1/m1_6_0#" "datapath_onefin_0[0:4]/m1_315_155#" -20.916 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18 0 0 0 0 0 0 0 0 0 0
+merge "datapath_onefin_0[1:5]/addsub_onefin_1/addsub_onev3_0/GND!" "datapath_onefin_0[0:4]/w_459_155#" 0 0 0 0 0 0 0 0 0 0 -84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "datapath_onefin_0[1:5]/addsub_onefin_0/addsub_onev3_0/Vdd!" "datapath_onefin_0[0:4]/w_213_155#" 0 0 0 0 0 0 -74 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "datapath_onefin_0[1:5]/addsub_onefin_1/xorgate_0/A" "datapath_onefin_0[0:4]/m2_339_155#" -4.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0
+merge "datapath_onefin_0[1:5]/addsub_onefin_0/m1_83_0#" "datapath_onefin_0[0:4]/m1_200_155#" -20.916 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18 0 0 0 0 0 0 0 0 0 0
+merge "datapath_onefin_0[1:5]/latch_onefinal_1/new_inv_1/GND!" "datapath_onefin_0[0:4]/w_61_155#" -16.268 0 0 0 0 0 0 0 0 0 -48 0 0 0 0 0 -14 0 0 0 0 0 0 0 0 0 0
+merge "datapath_onefin_0[0:4]/w_61_155#" "datapath_onefin_0[0:4]/m1_65_155#"
+merge "datapath_onefin_0[1:5]/addsub_onefin_1/m1_83_0#" "datapath_onefin_0[0:4]/m1_392_155#" -20.916 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18 0 0 0 0 0 0 0 0 0 0
+merge "datapath_onefin_0[1:5]/addsub_onefin_1/xorgate_0/Vdd!" "datapath_onefin_0[0:4]/w_309_155#" -2.84217e-14 0 0 0 0 0 -72 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "datapath_onefin_0[1:5]/a_n5_89#" "datapath_onefin_0[0:4]/a_n5_89#" -6.972 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0
+merge "datapath_onefin_0[1:5]/latch_onefinal_0/new_inv_1/Vdd!" "datapath_onefin_0[0:4]/w_29_155#" -16.268 0 0 0 0 0 -52 0 0 0 0 0 0 0 0 0 -14 0 0 0 0 0 0 0 0 0 0
+merge "datapath_onefin_0[0:4]/w_29_155#" "datapath_onefin_0[0:4]/m1_48_155#"
+merge "datapath_onefin_0[1:5]/addsub_onefin_1/addsub_onev3_0/Vdd!" "datapath_onefin_0[0:4]/w_405_155#" 0 0 0 0 0 0 -74 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "datapath_onefin_0[1:5]/latch_onefinal_0/new_inv_1/GND!" "datapath_onefin_0[0:4]/w_n1_155#" -16.268 0 0 0 0 0 0 0 0 0 -48 0 0 0 0 0 -14 0 0 0 0 0 0 0 0 0 0
+merge "datapath_onefin_0[0:4]/w_n1_155#" "datapath_onefin_0[0:4]/m1_3_155#"
+merge "datapath_onefin_0[1:5]/addsub_onefin_0/xorgate_0/A" "datapath_onefin_0[0:4]/m2_147_155#" -4.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0
+merge "datapath_onefin_0[1:5]/addsub_onefin_0/m1_6_0#" "datapath_onefin_0[0:4]/m1_123_155#" -20.916 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18 0 0 0 0 0 0 0 0 0 0
+merge "datapath_onefin_0[1:5]/addsub_onefin_1/xorgate_0/w_n36_n76#" "datapath_onefin_0[0:4]/w_368_155#" 0 0 0 0 0 0 0 0 0 0 -72 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "datapath_onefin_0[1:5]/addsub_onefin_0/addsub_onev3_0/GND!" "datapath_onefin_0[0:4]/w_267_155#" 0 0 0 0 0 0 0 0 0 0 -84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "datapath_onefin_0[1:5]/latch_onefinal_1/new_inv_1/Vdd!" "datapath_onefin_0[0:4]/w_91_155#" -16.268 0 0 0 0 0 -124 0 0 0 0 0 0 0 0 0 -14 0 0 0 0 0 0 0 0 0 0
+merge "datapath_onefin_0[0:4]/w_91_155#" "datapath_onefin_0[0:4]/m1_110_155#"
+merge "datapath_onefin_0[1:5]/addsub_onefin_0/xorgate_0/w_n36_n76#" "datapath_onefin_0[0:4]/w_176_155#" 0 0 0 0 0 0 0 0 0 0 -72 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

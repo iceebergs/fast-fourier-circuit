@@ -1,0 +1,154 @@
+timestamp 1765738559
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t24i
+scale 1000 1 9
+resistclasses 6900 7800 946000 946000 1 8000 8000 80 80 80 80 80 40
+use tg_state tg_state_0 1 0 -14 0 1 62
+use tg_state tg_state_1 1 0 -82 0 1 62
+use new_inv new_inv_1 1 0 -72 0 1 0
+use new_inv new_inv_0 1 0 -72 0 1 26
+use new_inv new_inv_2 1 0 -4 0 1 26
+use new_inv new_inv_3 1 0 -4 0 1 0
+use tg tg_0 1 0 -82 0 1 13
+use tg tg_3 1 0 -14 0 1 13
+node "in" 0 6.916 1 72 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28 22 0 0 0 0 0 0 0 0
+node "m1_121_4#" 0 26.488 121 4 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14 18 0 0 0 0 0 0 0 0 0 0
+node "m1_76_4#" 0 31.598 76 4 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21 20 0 0 0 0 0 0 0 0 0 0
+node "m1_97_8#" 3 206.274 97 8 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 529 268 0 0 0 0 0 0 0 0
+node "m1_98_20#" 0 70.296 98 20 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 54 42 0 0 0 0 0 0 0 0 0 0
+node "m1_98_47#" 0 56.224 98 47 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 42 34 0 0 0 0 0 0 0 0 0 0
+node "out" 1 66.15 97 106 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 141 78 0 0 0 0 0 0
+node "m1_76_56#" 8 274.524 76 56 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 202 0 0 0 0 0 0 0 0 0 0
+node "m1_53_4#" 0 26.488 53 4 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14 18 0 0 0 0 0 0 0 0 0 0
+node "m1_8_4#" 0 31.598 8 4 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21 20 0 0 0 0 0 0 0 0 0 0
+node "m1_29_8#" 3 206.274 29 8 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 529 268 0 0 0 0 0 0 0 0
+node "m1_29_27#" 3 162.051 29 27 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 46 82 56 346 180 0 0 0 0 0 0
+node "Vdd!" 0 26.488 53 38 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14 18 0 0 0 0 0 0 0 0 0 0
+node "GND!" 0 26.488 8 38 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14 18 0 0 0 0 0 0 0 0 0 0
+node "m1_30_47#" 0 56.224 30 47 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 42 34 0 0 0 0 0 0 0 0 0 0
+node "m1_30_106#" 0 21.044 30 106 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0 0 0 0 0 0 0
+node "m1_8_56#" 8 274.524 8 56 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 202 0 0 0 0 0 0 0 0 0 0
+node "phi1" 59 694.612 68 92 pm12c 0 0 0 0 0 0 0 0 0 0 54 44 0 0 476 318 25 20 0 0 0 0 0 0 0 0
+node "phi0" 59 694.612 0 92 pm12c 0 0 0 0 0 0 0 0 0 0 54 44 0 0 476 318 25 20 0 0 0 0 0 0 0 0
+node "w_93_75#" 0 0 93 75 pw 0 0 0 0 0 0 0 0 3 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m1_8_56#" "phi0" 1192.83
+cap "m1_8_56#" "in" 10.144
+cap "phi1" "m1_76_4#" 34.6305
+cap "phi0" "in" 17.972
+cap "phi0" "GND!" 23.087
+cap "phi0" "m1_8_4#" 34.6305
+cap "m1_29_27#" "m1_76_56#" 10.144
+cap "m1_29_27#" "phi1" 23.044
+cap "m1_29_27#" "m1_29_8#" 110.82
+cap "m1_76_56#" "phi1" 1192.83
+cap "out" "m1_97_8#" 91.0315
+cap "m1_98_20#" "m1_97_8#" 19.7889
+subcap "m1_76_4#" -34.608
+subcap "m1_97_8#" -276.319
+subcap "out" -86.168
+subcap "m1_76_56#" -277.534
+subcap "m1_8_4#" -34.608
+subcap "m1_29_8#" -178.689
+subcap "m1_29_27#" -0.262
+subcap "GND!" -29.498
+subcap "m1_30_106#" -112.584
+subcap "m1_8_56#" -277.534
+subcap "phi1" -241.673
+subcap "phi0" -242.521
+subcap "w_93_75#" -3.01
+cap "new_inv_1/a_77_16#" "new_inv_3/a_90_10#" 21.2292
+cap "new_inv_0/a_77_16#" "new_inv_1/a_90_10#" 38.295
+cap "tg_0/EN" "tg_0/a_100_57#" 2.536
+cap "new_inv_0/a_77_16#" "tg_state_1/Vdd!" 6.59629
+cap "tg_state_0/GND!" "new_inv_3/a_90_10#" 3.138
+cap "new_inv_1/a_90_10#" "tg_0/EN" 5.92
+cap "tg_3/EN" "tg_0/EN" 10.1712
+cap "new_inv_1/a_90_10#" "tg_0/a_100_57#" 83.325
+cap "tg_3/Vdd!" "new_inv_3/a_90_10#" -2.324
+cap "new_inv_0/a_77_16#" "tg_state_1/GND!" 6.59629
+cap "tg_state_0/GND!" "new_inv_2/a_77_16#" 6.59629
+cap "new_inv_1/a_77_16#" "new_inv_1/a_90_10#" 18.5061
+cap "tg_state_1/Vdd!" "new_inv_1/a_90_10#" 135.374
+cap "new_inv_1/a_77_16#" "tg_3/EN" 2.536
+cap "tg_state_1/GND!" "tg_0/EN" 554.2
+cap "tg_state_1/GND!" "tg_0/a_100_57#" -10.144
+cap "tg_state_0/GND!" "new_inv_2/a_90_10#" 6.59629
+cap "new_inv_1/a_77_16#" "tg_state_1/Vdd!" 54.8103
+cap "new_inv_1/a_90_10#" "tg_state_1/GND!" 3.138
+cap "tg_state_0/GND!" "tg_3/EN" 577.287
+cap "tg_0/a_100_74#" "new_inv_1/a_90_10#" 78.937
+cap "new_inv_3/a_90_10#" "new_inv_2/a_90_10#" -13.1926
+cap "tg_state_0/GND!" "new_inv_1/a_77_16#" -10.144
+cap "new_inv_1/a_77_16#" "tg_state_1/GND!" 15.6713
+cap "tg_0/a_100_74#" "new_inv_1/a_77_16#" 0.984
+subcap "m1_97_8#" -197.601
+subcap "m1_98_20#" -15.394
+subcap "m1_98_47#" -1.322
+subcap "out" -123.11
+cap "new_inv_3/a_90_10#" "tg_3/EN" 5.92
+cap "tg_state_0/Vdd!" "new_inv_2/a_90_10#" 6.59629
+cap "new_inv_2/a_77_16#" "new_inv_3/a_90_10#" 38.295
+cap "tg_state_0/Vdd!" "new_inv_3/a_90_10#" 135.374
+cap "new_inv_3/a_90_10#" "new_inv_2/a_90_10#" 31.6987
+cap "tg_state_0/Vdd!" "new_inv_2/a_77_16#" 6.59629
+cap "tg_3/a_100_57#" "new_inv_3/a_90_10#" 83.325
+cap "new_inv_3/a_90_10#" "tg_3/a_100_74#" 78.937
+subcap "out" -58.177
+cap "tg_state_1/EN" "tg_state_0/EN" 10.1712
+cap "tg_state_0/out" "tg_state_0/a_100_57#" -1.06581e-14
+cap "tg_state_1/a_100_57#" "tg_state_1/out" 32.375
+cap "tg_state_0/EN" "tg_state_0/GND!" 16.698
+cap "tg_state_0/out" "tg_state_0/GND!" 9.075
+cap "tg_state_1/a_100_57#" "tg_state_1/a_100_74#" 7.552
+cap "tg_state_0/GND!" "tg_state_0/a_100_57#" -2.094
+cap "tg_state_0/out" "tg_3/Vdd!" -3.63
+cap "tg_state_1/Vdd!" "tg_state_1/a_100_57#" 12.611
+cap "tg_state_1/a_100_57#" "tg_state_1/GND!" -2.094
+cap "tg_state_1/EN" "tg_state_1/GND!" 16.698
+subcap "out" -49.315
+cap "tg_state_0/a_100_57#" "tg_state_0/Vdd!" 12.611
+cap "tg_state_0/out" "tg_state_0/Vdd!" 35.355
+cap "tg_state_0/a_100_57#" "tg_state_0/out" 32.375
+cap "tg_state_0/a_100_57#" "tg_state_0/a_100_74#" 7.552
+merge "tg_0/Vdd!" "tg_state_1/Vdd!" -115.901 0 0 0 0 -29 -178 0 0 0 0 0 0 0 0 -35 -82 0 0 0 0 0 0 0 0 0 0
+merge "tg_state_1/Vdd!" "new_inv_0/Vdd!"
+merge "new_inv_0/Vdd!" "new_inv_1/Vdd!"
+merge "new_inv_1/Vdd!" "m1_53_4#"
+merge "m1_53_4#" "Vdd!"
+merge "tg_state_1/out" "m1_30_106#" -9.232 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 -10 0 0 0 0 0 0 0 0 0 0
+merge "tg_state_1/EN" "tg_0/EN" -55.989 0 0 0 0 0 0 0 0 0 0 -4 -12 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "tg_0/EN" "phi0"
+merge "tg_state_0/a_100_57#" "new_inv_3/a_90_10#" -203.905 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -30 -16 0 -8 0 0 0 0 0 0 0 0
+merge "new_inv_3/a_90_10#" "m1_97_8#"
+merge "tg_3/a_100_57#" "new_inv_0/a_90_10#" -89.274 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15 -22 -16 -16 0 0 0 0 0 0 0 0
+merge "new_inv_0/a_90_10#" "new_inv_1/a_77_16#"
+merge "new_inv_1/a_77_16#" "m1_29_27#"
+merge "tg_3/Vdd!" "tg_state_0/Vdd!" -89.413 0 0 0 0 -29 -178 0 0 0 0 0 0 0 0 -21 -64 0 0 0 0 0 0 0 0 0 0
+merge "tg_state_0/Vdd!" "new_inv_3/Vdd!"
+merge "new_inv_3/Vdd!" "new_inv_2/Vdd!"
+merge "new_inv_2/Vdd!" "m1_121_4#"
+merge "tg_3/out" "new_inv_2/a_77_16#" -28.016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -20 0 0 0 0 0 0 0 0 0 0
+merge "new_inv_2/a_77_16#" "m1_98_47#"
+merge "tg_state_1/a_100_57#" "new_inv_1/a_90_10#" -200.259 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15 -16 0 -8 0 0 0 0 0 0 0 0
+merge "new_inv_1/a_90_10#" "m1_29_8#"
+merge "tg_0/GND!" "new_inv_0/GND!" -378.294 0 0 0 0 0 0 0 0 -24 -148 0 0 0 0 -96 -284 0 0 0 0 0 0 0 0 0 0
+merge "new_inv_0/GND!" "new_inv_1/GND!"
+merge "new_inv_1/GND!" "m1_8_4#"
+merge "m1_8_4#" "GND!"
+merge "GND!" "tg_state_1/GND!"
+merge "tg_state_1/GND!" "m1_8_56#"
+merge "tg_0/a_100_57#" "in" -7.323 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0 0 0 0 0
+merge "tg_3/GND!" "new_inv_3/GND!" -351.806 0 0 0 0 0 0 0 0 274 -156 0 0 0 0 -82 -266 0 0 0 0 0 0 0 0 0 0
+merge "new_inv_3/GND!" "new_inv_2/GND!"
+merge "new_inv_2/GND!" "tg_state_0/GND!"
+merge "tg_state_0/GND!" "m1_76_56#"
+merge "m1_76_56#" "m1_76_4#"
+merge "m1_76_4#" "w_93_75#"
+merge "new_inv_3/a_77_16#" "new_inv_2/a_90_10#" -31.534 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15 -22 0 0 0 0 0 0 0 0 0 0
+merge "new_inv_2/a_90_10#" "m1_98_20#"
+merge "tg_0/out" "new_inv_0/a_77_16#" -28.016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -20 0 0 0 0 0 0 0 0 0 0
+merge "new_inv_0/a_77_16#" "m1_30_47#"
+merge "tg_state_0/out" "out" -54.859 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 -16 0 0 0 0 0 0 0 0 0 0
+merge "tg_state_0/EN" "tg_3/EN" -55.989 0 0 0 0 0 0 0 0 0 0 -4 -12 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "tg_3/EN" "phi1"

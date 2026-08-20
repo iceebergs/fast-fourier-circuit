@@ -1,0 +1,38 @@
+timestamp 1765665517
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t24i
+scale 1000 1 9
+resistclasses 6900 7800 946000 946000 1 8000 8000 80 80 80 80 80 40
+use xorgate xorgate_0 0 -1 19 1 0 36
+use addsub_onev3 addsub_onev3_0 0 -1 133 1 0 -3
+node "m1_83_0#" 0 121.318 83 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 153 52 0 0 0 0 0 0 0 0 0 0
+node "m1_38_0#" 3 244.918 38 0 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 641 328 0 0 0 0 0 0 0 0
+node "m1_6_0#" 0 127.224 6 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 162 54 0 0 0 0 0 0 0 0 0 0
+node "m1_39_77#" 1 129.719 39 77 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 330 142 0 0 0 0 0 0 0 0
+node "m1_83_131#" 0 209.908 83 131 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 288 82 0 0 0 0 0 0 0 0 0 0
+node "m1_6_131#" 0 198.096 6 131 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 270 78 0 0 0 0 0 0 0 0 0 0
+node "a_187_36#" 8 93.21 187 36 pc 0 0 0 0 0 0 0 0 0 0 25 20 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+cap "m1_39_77#" "m1_38_0#" 72.7857
+subcap "m1_83_0#" -153.844
+cap "xorgate_0/GND!" "xorgate_0/out" 55.349
+cap "xorgate_0/out" "xorgate_0/a_n6_n51#" 9.904
+cap "xorgate_0/w_n36_n76#" "xorgate_0/out" 27.453
+cap "xorgate_0/B" "xorgate_0/A" 2.84217e-14
+cap "xorgate_0/A" "xorgate_0/out" 6.944
+cap "xorgate_0/Vdd!" "xorgate_0/A" -1.13687e-13
+cap "xorgate_0/w_n36_n76#" "xorgate_0/GND!" 89.944
+cap "addsub_onev3_0/Vdd!" "xorgate_0/out" 0.863
+cap "addsub_onev3_0/GND!" "addsub_onev3_0/cin" 134.665
+cap "addsub_onev3_0/Vdd!" "addsub_onev3_0/b" -2.849
+subcap "m1_83_131#" -238.564
+cap "xorgate_0/w_n36_n76#" "xorgate_0/GND!" 183.086
+merge "addsub_onev3_0/b" "xorgate_0/out" -115.356 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 -35 -24 0 0 0 0 0 0 0 0
+merge "xorgate_0/out" "m1_39_77#"
+merge "xorgate_0/Vdd!" "m1_6_0#" -198.096 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -27 -24 0 0 0 0 0 0 0 0 0 0
+merge "m1_6_0#" "m1_6_131#"
+merge "addsub_onev3_0/cin" "a_187_36#" -75.82 0 0 0 0 0 0 0 0 0 0 -2 -6 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "xorgate_0/m2_n36_n19#" "xorgate_0/A" -237.348 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -18 -880 -452 0 0 0 0 0 0 0 0
+merge "xorgate_0/A" "m1_38_0#"
+merge "xorgate_0/GND!" "m1_83_0#" -6.132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 503 -20 0 0 0 0 0 0 0 0 0 0
+merge "m1_83_0#" "m1_83_131#"

@@ -1,0 +1,151 @@
+magic
+tech scmos
+timestamp 1762666711
+<< nwell >>
+rect -6 35 0 52
+<< pwell >>
+rect -6 17 0 34
+<< polysilicon >>
+rect 13 58 115 61
+rect 13 54 16 58
+rect 66 54 69 58
+rect 116 55 119 58
+rect 136 55 139 57
+rect 166 55 169 57
+rect 186 55 189 81
+rect 216 55 219 57
+rect 276 54 279 57
+rect 286 55 289 57
+rect 40 3 43 15
+rect 76 12 79 14
+rect 86 12 89 15
+rect 126 12 129 14
+rect 75 3 80 7
+rect 176 3 179 14
+rect 226 12 229 14
+rect 40 0 179 3
+rect 236 -12 239 15
+rect 266 12 269 14
+rect 296 12 299 14
+<< polycontact >>
+rect 185 81 190 86
+rect 115 58 120 63
+rect 136 57 141 62
+rect 165 57 170 62
+rect 215 57 220 62
+rect 274 57 279 62
+rect 285 57 290 62
+rect 75 7 80 12
+rect 85 7 90 12
+rect 125 7 130 12
+rect 225 7 230 12
+rect 264 6 270 12
+rect 294 7 299 12
+rect 235 -17 240 -12
+<< metal1 >>
+rect -6 86 450 92
+rect -6 73 450 78
+rect 115 63 120 65
+rect 136 62 141 73
+rect 164 57 165 62
+rect 170 58 215 61
+rect 285 62 290 63
+rect 259 58 274 61
+rect -6 49 0 54
+rect 314 49 450 54
+rect 14 32 22 37
+rect 41 32 50 37
+rect 144 32 146 37
+rect 294 32 353 37
+rect -6 15 0 20
+rect 314 15 450 20
+rect 75 4 80 7
+rect 124 7 125 12
+rect 130 8 225 11
+rect 85 -4 90 7
+rect 251 9 264 12
+rect 294 6 299 7
+rect -6 -9 450 -4
+rect -6 -17 235 -12
+rect 240 -17 450 -12
+<< m2contact >>
+rect 159 57 164 62
+rect 253 57 259 63
+rect 22 32 27 37
+rect 50 32 55 37
+rect 195 32 200 37
+rect 245 32 251 37
+rect 119 7 124 12
+rect 245 6 251 12
+<< metal2 >>
+rect 22 58 159 61
+rect 22 37 27 58
+rect 197 61 200 63
+rect 164 58 169 61
+rect 197 58 253 61
+rect 197 37 200 58
+rect 50 11 55 32
+rect 248 12 251 32
+rect 50 8 119 11
+<< m123contact >>
+rect 115 65 120 70
+rect 285 63 290 68
+rect 95 32 100 37
+rect 146 32 151 37
+rect 353 32 358 37
+rect 75 -1 80 4
+rect 294 1 299 6
+<< metal3 >>
+rect 120 65 127 70
+rect 148 63 285 66
+rect 148 37 151 63
+rect 358 32 367 37
+rect 97 5 100 32
+rect 97 2 294 5
+rect 75 -2 80 -1
+rect 75 -7 174 -2
+<< m4contact >>
+rect 127 65 132 70
+rect 367 32 379 37
+rect 174 -7 179 -2
+use nand3  nand3_0
+timestamp 1762666711
+transform 1 0 269 0 1 41
+box -65 -27 -15 14
+use nand3  nand3_1
+timestamp 1762666711
+transform 1 0 219 0 1 41
+box -65 -27 -15 14
+use nand3  nand3_2
+timestamp 1762666711
+transform 1 0 169 0 1 41
+box -65 -27 -15 14
+use nand3  nand3_3
+timestamp 1762666711
+transform 1 0 119 0 1 41
+box -65 -27 -15 14
+use nand4  nand4_0
+timestamp 1762666711
+transform 1 0 329 0 1 41
+box -75 -27 -15 14
+use inv_fb  inv_fb_0
+timestamp 1762666711
+transform 1 0 55 0 1 41
+box -55 -27 -28 14
+use inv_fb  inv_fb_1
+timestamp 1762666711
+transform 1 0 82 0 1 41
+box -55 -27 -28 14
+<< labels >>
+rlabel space 303 15 303 20 1 GND!
+rlabel space 303 49 303 54 7 Vdd!
+rlabel metal1 295 32 295 37 1 f
+rlabel polysilicon 236 14 239 14 1 g0
+rlabel polysilicon 40 14 43 14 1 b
+rlabel polysilicon 13 55 16 55 1 a
+rlabel polysilicon 86 14 89 14 1 g3
+rlabel polycontact 76 11 76 12 1 b
+rlabel polycontact 76 9 76 12 1 b
+rlabel polysilicon 186 56 189 56 1 g1
+rlabel polysilicon 136 55 139 57 1 g2
+<< end >>

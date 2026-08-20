@@ -1,0 +1,110 @@
+timestamp 1765748487
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t24i
+scale 1000 1 9
+resistclasses 6900 7800 946000 946000 1 8000 8000 80 80 80 80 80 40
+use addsub_onefin addsub_onefin_1 1 0 309 0 1 0
+use addsub_onefin addsub_onefin_0 1 0 117 0 1 0
+use latch_onefinal latch_onefinal_1 1 0 62 0 1 2
+use latch_onefinal latch_onefinal_0 1 0 0 0 1 2
+node "m2_339_155#" 2 3.256 339 155 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 416 216 0 0 0 0 0 0 0 0
+node "m2_147_155#" 2 3.256 147 155 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 416 216 0 0 0 0 0 0 0 0
+node "m1_392_155#" 1 20.916 392 155 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 936 226 0 0 0 0 0 0 0 0 0 0
+node "m1_315_155#" 1 20.916 315 155 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 936 226 0 0 0 0 0 0 0 0 0 0
+node "m1_200_155#" 1 20.916 200 155 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 936 226 0 0 0 0 0 0 0 0 0 0
+node "m1_123_155#" 1 20.916 123 155 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 936 226 0 0 0 0 0 0 0 0 0 0
+node "m1_110_155#" 1 16.268 110 155 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 728 222 0 0 0 0 0 0 0 0 0 0
+node "m1_65_155#" 1 16.268 65 155 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 728 222 0 0 0 0 0 0 0 0 0 0
+node "m1_48_155#" 1 137.116 48 155 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 728 222 0 0 0 0 0 0 0 0 0 0
+node "m1_3_155#" 1 16.268 3 155 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 728 222 0 0 0 0 0 0 0 0 0 0
+node "a_57_91#" 28 54.932 57 91 p 0 0 0 0 0 0 0 0 0 0 14 18 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n5_89#" 15 865.934 -5 89 pc 0 0 0 0 0 0 0 0 0 0 25 20 0 0 787 528 0 0 0 0 0 0 0 0 0 0
+node "w_459_155#" 0 0 459 155 pw 0 0 0 0 0 0 0 0 4368 292 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_405_155#" 2659 2243.38 405 155 nw 0 0 0 0 3848 282 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_368_155#" 0 0 368 155 pw 0 0 0 0 0 0 0 0 3744 280 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_309_155#" 2733 2182.75 309 155 nw 0 0 0 0 3744 280 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_267_155#" 0 0 267 155 pw 0 0 0 0 0 0 0 0 4368 292 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_213_155#" 2659 2243.38 213 155 nw 0 0 0 0 3848 282 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_176_155#" 0 0 176 155 pw 0 0 0 0 0 0 0 0 3744 280 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_91_155#" 1587 3759.18 91 155 nw 0 0 0 0 6448 332 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_61_155#" 0 0 61 155 pw 0 0 0 0 0 0 0 0 2704 260 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_29_155#" 3784 1576.43 29 155 nw 0 0 0 0 2704 260 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_n1_155#" 0 0 -1 155 pw 0 0 0 0 0 0 0 0 2704 260 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "w_176_155#" "m1_200_155#" 614.224
+cap "m1_315_155#" "w_309_155#" 614.224
+cap "w_91_155#" "m1_123_155#" 614.224
+cap "w_91_155#" "m1_110_155#" 531.44
+cap "m1_3_155#" "w_n1_155#" 531.44
+cap "m1_48_155#" "w_29_155#" 410.592
+cap "m1_3_155#" "a_n5_89#" 1200.52
+cap "w_n1_155#" "a_n5_89#" 120.848
+cap "m1_123_155#" "m1_110_155#" 800.349
+cap "m2_147_155#" "w_91_155#" 137.488
+cap "w_309_155#" "m2_339_155#" 137.488
+cap "m1_392_155#" "w_368_155#" 614.224
+cap "w_61_155#" "m1_65_155#" 531.44
+subcap "a_n5_89#" -391.41
+cap "latch_onefinal_0/new_inv_1/a_77_16#" "latch_onefinal_1/new_inv_1/a_77_16#" 7.26514
+cap "latch_onefinal_0/GND!" "latch_onefinal_1/EN" 1184.02
+cap "latch_onefinal_0/tg_0/a_100_74#" "latch_onefinal_1/tg_0/EN" 12.714
+cap "latch_onefinal_1/EN" "latch_onefinal_0/d" 12.68
+cap "latch_onefinal_0/tg_0/out" "latch_onefinal_1/new_inv_0/a_77_16#" 7.26514
+cap "latch_onefinal_0/tg_0/a_100_74#" "latch_onefinal_0/q" 7.10543e-15
+cap "latch_onefinal_0/d" "latch_onefinal_0/q" -7.10543e-15
+cap "latch_onefinal_1/tg_0/EN" "addsub_onefin_0/xorgate_0/Vdd!" 4.632
+cap "latch_onefinal_1/tg_0/a_100_74#" "addsub_onefin_0/xorgate_0/Vdd!" 4.632
+cap "addsub_onefin_1/xorgate_0/Vdd!" "addsub_onefin_0/addsub_onev3_0/cin" 17.39
+cap "addsub_onefin_0/addsub_onev3_0/cin" "addsub_onefin_1/xorgate_0/Vdd!" 38.4783
+subcap "m1_65_155#" -40.372
+subcap "m1_3_155#" -40.372
+subcap "a_57_91#" -410.554
+subcap "w_91_155#" -3584.28
+subcap "w_61_155#" -24.104
+subcap "w_29_155#" -375.591
+subcap "w_n1_155#" -24.104
+cap "latch_onefinal_1/EN" "latch_onefinal_0/tg_0/GND!" 697.64
+subcap "m2_147_155#" -1.628
+subcap "m1_200_155#" -150.266
+subcap "w_91_155#" -1231.61
+cap "latch_onefinal_1/tg_0/Vdd!" "m2_147_155#" -14.542
+cap "latch_onefinal_1/tg_0/Vdd!" "addsub_onefin_0/xorgate_0/B" 5.68434e-14
+subcap "m1_200_155#" -70.954
+subcap "w_213_155#" -625.559
+cap "w_176_155#" "addsub_onefin_0/xorgate_0/GND!" -57.706
+subcap "m2_339_155#" -1.628
+subcap "w_309_155#" -591.035
+cap "addsub_onefin_1/xorgate_0/Vdd!" "addsub_onefin_1/xorgate_0/B" 5.68434e-14
+cap "w_368_155#" "addsub_onefin_1/xorgate_0/GND!" -15.362
+cap "addsub_onefin_1/xorgate_0/Vdd!" "m2_339_155#" -14.542
+subcap "m1_392_155#" -3.486
+subcap "w_405_155#" -1617.83
+cap "m1_392_155#" "w_368_155#" -31.886
+merge "addsub_onefin_1/m1_83_131#" "addsub_onefin_1/xorgate_0/GND!" -38.346 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -246 -75 0 0 0 0 0 0 0 0 0 0
+merge "addsub_onefin_1/xorgate_0/GND!" "m1_392_155#"
+merge "addsub_onefin_1/addsub_onev3_0/GND!" "w_459_155#" 0 0 0 0 0 0 0 0 0 -1680 -248 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "addsub_onefin_1/xorgate_0/Vdd!" "w_309_155#" -440.676 0 0 0 0 -720 -112 0 0 0 0 0 0 0 0 -180 -58 0 0 0 0 0 0 0 0 0 0
+merge "w_309_155#" "m1_315_155#"
+merge "addsub_onefin_1/m1_38_0#" "m2_339_155#" -4.884 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -344 -184 0 0 0 0 0 0 0 0
+merge "addsub_onefin_0/xorgate_0/GND!" "m1_200_155#" 5.462 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -34 0 0 0 0 0 0 0 0 0 0
+merge "addsub_onefin_1/xorgate_0/w_n36_n76#" "w_368_155#" 0 0 0 0 0 0 0 0 0 -2682 -243 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "latch_onefinal_1/Vdd!" "addsub_onefin_0/xorgate_0/Vdd!" -478.307 0 0 0 0 -653 -262 0 0 0 0 0 0 0 0 -131 -66 0 0 0 0 0 0 0 0 0 0
+merge "addsub_onefin_0/xorgate_0/Vdd!" "latch_onefinal_1/tg_0/Vdd!"
+merge "latch_onefinal_1/tg_0/Vdd!" "w_91_155#"
+merge "w_91_155#" "m1_123_155#"
+merge "m1_123_155#" "m1_110_155#"
+merge "latch_onefinal_0/EN" "a_n5_89#" -103.004 0 0 0 0 0 0 0 0 0 0 15 -18 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "a_n5_89#" "latch_onefinal_1/EN"
+merge "latch_onefinal_1/EN" "a_57_91#"
+merge "addsub_onefin_0/addsub_onev3_0/GND!" "w_267_155#" 14.904 -21 -67 -64 -52 0 0 0 0 -3612 -298 0 0 0 0 -285 -155 0 0 0 0 0 0 0 0 0 0
+merge "latch_onefinal_1/w_n1_99#" "latch_onefinal_1/tg_0/GND!" -16.268 0 0 0 0 0 0 0 0 394 -74 0 0 0 0 -77 -36 0 0 0 0 0 0 0 0 0 0
+merge "latch_onefinal_1/tg_0/GND!" "w_61_155#"
+merge "w_61_155#" "m1_65_155#"
+merge "latch_onefinal_0/tg_0/Vdd!" "w_29_155#" -195.788 0 0 0 0 -286 -74 0 0 0 0 0 0 0 0 -77 -36 0 0 0 0 0 0 0 0 0 0
+merge "w_29_155#" "m1_48_155#"
+merge "addsub_onefin_0/m1_38_0#" "m2_147_155#" -4.884 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -344 -184 0 0 0 0 0 0 0 0
+merge "addsub_onefin_0/xorgate_0/w_n36_n76#" "w_176_155#" 0 0 0 0 0 0 0 0 0 -3096 -280 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "addsub_onefin_1/addsub_onev3_0/Vdd!" "w_405_155#" -862.84 0 0 0 0 -1480 -228 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "latch_onefinal_0/tg_0/GND!" "w_n1_155#" -16.268 0 0 0 0 0 0 0 0 -286 -74 0 0 0 0 -77 -36 0 0 0 0 0 0 0 0 0 0
+merge "w_n1_155#" "m1_3_155#"
+merge "addsub_onefin_0/addsub_onev3_0/Vdd!" "w_213_155#" -237.281 0 0 0 0 -407 -96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

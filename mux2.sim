@@ -1,0 +1,98 @@
+| units: 9 tech: scmos format: MIT
+p mux2_one_0[0]/tg_0/EN mux2_one_0[0]/tg_0/a_100_74# Vdd! 2 10 35 87
+p mux2_one_0[0]/tg_0/a_100_74# o0 a0 2 10 35 62
+n mux2_one_0[0]/tg_0/EN mux2_one_0[0]/tg_0/a_100_74# GND! 2 5 13 87
+n mux2_one_0[0]/tg_0/EN o0 a0 2 5 13 62
+p sel mux2_one_0[0]/tg_0/EN Vdd! 2 10 35 36
+p mux2_one_0[0]/tg_0/EN o0 b0 2 10 35 11
+n sel mux2_one_0[0]/tg_0/EN GND! 2 5 13 36
+n sel o0 b0 2 5 13 11
+p mux2_one_0[1]/tg_0/EN mux2_one_0[1]/tg_0/a_100_74# Vdd! 2 10 35 189
+p mux2_one_0[1]/tg_0/a_100_74# o1 a1 2 10 35 164
+n mux2_one_0[1]/tg_0/EN mux2_one_0[1]/tg_0/a_100_74# GND! 2 5 13 189
+n mux2_one_0[1]/tg_0/EN o1 a1 2 5 13 164
+p sel mux2_one_0[1]/tg_0/EN Vdd! 2 10 35 138
+p mux2_one_0[1]/tg_0/EN o1 b1 2 10 35 113
+n sel mux2_one_0[1]/tg_0/EN GND! 2 5 13 138
+n sel o1 b1 2 5 13 113
+p mux2_one_0[2]/tg_0/EN mux2_one_0[2]/tg_0/a_100_74# Vdd! 2 10 35 291
+p mux2_one_0[2]/tg_0/a_100_74# o2 a2 2 10 35 266
+n mux2_one_0[2]/tg_0/EN mux2_one_0[2]/tg_0/a_100_74# GND! 2 5 13 291
+n mux2_one_0[2]/tg_0/EN o2 a2 2 5 13 266
+p sel mux2_one_0[2]/tg_0/EN Vdd! 2 10 35 240
+p mux2_one_0[2]/tg_0/EN o2 b2 2 10 35 215
+n sel mux2_one_0[2]/tg_0/EN GND! 2 5 13 240
+n sel o2 b2 2 5 13 215
+p mux2_one_0[3]/tg_0/EN mux2_one_0[3]/tg_0/a_100_74# Vdd! 2 10 35 393
+p mux2_one_0[3]/tg_0/a_100_74# o3 a3 2 10 35 368
+n mux2_one_0[3]/tg_0/EN mux2_one_0[3]/tg_0/a_100_74# GND! 2 5 13 393
+n mux2_one_0[3]/tg_0/EN o3 a3 2 5 13 368
+p sel mux2_one_0[3]/tg_0/EN Vdd! 2 10 35 342
+p mux2_one_0[3]/tg_0/EN o3 b3 2 10 35 317
+n sel mux2_one_0[3]/tg_0/EN GND! 2 5 13 342
+n sel o3 b3 2 5 13 317
+p mux2_one_0[4]/tg_0/EN mux2_one_0[4]/tg_0/a_100_74# Vdd! 2 10 35 495
+p mux2_one_0[4]/tg_0/a_100_74# o4 a4 2 10 35 470
+n mux2_one_0[4]/tg_0/EN mux2_one_0[4]/tg_0/a_100_74# GND! 2 5 13 495
+n mux2_one_0[4]/tg_0/EN o4 a4 2 5 13 470
+p sel mux2_one_0[4]/tg_0/EN Vdd! 2 10 35 444
+p mux2_one_0[4]/tg_0/EN o4 b4 2 10 35 419
+n sel mux2_one_0[4]/tg_0/EN GND! 2 5 13 444
+n sel o4 b4 2 5 13 419
+p mux2_one_0[5]/tg_0/EN mux2_one_0[5]/tg_0/a_100_74# Vdd! 2 10 35 597
+p mux2_one_0[5]/tg_0/a_100_74# o5 a5 2 10 35 572
+n mux2_one_0[5]/tg_0/EN mux2_one_0[5]/tg_0/a_100_74# GND! 2 5 13 597
+n mux2_one_0[5]/tg_0/EN o5 a5 2 5 13 572
+p sel mux2_one_0[5]/tg_0/EN Vdd! 2 10 35 546
+p mux2_one_0[5]/tg_0/EN o5 b5 2 10 35 521
+n sel mux2_one_0[5]/tg_0/EN GND! 2 5 13 546
+n sel o5 b5 2 5 13 521
+p mux2_one_0[6]/tg_0/EN mux2_one_0[6]/tg_0/a_100_74# Vdd! 2 10 35 699
+p mux2_one_0[6]/tg_0/a_100_74# o6 a6 2 10 35 674
+n mux2_one_0[6]/tg_0/EN mux2_one_0[6]/tg_0/a_100_74# GND! 2 5 13 699
+n mux2_one_0[6]/tg_0/EN o6 a6 2 5 13 674
+p sel mux2_one_0[6]/tg_0/EN Vdd! 2 10 35 648
+p mux2_one_0[6]/tg_0/EN o6 b6 2 10 35 623
+n sel mux2_one_0[6]/tg_0/EN GND! 2 5 13 648
+n sel o6 b6 2 5 13 623
+C sel GND! 14.92
+R b6 23
+R o6 94
+R a6 23
+R mux2_one_0[6]/tg_0/a_100_74# 176
+R mux2_one_0[6]/tg_0/EN 555
+R b5 23
+R o5 94
+R a5 23
+R mux2_one_0[5]/tg_0/a_100_74# 176
+R mux2_one_0[5]/tg_0/EN 555
+R b4 23
+R o4 94
+R a4 23
+R mux2_one_0[4]/tg_0/a_100_74# 176
+R mux2_one_0[4]/tg_0/EN 555
+R b3 23
+R o3 94
+R a3 23
+R mux2_one_0[3]/tg_0/a_100_74# 176
+R mux2_one_0[3]/tg_0/EN 555
+R b2 23
+R o2 94
+R a2 23
+R mux2_one_0[2]/tg_0/a_100_74# 176
+R mux2_one_0[2]/tg_0/EN 555
+R b1 23
+C sel GND 2.71
+R sel 3084
+C Vdd! GND 12.30
+R Vdd! 25728
+R GND! 2117
+R o1 94
+R a1 23
+R mux2_one_0[1]/tg_0/a_100_74# 176
+R mux2_one_0[1]/tg_0/EN 555
+R b0 23
+R o0 94
+R a0 23
+R mux2_one_0[0]/tg_0/a_100_74# 176
+R mux2_one_0[0]/tg_0/EN 555

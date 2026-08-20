@@ -1,0 +1,142 @@
+timestamp 1765738559
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t24i
+scale 1000 1 9
+resistclasses 6900 7800 946000 946000 1 8000 8000 80 80 80 80 80 40
+use mux2_one mux2_one_3 1 0 5 0 1 1346
+use mux2_one mux2_one_4 1 0 5 0 1 1087
+use mux2_one mux2_one_5 1 0 5 0 1 828
+use mux2_one mux2_one_2 1 0 5 0 1 569
+use mux2_one mux2_one_1 1 0 5 0 1 310
+use mux2_one mux2_one_0 1 0 5 0 1 51
+node "m1_53_102#" 2 16.268 53 102 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1099 328 0 0 0 0 0 0 0 0 0 0
+node "m1_8_102#" 2 16.268 8 102 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1099 328 0 0 0 0 0 0 0 0 0 0
+node "m1_53_361#" 2 16.268 53 361 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1099 328 0 0 0 0 0 0 0 0 0 0
+node "m1_8_361#" 2 16.268 8 361 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1099 328 0 0 0 0 0 0 0 0 0 0
+node "m1_53_620#" 2 16.268 53 620 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1099 328 0 0 0 0 0 0 0 0 0 0
+node "m1_8_620#" 2 16.268 8 620 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1099 328 0 0 0 0 0 0 0 0 0 0
+node "m1_53_879#" 2 16.268 53 879 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1099 328 0 0 0 0 0 0 0 0 0 0
+node "m1_8_879#" 2 16.268 8 879 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1099 328 0 0 0 0 0 0 0 0 0 0
+node "m1_53_1138#" 2 16.268 53 1138 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1099 328 0 0 0 0 0 0 0 0 0 0
+node "m1_8_1138#" 2 16.268 8 1138 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1099 328 0 0 0 0 0 0 0 0 0 0
+node "a_0_35#" 213 4421.34 0 35 pc 0 0 0 0 0 0 0 0 0 0 150 120 0 0 4251 2824 0 0 0 0 0 0 0 0 0 0
+node "w_34_102#" 5121 2654.4 34 102 nw 0 0 0 0 4553 372 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_5_102#" 0 0 5 102 pw 0 0 0 0 0 0 0 0 3768 362 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_34_361#" 5121 2654.4 34 361 nw 0 0 0 0 4553 372 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_5_361#" 0 0 5 361 pw 0 0 0 0 0 0 0 0 3768 362 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_34_620#" 5121 2654.4 34 620 nw 0 0 0 0 4553 372 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_5_620#" 0 0 5 620 pw 0 0 0 0 0 0 0 0 3768 362 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_34_879#" 5121 2654.4 34 879 nw 0 0 0 0 4553 372 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_5_879#" 0 0 5 879 pw 0 0 0 0 0 0 0 0 3768 362 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_34_1138#" 5121 2654.4 34 1138 nw 0 0 0 0 4553 372 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_5_1138#" 0 0 5 1138 pw 0 0 0 0 0 0 0 0 3768 362 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "a_0_35#" "m1_8_361#" 2416.44
+cap "a_0_35#" "w_5_1138#" 182.434
+cap "a_0_35#" "m1_8_620#" 2416.44
+cap "a_0_35#" "w_5_879#" 182.434
+cap "a_0_35#" "m1_8_879#" 2416.44
+cap "a_0_35#" "m1_8_1138#" 2416.44
+cap "m1_8_102#" "w_5_102#" 802.27
+cap "m1_53_879#" "w_34_879#" 802.27
+cap "m1_8_879#" "w_5_879#" 802.27
+cap "m1_53_1138#" "w_34_1138#" 802.27
+cap "m1_8_1138#" "w_5_1138#" 802.27
+cap "a_0_35#" "w_5_102#" 182.434
+cap "m1_53_361#" "w_34_361#" 802.27
+cap "a_0_35#" "w_5_361#" 182.434
+cap "m1_8_361#" "w_5_361#" 802.27
+cap "a_0_35#" "w_5_620#" 182.434
+cap "m1_53_620#" "w_34_620#" 802.27
+cap "a_0_35#" "m1_8_102#" 2416.44
+cap "w_34_102#" "m1_53_102#" 802.27
+cap "m1_8_620#" "w_5_620#" 802.27
+subcap "m1_8_102#" -8.134
+subcap "a_0_35#" -4083.3
+subcap "w_34_102#" -955.565
+cap "mux2_one_0/a" "mux2_one_0/sel" 17.421
+cap "mux2_one_0/tg_0/EN" "mux2_one_0/sel" 9.328
+cap "mux2_one_0/tg_0/GND!" "mux2_one_0/sel" 1652.99
+cap "mux2_one_0/sel" "mux2_one_0/b" 17.421
+subcap "m1_8_102#" -49.128
+subcap "w_34_102#" -2509.24
+subcap "w_5_102#" -32.86
+cap "mux2_one_0/tg_0/GND!" "a_0_35#" 33.1067
+cap "mux2_one_1/sel" "mux2_one_1/b" 17.421
+cap "mux2_one_1/tg_1/GND!" "mux2_one_1/sel" 680.987
+subcap "m1_8_361#" -42.504
+subcap "w_34_361#" -1502.96
+subcap "w_5_361#" -26.236
+cap "mux2_one_1/a" "mux2_one_1/sel" 17.421
+cap "mux2_one_1/tg_0/EN" "mux2_one_1/sel" 9.328
+cap "mux2_one_1/tg_0/GND!" "mux2_one_1/sel" 1005.11
+cap "mux2_one_2/sel" "mux2_one_2/b" 17.421
+cap "mux2_one_2/sel" "mux2_one_2/tg_0/GND!" 1357.35
+cap "mux2_one_2/tg_0/EN" "mux2_one_2/sel" 4.664
+cap "mux2_one_2/a" "mux2_one_2/sel" 17.421
+subcap "m1_8_620#" -38.78
+subcap "w_34_620#" -2186.61
+subcap "w_5_620#" -22.512
+cap "a_0_35#" "mux2_one_2/tg_0/GND!" 328.743
+cap "mux2_one_2/tg_0/EN" "a_0_35#" 4.664
+cap "mux2_one_5/tg_1/GND!" "a_0_35#" 378.403
+cap "mux2_one_5/tg_1/EN" "a_0_35#" 4.664
+cap "mux2_one_5/b" "a_0_35#" 17.421
+subcap "m1_8_879#" -22.064
+subcap "w_34_879#" -1172.38
+subcap "w_5_879#" -5.796
+cap "mux2_one_5/tg_0/GND!" "mux2_one_5/sel" 1307.69
+cap "mux2_one_5/a" "mux2_one_5/sel" 17.421
+cap "mux2_one_5/tg_0/EN" "mux2_one_5/sel" 9.328
+cap "mux2_one_4/sel" "mux2_one_4/b" 17.421
+cap "mux2_one_4/tg_0/GND!" "mux2_one_4/sel" 1060.55
+cap "mux2_one_4/tg_0/EN" "mux2_one_4/sel" 2.332
+subcap "m1_8_1138#" -22.064
+subcap "w_34_1138#" -1865.57
+subcap "w_5_1138#" -5.796
+cap "a_0_35#" "mux2_one_4/tg_0/EN" 6.996
+cap "a_0_35#" "mux2_one_4/tg_0/GND!" 625.541
+cap "a_0_35#" "mux2_one_4/a" 17.421
+cap "mux2_one_3/tg_1/GND!" "a_0_35#" 82.7667
+cap "mux2_one_3/a" "mux2_one_3/sel" 17.421
+cap "mux2_one_3/tg_0/EN" "mux2_one_3/sel" 9.328
+cap "mux2_one_3/tg_0/GND!" "mux2_one_3/sel" 1603.33
+cap "mux2_one_3/sel" "mux2_one_3/b" 17.421
+merge "mux2_one_3/sel" "mux2_one_4/sel" -1139.19 0 0 0 0 0 0 0 0 0 0 0 -24 0 0 -399 -281 0 0 0 0 0 0 0 0 0 0
+merge "mux2_one_4/sel" "mux2_one_5/sel"
+merge "mux2_one_5/sel" "mux2_one_2/sel"
+merge "mux2_one_2/sel" "mux2_one_1/sel"
+merge "mux2_one_1/sel" "mux2_one_0/sel"
+merge "mux2_one_0/sel" "a_0_35#"
+merge "mux2_one_1/tg_1/Vdd!" "mux2_one_0/tg_0/Vdd!" 6.85 0 0 0 0 58 -116 0 0 0 0 0 0 0 0 14 -28 0 0 0 0 0 0 0 0 0 0
+merge "mux2_one_0/tg_0/Vdd!" "w_34_102#"
+merge "w_34_102#" "m1_53_102#"
+merge "mux2_one_5/tg_1/Vdd!" "mux2_one_2/tg_0/Vdd!" -32.536 0 0 0 0 0 -116 0 0 0 0 0 0 0 0 0 -28 0 0 0 0 0 0 0 0 0 0
+merge "mux2_one_2/tg_0/Vdd!" "mux2_one_1/tg_0/Vdd!"
+merge "mux2_one_1/tg_0/Vdd!" "w_34_361#"
+merge "w_34_361#" "m1_53_361#"
+merge "m1_53_361#" "w_34_620#"
+merge "w_34_620#" "m1_53_620#"
+merge "mux2_one_5/tg_1/GND!" "mux2_one_2/tg_0/GND!" -32.536 0 0 0 0 0 0 0 0 0 -96 0 0 0 0 0 -28 0 0 0 0 0 0 0 0 0 0
+merge "mux2_one_2/tg_0/GND!" "mux2_one_1/tg_0/GND!"
+merge "mux2_one_1/tg_0/GND!" "w_5_361#"
+merge "w_5_361#" "m1_8_361#"
+merge "m1_8_361#" "w_5_620#"
+merge "w_5_620#" "m1_8_620#"
+merge "mux2_one_3/tg_0/GND!" "mux2_one_3/tg_1/GND!" -18.606 0 0 0 0 0 0 0 0 120 -96 0 0 0 0 35 -28 0 0 0 0 0 0 0 0 0 0
+merge "mux2_one_3/tg_1/GND!" "mux2_one_4/tg_0/GND!"
+merge "mux2_one_4/tg_0/GND!" "mux2_one_5/tg_0/GND!"
+merge "mux2_one_5/tg_0/GND!" "w_5_879#"
+merge "w_5_879#" "m1_8_879#"
+merge "m1_8_879#" "w_5_1138#"
+merge "w_5_1138#" "m1_8_1138#"
+merge "mux2_one_3/tg_0/Vdd!" "mux2_one_3/tg_1/Vdd!" 65.929 0 0 0 0 145 -116 0 0 0 0 0 0 0 0 35 -28 0 0 0 0 0 0 0 0 0 0
+merge "mux2_one_3/tg_1/Vdd!" "mux2_one_4/tg_0/Vdd!"
+merge "mux2_one_4/tg_0/Vdd!" "mux2_one_5/tg_0/Vdd!"
+merge "mux2_one_5/tg_0/Vdd!" "w_34_879#"
+merge "w_34_879#" "m1_53_879#"
+merge "m1_53_879#" "w_34_1138#"
+merge "w_34_1138#" "m1_53_1138#"
+merge "mux2_one_1/tg_1/GND!" "mux2_one_0/tg_0/GND!" -26.964 0 0 0 0 0 0 0 0 48 -96 0 0 0 0 14 -28 0 0 0 0 0 0 0 0 0 0
+merge "mux2_one_0/tg_0/GND!" "w_5_102#"
+merge "w_5_102#" "m1_8_102#"

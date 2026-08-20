@@ -1,0 +1,291 @@
+magic
+tech scmos
+timestamp 1765691251
+<< error_p >>
+rect 659 43 664 51
+rect 664 39 671 43
+<< error_s >>
+rect 495 873 503 875
+rect 471 857 503 858
+rect 471 848 476 855
+rect 490 849 491 854
+rect 493 848 503 855
+rect 471 571 476 577
+rect 493 571 503 577
+rect 471 569 483 571
+rect 486 569 503 571
+rect 498 563 503 566
+rect 498 538 503 540
+rect 471 352 476 360
+rect 490 352 491 356
+rect 493 352 503 360
+rect 489 351 491 352
+rect 489 348 490 351
+rect 482 347 490 348
+<< pwell >>
+rect 659 39 664 43
+<< ndiffusion >>
+rect 661 912 666 913
+rect 471 906 476 907
+rect 471 855 476 856
+rect 661 746 666 747
+rect 471 740 476 741
+rect 471 689 476 690
+rect 661 580 666 581
+rect 471 574 476 575
+rect 471 523 476 524
+rect 661 414 666 415
+rect 471 408 476 409
+rect 471 357 476 358
+rect 661 248 666 249
+rect 471 242 476 243
+rect 471 191 476 192
+<< pdiffusion >>
+rect 683 912 693 913
+rect 493 906 503 907
+rect 493 855 503 856
+rect 683 746 693 747
+rect 493 740 503 741
+rect 493 689 503 690
+rect 683 580 693 581
+rect 493 574 503 575
+rect 493 523 503 524
+rect 683 414 693 415
+rect 493 408 503 409
+rect 493 357 503 358
+rect 683 248 693 249
+rect 493 242 503 243
+rect 493 191 503 192
+<< ndcontact >>
+rect 661 913 666 918
+rect 471 901 476 906
+rect 471 850 476 855
+rect 661 747 666 752
+rect 471 735 476 740
+rect 471 684 476 689
+rect 661 581 666 586
+rect 471 569 476 574
+rect 471 518 476 523
+rect 661 415 666 420
+rect 471 403 476 408
+rect 471 352 476 357
+rect 661 249 666 254
+rect 471 237 476 242
+rect 471 186 476 191
+<< pdcontact >>
+rect 683 913 693 918
+rect 493 901 503 906
+rect 493 850 503 855
+rect 683 747 693 752
+rect 493 735 503 740
+rect 493 684 503 689
+rect 683 581 693 586
+rect 493 569 503 574
+rect 493 518 503 523
+rect 683 415 693 420
+rect 493 403 503 408
+rect 493 352 503 357
+rect 683 249 693 254
+rect 493 237 503 242
+rect 493 186 503 191
+<< metal1 >>
+rect 666 913 671 918
+rect 676 913 683 918
+rect 476 901 493 906
+rect 483 898 486 901
+rect 483 895 498 898
+rect 476 850 493 855
+rect 666 747 671 752
+rect 676 747 683 752
+rect 476 735 493 740
+rect 483 732 486 735
+rect 483 729 498 732
+rect 476 684 493 689
+rect 666 581 671 586
+rect 676 581 683 586
+rect 476 569 493 574
+rect 483 566 486 569
+rect 483 563 498 566
+rect 476 518 493 523
+rect 666 415 671 420
+rect 676 415 683 420
+rect 476 403 493 408
+rect 483 400 486 403
+rect 483 397 498 400
+rect 476 352 493 357
+rect 666 249 671 254
+rect 676 249 683 254
+rect 476 237 493 242
+rect 483 234 486 237
+rect 483 231 498 234
+rect 476 186 493 191
+<< m2contact >>
+rect 671 913 676 918
+rect 498 893 503 898
+rect 482 845 487 850
+rect 671 747 676 752
+rect 498 727 503 732
+rect 482 679 487 684
+rect 671 581 676 586
+rect 498 561 503 566
+rect 482 513 487 518
+rect 671 415 676 420
+rect 498 395 503 400
+rect 482 347 487 352
+rect 671 249 676 254
+rect 498 229 503 234
+rect 482 181 487 186
+<< metal2 >>
+rect 672 918 676 949
+rect 567 913 590 918
+rect 647 913 671 918
+rect 503 893 504 898
+rect 567 897 571 913
+rect 500 872 504 893
+rect 503 867 504 872
+rect 663 874 668 913
+rect 500 849 504 867
+rect 487 845 504 849
+rect 672 752 676 783
+rect 567 747 592 752
+rect 647 747 671 752
+rect 503 727 504 732
+rect 567 731 571 747
+rect 500 706 504 727
+rect 503 701 504 706
+rect 663 708 668 747
+rect 500 683 504 701
+rect 487 679 504 683
+rect 672 586 676 617
+rect 567 581 591 586
+rect 647 581 671 586
+rect 503 561 504 566
+rect 567 565 571 581
+rect 500 540 504 561
+rect 503 535 504 540
+rect 663 542 668 581
+rect 500 517 504 535
+rect 487 513 504 517
+rect 672 420 676 451
+rect 567 415 591 420
+rect 647 415 671 420
+rect 503 395 504 400
+rect 567 399 571 415
+rect 500 374 504 395
+rect 503 369 504 374
+rect 663 376 668 415
+rect 500 351 504 369
+rect 487 347 504 351
+rect 672 254 676 285
+rect 567 249 588 254
+rect 647 249 671 254
+rect 567 234 571 249
+rect 503 229 504 234
+rect 500 208 504 229
+rect 503 203 504 208
+rect 663 210 668 249
+rect 500 185 504 203
+rect 487 181 504 185
+rect 566 83 586 88
+rect 566 67 571 83
+rect 663 44 668 87
+<< m123contact >>
+rect 498 867 503 872
+rect 663 869 668 874
+rect 498 701 503 706
+rect 663 703 668 708
+rect 498 535 503 540
+rect 663 537 668 542
+rect 498 369 503 374
+rect 663 371 668 376
+rect 498 203 503 208
+rect 663 205 668 210
+rect 498 37 503 42
+rect 663 39 668 44
+<< metal3 >>
+rect 659 872 663 873
+rect 503 867 663 872
+rect 659 706 663 707
+rect 503 701 663 706
+rect 659 540 663 541
+rect 503 535 663 540
+rect 659 374 663 375
+rect 503 369 663 374
+rect 659 208 663 209
+rect 503 203 663 208
+rect 659 42 663 43
+rect 503 37 663 42
+use datapath_arrayed  datapath_arrayed_0
+timestamp 1765691251
+transform 1 0 585 0 1 14
+box 3833 -2291 4400 -737
+use mux2  mux2_0
+timestamp 1765665517
+transform 1 0 520 0 1 14
+box 0 0 63 1397
+use mux2  mux2_1
+timestamp 1765665517
+transform 1 0 453 0 1 14
+box 0 0 63 1397
+<< labels >>
+rlabel metal2 489 183 489 183 1 mux2_1/mux2_one_0[0]/out
+rlabel m2contact 483 184 486 184 1 mux2_1/mux2_one_0[0]/tg_1/out
+rlabel metal1 483 235 486 235 1 mux2_1/mux2_one_0[0]/tg_0/out
+rlabel metal2 649 250 649 253 3 datapath_arrayed_0/datapath_onefin_0[0]/latch_onefinal_1/d
+rlabel metal2 649 416 649 419 3 datapath_arrayed_0/datapath_onefin_0[0]/latch_onefinal_1/d
+rlabel metal2 649 416 649 419 3 datapath_arrayed_0/datapath_onefin_0[1]/latch_onefinal_1/d
+rlabel metal2 489 349 489 349 1 mux2_1/mux2_one_0[0]/out
+rlabel m2contact 483 350 486 350 1 mux2_1/mux2_one_0[0]/tg_1/out
+rlabel metal2 489 349 489 349 1 mux2_1/mux2_one_0[1]/out
+rlabel m2contact 483 350 486 350 1 mux2_1/mux2_one_0[1]/tg_1/out
+rlabel metal1 483 401 486 401 1 mux2_1/mux2_one_0[0]/tg_0/out
+rlabel metal1 483 401 486 401 1 mux2_1/mux2_one_0[1]/tg_0/out
+rlabel metal2 649 582 649 585 3 datapath_arrayed_0/datapath_onefin_0[0]/latch_onefinal_1/d
+rlabel metal2 649 582 649 585 3 datapath_arrayed_0/datapath_onefin_0[1]/latch_onefinal_1/d
+rlabel metal2 649 582 649 585 3 datapath_arrayed_0/datapath_onefin_0[2]/latch_onefinal_1/d
+rlabel metal2 489 515 489 515 1 mux2_1/mux2_one_0[0]/out
+rlabel m2contact 483 516 486 516 1 mux2_1/mux2_one_0[0]/tg_1/out
+rlabel metal2 489 515 489 515 1 mux2_1/mux2_one_0[1]/out
+rlabel m2contact 483 516 486 516 1 mux2_1/mux2_one_0[1]/tg_1/out
+rlabel metal2 489 515 489 515 1 mux2_1/mux2_one_0[2]/out
+rlabel m2contact 483 516 486 516 1 mux2_1/mux2_one_0[2]/tg_1/out
+rlabel metal1 483 567 486 567 1 mux2_1/mux2_one_0[0]/tg_0/out
+rlabel metal1 483 567 486 567 1 mux2_1/mux2_one_0[1]/tg_0/out
+rlabel metal1 483 567 486 567 1 mux2_1/mux2_one_0[2]/tg_0/out
+rlabel metal2 649 748 649 751 3 datapath_arrayed_0/datapath_onefin_0[0]/latch_onefinal_1/d
+rlabel metal2 649 748 649 751 3 datapath_arrayed_0/datapath_onefin_0[1]/latch_onefinal_1/d
+rlabel metal2 649 748 649 751 3 datapath_arrayed_0/datapath_onefin_0[2]/latch_onefinal_1/d
+rlabel metal2 649 748 649 751 3 datapath_arrayed_0/datapath_onefin_0[3]/latch_onefinal_1/d
+rlabel metal2 489 681 489 681 1 mux2_1/mux2_one_0[0]/out
+rlabel m2contact 483 682 486 682 1 mux2_1/mux2_one_0[0]/tg_1/out
+rlabel metal2 489 681 489 681 1 mux2_1/mux2_one_0[1]/out
+rlabel m2contact 483 682 486 682 1 mux2_1/mux2_one_0[1]/tg_1/out
+rlabel metal2 489 681 489 681 1 mux2_1/mux2_one_0[2]/out
+rlabel m2contact 483 682 486 682 1 mux2_1/mux2_one_0[2]/tg_1/out
+rlabel metal2 489 681 489 681 1 mux2_1/mux2_one_0[3]/out
+rlabel m2contact 483 682 486 682 1 mux2_1/mux2_one_0[3]/tg_1/out
+rlabel metal1 483 733 486 733 1 mux2_1/mux2_one_0[0]/tg_0/out
+rlabel metal1 483 733 486 733 1 mux2_1/mux2_one_0[1]/tg_0/out
+rlabel metal1 483 733 486 733 1 mux2_1/mux2_one_0[2]/tg_0/out
+rlabel metal1 483 733 486 733 1 mux2_1/mux2_one_0[3]/tg_0/out
+rlabel metal2 649 914 649 917 3 datapath_arrayed_0/datapath_onefin_0[0]/latch_onefinal_1/d
+rlabel metal2 649 914 649 917 3 datapath_arrayed_0/datapath_onefin_0[1]/latch_onefinal_1/d
+rlabel metal2 649 914 649 917 3 datapath_arrayed_0/datapath_onefin_0[2]/latch_onefinal_1/d
+rlabel metal2 649 914 649 917 3 datapath_arrayed_0/datapath_onefin_0[3]/latch_onefinal_1/d
+rlabel metal2 649 914 649 917 3 datapath_arrayed_0/datapath_onefin_0[4]/latch_onefinal_1/d
+rlabel metal2 489 847 489 847 1 mux2_1/mux2_one_0[0]/out
+rlabel m2contact 483 848 486 848 1 mux2_1/mux2_one_0[0]/tg_1/out
+rlabel metal2 489 847 489 847 1 mux2_1/mux2_one_0[1]/out
+rlabel m2contact 483 848 486 848 1 mux2_1/mux2_one_0[1]/tg_1/out
+rlabel metal2 489 847 489 847 1 mux2_1/mux2_one_0[2]/out
+rlabel m2contact 483 848 486 848 1 mux2_1/mux2_one_0[2]/tg_1/out
+rlabel metal2 489 847 489 847 1 mux2_1/mux2_one_0[3]/out
+rlabel m2contact 483 848 486 848 1 mux2_1/mux2_one_0[3]/tg_1/out
+rlabel metal2 489 847 489 847 1 mux2_1/mux2_one_0[4]/out
+rlabel m2contact 483 848 486 848 1 mux2_1/mux2_one_0[4]/tg_1/out
+rlabel metal1 483 899 486 899 1 mux2_1/mux2_one_0[0]/tg_0/out
+rlabel metal1 483 899 486 899 1 mux2_1/mux2_one_0[1]/tg_0/out
+rlabel metal1 483 899 486 899 1 mux2_1/mux2_one_0[2]/tg_0/out
+rlabel metal1 483 899 486 899 1 mux2_1/mux2_one_0[3]/tg_0/out
+rlabel metal1 483 899 486 899 1 mux2_1/mux2_one_0[4]/tg_0/out
+<< end >>

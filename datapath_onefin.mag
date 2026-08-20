@@ -1,0 +1,54 @@
+magic
+tech scmos
+timestamp 1765777820
+<< nwell >>
+rect 29 155 55 259
+rect 91 155 153 259
+rect 213 155 250 259
+rect 309 155 345 259
+rect 405 155 442 259
+<< pwell >>
+rect -1 155 25 259
+rect 61 155 87 259
+rect 176 155 212 259
+rect 267 155 309 259
+rect 368 155 404 259
+rect 459 155 501 259
+<< polysilicon >>
+rect 57 91 64 93
+<< polycontact >>
+rect -5 89 0 94
+<< metal1 >>
+rect -4 94 -1 259
+rect 3 155 10 259
+rect 48 155 55 259
+rect 65 155 72 259
+rect 110 155 117 259
+rect 123 155 132 259
+rect 200 155 209 259
+rect 315 155 324 259
+rect 392 155 401 259
+rect -4 0 -1 89
+<< metal2 >>
+rect 147 155 151 259
+rect 339 155 343 259
+use latch_onefinal  latch_onefinal_0
+timestamp 1765777820
+transform 1 0 0 0 1 2
+box -1 -2 58 164
+use latch_onefinal  latch_onefinal_1
+timestamp 1765777820
+transform 1 0 62 0 1 2
+box -1 -2 58 164
+use addsub_onefin  addsub_onefin_0
+timestamp 1765665517
+transform 1 0 117 0 1 0
+box 0 0 192 166
+use addsub_onefin  addsub_onefin_1
+timestamp 1765665517
+transform 1 0 309 0 1 0
+box 0 0 192 166
+<< labels >>
+rlabel space 259 251 259 251 1 subtractor
+rlabel space 451 246 451 246 1 adder
+<< end >>

@@ -1,0 +1,77 @@
+magic
+tech scmos
+timestamp 1765774077
+<< error_s >>
+rect 29 394 32 398
+rect 16 356 17 360
+rect 20 72 21 356
+rect 36 231 37 398
+rect 36 9 37 226
+<< pwell >>
+rect 20 71 23 72
+<< polysilicon >>
+rect 0 89 2 91
+<< polycontact >>
+rect -5 413 0 418
+<< metal1 >>
+rect -4 418 -1 452
+rect 4 428 10 452
+rect 48 427 55 452
+rect -4 93 -1 413
+rect 4 102 10 378
+rect 25 268 28 383
+rect 25 257 28 263
+rect 48 103 55 378
+rect -4 -4 -1 88
+rect 20 71 23 72
+rect 25 43 28 57
+rect 3 34 10 36
+rect 48 34 55 36
+rect 25 16 28 34
+rect 3 -4 10 3
+rect 48 -4 55 2
+<< m2contact >>
+rect 24 4 29 9
+<< pm12contact >>
+rect -5 88 0 93
+<< metal2 >>
+rect 29 394 36 398
+rect 22 356 23 360
+rect 17 72 20 356
+rect 33 231 36 394
+rect 17 71 25 72
+rect 17 68 20 71
+rect 33 9 36 226
+rect 29 4 36 9
+<< m123contact >>
+rect 17 356 22 361
+rect 24 263 29 268
+rect 32 226 37 231
+<< metal3 >>
+rect 24 255 29 263
+rect 32 231 37 237
+<< m4contact >>
+rect 17 361 22 378
+rect 24 250 29 255
+use new_inv  new_inv_1
+timestamp 1765758641
+transform 1 0 -77 0 1 -4
+box 77 4 135 30
+use new_inv  new_inv_0
+timestamp 1765758641
+transform 1 0 -77 0 1 22
+box 77 4 135 30
+use tg  tg_0
+timestamp 1765736863
+transform 1 0 -87 0 1 9
+box 86 43 145 94
+use tg  tg_1
+timestamp 1765736863
+transform 1 0 -87 0 1 335
+box 86 43 145 94
+<< labels >>
+rlabel polysilicon 1 89 1 91 3 EN
+rlabel metal1 4 35 9 35 1 GND!
+rlabel metal1 49 35 54 35 1 Vdd!
+rlabel m2contact 24 5 29 5 1 q
+<< end >>

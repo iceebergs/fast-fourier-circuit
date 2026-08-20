@@ -1,0 +1,145 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 logfile fsm_test.txt\
+\
+stepsize 250\
+\
+h Vdd!\
+l GND!\
+\
+vector in         in7 in6 in5 in4 in3 in2 in1 in0\
+vector wz         wz7 wz6 wz5 wz4 wz3 wz2 wz1 wz0\
+vector rx         rx7 rx6 rx5 rx4 rx3 rx2 rx1 rx0\
+vector ry         ry7 ry6 ry5 ry4 ry3 ry2 ry1 ry0\
+vector out        out7 out6 out5 out4 out3 out2 out1 out0\
+\
+vector fb_ctrl    fb_g3 fb_g2 fb_g1 fb_g0\
+vector os_ctrl    os_s os_u\
+vector latch_ens ld_en rfb_en ros_en ras_en\
+vector reg0_ctrl  reg0_w reg0_r0 reg0_r1\
+vector reg1_ctrl  reg1_w reg1_r0 reg1_r1\
+vector CLOCK phi0 phi1\
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+\cf0 clock CLOCK 00 10 00 01\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+ana in ready reset load iter out wz rx ry\
+\
+# initialize\
+h reset\
+setvector in 00000000\
+l load iter cin\
+c\
+c\
+l reset\
+c\
+\
+# TEST #1: load and check that y is updated  \
+setvector in 10101010\
+l iter\
+h load\
+p\
+l load\
+p\
+c\
+\
+# TEST #2: does 2-step iter work?\
+setvector in 10010011\
+h iter\
+p\
+p\
+p\
+l iter\
+p\
+c\
+\
+# TEST #3: load with alternate input pattern\
+setvector in 11001100\
+h load\
+p\
+l load\
+p\
+c\
+\
+# TEST #4: 2 ITERs back to back\
+ITER #1\
+h iter\
+p\
+p\
+p\
+l iter\
+p\
+\
+# ITER #2\
+h iter\
+p\
+p\
+p\
+l iter\
+p\
+c\
+\
+# reset between test cases\
+h reset\
+c\
+l reset\
+c\
+\
+# EDGE TEST: changing in between clock phases (should hold onto the value given when stable [phi0])\
+setvector in 01010101\
+h load\
+p\
+setvector in 11110000\
+p\
+l load\
+p\
+c\
+\
+# EDGE TEST: asserting an input signal when not READY (input signal should be \'93ignored\'94)\
+h iter\
+setvector in 11001110\
+p\
+p\
+h load\
+p\
+c\
+l iter\
+p\
+c\
+\
+# EDGE TEST: doing iter even when it\'92s not reasserted after a cycle\
+h iter\
+# First ITER\
+p\
+p\
+p\
+p\
+# Second ITER\
+p\
+p\
+p\
+p\
+# then drop iter\
+l iter\
+c\
+\
+# EDGE TEST: asserting load at the \'93wrong time\'94 (shouldn\'92t take effect until next phi1) \
+p\
+p\
+p\
+# change input and assert load on phi1 (should be ignored this phase)\
+setvector in 00110011\
+h load\
+p\
+# now phi0 so controller samples load; next phi1 performs the writes\
+p\
+p\
+# get back to original state\
+l load\
+p\
+c }

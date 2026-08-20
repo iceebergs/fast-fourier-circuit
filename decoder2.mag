@@ -1,0 +1,94 @@
+magic
+tech scmos
+timestamp 1765774077
+<< polysilicon >>
+rect 41 -9 44 -4
+rect 60 -8 63 -4
+rect 106 -7 109 -4
+rect 153 -7 156 -4
+rect 200 -7 203 -4
+rect 18 -37 20 -33
+rect 42 -37 44 -34
+rect 83 -41 92 -38
+rect 128 -41 138 -38
+rect 175 -41 186 -38
+rect 223 -40 232 -38
+rect 247 -38 249 -34
+rect 18 -62 20 -60
+rect 70 -62 73 -60
+rect 116 -68 119 -60
+rect 163 -62 166 -60
+rect 210 -68 213 -60
+<< polycontact >>
+rect 41 -4 46 1
+rect 58 -4 63 1
+rect 104 -4 109 1
+rect 232 -42 237 -37
+rect 17 -67 22 -62
+rect 68 -67 73 -62
+rect 162 -67 167 -62
+<< metal1 >>
+rect 46 -4 58 1
+rect 63 -4 104 1
+rect 22 -65 68 -62
+rect 73 -65 162 -62
+<< m2contact >>
+rect 36 -33 41 -28
+rect 12 -44 17 -39
+rect 237 -42 242 -37
+<< pm12contact >>
+rect 151 -4 156 1
+rect 198 -4 203 1
+rect 92 -42 97 -37
+rect 138 -42 143 -37
+rect 186 -42 191 -37
+rect 114 -73 119 -68
+rect 208 -73 213 -68
+<< metal2 >>
+rect 36 -4 151 1
+rect 156 -4 198 1
+rect 36 -28 41 -4
+rect 97 -42 138 -37
+rect 143 -42 186 -37
+rect 191 -42 237 -37
+rect 12 -68 17 -44
+rect 12 -73 114 -68
+rect 119 -73 208 -68
+<< m123contact >>
+rect 84 -33 89 -28
+rect 130 -33 135 -28
+rect 177 -33 182 -28
+rect 224 -33 229 -28
+use new_inv  new_inv_0
+timestamp 1765758641
+transform 0 1 231 1 0 -139
+box 77 4 135 30
+use new_inv  new_inv_3
+timestamp 1765758641
+transform 0 1 2 1 0 -139
+box 77 4 135 30
+use new_inv  new_inv_2
+timestamp 1765758641
+transform 0 1 26 1 0 -139
+box 77 4 135 30
+use nand3  nand3_2
+timestamp 1765665517
+transform 1 0 216 0 1 -33
+box -75 -29 -28 29
+use nand3  nand3_3
+timestamp 1765665517
+transform 1 0 263 0 1 -33
+box -75 -29 -28 29
+use nand3  nand3_1
+timestamp 1765665517
+transform 1 0 169 0 1 -33
+box -75 -29 -28 29
+use nand3  nand3_0
+timestamp 1765665517
+transform 1 0 123 0 1 -33
+box -75 -29 -28 29
+<< labels >>
+rlabel polysilicon 247 -36 249 -36 5 EN
+rlabel polysilicon 18 -35 20 -35 5 WA0
+rlabel polysilicon 42 -35 44 -35 5 WA1
+<< end >>

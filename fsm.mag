@@ -1,0 +1,135 @@
+magic
+tech scmos
+timestamp 1762666711
+<< metal1 >>
+rect 258 180 261 182
+<< m2contact >>
+rect 262 201 267 206
+rect 307 87 312 92
+rect 307 32 312 37
+rect 250 -24 255 -19
+<< pm12contact >>
+rect 16 145 21 150
+rect 84 144 89 149
+<< metal2 >>
+rect 262 173 265 201
+rect 219 170 265 173
+rect 219 69 222 170
+rect 219 66 238 69
+rect 235 7 238 66
+rect 235 4 253 7
+rect 250 -19 253 4
+rect 260 -28 263 -27
+<< m123contact >>
+rect 2 201 7 206
+rect 253 201 258 206
+rect 513 201 518 206
+rect 27 145 32 150
+rect 95 143 100 148
+rect 210 90 215 95
+rect 303 142 308 147
+rect 258 135 263 140
+rect 262 80 267 85
+rect 47 37 52 42
+rect 2 30 7 35
+rect 308 -23 313 -18
+<< metal3 >>
+rect 4 175 7 201
+rect 253 195 257 201
+rect 514 197 517 201
+rect 4 172 215 175
+rect 27 123 30 145
+rect 95 137 98 143
+rect 95 122 98 132
+rect 92 119 98 122
+rect 27 64 30 118
+rect 92 97 95 119
+rect 212 95 215 172
+rect 304 147 307 151
+rect 259 131 262 135
+rect 258 128 262 131
+rect 4 60 30 64
+rect 91 63 94 93
+rect 262 85 265 89
+rect 49 60 94 63
+rect 4 35 7 60
+rect 49 42 52 60
+rect 308 -18 312 -15
+<< m234contact >>
+rect 253 190 258 195
+rect 513 192 518 197
+rect 11 145 16 150
+rect 79 144 84 149
+rect 39 85 44 90
+rect 307 92 312 97
+rect 307 37 312 42
+rect 257 25 262 30
+rect 258 -33 263 -28
+<< metal4 >>
+rect 11 190 253 193
+rect 11 150 14 190
+rect 11 14 14 145
+rect 40 90 44 190
+rect 514 183 517 192
+rect 78 180 517 183
+rect 78 149 81 180
+rect 78 144 79 149
+rect 78 125 81 144
+rect 78 122 250 125
+rect 247 101 250 122
+rect 247 98 310 101
+rect 247 45 250 98
+rect 307 97 310 98
+rect 247 42 310 45
+rect 258 14 261 25
+rect 11 11 262 14
+rect 259 -28 262 11
+<< m345contact >>
+rect 27 118 32 123
+rect 303 151 308 156
+rect 95 132 100 137
+rect 256 123 261 128
+rect 262 89 267 94
+rect 307 -15 312 -10
+<< metal5 >>
+rect 105 151 303 154
+rect 105 150 305 151
+rect 105 136 108 150
+rect 100 133 108 136
+rect 32 120 265 123
+rect 262 94 265 120
+rect 297 -11 302 150
+rect 297 -15 307 -11
+use inv  inv_1
+timestamp 1762666711
+transform 1 0 131 0 1 153
+box -55 -27 -28 14
+use inv  inv_0
+timestamp 1762666711
+transform 1 0 63 0 1 153
+box -55 -27 -28 14
+use nextstate  nextstate_0
+timestamp 1762666711
+transform 1 0 0 0 1 12
+box 0 -60 254 111
+use iter_shift  iter_shift_0
+timestamp 1762666711
+transform 1 0 261 0 1 -48
+box 0 0 244 55
+use load  load_0
+timestamp 1762666711
+transform 1 0 260 0 1 62
+box 0 0 244 55
+use ready  ready_0
+timestamp 1762666711
+transform 1 0 256 0 1 117
+box 0 0 248 55
+use iter_xor  iter_xor_0
+timestamp 1762666711
+transform 1 0 260 0 1 7
+box 0 0 245 55
+use reg2  reg2_0
+timestamp 1762666711
+transform 0 1 1 1 0 172
+box 0 -1 68 519
+<< end >>

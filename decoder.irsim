@@ -1,0 +1,40 @@
+h Vdd!
+l GND!
+
+vector out_en en7 en6 en5 en4 en3 en2 en1 en0
+vector wa EN waddr2 waddr1 waddr0
+
+ana out_en wa
+
+setvector wa 0000
+s
+setvector wa 0001
+s
+setvector wa 0010
+s
+setvector wa 0011
+s
+setvector wa 0100
+s
+setvector wa 0101
+s
+setvector wa 0110
+s
+setvector wa 0111
+s
+setvector wa 1000
+s
+setvector wa 1001
+s
+setvector wa 1010
+s
+setvector wa 1011
+s
+setvector wa 1100
+s
+setvector wa 1101
+s
+setvector wa 1110
+s
+setvector wa 1111
+s

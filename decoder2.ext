@@ -1,0 +1,127 @@
+timestamp 1765738559
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t24i
+scale 1000 1 9
+resistclasses 6900 7800 946000 946000 1 8000 8000 80 80 80 80 80 40
+use new_inv new_inv_2 0 1 26 1 0 -139
+use new_inv new_inv_3 0 1 2 1 0 -139
+use new_inv new_inv_0 0 1 231 1 0 -139
+use nand3 nand3_2 1 0 216 0 1 -33
+use nand3 nand3_3 1 0 263 0 1 -33
+use nand3 nand3_1 1 0 169 0 1 -33
+use nand3 nand3_0 1 0 123 0 1 -33
+node "m1_224_n33#" 0 46.25 224 -33 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 25 20 0 0 0 0 0 0
+node "m1_177_n33#" 0 46.25 177 -33 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 25 20 0 0 0 0 0 0
+node "m1_130_n33#" 0 46.25 130 -33 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 25 20 0 0 0 0 0 0
+node "m1_84_n33#" 0 46.25 84 -33 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 25 20 0 0 0 0 0 0
+node "a_114_n73#" 94 655.496 114 -73 pm12c 0 0 0 0 0 0 0 0 0 0 98 72 0 0 75 60 1150 470 0 0 0 0 0 0 0 0
+node "a_17_n67#" 101 763.694 17 -67 pc 0 0 0 0 0 0 0 0 0 0 91 72 0 0 480 318 0 0 0 0 0 0 0 0 0 0
+node "EN" 16 35.36 247 -38 p 0 0 0 0 0 0 0 0 0 0 8 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_83_n41#" 227 858.481 83 -41 p 0 0 0 0 0 0 0 0 0 0 208 158 0 0 125 90 750 310 0 0 0 0 0 0 0 0
+node "WA1" 12 28.836 42 -37 p 0 0 0 0 0 0 0 0 0 0 6 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WA0" 16 35.36 18 -37 p 0 0 0 0 0 0 0 0 0 0 8 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_151_n4#" 66 484.687 151 -4 pm12c 0 0 0 0 0 0 0 0 0 0 68 52 0 0 75 60 980 402 0 0 0 0 0 0 0 0
+node "a_41_n9#" 112 564.214 41 -9 p 0 0 0 0 0 0 0 0 0 0 111 84 0 0 340 146 0 0 0 0 0 0 0 0 0 0
+cap "a_114_n73#" "a_17_n67#" 109.269
+cap "m1_130_n33#" "a_83_n41#" 63.6875
+cap "m1_177_n33#" "a_83_n41#" 63.6875
+cap "a_83_n41#" "m1_224_n33#" 63.6875
+cap "a_151_n4#" "a_41_n9#" 174.452
+subcap "a_17_n67#" -336.958
+subcap "a_83_n41#" -766.633
+subcap "a_41_n9#" -35.934
+cap "new_inv_2/Vdd!" "nand3_1/out" 1.42109e-14
+cap "new_inv_2/GND!" "new_inv_3/a_77_16#" 1484.68
+cap "nand3_0/c" "new_inv_3/a_77_16#" 2.84217e-14
+cap "new_inv_2/Vdd!" "nand3_0/c" -5.68434e-14
+cap "nand3_1/out" "new_inv_2/GND!" 1.42109e-14
+cap "nand3_0/out" "new_inv_2/a_77_16#" 46.174
+cap "nand3_0/c" "nand3_1/out" 113.342
+cap "nand3_0/c" "new_inv_2/GND!" 99.24
+cap "new_inv_2/a_77_16#" "new_inv_3/a_77_16#" 4.664
+cap "new_inv_3/a_90_10#" "new_inv_3/a_77_16#" 1.42109e-14
+cap "new_inv_2/a_90_10#" "new_inv_2/a_77_16#" -1.632
+cap "new_inv_2/Vdd!" "new_inv_2/a_77_16#" 1118.33
+cap "new_inv_2/Vdd!" "nand3_0/out" 4.571
+cap "new_inv_2/GND!" "new_inv_2/a_77_16#" -8.52651e-14
+cap "new_inv_3/a_90_10#" "new_inv_2/GND!" 60.666
+cap "nand3_0/out" "new_inv_2/GND!" 57.7175
+cap "new_inv_2/Vdd!" "new_inv_3/a_77_16#" -5.68434e-14
+cap "new_inv_2/Vdd!" "new_inv_2/a_90_10#" 86.307
+subcap "m1_130_n33#" -3.366
+subcap "a_151_n4#" -156.167
+cap "nand3_2/c" "nand3_2/Vdd!" -1.42109e-14
+cap "nand3_2/w_n75_0#" "nand3_1/out" 4.571
+cap "nand3_2/GND!" "nand3_2/c" -1.42109e-14
+cap "nand3_2/w_n75_0#" "nand3_2/Vdd!" -5.68434e-14
+cap "nand3_2/Vdd!" "nand3_1/a" 46.174
+cap "nand3_2/w_n75_0#" "nand3_2/c" 5.68434e-14
+cap "nand3_2/c" "nand3_1/a" 8.448
+cap "nand3_2/b" "nand3_2/w_n75_n29#" 76.534
+cap "nand3_2/c" "nand3_2/out" 94.1025
+cap "nand3_3/b" "nand3_2/w_n75_n29#" 7.992
+cap "nand3_2/w_n75_0#" "nand3_1/a" 7.992
+cap "nand3_2/w_n75_n29#" "nand3_2/a" 5.68434e-14
+cap "nand3_2/w_n75_0#" "nand3_2/out" 4.571
+cap "nand3_2/GND!" "nand3_2/b" 938.871
+cap "nand3_2/c" "nand3_2/b" 8.448
+cap "nand3_2/Vdd!" "nand3_2/a" 153.913
+cap "nand3_2/GND!" "nand3_2/a" -1.42109e-14
+cap "nand3_3/b" "nand3_2/c" 8.448
+cap "nand3_2/c" "nand3_2/a" 16.896
+cap "nand3_2/GND!" "nand3_2/w_n75_n29#" -2.84217e-14
+cap "nand3_2/c" "nand3_3/out" 113.342
+cap "nand3_2/c" "nand3_2/w_n75_n29#" 238.583
+cap "nand3_2/w_n75_0#" "nand3_2/a" 65.712
+subcap "m1_224_n33#" -32.214
+cap "nand3_3/b" "new_inv_0/a_90_10#" 8.448
+cap "new_inv_0/Vdd!" "nand3_3/b" -5.68434e-14
+cap "new_inv_0/GND!" "nand3_3/b" 7.992
+cap "new_inv_0/Vdd!" "nand3_3/out" 4.571
+cap "new_inv_0/Vdd!" "new_inv_0/a_90_10#" -2.27374e-13
+cap "new_inv_0/GND!" "new_inv_0/a_90_10#" 108.152
+merge "nand3_0/Vdd!" "nand3_0/w_n75_0#" 4.648 0 0 0 0 0 -58 0 0 0 0 0 0 0 0 0 -14 0 0 0 0 0 0 0 0 0 0
+merge "nand3_0/w_n75_0#" "new_inv_3/Vdd!"
+merge "new_inv_3/Vdd!" "new_inv_2/Vdd!"
+merge "new_inv_2/Vdd!" "nand3_1/w_n75_0#"
+merge "nand3_1/w_n75_0#" "nand3_1/Vdd!"
+merge "nand3_1/Vdd!" "nand3_3/w_n75_0#"
+merge "nand3_3/w_n75_0#" "nand3_2/w_n75_0#"
+merge "nand3_2/w_n75_0#" "nand3_3/Vdd!"
+merge "nand3_3/Vdd!" "nand3_2/Vdd!"
+merge "nand3_2/Vdd!" "new_inv_0/Vdd!"
+merge "nand3_2/out" "m1_177_n33#" -46.25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "nand3_0/a" "nand3_1/a" -224.09 0 0 0 0 0 0 0 0 0 0 -19 -37 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nand3_1/a" "new_inv_2/a_77_16#"
+merge "new_inv_2/a_77_16#" "a_41_n9#"
+merge "a_41_n9#" "WA1"
+merge "nand3_0/GND!" "nand3_0/w_n75_n29#" 4.648 0 0 0 0 0 0 0 0 0 -48 0 0 0 0 0 -14 0 0 0 0 0 0 0 0 0 0
+merge "nand3_0/w_n75_n29#" "new_inv_3/GND!"
+merge "new_inv_3/GND!" "new_inv_2/GND!"
+merge "new_inv_2/GND!" "nand3_1/w_n75_n29#"
+merge "nand3_1/w_n75_n29#" "nand3_1/GND!"
+merge "nand3_1/GND!" "nand3_3/w_n75_n29#"
+merge "nand3_3/w_n75_n29#" "nand3_2/w_n75_n29#"
+merge "nand3_2/w_n75_n29#" "nand3_3/GND!"
+merge "nand3_3/GND!" "nand3_2/GND!"
+merge "nand3_2/GND!" "new_inv_0/GND!"
+merge "nand3_3/a" "nand3_2/a" -203.56 0 0 0 0 0 0 0 0 0 0 -3 -16 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "nand3_2/a" "new_inv_2/a_90_10#"
+merge "new_inv_2/a_90_10#" "a_151_n4#"
+merge "nand3_2/b" "nand3_0/b" -279.178 0 0 0 0 0 0 0 0 0 0 -12 -32 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nand3_0/b" "new_inv_3/a_77_16#"
+merge "new_inv_3/a_77_16#" "WA0"
+merge "WA0" "a_17_n67#"
+merge "nand3_3/c" "new_inv_0/a_90_10#" -590.746 0 0 0 0 0 0 0 0 0 0 -6 -26 0 0 -5 -12 0 0 0 0 0 0 0 0 0 0
+merge "new_inv_0/a_90_10#" "nand3_1/c"
+merge "nand3_1/c" "nand3_2/c"
+merge "nand3_2/c" "nand3_0/c"
+merge "nand3_0/c" "a_83_n41#"
+merge "new_inv_0/a_77_16#" "EN" -35.36 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nand3_1/out" "m1_130_n33#" -46.25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "nand3_1/b" "nand3_3/b" -110.423 0 0 0 0 0 0 0 0 0 0 0 -12 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "nand3_3/b" "new_inv_3/a_90_10#"
+merge "new_inv_3/a_90_10#" "a_114_n73#"
+merge "nand3_0/out" "m1_84_n33#" -46.25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "nand3_3/out" "m1_224_n33#" -46.25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0

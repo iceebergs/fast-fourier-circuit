@@ -1,0 +1,41 @@
+magic
+tech scmos
+timestamp 1762666711
+<< nwell >>
+rect 159 30 172 54
+<< pwell >>
+rect 0 18 2 21
+rect 158 0 171 24
+<< metal1 >>
+rect 158 48 169 52
+rect 47 25 52 29
+rect 124 25 127 29
+rect 152 22 160 26
+rect 208 25 211 29
+rect 237 22 244 26
+rect 241 20 244 22
+rect 158 0 169 4
+<< metal2 >>
+rect 0 18 2 21
+rect 85 18 170 21
+use and2  and2_2
+timestamp 1762666711
+transform 1 0 168 0 1 24
+box -7 -24 76 31
+use and2  and2_1
+timestamp 1762666711
+transform 1 0 84 0 1 24
+box -7 -24 76 31
+use and2  and2_0
+timestamp 1762666711
+transform 1 0 7 0 1 24
+box -7 -24 76 31
+<< labels >>
+rlabel metal2 1 18 1 21 3 S0
+rlabel metal1 52 25 52 29 1 not_S1
+rlabel metal1 125 25 125 29 1 phi_0
+rlabel metal1 156 22 156 26 1 reg0_r0_en
+rlabel metal1 209 25 209 29 1 phi_1
+rlabel metal1 241 22 241 26 7 ros_en
+rlabel metal1 241 20 244 20 7 reg0_write
+<< end >>

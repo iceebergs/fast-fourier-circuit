@@ -1,0 +1,37 @@
+magic
+tech scmos
+timestamp 1765788332
+<< polysilicon >>
+rect 0 -14 4 -12
+<< metal1 >>
+rect 3 49 10 51
+rect 48 50 55 51
+rect 25 0 40 3
+<< m2contact >>
+rect 40 -2 45 3
+rect 29 -20 34 -15
+rect 24 -50 29 -45
+<< pm12contact >>
+rect 27 39 32 44
+<< metal2 >>
+rect 0 16 7 19
+rect 32 -15 36 44
+rect 45 -2 46 3
+rect 34 -20 36 -15
+rect 0 -35 7 -32
+rect 42 -46 46 -2
+rect 29 -50 46 -46
+use tg  tg_0
+timestamp 1765776620
+transform 1 0 -87 0 1 -43
+box 86 43 145 94
+use tg  tg_1
+timestamp 1765776620
+transform 1 0 -87 0 1 -94
+box 86 43 145 94
+<< labels >>
+rlabel metal2 2 16 2 19 3 a
+rlabel metal2 2 -35 2 -32 3 b
+rlabel polysilicon 2 -13 2 -13 3 sel
+rlabel metal2 31 -48 31 -48 1 out
+<< end >>

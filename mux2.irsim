@@ -1,0 +1,18 @@
+h Vdd!
+l GND!
+
+vector in0 a6 a5 a4 a3 a2 a1 a0
+vector in1 b6 b5 b4 b3 b2 b1 b0
+vector out o6 o5 o4 o3 o2 o1 o0
+
+ana in0 in1 out sel
+
+setvector in0 1010101
+s
+setvector in1 1111000
+s
+
+h sel
+s
+l sel
+s

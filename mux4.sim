@@ -1,0 +1,271 @@
+| units: 9 tech: scmos format: MIT
+p mux4_one_0[0]/mux2_one_0/tg_0/EN mux4_one_0[0]/mux2_one_0/tg_0/a_100_74# Vdd! 2 10 39 294
+p mux4_one_0[0]/mux2_one_0/tg_0/a_100_74# mux4_one_0[0]/mux2_one_1/a in0_0 2 10 39 269
+n mux4_one_0[0]/mux2_one_0/tg_0/EN mux4_one_0[0]/mux2_one_0/tg_0/a_100_74# GND! 2 5 17 294
+n mux4_one_0[0]/mux2_one_0/tg_0/EN mux4_one_0[0]/mux2_one_1/a in0_0 2 5 17 269
+p s0 mux4_one_0[0]/mux2_one_0/tg_0/EN Vdd! 2 10 39 243
+p mux4_one_0[0]/mux2_one_0/tg_0/EN mux4_one_0[0]/mux2_one_1/a in1_0 2 10 39 218
+n s0 mux4_one_0[0]/mux2_one_0/tg_0/EN GND! 2 5 17 243
+n s0 mux4_one_0[0]/mux2_one_1/a in1_0 2 5 17 218
+p mux4_one_0[0]/mux2_one_1/tg_0/EN mux4_one_0[0]/mux2_one_1/tg_0/a_100_74# Vdd! 2 10 39 192
+p mux4_one_0[0]/mux2_one_1/tg_0/a_100_74# o0 mux4_one_0[0]/mux2_one_1/a 2 10 39 167
+n mux4_one_0[0]/mux2_one_1/tg_0/EN mux4_one_0[0]/mux2_one_1/tg_0/a_100_74# GND! 2 5 17 192
+n mux4_one_0[0]/mux2_one_1/tg_0/EN o0 mux4_one_0[0]/mux2_one_1/a 2 5 17 167
+p s1 mux4_one_0[0]/mux2_one_1/tg_0/EN Vdd! 2 10 39 141
+p mux4_one_0[0]/mux2_one_1/tg_0/EN o0 mux4_one_0[0]/mux2_one_1/b 2 10 39 116
+n s1 mux4_one_0[0]/mux2_one_1/tg_0/EN GND! 2 5 17 141
+n s1 o0 mux4_one_0[0]/mux2_one_1/b 2 5 17 116
+p mux4_one_0[0]/mux2_one_2/tg_0/EN mux4_one_0[0]/mux2_one_2/tg_0/a_100_74# Vdd! 2 10 39 13
+p mux4_one_0[0]/mux2_one_2/tg_0/a_100_74# mux4_one_0[0]/mux2_one_1/b in2_0 2 10 39 38
+n mux4_one_0[0]/mux2_one_2/tg_0/EN mux4_one_0[0]/mux2_one_2/tg_0/a_100_74# GND! 2 5 17 13
+n mux4_one_0[0]/mux2_one_2/tg_0/EN mux4_one_0[0]/mux2_one_1/b in2_0 2 5 17 38
+p s0 mux4_one_0[0]/mux2_one_2/tg_0/EN Vdd! 2 10 39 64
+p mux4_one_0[0]/mux2_one_2/tg_0/EN mux4_one_0[0]/mux2_one_1/b in3_0 2 10 39 89
+n s0 mux4_one_0[0]/mux2_one_2/tg_0/EN GND! 2 5 17 64
+n s0 mux4_one_0[0]/mux2_one_1/b in3_0 2 5 17 89
+p mux4_one_0[1]/mux2_one_0/tg_0/EN mux4_one_0[1]/mux2_one_0/tg_0/a_100_74# Vdd! 2 10 39 602
+p mux4_one_0[1]/mux2_one_0/tg_0/a_100_74# mux4_one_0[1]/mux2_one_1/a in0_1 2 10 39 577
+n mux4_one_0[1]/mux2_one_0/tg_0/EN mux4_one_0[1]/mux2_one_0/tg_0/a_100_74# GND! 2 5 17 602
+n mux4_one_0[1]/mux2_one_0/tg_0/EN mux4_one_0[1]/mux2_one_1/a in0_1 2 5 17 577
+p s0 mux4_one_0[1]/mux2_one_0/tg_0/EN Vdd! 2 10 39 551
+p mux4_one_0[1]/mux2_one_0/tg_0/EN mux4_one_0[1]/mux2_one_1/a in1_1 2 10 39 526
+n s0 mux4_one_0[1]/mux2_one_0/tg_0/EN GND! 2 5 17 551
+n s0 mux4_one_0[1]/mux2_one_1/a in1_1 2 5 17 526
+p mux4_one_0[1]/mux2_one_1/tg_0/EN mux4_one_0[1]/mux2_one_1/tg_0/a_100_74# Vdd! 2 10 39 500
+p mux4_one_0[1]/mux2_one_1/tg_0/a_100_74# o1 mux4_one_0[1]/mux2_one_1/a 2 10 39 475
+n mux4_one_0[1]/mux2_one_1/tg_0/EN mux4_one_0[1]/mux2_one_1/tg_0/a_100_74# GND! 2 5 17 500
+n mux4_one_0[1]/mux2_one_1/tg_0/EN o1 mux4_one_0[1]/mux2_one_1/a 2 5 17 475
+p s1 mux4_one_0[1]/mux2_one_1/tg_0/EN Vdd! 2 10 39 449
+p mux4_one_0[1]/mux2_one_1/tg_0/EN o1 mux4_one_0[1]/mux2_one_1/b 2 10 39 424
+n s1 mux4_one_0[1]/mux2_one_1/tg_0/EN GND! 2 5 17 449
+n s1 o1 mux4_one_0[1]/mux2_one_1/b 2 5 17 424
+p mux4_one_0[1]/mux2_one_2/tg_0/EN mux4_one_0[1]/mux2_one_2/tg_0/a_100_74# Vdd! 2 10 39 321
+p mux4_one_0[1]/mux2_one_2/tg_0/a_100_74# mux4_one_0[1]/mux2_one_1/b in2_1 2 10 39 346
+n mux4_one_0[1]/mux2_one_2/tg_0/EN mux4_one_0[1]/mux2_one_2/tg_0/a_100_74# GND! 2 5 17 321
+n mux4_one_0[1]/mux2_one_2/tg_0/EN mux4_one_0[1]/mux2_one_1/b in2_1 2 5 17 346
+p s0 mux4_one_0[1]/mux2_one_2/tg_0/EN Vdd! 2 10 39 372
+p mux4_one_0[1]/mux2_one_2/tg_0/EN mux4_one_0[1]/mux2_one_1/b in3_1 2 10 39 397
+n s0 mux4_one_0[1]/mux2_one_2/tg_0/EN GND! 2 5 17 372
+n s0 mux4_one_0[1]/mux2_one_1/b in3_1 2 5 17 397
+p mux4_one_0[2]/mux2_one_0/tg_0/EN mux4_one_0[2]/mux2_one_0/tg_0/a_100_74# Vdd! 2 10 39 910
+p mux4_one_0[2]/mux2_one_0/tg_0/a_100_74# mux4_one_0[2]/mux2_one_1/a in0_2 2 10 39 885
+n mux4_one_0[2]/mux2_one_0/tg_0/EN mux4_one_0[2]/mux2_one_0/tg_0/a_100_74# GND! 2 5 17 910
+n mux4_one_0[2]/mux2_one_0/tg_0/EN mux4_one_0[2]/mux2_one_1/a in0_2 2 5 17 885
+p s0 mux4_one_0[2]/mux2_one_0/tg_0/EN Vdd! 2 10 39 859
+p mux4_one_0[2]/mux2_one_0/tg_0/EN mux4_one_0[2]/mux2_one_1/a in1_2 2 10 39 834
+n s0 mux4_one_0[2]/mux2_one_0/tg_0/EN GND! 2 5 17 859
+n s0 mux4_one_0[2]/mux2_one_1/a in1_2 2 5 17 834
+p mux4_one_0[2]/mux2_one_1/tg_0/EN mux4_one_0[2]/mux2_one_1/tg_0/a_100_74# Vdd! 2 10 39 808
+p mux4_one_0[2]/mux2_one_1/tg_0/a_100_74# o2 mux4_one_0[2]/mux2_one_1/a 2 10 39 783
+n mux4_one_0[2]/mux2_one_1/tg_0/EN mux4_one_0[2]/mux2_one_1/tg_0/a_100_74# GND! 2 5 17 808
+n mux4_one_0[2]/mux2_one_1/tg_0/EN o2 mux4_one_0[2]/mux2_one_1/a 2 5 17 783
+p s1 mux4_one_0[2]/mux2_one_1/tg_0/EN Vdd! 2 10 39 757
+p mux4_one_0[2]/mux2_one_1/tg_0/EN o2 mux4_one_0[2]/mux2_one_1/b 2 10 39 732
+n s1 mux4_one_0[2]/mux2_one_1/tg_0/EN GND! 2 5 17 757
+n s1 o2 mux4_one_0[2]/mux2_one_1/b 2 5 17 732
+p mux4_one_0[2]/mux2_one_2/tg_0/EN mux4_one_0[2]/mux2_one_2/tg_0/a_100_74# Vdd! 2 10 39 629
+p mux4_one_0[2]/mux2_one_2/tg_0/a_100_74# mux4_one_0[2]/mux2_one_1/b in2_2 2 10 39 654
+n mux4_one_0[2]/mux2_one_2/tg_0/EN mux4_one_0[2]/mux2_one_2/tg_0/a_100_74# GND! 2 5 17 629
+n mux4_one_0[2]/mux2_one_2/tg_0/EN mux4_one_0[2]/mux2_one_1/b in2_2 2 5 17 654
+p s0 mux4_one_0[2]/mux2_one_2/tg_0/EN Vdd! 2 10 39 680
+p mux4_one_0[2]/mux2_one_2/tg_0/EN mux4_one_0[2]/mux2_one_1/b in3_2 2 10 39 705
+n s0 mux4_one_0[2]/mux2_one_2/tg_0/EN GND! 2 5 17 680
+n s0 mux4_one_0[2]/mux2_one_1/b in3_2 2 5 17 705
+p mux4_one_0[3]/mux2_one_0/tg_0/EN mux4_one_0[3]/mux2_one_0/tg_0/a_100_74# Vdd! 2 10 39 1218
+p mux4_one_0[3]/mux2_one_0/tg_0/a_100_74# mux4_one_0[3]/mux2_one_1/a in0_3 2 10 39 1193
+n mux4_one_0[3]/mux2_one_0/tg_0/EN mux4_one_0[3]/mux2_one_0/tg_0/a_100_74# GND! 2 5 17 1218
+n mux4_one_0[3]/mux2_one_0/tg_0/EN mux4_one_0[3]/mux2_one_1/a in0_3 2 5 17 1193
+p s0 mux4_one_0[3]/mux2_one_0/tg_0/EN Vdd! 2 10 39 1167
+p mux4_one_0[3]/mux2_one_0/tg_0/EN mux4_one_0[3]/mux2_one_1/a in1_3 2 10 39 1142
+n s0 mux4_one_0[3]/mux2_one_0/tg_0/EN GND! 2 5 17 1167
+n s0 mux4_one_0[3]/mux2_one_1/a in1_3 2 5 17 1142
+p mux4_one_0[3]/mux2_one_1/tg_0/EN mux4_one_0[3]/mux2_one_1/tg_0/a_100_74# Vdd! 2 10 39 1116
+p mux4_one_0[3]/mux2_one_1/tg_0/a_100_74# o3 mux4_one_0[3]/mux2_one_1/a 2 10 39 1091
+n mux4_one_0[3]/mux2_one_1/tg_0/EN mux4_one_0[3]/mux2_one_1/tg_0/a_100_74# GND! 2 5 17 1116
+n mux4_one_0[3]/mux2_one_1/tg_0/EN o3 mux4_one_0[3]/mux2_one_1/a 2 5 17 1091
+p s1 mux4_one_0[3]/mux2_one_1/tg_0/EN Vdd! 2 10 39 1065
+p mux4_one_0[3]/mux2_one_1/tg_0/EN o3 mux4_one_0[3]/mux2_one_1/b 2 10 39 1040
+n s1 mux4_one_0[3]/mux2_one_1/tg_0/EN GND! 2 5 17 1065
+n s1 o3 mux4_one_0[3]/mux2_one_1/b 2 5 17 1040
+p mux4_one_0[3]/mux2_one_2/tg_0/EN mux4_one_0[3]/mux2_one_2/tg_0/a_100_74# Vdd! 2 10 39 937
+p mux4_one_0[3]/mux2_one_2/tg_0/a_100_74# mux4_one_0[3]/mux2_one_1/b in2_3 2 10 39 962
+n mux4_one_0[3]/mux2_one_2/tg_0/EN mux4_one_0[3]/mux2_one_2/tg_0/a_100_74# GND! 2 5 17 937
+n mux4_one_0[3]/mux2_one_2/tg_0/EN mux4_one_0[3]/mux2_one_1/b in2_3 2 5 17 962
+p s0 mux4_one_0[3]/mux2_one_2/tg_0/EN Vdd! 2 10 39 988
+p mux4_one_0[3]/mux2_one_2/tg_0/EN mux4_one_0[3]/mux2_one_1/b in3_3 2 10 39 1013
+n s0 mux4_one_0[3]/mux2_one_2/tg_0/EN GND! 2 5 17 988
+n s0 mux4_one_0[3]/mux2_one_1/b in3_3 2 5 17 1013
+p mux4_one_0[4]/mux2_one_0/tg_0/EN mux4_one_0[4]/mux2_one_0/tg_0/a_100_74# Vdd! 2 10 39 1526
+p mux4_one_0[4]/mux2_one_0/tg_0/a_100_74# mux4_one_0[4]/mux2_one_1/a in0_4 2 10 39 1501
+n mux4_one_0[4]/mux2_one_0/tg_0/EN mux4_one_0[4]/mux2_one_0/tg_0/a_100_74# GND! 2 5 17 1526
+n mux4_one_0[4]/mux2_one_0/tg_0/EN mux4_one_0[4]/mux2_one_1/a in0_4 2 5 17 1501
+p s0 mux4_one_0[4]/mux2_one_0/tg_0/EN Vdd! 2 10 39 1475
+p mux4_one_0[4]/mux2_one_0/tg_0/EN mux4_one_0[4]/mux2_one_1/a in1_4 2 10 39 1450
+n s0 mux4_one_0[4]/mux2_one_0/tg_0/EN GND! 2 5 17 1475
+n s0 mux4_one_0[4]/mux2_one_1/a in1_4 2 5 17 1450
+p mux4_one_0[4]/mux2_one_1/tg_0/EN mux4_one_0[4]/mux2_one_1/tg_0/a_100_74# Vdd! 2 10 39 1424
+p mux4_one_0[4]/mux2_one_1/tg_0/a_100_74# o4 mux4_one_0[4]/mux2_one_1/a 2 10 39 1399
+n mux4_one_0[4]/mux2_one_1/tg_0/EN mux4_one_0[4]/mux2_one_1/tg_0/a_100_74# GND! 2 5 17 1424
+n mux4_one_0[4]/mux2_one_1/tg_0/EN o4 mux4_one_0[4]/mux2_one_1/a 2 5 17 1399
+p s1 mux4_one_0[4]/mux2_one_1/tg_0/EN Vdd! 2 10 39 1373
+p mux4_one_0[4]/mux2_one_1/tg_0/EN o4 mux4_one_0[4]/mux2_one_1/b 2 10 39 1348
+n s1 mux4_one_0[4]/mux2_one_1/tg_0/EN GND! 2 5 17 1373
+n s1 o4 mux4_one_0[4]/mux2_one_1/b 2 5 17 1348
+p mux4_one_0[4]/mux2_one_2/tg_0/EN mux4_one_0[4]/mux2_one_2/tg_0/a_100_74# Vdd! 2 10 39 1245
+p mux4_one_0[4]/mux2_one_2/tg_0/a_100_74# mux4_one_0[4]/mux2_one_1/b in2_4 2 10 39 1270
+n mux4_one_0[4]/mux2_one_2/tg_0/EN mux4_one_0[4]/mux2_one_2/tg_0/a_100_74# GND! 2 5 17 1245
+n mux4_one_0[4]/mux2_one_2/tg_0/EN mux4_one_0[4]/mux2_one_1/b in2_4 2 5 17 1270
+p s0 mux4_one_0[4]/mux2_one_2/tg_0/EN Vdd! 2 10 39 1296
+p mux4_one_0[4]/mux2_one_2/tg_0/EN mux4_one_0[4]/mux2_one_1/b in3_4 2 10 39 1321
+n s0 mux4_one_0[4]/mux2_one_2/tg_0/EN GND! 2 5 17 1296
+n s0 mux4_one_0[4]/mux2_one_1/b in3_4 2 5 17 1321
+p mux4_one_0[5]/mux2_one_0/tg_0/EN mux4_one_0[5]/mux2_one_0/tg_0/a_100_74# Vdd! 2 10 39 1834
+p mux4_one_0[5]/mux2_one_0/tg_0/a_100_74# mux4_one_0[5]/mux2_one_1/a in0_5 2 10 39 1809
+n mux4_one_0[5]/mux2_one_0/tg_0/EN mux4_one_0[5]/mux2_one_0/tg_0/a_100_74# GND! 2 5 17 1834
+n mux4_one_0[5]/mux2_one_0/tg_0/EN mux4_one_0[5]/mux2_one_1/a in0_5 2 5 17 1809
+p s0 mux4_one_0[5]/mux2_one_0/tg_0/EN Vdd! 2 10 39 1783
+p mux4_one_0[5]/mux2_one_0/tg_0/EN mux4_one_0[5]/mux2_one_1/a in1_5 2 10 39 1758
+n s0 mux4_one_0[5]/mux2_one_0/tg_0/EN GND! 2 5 17 1783
+n s0 mux4_one_0[5]/mux2_one_1/a in1_5 2 5 17 1758
+p mux4_one_0[5]/mux2_one_1/tg_0/EN mux4_one_0[5]/mux2_one_1/tg_0/a_100_74# Vdd! 2 10 39 1732
+p mux4_one_0[5]/mux2_one_1/tg_0/a_100_74# o5 mux4_one_0[5]/mux2_one_1/a 2 10 39 1707
+n mux4_one_0[5]/mux2_one_1/tg_0/EN mux4_one_0[5]/mux2_one_1/tg_0/a_100_74# GND! 2 5 17 1732
+n mux4_one_0[5]/mux2_one_1/tg_0/EN o5 mux4_one_0[5]/mux2_one_1/a 2 5 17 1707
+p s1 mux4_one_0[5]/mux2_one_1/tg_0/EN Vdd! 2 10 39 1681
+p mux4_one_0[5]/mux2_one_1/tg_0/EN o5 mux4_one_0[5]/mux2_one_1/b 2 10 39 1656
+n s1 mux4_one_0[5]/mux2_one_1/tg_0/EN GND! 2 5 17 1681
+n s1 o5 mux4_one_0[5]/mux2_one_1/b 2 5 17 1656
+p mux4_one_0[5]/mux2_one_2/tg_0/EN mux4_one_0[5]/mux2_one_2/tg_0/a_100_74# Vdd! 2 10 39 1553
+p mux4_one_0[5]/mux2_one_2/tg_0/a_100_74# mux4_one_0[5]/mux2_one_1/b in2_5 2 10 39 1578
+n mux4_one_0[5]/mux2_one_2/tg_0/EN mux4_one_0[5]/mux2_one_2/tg_0/a_100_74# GND! 2 5 17 1553
+n mux4_one_0[5]/mux2_one_2/tg_0/EN mux4_one_0[5]/mux2_one_1/b in2_5 2 5 17 1578
+p s0 mux4_one_0[5]/mux2_one_2/tg_0/EN Vdd! 2 10 39 1604
+p mux4_one_0[5]/mux2_one_2/tg_0/EN mux4_one_0[5]/mux2_one_1/b in3_5 2 10 39 1629
+n s0 mux4_one_0[5]/mux2_one_2/tg_0/EN GND! 2 5 17 1604
+n s0 mux4_one_0[5]/mux2_one_1/b in3_5 2 5 17 1629
+p mux4_one_0[6]/mux2_one_0/tg_0/EN mux4_one_0[6]/mux2_one_0/tg_0/a_100_74# Vdd! 2 10 39 2142
+p mux4_one_0[6]/mux2_one_0/tg_0/a_100_74# mux4_one_0[6]/mux2_one_1/a in0_6 2 10 39 2117
+n mux4_one_0[6]/mux2_one_0/tg_0/EN mux4_one_0[6]/mux2_one_0/tg_0/a_100_74# GND! 2 5 17 2142
+n mux4_one_0[6]/mux2_one_0/tg_0/EN mux4_one_0[6]/mux2_one_1/a in0_6 2 5 17 2117
+p s0 mux4_one_0[6]/mux2_one_0/tg_0/EN Vdd! 2 10 39 2091
+p mux4_one_0[6]/mux2_one_0/tg_0/EN mux4_one_0[6]/mux2_one_1/a in1_6 2 10 39 2066
+n s0 mux4_one_0[6]/mux2_one_0/tg_0/EN GND! 2 5 17 2091
+n s0 mux4_one_0[6]/mux2_one_1/a in1_6 2 5 17 2066
+p mux4_one_0[6]/mux2_one_1/tg_0/EN mux4_one_0[6]/mux2_one_1/tg_0/a_100_74# Vdd! 2 10 39 2040
+p mux4_one_0[6]/mux2_one_1/tg_0/a_100_74# o6 mux4_one_0[6]/mux2_one_1/a 2 10 39 2015
+n mux4_one_0[6]/mux2_one_1/tg_0/EN mux4_one_0[6]/mux2_one_1/tg_0/a_100_74# GND! 2 5 17 2040
+n mux4_one_0[6]/mux2_one_1/tg_0/EN o6 mux4_one_0[6]/mux2_one_1/a 2 5 17 2015
+p s1 mux4_one_0[6]/mux2_one_1/tg_0/EN Vdd! 2 10 39 1989
+p mux4_one_0[6]/mux2_one_1/tg_0/EN o6 mux4_one_0[6]/mux2_one_1/b 2 10 39 1964
+n s1 mux4_one_0[6]/mux2_one_1/tg_0/EN GND! 2 5 17 1989
+n s1 o6 mux4_one_0[6]/mux2_one_1/b 2 5 17 1964
+p mux4_one_0[6]/mux2_one_2/tg_0/EN mux4_one_0[6]/mux2_one_2/tg_0/a_100_74# Vdd! 2 10 39 1861
+p mux4_one_0[6]/mux2_one_2/tg_0/a_100_74# mux4_one_0[6]/mux2_one_1/b in2_6 2 10 39 1886
+n mux4_one_0[6]/mux2_one_2/tg_0/EN mux4_one_0[6]/mux2_one_2/tg_0/a_100_74# GND! 2 5 17 1861
+n mux4_one_0[6]/mux2_one_2/tg_0/EN mux4_one_0[6]/mux2_one_1/b in2_6 2 5 17 1886
+p s0 mux4_one_0[6]/mux2_one_2/tg_0/EN Vdd! 2 10 39 1912
+p mux4_one_0[6]/mux2_one_2/tg_0/EN mux4_one_0[6]/mux2_one_1/b in3_6 2 10 39 1937
+n s0 mux4_one_0[6]/mux2_one_2/tg_0/EN GND! 2 5 17 1912
+n s0 mux4_one_0[6]/mux2_one_1/b in3_6 2 5 17 1937
+C s1 Vdd! 36.66
+C s1 GND! 3.12
+C s0 Vdd! 2.24
+C s0 GND! 26.72
+R mux4_one_0[6]/mux2_one_1/b 159
+R in3_6 23
+R mux4_one_0[6]/mux2_one_2/tg_0/EN 555
+R in2_6 23
+R mux4_one_0[6]/mux2_one_2/tg_0/a_100_74# 176
+R o6 94
+R mux4_one_0[6]/mux2_one_1/tg_0/EN 555
+R mux4_one_0[6]/mux2_one_1/tg_0/a_100_74# 176
+R mux4_one_0[6]/mux2_one_1/a 159
+R in1_6 23
+R mux4_one_0[6]/mux2_one_0/tg_0/EN 555
+R in0_6 23
+R mux4_one_0[6]/mux2_one_0/tg_0/a_100_74# 176
+R mux4_one_0[5]/mux2_one_1/b 159
+R in3_5 23
+R mux4_one_0[5]/mux2_one_2/tg_0/EN 555
+R in2_5 23
+R mux4_one_0[5]/mux2_one_2/tg_0/a_100_74# 176
+R o5 94
+R mux4_one_0[5]/mux2_one_1/tg_0/EN 555
+R mux4_one_0[5]/mux2_one_1/tg_0/a_100_74# 176
+R mux4_one_0[5]/mux2_one_1/a 159
+R in1_5 23
+R mux4_one_0[5]/mux2_one_0/tg_0/EN 555
+R in0_5 23
+R mux4_one_0[5]/mux2_one_0/tg_0/a_100_74# 176
+R mux4_one_0[4]/mux2_one_1/b 159
+R in3_4 23
+R mux4_one_0[4]/mux2_one_2/tg_0/EN 555
+R in2_4 23
+R mux4_one_0[4]/mux2_one_2/tg_0/a_100_74# 176
+R o4 94
+R mux4_one_0[4]/mux2_one_1/tg_0/EN 555
+R mux4_one_0[4]/mux2_one_1/tg_0/a_100_74# 176
+R mux4_one_0[4]/mux2_one_1/a 159
+R in1_4 23
+R mux4_one_0[4]/mux2_one_0/tg_0/EN 555
+R in0_4 22
+R mux4_one_0[4]/mux2_one_0/tg_0/a_100_74# 176
+R mux4_one_0[3]/mux2_one_1/b 159
+R in3_3 22
+R mux4_one_0[3]/mux2_one_2/tg_0/EN 555
+R in2_3 23
+R mux4_one_0[3]/mux2_one_2/tg_0/a_100_74# 176
+R o3 94
+R mux4_one_0[3]/mux2_one_1/tg_0/EN 555
+R mux4_one_0[3]/mux2_one_1/tg_0/a_100_74# 176
+R mux4_one_0[3]/mux2_one_1/a 159
+R in1_3 23
+R mux4_one_0[3]/mux2_one_0/tg_0/EN 555
+R in0_3 23
+R mux4_one_0[3]/mux2_one_0/tg_0/a_100_74# 176
+R mux4_one_0[2]/mux2_one_1/b 159
+R in3_2 23
+R mux4_one_0[2]/mux2_one_2/tg_0/EN 555
+R in2_2 23
+R mux4_one_0[2]/mux2_one_2/tg_0/a_100_74# 176
+R o2 94
+R mux4_one_0[2]/mux2_one_1/tg_0/EN 555
+R mux4_one_0[2]/mux2_one_1/tg_0/a_100_74# 176
+R mux4_one_0[2]/mux2_one_1/a 159
+R in1_2 23
+R mux4_one_0[2]/mux2_one_0/tg_0/EN 555
+R in0_2 22
+R mux4_one_0[2]/mux2_one_0/tg_0/a_100_74# 176
+R mux4_one_0[1]/mux2_one_1/b 159
+R in3_1 22
+R mux4_one_0[1]/mux2_one_2/tg_0/EN 555
+C s0 GND 4.31
+R s0 5772
+R in2_1 23
+R mux4_one_0[1]/mux2_one_2/tg_0/a_100_74# 176
+R o1 94
+R mux4_one_0[1]/mux2_one_1/tg_0/EN 555
+C s1 GND 3.14
+R s1 3117
+R mux4_one_0[1]/mux2_one_1/tg_0/a_100_74# 176
+R mux4_one_0[1]/mux2_one_1/a 159
+R in1_1 23
+R mux4_one_0[1]/mux2_one_0/tg_0/EN 555
+R in0_1 23
+R mux4_one_0[1]/mux2_one_0/tg_0/a_100_74# 176
+C Vdd! GND 37.90
+R Vdd! 76094
+R GND! 6411
+R mux4_one_0[0]/mux2_one_1/b 159
+R in3_0 23
+R mux4_one_0[0]/mux2_one_2/tg_0/EN 555
+R in2_0 23
+R mux4_one_0[0]/mux2_one_2/tg_0/a_100_74# 176
+R o0 94
+R mux4_one_0[0]/mux2_one_1/tg_0/EN 555
+R mux4_one_0[0]/mux2_one_1/tg_0/a_100_74# 176
+R mux4_one_0[0]/mux2_one_1/a 159
+R in1_0 23
+R mux4_one_0[0]/mux2_one_0/tg_0/EN 555
+R in0_0 23
+R mux4_one_0[0]/mux2_one_0/tg_0/a_100_74# 176

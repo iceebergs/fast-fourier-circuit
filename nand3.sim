@@ -1,0 +1,13 @@
+| units: 9 tech: scmos format: MIT
+n b a_n60_n16# a_n50_n16# 3 5 -52 -15
+p c Vdd! out 3 10 -42 6
+n c a_n50_n16# GND! 3 5 -42 -15
+p b out Vdd! 3 10 -52 6
+p a Vdd! out 3 10 -62 6
+n a out a_n60_n16# 3 5 -62 -15
+R out 58
+R Vdd! 49
+R c 144
+R b 144
+R a 144
+R w_n75_0# 1533

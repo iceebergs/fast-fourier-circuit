@@ -1,0 +1,118 @@
+| units: 9 tech: scmos format: MIT
+n waddr0 nor4_0[7]/c GND! 2 5 20 -24
+p waddr0 nor4_0[7]/c Vdd! 2 10 20 -46
+n waddr2 en0 GND! 3 5 130 -25
+p waddr0 nor4_0[0]/a_n40_6# en0 3 10 150 -46
+p waddr1 nor4_0[0]/a_n50_6# nor4_0[0]/a_n40_6# 3 10 140 -46
+n waddr1 GND! en0 3 5 140 -25
+p waddr2 nor4_0[0]/a_n60_6# nor4_0[0]/a_n50_6# 3 10 130 -46
+p nor4_0[7]/d Vdd! nor4_0[0]/a_n60_6# 3 10 120 -46
+n waddr0 en0 GND! 3 5 150 -25
+n nor4_0[7]/d GND! en0 3 5 120 -25
+n waddr2 en1 GND! 3 5 187 -25
+p nor4_0[7]/c nor4_0[1]/a_n40_6# en1 3 10 207 -46
+p waddr1 nor4_0[1]/a_n50_6# nor4_0[1]/a_n40_6# 3 10 197 -46
+n waddr1 GND! en1 3 5 197 -25
+p waddr2 nor4_0[1]/a_n60_6# nor4_0[1]/a_n50_6# 3 10 187 -46
+p nor4_0[7]/d Vdd! nor4_0[1]/a_n60_6# 3 10 177 -46
+n nor4_0[7]/c en1 GND! 3 5 207 -25
+n nor4_0[7]/d GND! en1 3 5 177 -25
+n waddr2 en2 GND! 3 5 244 -25
+p waddr0 nor4_0[2]/a_n40_6# en2 3 10 264 -46
+p nor4_0[7]/b nor4_0[2]/a_n50_6# nor4_0[2]/a_n40_6# 3 10 254 -46
+n nor4_0[7]/b GND! en2 3 5 254 -25
+p waddr2 nor4_0[2]/a_n60_6# nor4_0[2]/a_n50_6# 3 10 244 -46
+p nor4_0[7]/d Vdd! nor4_0[2]/a_n60_6# 3 10 234 -46
+n waddr0 en2 GND! 3 5 264 -25
+n nor4_0[7]/d GND! en2 3 5 234 -25
+n waddr2 en3 GND! 3 5 301 -25
+p nor4_0[7]/c nor4_0[3]/a_n40_6# en3 3 10 321 -46
+p nor4_0[7]/b nor4_0[3]/a_n50_6# nor4_0[3]/a_n40_6# 3 10 311 -46
+n nor4_0[7]/b GND! en3 3 5 311 -25
+p waddr2 nor4_0[3]/a_n60_6# nor4_0[3]/a_n50_6# 3 10 301 -46
+p nor4_0[7]/d Vdd! nor4_0[3]/a_n60_6# 3 10 291 -46
+n nor4_0[7]/c en3 GND! 3 5 321 -25
+n nor4_0[7]/d GND! en3 3 5 291 -25
+n nor4_0[7]/a en4 GND! 3 5 358 -25
+p waddr0 nor4_0[4]/a_n40_6# en4 3 10 378 -46
+p waddr1 nor4_0[4]/a_n50_6# nor4_0[4]/a_n40_6# 3 10 368 -46
+n waddr1 GND! en4 3 5 368 -25
+p nor4_0[7]/a nor4_0[4]/a_n60_6# nor4_0[4]/a_n50_6# 3 10 358 -46
+p nor4_0[7]/d Vdd! nor4_0[4]/a_n60_6# 3 10 348 -46
+n waddr0 en4 GND! 3 5 378 -25
+n nor4_0[7]/d GND! en4 3 5 348 -25
+n nor4_0[7]/a en5 GND! 3 5 415 -25
+p nor4_0[7]/c nor4_0[5]/a_n40_6# en5 3 10 435 -46
+p waddr1 nor4_0[5]/a_n50_6# nor4_0[5]/a_n40_6# 3 10 425 -46
+n waddr1 GND! en5 3 5 425 -25
+p nor4_0[7]/a nor4_0[5]/a_n60_6# nor4_0[5]/a_n50_6# 3 10 415 -46
+p nor4_0[7]/d Vdd! nor4_0[5]/a_n60_6# 3 10 405 -46
+n nor4_0[7]/c en5 GND! 3 5 435 -25
+n nor4_0[7]/d GND! en5 3 5 405 -25
+n nor4_0[7]/a en6 GND! 3 5 472 -25
+p waddr0 nor4_0[6]/a_n40_6# en6 3 10 492 -46
+p nor4_0[7]/b nor4_0[6]/a_n50_6# nor4_0[6]/a_n40_6# 3 10 482 -46
+n nor4_0[7]/b GND! en6 3 5 482 -25
+p nor4_0[7]/a nor4_0[6]/a_n60_6# nor4_0[6]/a_n50_6# 3 10 472 -46
+p nor4_0[7]/d Vdd! nor4_0[6]/a_n60_6# 3 10 462 -46
+n waddr0 en6 GND! 3 5 492 -25
+n nor4_0[7]/d GND! en6 3 5 462 -25
+n nor4_0[7]/a en7 GND! 3 5 529 -25
+p nor4_0[7]/c nor4_0[7]/a_n40_6# en7 3 10 549 -46
+p nor4_0[7]/b nor4_0[7]/a_n50_6# nor4_0[7]/a_n40_6# 3 10 539 -46
+n nor4_0[7]/b GND! en7 3 5 539 -25
+p nor4_0[7]/a nor4_0[7]/a_n60_6# nor4_0[7]/a_n50_6# 3 10 529 -46
+p nor4_0[7]/d Vdd! nor4_0[7]/a_n60_6# 3 10 519 -46
+n nor4_0[7]/c en7 GND! 3 5 549 -25
+n nor4_0[7]/d GND! en7 3 5 519 -25
+n EN nor4_0[7]/d GND! 2 5 93 -24
+p EN nor4_0[7]/d Vdd! 2 10 93 -46
+n waddr2 nor4_0[7]/a GND! 2 5 68 -24
+p waddr2 nor4_0[7]/a Vdd! 2 10 68 -46
+n waddr1 nor4_0[7]/b GND! 2 5 44 -24
+p waddr1 nor4_0[7]/b Vdd! 2 10 44 -46
+C waddr0 nor4_0[7]/c 2.35
+C GND! nor4_0[7]/d 2.64
+R nor4_0[7]/d 1705
+R nor4_0[7]/c 867
+R waddr0 1129
+R waddr1 913
+R waddr2 947
+R nor4_0[7]/b 743
+R nor4_0[7]/a 738
+R EN 222
+R en7 56
+R nor4_0[7]/a_n40_6# 11
+R nor4_0[7]/a_n50_6# 11
+R nor4_0[7]/a_n60_6# 11
+R en6 56
+R nor4_0[6]/a_n40_6# 11
+R nor4_0[6]/a_n50_6# 11
+R nor4_0[6]/a_n60_6# 11
+R en5 56
+R nor4_0[5]/a_n40_6# 11
+R nor4_0[5]/a_n50_6# 11
+R nor4_0[5]/a_n60_6# 11
+R en4 56
+R nor4_0[4]/a_n40_6# 11
+R nor4_0[4]/a_n50_6# 11
+R nor4_0[4]/a_n60_6# 11
+R en3 56
+R nor4_0[3]/a_n40_6# 11
+R nor4_0[3]/a_n50_6# 11
+R nor4_0[3]/a_n60_6# 11
+R en2 56
+R nor4_0[2]/a_n40_6# 11
+R nor4_0[2]/a_n50_6# 11
+R nor4_0[2]/a_n60_6# 11
+R en1 56
+R nor4_0[1]/a_n40_6# 11
+R nor4_0[1]/a_n50_6# 11
+R nor4_0[1]/a_n60_6# 11
+R GND! 1262
+C Vdd! GND 9.66
+R Vdd! 19163
+R en0 56
+R nor4_0[0]/a_n40_6# 11
+R nor4_0[0]/a_n50_6# 11
+R nor4_0[0]/a_n60_6# 11

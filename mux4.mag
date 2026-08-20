@@ -1,0 +1,86 @@
+magic
+tech scmos
+timestamp 1765034140
+<< metal1 >>
+rect -1 0 2 6
+rect 62 0 65 6
+<< metal2 >>
+rect 4 2121 8 2124
+rect 4 2070 8 2073
+rect 40 1953 44 1956
+rect 4 1931 8 1934
+rect 4 1880 8 1883
+rect 4 1813 8 1816
+rect 4 1762 8 1765
+rect 40 1645 44 1648
+rect 4 1623 8 1626
+rect 4 1572 8 1575
+rect 4 1505 8 1508
+rect 4 1454 8 1457
+rect 39 1337 43 1340
+rect 4 1315 8 1318
+rect 4 1264 8 1267
+rect 4 1197 8 1200
+rect 4 1146 8 1149
+rect 40 1029 44 1032
+rect 4 1007 8 1010
+rect 4 956 8 959
+rect 4 889 8 892
+rect 4 838 8 841
+rect 40 721 44 724
+rect 4 699 8 702
+rect 4 648 8 651
+rect 4 581 8 584
+rect 4 530 8 533
+rect 36 413 39 416
+rect 4 391 8 394
+rect 4 340 8 343
+rect 4 273 8 276
+rect 4 222 8 225
+rect 38 105 41 108
+rect 4 83 8 86
+rect 4 32 7 35
+use mux4_one  mux4_one_0
+array 0 0 68 0 6 308
+timestamp 1765034140
+transform 1 0 6 0 1 206
+box -7 -206 61 102
+<< labels >>
+rlabel metal1 64 2 64 2 8 s1
+rlabel metal1 0 2 0 2 2 s0
+rlabel metal2 5 34 5 34 1 in2_0
+rlabel metal2 5 85 5 85 1 in3_0
+rlabel metal2 5 224 5 224 1 in1_0
+rlabel metal2 5 275 5 275 1 in0_0
+rlabel metal2 5 342 5 342 1 in2_1
+rlabel metal2 5 393 5 393 1 in3_1
+rlabel metal2 5 532 5 532 1 in1_1
+rlabel metal2 5 583 5 583 1 in0_1
+rlabel metal2 5 650 5 650 1 in2_2
+rlabel metal2 5 701 5 701 1 in3_2
+rlabel metal2 5 840 5 840 1 in1_2
+rlabel metal2 5 891 5 891 1 in0_2
+rlabel metal2 5 958 5 958 1 in2_3
+rlabel metal2 5 1009 5 1009 1 in3_3
+rlabel metal2 5 1148 5 1148 1 in1_3
+rlabel metal2 5 1199 5 1199 1 in0_3
+rlabel metal2 5 1266 5 1266 1 in2_4
+rlabel metal2 5 1317 5 1317 1 in3_4
+rlabel metal2 5 1456 5 1456 1 in1_4
+rlabel metal2 5 1507 5 1507 1 in0_4
+rlabel metal2 5 1574 5 1574 1 in2_5
+rlabel metal2 5 1625 5 1625 1 in3_5
+rlabel metal2 5 1764 5 1764 1 in1_5
+rlabel metal2 5 1815 5 1815 1 in0_5
+rlabel metal2 5 1882 5 1882 1 in2_6
+rlabel metal2 5 1933 5 1933 1 in3_6
+rlabel metal2 5 2072 5 2072 1 in1_6
+rlabel metal2 5 2123 5 2123 1 in0_6
+rlabel metal2 40 107 40 107 1 o0
+rlabel metal2 37 415 37 415 1 o1
+rlabel metal2 41 722 41 722 1 o2
+rlabel metal2 42 1030 42 1030 1 o3
+rlabel metal2 41 1339 41 1339 1 o4
+rlabel metal2 42 1647 42 1647 1 o5
+rlabel metal2 41 1955 41 1955 1 o6
+<< end >>

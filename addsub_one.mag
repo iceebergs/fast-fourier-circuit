@@ -1,0 +1,129 @@
+magic
+tech scmos
+timestamp 1762670290
+<< nwell >>
+rect -5 110 9 115
+rect 123 110 137 115
+rect -9 105 10 110
+rect 119 105 138 110
+rect -5 89 9 105
+rect 123 89 137 105
+<< pwell >>
+rect 0 81 10 82
+rect -2 58 10 81
+rect 125 59 134 82
+rect 126 58 132 59
+rect -5 5 7 25
+rect -5 1 13 5
+rect 175 -56 184 -51
+<< metal1 >>
+rect -125 114 190 118
+rect 195 114 328 118
+rect -9 105 10 110
+rect 119 105 138 110
+rect -125 58 -120 62
+rect -128 48 -122 53
+rect 263 49 328 54
+rect 241 16 246 21
+rect -128 1 -120 5
+rect -39 -53 -35 5
+rect -4 1 13 5
+rect 123 1 141 5
+rect 251 1 328 5
+rect 66 -9 69 -5
+rect 74 -9 81 -5
+rect 174 -9 183 -5
+rect 174 -39 177 -31
+rect 249 -35 256 -31
+rect -39 -57 -24 -53
+rect 65 -57 81 -52
+rect 175 -56 184 -51
+<< m2contact >>
+rect 190 113 195 118
+rect -123 76 -118 81
+rect 66 -35 71 -30
+rect 197 -32 202 -27
+<< metal2 >>
+rect 50 88 55 89
+rect 182 88 185 89
+rect 53 86 55 88
+rect 183 86 185 88
+rect 190 86 194 113
+rect 4 21 6 22
+rect 4 -6 7 21
+rect -29 -9 7 -6
+rect -29 -35 -26 -9
+rect 67 -18 201 -15
+rect 67 -30 70 -18
+rect 198 -27 201 -18
+<< m123contact >>
+rect 48 83 53 88
+rect 178 83 183 88
+rect 3 76 8 81
+rect 133 76 138 81
+rect 69 48 74 53
+rect 241 49 246 54
+rect 258 49 263 54
+rect 209 26 214 31
+rect -15 16 -7 21
+rect 111 16 119 21
+rect 69 -9 74 -4
+rect 16 -32 21 -27
+rect 123 -32 128 -27
+rect 78 -39 83 -34
+<< metal3 >>
+rect 49 62 52 83
+rect -10 59 52 62
+rect 126 77 133 80
+rect -10 21 -7 59
+rect -10 -28 -7 16
+rect 70 -4 73 48
+rect 79 17 111 20
+rect -10 -31 16 -28
+rect 79 -34 82 17
+rect 126 20 129 77
+rect 178 47 181 83
+rect 246 49 258 54
+rect 119 17 129 20
+rect 162 44 181 47
+rect 162 -5 166 44
+rect 214 26 246 31
+rect 132 -8 166 -5
+rect 132 -27 135 -8
+rect 128 -30 135 -27
+<< m4contact >>
+rect 3 81 8 86
+rect 246 26 251 31
+use or2  or2_0
+timestamp 1762666711
+transform 1 0 178 0 1 -33
+box -7 -25 72 33
+use and2  and2_1
+timestamp 1762666711
+transform 1 0 83 0 1 -33
+box -7 -24 76 31
+use and2  and2_0
+timestamp 1762666711
+transform 1 0 -24 0 1 -33
+box -7 -24 76 31
+use xor2  xor2_test_2
+timestamp 1762666711
+transform 1 0 -65 0 1 65
+box -60 -64 65 50
+use xor2  xor2_test_1
+timestamp 1762666711
+transform 1 0 191 0 1 65
+box -60 -64 65 50
+use xor2  xor2_test_0
+timestamp 1762666711
+transform 1 0 61 0 1 65
+box -60 -64 65 50
+<< labels >>
+rlabel metal1 3 76 3 80 3 A
+rlabel space 181 83 181 89 1 Cin
+rlabel metal2 51 83 51 89 1 B
+rlabel metal1 256 -34 256 -31 7 Cout
+rlabel m123contact 210 26 210 31 1 sum
+rlabel m123contact 242 49 242 54 1 sum
+rlabel m123contact 259 49 259 54 1 sum
+<< end >>

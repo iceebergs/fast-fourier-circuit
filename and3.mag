@@ -1,0 +1,16 @@
+magic
+tech scmos
+timestamp 1762666711
+<< polycontact >>
+rect 46 18 51 23
+<< metal1 >>
+rect 41 18 46 23
+use nand3  nand3_0
+timestamp 1762666711
+transform 1 0 65 0 1 27
+box -65 -27 -15 14
+use inv  inv_0
+timestamp 1762666711
+transform 1 0 94 0 1 27
+box -55 -27 -28 14
+<< end >>

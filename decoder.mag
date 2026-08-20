@@ -1,0 +1,192 @@
+magic
+tech scmos
+timestamp 1765774077
+<< polysilicon >>
+rect 20 -12 22 -10
+rect 93 -12 95 -10
+rect 129 -12 132 -10
+rect 149 -12 152 -10
+rect 186 -12 189 -10
+rect 206 -12 209 -10
+rect 243 -12 246 -10
+rect 263 -12 266 -10
+rect 300 -12 303 -10
+rect 320 -12 323 -10
+rect 357 -12 360 -10
+rect 377 -12 380 -10
+rect 414 -12 417 -10
+rect 434 -12 437 -10
+rect 471 -12 474 -10
+rect 491 -12 494 -10
+rect 528 -12 531 -10
+rect 548 -12 551 -10
+rect 20 -39 22 -35
+rect 44 -38 46 -35
+rect 68 -38 70 -35
+rect 43 -68 46 -63
+rect 119 -68 122 -61
+rect 139 -68 142 -66
+rect 149 -68 152 -66
+rect 176 -68 179 -66
+rect 196 -68 199 -66
+rect 206 -68 209 -66
+rect 233 -68 236 -66
+rect 253 -68 256 -66
+rect 263 -68 266 -66
+rect 290 -68 293 -66
+rect 310 -68 313 -66
+rect 320 -68 323 -66
+rect 347 -68 350 -66
+rect 367 -68 370 -66
+rect 377 -68 380 -66
+rect 404 -68 407 -66
+rect 424 -68 427 -66
+rect 434 -68 437 -66
+rect 461 -68 464 -66
+rect 481 -68 484 -66
+rect 491 -68 494 -66
+rect 518 -68 521 -66
+rect 538 -68 541 -66
+rect 548 -68 551 -66
+<< polycontact >>
+rect 19 -10 24 -5
+rect 67 -10 72 -5
+rect 129 -10 134 -5
+rect 186 -10 191 -5
+rect 243 -10 248 -5
+rect 300 -10 305 -5
+rect 356 -10 361 -5
+rect 413 -10 418 -5
+rect 470 -10 475 -5
+rect 528 -10 533 -5
+rect 115 -36 120 -31
+rect 43 -73 48 -68
+<< metal1 >>
+rect 20 -2 495 2
+rect 20 -5 23 -2
+rect 149 -5 152 -2
+rect 263 -5 266 -2
+rect 378 -5 381 -2
+rect 492 -5 495 -2
+rect 91 -36 100 -32
+rect 105 -36 115 -32
+rect 43 -76 48 -73
+rect 138 -76 143 -73
+rect 195 -76 200 -73
+rect 366 -76 371 -73
+rect 423 -76 428 -73
+rect 43 -80 428 -76
+<< m2contact >>
+rect 14 -39 19 -34
+rect 100 -36 105 -31
+rect 38 -43 43 -38
+<< pm12contact >>
+rect 149 -10 154 -5
+rect 206 -10 211 -5
+rect 263 -10 268 -5
+rect 320 -10 325 -5
+rect 377 -10 382 -5
+rect 434 -10 439 -5
+rect 491 -10 496 -5
+rect 548 -10 553 -5
+rect 171 -36 176 -31
+rect 228 -36 233 -31
+rect 285 -36 290 -31
+rect 342 -36 347 -31
+rect 399 -36 404 -31
+rect 456 -36 461 -31
+rect 513 -36 518 -31
+rect 138 -73 143 -68
+rect 195 -73 200 -68
+rect 252 -73 257 -68
+rect 309 -73 314 -68
+rect 366 -73 371 -68
+rect 423 -73 428 -68
+rect 480 -73 485 -68
+rect 537 -73 542 -68
+<< metal2 >>
+rect 14 -1 553 3
+rect 14 -34 19 -1
+rect 206 -5 210 -1
+rect 320 -5 324 -1
+rect 434 -5 438 -1
+rect 548 -5 553 -1
+rect 105 -36 171 -32
+rect 176 -36 228 -32
+rect 233 -36 285 -32
+rect 290 -36 342 -32
+rect 347 -36 399 -32
+rect 404 -36 456 -32
+rect 461 -36 513 -32
+rect 38 -77 43 -43
+rect 252 -77 257 -73
+rect 309 -77 314 -73
+rect 480 -77 485 -73
+rect 537 -77 542 -73
+rect 38 -81 542 -77
+<< m123contact >>
+rect 72 -10 77 -5
+rect 134 -10 139 -5
+rect 191 -10 196 -5
+rect 248 -10 253 -5
+rect 305 -10 310 -5
+rect 361 -10 366 -5
+rect 418 -10 423 -5
+rect 475 -10 480 -5
+rect 533 -10 538 -5
+rect 62 -34 67 -29
+rect 153 -45 158 -40
+rect 210 -45 215 -40
+rect 267 -45 272 -40
+rect 324 -45 329 -40
+rect 381 -45 386 -40
+rect 438 -45 443 -40
+rect 495 -45 500 -40
+rect 552 -45 557 -40
+<< metal3 >>
+rect 68 -10 72 -5
+rect 77 -10 134 -5
+rect 139 -10 191 -5
+rect 196 -10 248 -5
+rect 253 -10 305 -5
+rect 366 -10 418 -5
+rect 423 -10 475 -5
+rect 480 -10 533 -5
+rect 361 -23 366 -10
+rect 67 -28 366 -23
+rect 67 -34 71 -28
+use new_inv  new_inv_3
+timestamp 1765758641
+transform 0 1 4 -1 0 67
+box 77 4 135 30
+use new_inv  new_inv_1
+timestamp 1765758641
+transform 0 1 52 -1 0 67
+box 77 4 135 30
+use new_inv  new_inv_2
+timestamp 1765758641
+transform 0 1 28 -1 0 67
+box 77 4 135 30
+use new_inv_reg  new_inv_reg_0
+timestamp 1765736863
+transform 0 -1 111 -1 0 67
+box 77 4 135 30
+use nor4  nor4_0
+array 0 7 57 0 0 -58
+timestamp 1765665517
+transform 1 0 182 0 -1 -39
+box -75 -29 -18 29
+<< labels >>
+rlabel polysilicon 93 -11 95 -11 5 EN
+rlabel polysilicon 68 -37 70 -37 1 waddr2
+rlabel polysilicon 44 -37 46 -37 1 waddr1
+rlabel polysilicon 20 -37 22 -37 1 waddr0
+rlabel m123contact 554 -43 554 -43 1 en7
+rlabel m123contact 497 -44 497 -44 1 en6
+rlabel m123contact 441 -44 441 -44 1 en5
+rlabel m123contact 383 -43 383 -43 1 en4
+rlabel m123contact 326 -43 326 -43 1 en3
+rlabel m123contact 269 -43 269 -43 1 en2
+rlabel m123contact 212 -43 212 -43 1 en1
+rlabel m123contact 155 -43 155 -43 1 en0
+<< end >>

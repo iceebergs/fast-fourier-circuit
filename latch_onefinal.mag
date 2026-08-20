@@ -1,0 +1,48 @@
+magic
+tech scmos
+timestamp 1765777820
+<< nwell >>
+rect 29 99 55 164
+rect 29 -2 58 8
+<< pwell >>
+rect -1 99 25 164
+rect 0 -2 24 2
+<< polysilicon >>
+rect 0 89 2 91
+<< metal1 >>
+rect 3 103 10 164
+rect 48 103 55 164
+rect 3 50 9 103
+rect 25 43 28 57
+rect 3 34 10 36
+rect 48 34 55 36
+rect 25 16 28 34
+rect 3 -2 10 1
+rect 48 -2 55 1
+<< m2contact >>
+rect 24 4 29 9
+<< metal2 >>
+rect 3 69 24 72
+rect 3 68 28 69
+rect 23 47 28 68
+rect 38 8 42 103
+rect 29 4 55 8
+use tg  tg_0
+timestamp 1765776620
+transform 1 0 -87 0 1 9
+box 86 43 145 94
+use new_inv  new_inv_0
+timestamp 1765758641
+transform 1 0 -77 0 1 22
+box 77 4 135 30
+use new_inv  new_inv_1
+timestamp 1765758641
+transform 1 0 -77 0 1 -4
+box 77 4 135 30
+<< labels >>
+rlabel metal1 4 35 9 35 1 GND!
+rlabel metal1 49 35 54 35 1 Vdd!
+rlabel m2contact 24 5 29 5 1 q
+rlabel polysilicon 1 89 1 91 3 EN
+rlabel metal2 1 68 1 71 3 d
+<< end >>
