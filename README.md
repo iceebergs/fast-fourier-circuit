@@ -1,15 +1,14 @@
 # 4-Point FFT Chip — Full-Custom VLSI Layout
 
-A full-custom CMOS implementation of a **4-point Fast Fourier Transform** accelerator, laid out
+A CMOS implementation of a **4-point Fast Fourier Transform** accelerator, laid out
 transistor-by-transistor in [Magic](http://opencircuitdesign.com/magic/) on the SCMOS
 `SCN6M_DEEP` (0.18 µm, 6-metal) tapeout process and verified with IRSIM switch-level simulation.
 
 Given four complex time-domain samples `x[0..3]`, the chip computes the four complex
 frequency-domain coefficients `F(0..3)` using a two-stage radix-2 butterfly, then holds them
-for readout. It is intended as the building block for larger FFTs — image noise removal,
-speech recognition, and fast convolution/correlation.
+for readout.
 
-Top-level layout: **`ring.mag`** (pad ring + core, ~3700 × 3700 λ ≈ 670 µm × 670 µm).
+Top-level layout is in **`ring.mag`**.
 
 ## Specifications
 
@@ -31,16 +30,7 @@ Top-level layout: **`ring.mag`** (pad ring + core, ~3700 × 3700 λ ≈ 670 µm 
 
 ## Algorithm
 
-The chip evaluates the first four terms of the DFT
-
-```
-        1  N-1              1  3
-X[k] = ---  Σ  x[n]·e^(-j2πkn/N)   →   X[k] = ---  Σ  x[n]·W₄^(kn)
-        N  n=0                             4  n=0
-```
-
-with the twiddle factors reducing to sign swaps and real/imaginary exchanges, so no multiplier
-is needed — only addition, subtraction, and negation:
+The chip evaluates the first four terms of the DFT with the twiddle factors reducing to sign swaps and real/imaginary exchanges, so no multiplier is needed — only addition, subtraction, and negation:
 
 ```
 W₄⁰ =  1 = ( 1,  0)      W₄¹ = -j = ( 0, -1)
@@ -69,49 +59,14 @@ Both stages are the same add/subtract pattern, which is why one datapath serves 
 
 ---
 
-## Architecture
-
-```
-                       ┌──────────────────────────────────────┐
-   in[5:0] ──────────► │  input register file  (rf_wmux4copy) │
-   WA[2:0], WEN ─────► │  8 × 6-bit, write-muxed              │
-                       └───────────────┬──────────────────────┘
-                                       ▼
-                            ┌─────────────────────┐
-                            │  2 × 4:1 mux        │ select the operand pair
-                            │  (new_mux4)         │
-                            └──────────┬──────────┘
-                                       ▼
-                            ┌─────────────────────┐   stage 1 operands
-                            │  2 × 2:1 mux (mux2) │◄─── vs. ───┐
-                            └──────────┬──────────┘   stage 2  │
-                                       ▼                       │
-   START ──► ┌───────────────┐  ┌────────────────────────┐     │
-             │  FSM control  │─►│  butterfly datapath    │     │
-   DONE ◄─── │ (fsm,         │  │  (datapath_arrayed)    │     │
-   ACK  ───► │  statereg_    │  │  add and sub in        │     │
-             │  next)        │  │  parallel → latches    │     │
-             └───────┬───────┘  └───────┬────────┬───────┘     │
-                     │                  │        │             │
-                     │                  │        ▼             │
-                     │                  │  ┌──────────────┐    │
-                     ├──────────────────┼─►│ scratch RF   │────┘
-                     │                  │  │(scr_rf_wmux4)│  stage-1 results
-                     │                  │  └──────────────┘  fed back
-                     │                  ▼
-                     │        ┌──────────────────────┐
-                     └───────►│ output RF (out_rf)   │ ──► outre[5:0]
-   REN, RA[1:0] ─────────────►│ 8 × 6-bit, 2 read pts│ ──► outim[5:0]
-                              └──────────────────────┘
-```
-
+### Process
 Values loaded into the input register file are selected in pairs by two 4:1 muxes, then a pair
 of 2:1 muxes chooses between stage-1 and stage-2 operands — **the datapath is reused across
 both stages to save area**. Each pass adds and subtracts simultaneously, latching one result
 to the output register file and one into the scratch register file. Once `A_re` through `D_im`
 are in the scratch RF, the same sequence runs again to produce `F_re(0)` through `F_im(3)`.
 
-Two-phase non-overlapping clocking (`phi0` / `phi1`) throughout; all state is held in
+Two-phase non-overlapping clocking (`phi0` / `phi1`) is used throughout, and all state is held in
 transmission-gate master–slave latches.
 
 ### Module inventory
@@ -133,7 +88,7 @@ transmission-gate master–slave latches.
 
 ### Standard cell library
 
-Hand-drawn leaf cells, all in the same repo:
+Primitives:
 `inv` / `new_inv` / `fat_inv` / `tri_inv`, `nand2` / `nand3` / `nand4`,
 `nor2` / `nor3` / `nor4`, `and2` / `and3`, `or2`, `xor2` / `xorgate`,
 `tg` (transmission gate), `mux2` / `mux4` / `new_mux4`, `reg1` / `reg2` / `reg_one` / `reg_six`,
@@ -142,8 +97,6 @@ Hand-drawn leaf cells, all in the same repo:
 ---
 
 ## Pinout
-
-33 pins in the ring, in order:
 
 | # | Pin | Dir | Description |
 |---:|---|:---:|---|
