@@ -1,4 +1,4 @@
-# 4-Point FFT Chip — Full-Custom VLSI Layout
+# fast-fourier-circuit
 
 A CMOS implementation of a **4-point Fast Fourier Transform** accelerator, laid out
 transistor-by-transistor in [Magic](http://opencircuitdesign.com/magic/) on the SCMOS
